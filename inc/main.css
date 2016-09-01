@@ -477,6 +477,214 @@ A.watchvideo:after {
   color: #112C37;
 }
 
+.home-event {
+  position: relative;
+}
+
+.home-event-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 54.5%;
+  background: url(../images/home-event.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.home-event .site-width {
+  position: relative;
+  z-index: 2;
+}
+
+.home-event-left {
+  float: left;
+  width: 56.2%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.home-event-left A:link,
+.home-event-left A:visited {
+  font-size: 87px;
+  line-height: 1em;
+  color: rgba(255,255,255,0.9);
+  border: 22px solid #FFFFFF;
+  border-color: rgba(255,255,255,0.75);
+  border-radius: 50%;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em;
+}
+
+.home-event-left A .fa {
+  position: relative;
+  left: 0.1em;
+}
+
+.home-event-left A:hover,
+.home-event-left A:active {
+  color: rgba(14,141,200,0.9);
+  border-color: rgba(14,141,200,0.75);
+}
+
+.home-event-right {
+  float: right;
+  width: 43.8%;
+  box-sizing: border-box;
+  padding: 3em 0 2.5em 4.4%;
+  background: #FFFFFF;
+  line-height: 1.8em;
+}
+
+.home-event-right IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-event-right H3,
+.home-event-right H4 {
+  margin: 0 0 0.25em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1em;
+  color: #112C37;
+}
+
+.home-event-right H4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.home-event-right A.button:link,
+.home-event-right A.button:visited {
+  background: #6B4099;
+  font-size: 17px;
+  padding: 0.8em 1.2em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-right: 2em;
+}
+
+.home-event-right A.button:hover,
+.home-event-right A.button:active {
+  background: #112C37;
+}
+
+.home-event-right A.more:link,
+.home-event-right A.more:visited {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 1em;
+  color: #112C37;
+}
+
+.home-event-right A.more:hover,
+.home-event-right A.more:active {
+  color: #6B4099;
+}
+
+.home-foundation {
+  background: url(../images/home-foundation.jpg) no-repeat center center;
+  background-size: cover;
+  height: 650px;
+  padding-bottom: 18px;
+  -webkit-clip-path: polygon(0 0, 0 650px, calc(38% - 18px) 650px, 38% 100%, calc(38% + 18px) 650px, 100% 650px, 100% 0);
+  clip-path: polygon(0 0, 0 650px, calc(38% - 18px) 650px, 38% 100%, calc(38% + 18px) 650px, 100% 650px, 100% 0);
+  position: relative;
+}
+
+.home-foundation .hf-image {
+  position: absolute;
+  bottom: 11%;
+  left: 38%;
+  transform: translateX(-50%);
+}
+
+.home-foundation .site-width {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, calc(-50% - 18px));
+}
+
+.home-foundation-left {
+  float: left;
+  width: 45%;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 1.1em;
+  color: #139AD2;
+}
+
+.home-foundation-right {
+  float: right;
+  width: 48.5%;
+  font-size: 22px;
+  line-height: 2em;
+  color: #FFFFFF;
+}
+
+.home-foundation-right A.button:link,
+.home-foundation-right A.button:visited {
+  background: #FFFFFF;
+  color: #4FC3F1;
+  font-size: 16px;
+  padding: 0.9em 1.2em;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  letter-spacing: 0.1em;
+}
+
+.home-foundation-right A.button:hover,
+.home-foundation-right A.button:active {
+  background: #4FC3F1;
+  color: #FFFFFF;
+}
+
+.home-foundation-arrow,
+.home-join {
+  background: #0B7BC0;
+}
+
+.home-join .site-width {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1em;
+  color: #FFFFFF;
+  padding: 1.5em 0 2.3em;
+}
+
+.home-join .site-width H2 {
+  margin: 0 0 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 1em;
+}
+
+.home-join .site-width A:link,
+.home-join .site-width A:visited {
+  color: #FFFFFF;
+}
+
+.home-join .site-width A:hover,
+.home-join .site-width A:active {
+  color: #112C37;
+}
+
+
+
+
 .kf-footer {
   padding: 3em 0;
   text-align: center;

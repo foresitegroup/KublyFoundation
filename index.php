@@ -112,7 +112,60 @@
         <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">WATCH VIDEO</a>
       </div>
     </div>
-    
+
+    <div class="home-event">
+      <div class="site-width">
+        <div class="home-event-left">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="home-event-right">
+          <img src="images/beyond-the-blues-logo.png" alt=""><br>
+          <br>
+
+          <h3>FRIDAY<br>SEPTEMBER 23, 2016</h3>
+          <h4>TURNER HALL, MILWAUKEE</h4>
+          <br>
+
+          Beyond the Blues entertainment provided by the <strong>Dan Dance Trio and the Rhythm Kings</strong>!<br>
+          Ticket Sales Start August 1st, 2016.<br>
+          Sponsorships available now!<br>
+          <br>
+
+          <a href="#" class="button">EVENT INFO</a>
+          <a href="#" class="more">+ MORE EVENTS</a>
+        </div>
+      </div>
+
+      <div class="home-event-back"></div>
+    </div>
+
+    <div class="home-foundation-arrow">
+      <div class="home-foundation">
+        <img src="images/charlie-circle.png" alt="" class="hf-image">
+
+        <div class="site-width">
+          <div class="home-foundation-left">
+            WHY WAS THE FOUNDATION STARTED?
+          </div>
+
+          <div class="home-foundation-right">
+            Many people don't recognize that depression is a disease and often see depression as a weakness or something that they should be able to fix on their own. Depression is a disease like any other, and, if left untreated, can have devastating consequences. The <strong>Charles E. Kubly Foundation</strong> was founded in 2003 after the death of Charlie Kubly. Friends and family members of Charlie saw a need in the community for services to address depression and suicide prevention.<br>
+            <br>
+
+            <a href="#" class="button">CHARLIE'S STORY</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-join">
+      <div class="site-width">
+        <h2>JOIN OUR EFFORTS</h2>
+        <a href="https://twitter.com/hashtag/mentalhealthfeelslike">#mentalhealthfeelslike</a>
+      </div>
+    </div>
+
     <div class="kf-footer">
       <div class="site-width">
         <div class="social">
@@ -121,7 +174,7 @@
           <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
-        
+
         <div class="footer-menu">
           <a href="#">CONTACT</a>
           <a href="#">DONATE</a>
