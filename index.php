@@ -57,8 +57,8 @@
         <div class="site-width">
           <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
 
-          <input type="checkbox" id="show-menu" role="button">
-          <label for="show-menu" id="menu-toggle"></label>
+          <input type="checkbox" id="scrolling-show-menu" role="button">
+          <label for="scrolling-show-menu" id="scrolling-menu-toggle"></label>
           <div class="menu"><?php include "menu.php" ?></div>
         </div>
       </div>
@@ -76,8 +76,6 @@
         </div>
 
         <div class="home-mission-right">
-          <br>
-
           Your donation will support efforts to:<br>
           <br>
 
@@ -140,21 +138,22 @@
       <div class="home-event-back"></div>
     </div>
 
-    <div class="home-foundation-arrow">
-      <div class="home-foundation">
-        <img src="images/charlie-circle.png" alt="" class="hf-image">
+    <div class="home-foundation">
+      <div class="home-foundation-arrow"><div class="home-foundation-arrow-mask"></div></div>
+      <img src="images/charlie-circle.png" alt="" class="hf-image">
 
-        <div class="site-width">
-          <div class="home-foundation-left">
-            WHY WAS THE FOUNDATION STARTED?
-          </div>
+      <div class="site-width">
+        <div class="home-foundation-left">
+          WHY WAS THE FOUNDATION STARTED?
+        </div>
 
-          <div class="home-foundation-right">
-            Many people don't recognize that depression is a disease and often see depression as a weakness or something that they should be able to fix on their own. Depression is a disease like any other, and, if left untreated, can have devastating consequences. The <strong>Charles E. Kubly Foundation</strong> was founded in 2003 after the death of Charlie Kubly. Friends and family members of Charlie saw a need in the community for services to address depression and suicide prevention.<br>
-            <br>
+        <div class="home-foundation-right">
+          Many people don't recognize that depression is a disease and often see depression as a weakness or something that they should be able to fix on their own. Depression is a disease like any other, and, if left untreated, can have devastating consequences. The <strong>Charles E. Kubly Foundation</strong> was founded in 2003 after the death of Charlie Kubly. Friends and family members of Charlie saw a need in the community for services to address depression and suicide prevention.<br>
+          <br>
 
-            <a href="#" class="button">CHARLIE'S STORY</a>
-          </div>
+          <a href="#" class="button">CHARLIE'S STORY</a>
+
+          <img src="images/charlie-circle.png" alt=""  class="hf-image-static">
         </div>
       </div>
     </div>
