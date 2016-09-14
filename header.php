@@ -1,0 +1,75 @@
+<?php
+function email($address, $name="") {
+  $email = "";
+  for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }
+  if ($name == "") $name = $email;
+  echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
+}
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>The Charles E. Kubly Foundation<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <meta name="description" content="<?php if (isset($Description)) echo $Description; ?>">
+    <meta name="keywords" content="<?php if (isset($Keywords)) echo $Keywords; ?>">
+    <meta name="author" content="Foresite Group">
+
+    <meta name="viewport" content="width=device-width">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="inc/main.css">
+
+    <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
+
+        $(".menu-holder").waypoint(function(direction) {
+          $(".scrolling-menu").toggleClass("sticky", direction == "down");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    
+    <?php if (!isset($PageTitle)) { ?>
+    <div class="kf-header">
+      <div class="site-width">
+        <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
+
+        <input type="checkbox" id="show-menu" role="button">
+        <label for="show-menu" id="menu-toggle"></label>
+        <div class="menu"><?php include "menu.php" ?></div>
+      </div>
+    </div>
+
+    <div class="home-banner">
+      <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
+        <div class="site-width">
+          <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
+
+          <a href="#" class="button">DONATE</a>
+          <a href="#" class="learnmore">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+    <?php } ?>
+
+    <div class="menu-holder">
+      <div class="scrolling-menu">
+        <div class="site-width">
+          <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
+
+          <input type="checkbox" id="scrolling-show-menu" role="button">
+          <label for="scrolling-show-menu" id="scrolling-menu-toggle"></label>
+          <div class="menu"><?php include "menu.php" ?></div>
+        </div>
+      </div>
+    </div>

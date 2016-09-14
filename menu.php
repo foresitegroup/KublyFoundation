@@ -1,11 +1,11 @@
 <ul>
   <li>
-    <a href="#">Foundation</a>
+    <a href="foundation.php">Foundation</a>
     <ul>
-      <li><a href="#">The Foundation</a></li>
-      <li><a href="#">Charlie's Story</a></li>
-      <li><a href="#">FAQ</a></li>
-      <li><a href="#">Board &amp; Leadership</a></li>
+      <li><a href="foundation.php#foundation">The Foundation</a></li>
+      <li><a href="foundation.php#charlies-story">Charlie's Story</a></li>
+      <li><a href="foundation.php#faq">FAQ</a></li>
+      <li><a href="foundation.php#board-leadership">Board &amp; Leadership</a></li>
     </ul>
   </li>
   <li><a href="#">Signs &amp; Facts</a></li>
