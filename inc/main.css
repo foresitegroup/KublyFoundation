@@ -1136,41 +1136,134 @@ A.watchvideo:after {
   list-style-type: none;
   position: relative;
   line-height: 1.4em;
-  padding-bottom: 1.2em;
 }
 
 #grant-guidelines UL LI:before {
   position: absolute;
+  top: 0;
   left: -1.2em;
   content: '\25E6';
   color: #0E8DC8;
 }
 
-#grant-guidelines  .button {
+#grant-guidelines .button {
   margin-top: 3em;
   font-size: 18px;
   letter-spacing: normal;
   padding: 0.7em 1.2em;
 }
 
+.resources-banner,
 .projects-banner {
   height: 700px;
-  background: url(../images/projects-banner.jpg) center center no-repeat;
+  background: url(../images/resources-banner.jpg) center center no-repeat;
   background-size: cover;
   color: #F1F2F2;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  font-size: 23px;
-  line-height: 1.8em;
+  font-size: 44px;
+  line-height: 1.5em;
   text-align: center;
   position: relative;
 }
 
+.resources-banner .site-width,
 .projects-banner .site-width {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.resources-banner .down {
+  margin-top: 3em;
+  font-size: 24px;
+  line-height: 1em;
+  letter-spacing: 3px;
+  color: #0E8DC8;
+}
+
+.resources-banner .down .fa {
+  font-size: 75%;
+  position: relative;
+  top: -0.1em;
+  color: #F1F2F2;
+}
+
+.resources {
+  padding: 4em 0;
+  color: #707070;
+  text-align: center;
+}
+
+.resources .left {
+  float: left;
+  width: 43.2%;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.9em;
+  text-align: left;
+}
+
+.resources .left H2 {
+  margin: 0 0 0.4em;
+  color: #0E8DC8;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 61px;
+  line-height: 1.2em;
+}
+
+.resources .left .fa {
+  color: #0E8DC8;
+  font-size: 29px;
+}
+
+.resources .right {
+  float: right;
+  width: 50%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 2em;
+  text-align: left;
+}
+
+A.logo-link {
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  margin-left: 6%;
+  vertical-align: middle;
+}
+
+A.logo-link:first-of-type {
+  margin-left: 0;
+}
+
+A.logo-link.spl {
+  height: 130px;
+}
+
+A.logo-link:link IMG,
+A.logo-link:visited IMG {
+  filter: url(filters.svg#grayscale);
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  max-height: 100%;
+  width: auto;
+}
+
+A.logo-link:hover IMG,
+A.logo-link:active IMG {
+  filter: none;
+  -webkit-filter: none;
+}
+
+.projects-banner {
+  background: url(../images/projects-banner.jpg) center center no-repeat;
+  background-size: cover;
+  font-size: 23px;
+  line-height: 1.8em;
 }
 
 .projects-banner .left {
@@ -1245,7 +1338,6 @@ A.watchvideo:after {
   width: 33%;
 }
 
-
 .funding-current-menu .right {
   float: right;
   width: 66%;
@@ -1261,6 +1353,10 @@ A.watchvideo:after {
 .funding-current-menu .right .slick-dots LI {
   display: inline-block;
   margin-left: 1em;
+}
+
+.funding-current-menu .right .slick-dots LI:first-child {
+  margin-left: 0;
 }
 
 .funding-current-menu .right .slick-dots LI BUTTON {
@@ -1316,27 +1412,37 @@ A.watchvideo:after {
   text-decoration: none;
 }
 
-.funding-header {
-  padding: 4em 0;
+.mixitup-header {
+  padding: 2.5em 0;
   background: #112c37;
   color: #F1F2F2;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 24px;
-  line-height: 1em;
+  line-height: 1.4em;
   text-align: center;
 }
 
-.funding {
-  padding: 4em 0;
+.mixitup-header .site-width DIV {
+  margin-top: 1.5em;
+  color: #139AD2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3em;
 }
 
-.funding .left {
+.mixitup {
+  padding: 4em 0 1em;
+}
+
+.mixitup #mixfilter {
   float: left;
   width: 15%;
+  padding-bottom: 3em;
 }
 
-.funding .left H4 {
+.mixitup #mixfilter H4 {
   margin: 0 2em 0.25em 0;
   text-align: right;
   color: #959595;
@@ -1345,7 +1451,12 @@ A.watchvideo:after {
   font-size: 12px;
 }
 
-.funding .controls {
+#show-filter,
+#filter-toggle {
+  display: none;
+}
+
+.mixitup .allcontrols {
   text-align: right;
   color: #139AD2;
   font-family: 'Open Sans', sans-serif;
@@ -1354,18 +1465,18 @@ A.watchvideo:after {
   line-height: 2em;
 }
 
-.funding .controls LABEL {
+.mixitup .allcontrols LABEL {
   display: inline-block;
   cursor: pointer;
   position: relative;
   padding-right: 1.5em;
 }
 
-.funding .controls INPUT[type=radio] {
+.mixitup .allcontrols INPUT[type=radio] {
   display: none;
 }
 
-.funding .controls LABEL:after {
+.mixitup .allcontrols LABEL:after {
   content: "";
   display: inline-block;
   width: 1em;
@@ -1377,20 +1488,60 @@ A.watchvideo:after {
   border-radius: 50%;
 }
 
-.funding .controls INPUT[type=radio]:checked + LABEL:after {
+.mixitup .allcontrols INPUT[type=radio]:checked + LABEL:after {
   background: #112C37;
   -webkit-box-shadow:inset 0px 0px 0px 3px #CCCCCC;
   -moz-box-shadow:inset 0px 0px 0px 3px #CCCCCC;
   box-shadow:inset 0px 0px 0px 3px #CCCCCC;
 }
 
-.funding .right {
+.mixitup #mixcontainer {
   float: right;
   width: 80%;
 }
 
-.funding .right .mix {
+.mixitup #mixcontainer .mix {
   display: none;
+  font-weight: bold;
+  line-height: 1.8em;
+  padding-bottom: 3em;
+}
+
+.mixitup #mixcontainer .mix H4 {
+  margin: 0 0 1em;
+  color: #112C37;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 1.1em;
+  text-decoration: underline;
+}
+
+.mixitup #mixcontainer .mix A {
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.legal {
+  padding: 4em 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.8em;
+}
+
+.legal H1 {
+  margin: 0 0 0.5em;
+  color: #052838;
+  font-weight: 800;
+  font-size: 61px;
+  line-height: 1.1em;
+}
+
+.legal STRONG {
+  color: #052838;
+  font-weight: 800;
 }
 
 
@@ -1423,6 +1574,10 @@ A.watchvideo:after {
   .home-foundation .hf-image {
     bottom: 8%;
     left: 32%;
+  }
+
+  A.logo-link {
+    margin-left: 5%;
   }
 }
 
@@ -1504,6 +1659,23 @@ A.watchvideo:after {
 
   #board-leadership H3 {
     font-size: 43px;
+  }
+
+  .resources .left H2 {
+    font-size: 49px;
+  }
+
+  A.logo-link,
+  A.logo-link:first-of-type  {
+    margin: 1em 6%;
+  }
+
+  .mixitup #mixfilter {
+    width: 145px;
+  }
+
+  .mixitup #mixcontainer {
+    width: 75%;
   }
 }
 
@@ -1773,6 +1945,98 @@ A.watchvideo:after {
   #board-leadership H3 {
     font-size: 61px;
   }
+
+  .resources .left,
+  .resources .right {
+    float: none;
+    width: 100%;
+  }
+
+  .resources .left {
+    margin-bottom: 2em;
+  }
+
+  .resources .left H2 {
+    font-size: 58px;
+  }
+  
+  A.logo-link,
+  A.logo-link:first-of-type  {
+    height: 130px;
+    margin: 2em 6%;
+  }
+
+  A.logo-link.spl {
+    height: 175px;
+  }
+
+  .projects-banner .left,
+  .projects-banner .right {
+    margin-top: 1em;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mixitup {
+    position: relative;
+  }
+
+  .mixitup #mixfilter,
+  .mixitup #mixcontainer {
+    float: none;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .mixitup #mixfilter H4 {
+    display: none;
+  }
+
+  #filter-toggle {
+    display: block;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #112C37;
+    margin-bottom: 2em;
+  }
+
+  #filter-toggle:before {
+    font-family: "FontAwesome";
+    content: "\f0c9";
+    color: #139AD2;
+    margin-right: 0.5em ;
+  }
+
+  .mixitup .allcontrols {
+    text-align: left;
+    display: none;
+    background: rgba(19, 154, 210, 0.9);
+    color: #FFFFFF;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 4em;
+    right: 0;
+    z-index: 99999;
+  }
+
+  #show-filter:checked + #filter-toggle:before {
+    color: #1E3E4A;
+  }
+
+  #show-filter:checked + #filter-toggle + .allcontrols {
+    display: block;
+  }
+
+  .mixitup .allcontrols LABEL {
+    padding: 0 0 0 1.5em;
+  }
+
+  .mixitup .allcontrols LABEL:after {
+    left: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1866,6 +2130,41 @@ A.watchvideo:after {
   #grant-priorities H2 {
     font-size: 42px;
   }
+
+  .resources-banner {
+    font-size: 40px;
+  }
+
+  .resources-banner .down {
+    margin-top: 1em;
+  }
+
+  A.logo-link,
+  A.logo-link:first-of-type  {
+    margin: 2em 0;
+  }
+
+  .funding-current-header {
+    font-size: 40px;
+  }
+
+  .funding-current-menu .left,
+  .funding-current-menu .right {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0.25em 0;
+  }
+
+  .mixitup #mixcontainer .mix A {
+    display: inline;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1903,5 +2202,34 @@ A.watchvideo:after {
 
   #grant-guidelines H1 {
     font-size: 55px;
+  }
+
+  .resources-banner {
+    font-size: 35px;
+  }
+
+  .resources .left H2 {
+    font-size: 40px;
+  }
+
+  A.logo-link {
+    height: auto;
+    width: 94%;
+  }
+
+  A.logo-link:link IMG,
+  A.logo-link:visited IMG {
+    max-height: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .projects-banner {
+    font-size: 21px;
+    line-height: 1.6em;
+  }
+
+  .funding-current-header {
+    font-size: 35px;
   }
 }

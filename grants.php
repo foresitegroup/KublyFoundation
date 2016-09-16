@@ -74,15 +74,15 @@ include "header.php";
 
     <h2>ALL GRANT REQUESTS SHOULD INCLUDE:</h2>
     <ul>
-      <li>Documentation confirming your legal status as a not-for-profit organization (e.g. Form 1099).</li>
-      <li>A brief overview of your organization including its annual budget.</li>
-      <li>The amount requested.</li>
-      <li>The specific proposed use of the requested funds and the budget for the related project. For events such as conferences, please include proposed dates, speakers and agenda.</li>
-      <li>Description of the need in the community for your project and the population to be served:</li>
-      <li>List of individuals and their respective roles in your organization that will have project oversight and control over the requested funds;</li>
-      <li>Timeline to completion including major milestones;</li>
-      <li>Articulated goals that are appropriate for the scope of the project and your plan to measure project accomplishments. Include outcome measures that are specifically related to goals. Examples of effective survey questions are here.</li>
-      <li>Contact information.</li>
+      <li>Documentation confirming your legal status as a not-for-profit organization (e.g. Form 1099).<br><br></li>
+      <li>A brief overview of your organization including its annual budget.<br><br></li>
+      <li>The amount requested.<br><br></li>
+      <li>The specific proposed use of the requested funds and the budget for the related project. For events such as conferences, please include proposed dates, speakers and agenda.<br><br></li>
+      <li>Description of the need in the community for your project and the population to be served:<br><br></li>
+      <li>List of individuals and their respective roles in your organization that will have project oversight and control over the requested funds;<br><br></li>
+      <li>Timeline to completion including major milestones;<br><br></li>
+      <li>Articulated goals that are appropriate for the scope of the project and your plan to measure project accomplishments. Include outcome measures that are specifically related to goals. Examples of effective survey questions are here.<br><br></li>
+      <li>Contact information.<br><br></li>
       <li>When appropriate, how the foundation's support will be acknowledged. For example, will the foundation's logo be included on printed materials.</li>
     </ul>
     <br>

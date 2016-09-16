@@ -9,8 +9,8 @@ var checkboxFilter = {
   init: function(){
     var self = this;
 
-    self.$filters = $('.funding .left');
-    self.$container = $('.funding .right');
+    self.$filters = $('#mixfilter');
+    self.$container = $('#mixcontainer');
     
     self.$filters.find('.controls').each(function(){
       self.groups.push({
@@ -99,11 +99,11 @@ $(function(){
   checkboxFilter.init();
       
   // Instantiate MixItUp
-  $('.funding .right').mixItUp({
+  $('#mixcontainer').mixItUp({
     controls: {
       enable: false // we won't be needing these
     },
     layout: { display:'block' },
-    animation: { effects: 'fade rotateY stagger' }
+    animation: { effects: 'fade rotateY' }
   });    
 });

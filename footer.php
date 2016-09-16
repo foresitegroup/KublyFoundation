@@ -20,8 +20,8 @@
           <a href="#">DONATE</a>
           <a href="#">FUNDING</a>
           <a href="#">LOGIN</a>
-          <a href="#">LEGAL</a>
-          <a href="#">PRIVACY</a>
+          <a href="legal.php">LEGAL</a>
+          <a href="privacy.php">PRIVACY</a>
         </div>
 
         <div class="copyright">
