@@ -32,7 +32,7 @@ include "header.php";
       <script type="text/javascript">
         $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
       </script>
-      <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">WATCH VIDEO</a>
+      <a href="https://www.youtube.com/watch?v=VK9Z8rtzzOs" class="watchvideo swipebox">WATCH VIDEO</a>
     </div>
 
     <div class="foundation-right">

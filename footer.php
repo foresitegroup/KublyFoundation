@@ -9,15 +9,15 @@
     <div class="kf-footer">
       <div class="site-width">
         <div class="social">
-          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/Charles-E-Kubly-FoundationBeyond-the-Blues-284170516290/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UC1T-sk17V4c0_L_aPdLOv0w"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
 
         <div class="footer-menu">
           <a href="#">CONTACT</a>
-          <a href="#">DONATE</a>
+          <a href="donate.php">DONATE</a>
           <a href="#">FUNDING</a>
           <a href="#">LOGIN</a>
           <a href="legal.php">LEGAL</a>

@@ -13,7 +13,7 @@ include "header.php";
       The <strong>Charles E. Kubly Foundation</strong> seeks to better the lives of those affected by depression by increasing public awareness of the disease and its devastating effects, eliminating the stigma associated with it, supporting suicide prevention programs and promoting improved access to quality mental health resources within communities.<br>
       <br>
 
-      <a href="#" class="learnmore">PROJECTS &amp; GRANTS</a>
+      <a href="grants.php" class="learnmore">PROJECTS &amp; GRANTS</a>
     </div>
 
     <div class="home-mission-right">
@@ -29,7 +29,7 @@ include "header.php";
       </ul><br>
       <br>
 
-      <a href="#" class="button">DONATE</a>
+      <a href="donate.php" class="button">DONATE</a>
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@ include "header.php";
     Through the generous support of our donors, we fund quality mental health projects and provide grants to nonprofit organizations for projects that are consistent with our mission to raise awareness of depression, reduce the stigma associated with it and help people access resources in their communities. Additionally we have funded projects that address suicide prevention.<br>
     <br>
 
-    <a href="#" class="button">GRANT REQUESTS</a>
+    <a href="grants.php#grant-guidelines" class="button">GRANT REQUESTS</a>
 
     <script src="inc/swipebox/jquery.swipebox.min.js"></script>
     <link rel="stylesheet" href="inc/swipebox/swipebox.css">

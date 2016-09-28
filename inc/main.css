@@ -201,7 +201,6 @@ A.watchvideo:after {
   padding: 0;
   list-style-type: none;
   background: #0E8DC8;
-  
 }
 
 .menu UL:after {
@@ -252,7 +251,7 @@ A.watchvideo:after {
 .menu UL LI UL {
   position: absolute;
   top: 105px;
-  left: 0;
+  left: -50000px;
   z-index: 1;
   width: 100%;
   background: rgba(255,255,255,0.9);
@@ -262,10 +261,11 @@ A.watchvideo:after {
   -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.55);
   box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.55);
   opacity: 0;
-  transition: all 0.5s;
+  transition: opacity 0.5s;
 }
 
 .menu UL LI:hover UL {
+  left: 0;
   opacity: 1;
 }
 
@@ -1544,8 +1544,352 @@ A.logo-link:active IMG {
   font-weight: 800;
 }
 
+.donation {
+  padding: 4em 0;
+  background: #052838;
+  color: #F1F2F2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.8em;
+}
 
+.donation-left {
+  float: left;
+  width: 44.6%;
+}
 
+.donation-right {
+  float: right;
+  width: 52%;
+}
+
+.donation H1 {
+  margin: 0 0 0.5em;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1em;
+}
+
+.donation H2 {
+  margin: 0 0 2em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1em;
+  color: #0E8DC8;
+}
+
+.donation .donation-right UL {
+  padding-left: 0;
+  list-style-type: none;
+  font-size: 21px;
+}
+
+.donation .donation-right LI {
+  padding: 0 0 0.7em 0.6em;
+}
+
+.donation .donation-right LI:before {
+  content: "\2022";
+  position: relative;
+  left: -1.3em;
+  color: #0E8DC8;
+  margin-right: -0.8em;
+}
+
+#donation {
+  width: 62%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#donation INPUT[type="text"] {
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.3em 1em;
+  background: #EBEBEB;
+  color: #0E8DC8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  border-radius: 50px;
+  outline: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+  margin-bottom: 1.8em;
+}
+
+#donation INPUT[type="text"]:focus {
+  background: #FFFFFF;
+}
+
+#donation INPUT::-webkit-input-placeholder { color: #0E8DC8; opacity: 1; }
+#donation INPUT:-moz-placeholder { color: #0E8DC8; opacity: 1; } /* FF 4-18 */
+#donation INPUT::-moz-placeholder { color: #0E8DC8; opacity: 1; } /* FF 19+ */
+#donation INPUT:-ms-input-placeholder { color: #0E8DC8; opacity: 1; } /* IE 10+ */
+
+#donation INPUT:focus::-webkit-input-placeholder { color: transparent; }
+#donation INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#donation INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#donation INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+#donation .bluetext {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#donation LABEL {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-right: 1.4em;
+  margin: 0 1em;
+}
+
+#donation INPUT[type=radio] {
+  display: none;
+}
+
+#donation LABEL:after {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  position: absolute;
+  right: 0;
+  bottom: 0.45em;
+  background: #0E8DC8;
+  border-radius: 50%;
+}
+
+#donation INPUT[type=radio] + LABEL:after {
+  background: #052838;
+  -webkit-box-shadow:inset 0px 0px 0px 4px #0E8DC8;
+  -moz-box-shadow:inset 0px 0px 0px 4px #0E8DC8;
+  box-shadow:inset 0px 0px 0px 4px #0E8DC8;
+}
+
+#donation INPUT[type=radio]:checked + LABEL:after {
+  background: #EBEBEB;
+}
+
+#donation .donation-reveal {
+  margin-top: 3em;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  transform: scale(0.8);
+}
+
+#donation INPUT[type="radio"]#r-honor:checked ~ .donation-reveal,
+#donation INPUT[type="radio"]#r-memory:checked ~ .donation-reveal {
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+  margin-bottom: 2.2em;
+  transform: scale(1);
+}
+
+#donation .left {
+  float: left;
+  width: 47%;
+}
+
+#donation .right {
+  float: right;
+  width: 47%;
+}
+
+.styled-select {
+  background: #EBEBEB;
+  border-radius: 50px;
+  margin-bottom: 1.8em;
+  position: relative;
+}
+
+.styled-select:after {
+  content: "\f078"; 
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  z-index: 0;
+  transform: translateY(-50%);
+  color: #0E8DC8;
+}
+
+.styled-select SELECT {
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.6em 0;
+  background: transparent;
+  color: #0E8DC8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  outline: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+  position: relative;
+  z-index: 5;
+  text-align-last: center;
+}
+
+#donation INPUT[type="submit"] {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0.7em 2em;
+  border-radius: 50px;
+  background: #0B7BC0;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+}
+
+#donation INPUT[type="submit"]:hover {
+  background: #25AAE1;
+}
+
+#donation INPUT[type="submit"]:focus {
+  outline: none;
+}
+
+.donation-mail {
+  padding: 4em 0;
+  color: #707070;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8em;
+  text-align: center;
+}
+
+.donation-mail STRONG {
+  font-weight: 800;
+  color: #0E8DC8;
+}
+
+.donation-mail .nonprofit {
+  padding-top: 2em;
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #A1A1A1;
+}
+
+/* BEGIN modal css */
+html {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.blocker {
+  /*visibility: none;*/
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: 99999;
+  width: 100%; height: 100%;
+}
+
+.modal {
+  visibility: visible;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal A.close-modal {
+  /*display: none;*/
+  position: absolute;
+  top: -20px;
+  right: -40px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  visibility: hidden;
+  font-size: 10px;
+  line-height: 1em;
+}
+
+.modal A.close-modal:after {
+  /*display: none;*/
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f00d"; 
+  font-size: 40px;
+  color: #0E8DC8;
+  height: 0.5em;
+  width: 0.5em;
+  padding: 0;
+}
+/* END modal css */
+
+#incrisis {
+  width: 960px;
+  background: #C52C3C;
+  color: #F1F2F2;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.8em;
+  box-sizing: border-box;
+  padding: 3.5em;
+  border: 14px solid #410505;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+
+#incrisis STRONG,
+#incrisis U {
+  font-weight: 800;
+}
+
+#thankyou {
+  width: 960px;
+  background: #25AAE1;
+  color: #F1F2F2;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  box-sizing: border-box;
+  padding: 3.5em;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+}
+
+#thankyou H3 {
+  margin: 0 0 0.5em;
+  font-weight: 800;
+  font-size: 150%;
+  line-height: 1em;
+  color: #052838;
+}
 
 
 @media only screen and (max-width: 1325px) {

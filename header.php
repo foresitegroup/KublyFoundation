@@ -27,6 +27,7 @@ function email($address, $name="") {
 
     <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.modal.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -34,11 +35,23 @@ function email($address, $name="") {
         $(".menu-holder").waypoint(function(direction) {
           $(".scrolling-menu").toggleClass("sticky", direction == "down");
         });
+
+        $('a[href="#incrisis"]').click(function(event) {
+          event.preventDefault();
+          $(this).modal({ fadeDuration: 200, fadeDelay: 0 });
+        });
       });
     </script>
   </head>
   <body>
-    
+
+    <div id="incrisis" style="display: none;">
+      If you or someone you know is at immediate risk of harm or has harmed themselves <u>CALL 911</u> immediately.<br>
+      <br>
+
+      If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>1-800-273-8255</u> or, TEXT the Crisis Text Line by texting "LISTEN" to <u>741-741</u>.
+    </div>
+
     <?php if (!isset($PageTitle)) { ?>
     <div class="kf-header">
       <div class="site-width">
@@ -55,8 +68,8 @@ function email($address, $name="") {
         <div class="site-width">
           <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
-          <a href="#" class="button">DONATE</a>
-          <a href="#" class="learnmore">LEARN MORE</a>
+          <a href="donate.php" class="button">DONATE</a>
+          <a href="foundation.php" class="learnmore">LEARN MORE</a>
         </div>
       </div>
     </div>

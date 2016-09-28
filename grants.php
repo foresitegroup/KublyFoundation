@@ -41,7 +41,7 @@ include "header.php";
 
 <div id="grant-guidelines">
   <div class="site-width">
-    <h1>GRANT REQUEST GUIDLINES</h1>
+    <h1>GRANT REQUEST GUIDELINES</h1>
     Grant Request Guidelines The Board of Directors of the Charles E. Kubly Foundation formally reviews proposals and makes gifts twice annually: once in the spring and again in the fall. We encourage you to submit your grant request no later than <strong>MARCH 20, 2016</strong> for consideration during our spring review and no later than <strong>SEPTEMBER 20, 2016</strong> for consideration during our fall review. Listed below are the steps to anticipate in preparing a grant request.<br>
     <br>
     <br>
