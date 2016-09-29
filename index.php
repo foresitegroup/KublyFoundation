@@ -55,7 +55,7 @@ include "header.php";
 <div class="home-event">
   <div class="site-width">
     <div class="home-event-left">
-      <a href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/watch?v=vv5wdXHEbYM" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
     </div>
 
     <div class="home-event-right">

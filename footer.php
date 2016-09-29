@@ -16,7 +16,7 @@
         </div>
 
         <div class="footer-menu">
-          <a href="#">CONTACT</a>
+          <a href="connect.php">CONTACT</a>
           <a href="donate.php">DONATE</a>
           <a href="#">FUNDING</a>
           <a href="#">LOGIN</a>

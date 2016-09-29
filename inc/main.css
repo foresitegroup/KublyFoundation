@@ -715,6 +715,7 @@ A.watchvideo:after {
   background: #112C37;
   -webkit-clip-path: polygon(calc(38% - 18px) 0, 38% 100%, calc(38% + 18px) 0);
   clip-path: polygon(calc(38% - 18px) 0, 38% 100%, calc(38% + 18px) 0);
+  outline: 1px solid #112C37;
 }
 
 .home-foundation .footer-arrow-mask {
@@ -1705,46 +1706,6 @@ A.logo-link:active IMG {
   width: 47%;
 }
 
-.styled-select {
-  background: #EBEBEB;
-  border-radius: 50px;
-  margin-bottom: 1.8em;
-  position: relative;
-}
-
-.styled-select:after {
-  content: "\f078"; 
-  font-family: FontAwesome;
-  position: absolute;
-  top: 50%;
-  right: 1em;
-  z-index: 0;
-  transform: translateY(-50%);
-  color: #0E8DC8;
-}
-
-.styled-select SELECT {
-  border: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 0.6em 0;
-  background: transparent;
-  color: #0E8DC8;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  text-align: center;
-  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
-  outline: 0;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-  overflow: auto; /* Good ol' IE */
-  position: relative;
-  z-index: 5;
-  text-align-last: center;
-}
-
 #donation INPUT[type="submit"] {
   border: 0;
   box-sizing: border-box;
@@ -1891,10 +1852,293 @@ html {
   color: #052838;
 }
 
+.connect-banner {
+  background: #112C37 url(../images/connect-banner.jpg) no-repeat left center;
+  text-align: center;
+}
+
+.connect-banner .left {
+  float: left;
+  width: 57.6%;
+  height: 550px;
+  color: #0B7BC0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.connect-banner .right {
+  float: right;
+  width: 42.4%;
+  height: 550px;
+  background: #112C37;
+  color: #F1F2F2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.connect-banner .left DIV,
+.connect-banner .right DIV {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.connect-banner .left H1 {
+  margin: 0 0 0.5em;
+  color: #F1F2F2;
+  font-weight: 800;
+  font-size: 74px;
+  line-height: 1em;
+}
+
+.connect-banner .left .fa {
+  margin-top: 1em;
+  color: #F1F2F2;
+  font-size: 150%;
+}
+
+.connect-banner .right STRONG {
+  font-weight: 800;
+}
+
+.connect-banner .right STRONG A {
+  color: #F1F2F2;
+  text-decoration: none;
+}
+
+.connect-banner .right A:link,
+.connect-banner .right A:visited {
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.connect-banner .right A:hover,
+.connect-banner .right A:active {
+  background: #FFFFFF;
+  color: #139AD2;
+}
+
+.connect {
+  padding: 4em 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#connect-form {
+  width: 65%;
+  margin: 3em auto 0;
+  font-size: 16px;
+}
+
+#connect-form .required {
+  padding: 0 2em 0.5em;
+  color: #0B7BC0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+
+#connect-form INPUT[type="text"],
+#connect-form INPUT[type="email"],
+#connect-form TEXTAREA {
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.4em 1.5em;
+  background: #D7D7D7;
+  color: #58595B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  border-radius: 20px;
+  outline: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+  margin-bottom: 1.5em;
+}
+
+#connect-form TEXTAREA {
+  padding: 1.2em 1.5em;
+  height: 14em;
+  margin-top: 1.5em;
+}
+
+#connect-form INPUT[type="text"]:focus,
+#connect-form INPUT[type="email"]:focus,
+#connect-form TEXTAREA:focus {
+  background: #EBEBEB;
+}
+
+#connect-form INPUT::-webkit-input-placeholder { color: #58595B; opacity: 1; }
+#connect-form INPUT:-moz-placeholder { color: #58595B; opacity: 1; } /* FF 4-18 */
+#connect-form INPUT::-moz-placeholder { color: #58595B; opacity: 1; } /* FF 19+ */
+#connect-form INPUT:-ms-input-placeholder { color: #58595B; opacity: 1; } /* IE 10+ */
+#connect-form TEXTAREA::-webkit-input-placeholder { color: #58595B; opacity: 1; }
+#connect-form TEXTAREA:-moz-placeholder { color: #58595B; opacity: 1; } /* FF 4-18 */
+#connect-form TEXTAREA::-moz-placeholder { color: #58595B; opacity: 1; } /* FF 19+ */
+#connect-form TEXTAREA:-ms-input-placeholder { color: #58595B; opacity: 1; } /* IE 10+ */
+
+#connect-form INPUT:focus::-webkit-input-placeholder { color: transparent; }
+#connect-form INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#connect-form INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#connect-form INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+#connect-form TEXTAREA:focus::-webkit-input-placeholder { color: transparent; }
+#connect-form TEXTAREA:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#connect-form TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#connect-form TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+INPUT[type="checkbox"]#c-subscribe {
+  display: none;
+}
+
+INPUT[type="checkbox"]#c-subscribe + LABEL {
+  display: block;
+  color: #707070;
+}
+
+INPUT[type="checkbox"]#c-subscribe + LABEL:before {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  cursor: pointer;
+  content: "";
+  background: #0E8DC8;
+  border-radius: 50%;
+  position: relative;
+  top: 0.15em;
+}
+
+INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
+  background: #FFFFFF;
+  border: 4px solid #0E8DC8;
+  box-sizing: border-box;
+}
+
+#connect-form-messages {
+  margin: 2em 0;
+  height: 1.5em;
+  line-height: 1.5em;
+  color: #C52C3C;
+}
+
+#connect-form INPUT[type="submit"] {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0.7em 2em;
+  border-radius: 50px;
+  background: #0B7BC0;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 0 auto;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+}
+
+#connect-form INPUT[type="submit"]:hover {
+  background: #112C37;
+  color: #FFFFFF;
+}
+
+#connect-form INPUT[type="submit"]:focus {
+  outline: none;
+}
+
+#mailchimp {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mailchimp-form-messages {
+  margin: 0 0 15px;
+  height: 30px;
+  line-height: 30px;
+  color: #C52C3C;
+}
+
+#mailchimp-form INPUT[type="email"] {
+  border: 0;
+  box-sizing: border-box;
+  width: 64%;
+  padding: 0.3em 1.5em;
+  background: #05222D;
+  color: #F1F1F2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  border-radius: 20px;
+  outline: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+  margin-right: 2em;
+}
+
+#mailchimp-form INPUT[type="email"]:focus {
+  background: #0B7BC0;
+}
+
+#mailchimp-form INPUT::-webkit-input-placeholder { color: #F1F1F2; opacity: 1; }
+#mailchimp-form INPUT:-moz-placeholder { color: #F1F1F2; opacity: 1; } /* FF 4-18 */
+#mailchimp-form INPUT::-moz-placeholder { color: #F1F1F2; opacity: 1; } /* FF 19+ */
+#mailchimp-form INPUT:-ms-input-placeholder { color: #F1F1F2; opacity: 1; } /* IE 10+ */
+#mailchimp-form INPUT:focus::-webkit-input-placeholder { color: transparent; }
+#mailchimp-form INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#mailchimp-form INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#mailchimp-form INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+#mailchimp-form INPUT[type="submit"] {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0.7em 2em;
+  border-radius: 50px;
+  background: #EBEBEB;
+  color: #0B7BC0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  margin: 0 auto;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+}
+
+#mailchimp-form INPUT[type="submit"]:hover {
+  background: #0B7BC0;
+  color: #FFFFFF;
+}
+
+#mailchimp-form INPUT[type="submit"]:focus {
+  outline: none;
+}
+
 
 @media only screen and (max-width: 1325px) {
   .menu UL LI { padding-left: 3.5%; }
   .menu UL LI.incrisis { position: static; }
+}
+
+@media only screen and (max-width: 1180px) {
+  .connect-banner .site-width {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1155px) {
@@ -1922,6 +2166,12 @@ html {
 
   A.logo-link {
     margin-left: 5%;
+  }
+
+  #incrisis,
+  #thankyou {
+    width: 96%;
+    padding: 2em;
   }
 }
 
@@ -2150,6 +2400,10 @@ html {
   #grant-priorities,
   #grant-guidelines {
     background-position: center top;
+  }
+
+  .donation H1 {
+    font-size: 55px;
   }
 }
 
@@ -2381,6 +2635,50 @@ html {
   .mixitup .allcontrols LABEL:after {
     left: 0;
   }
+
+  .donation-left,
+  .donation-right {
+    float: none;
+    width: 100%;
+  }
+
+  .donation-left {
+    margin-bottom: 2em;
+  }
+
+  .donation H1 {
+    font-size: 64px;
+  }
+
+  #donation {
+    width: 100%;
+  }
+
+  #donation .left,
+  #donation .right {
+    float: none;
+    width: 100%;
+  }
+
+  .connect-banner {
+    background-image: none;
+  }
+
+  .connect-banner .left,
+  .connect-banner .right {
+    float: none;
+    width: 100%;
+    height: 350px;
+  }
+
+  .connect-banner .left {
+    background: url(../images/connect-banner.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  #connect-form {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2509,6 +2807,34 @@ html {
     -moz-hyphens: auto;
     hyphens: auto;
   }
+
+  .blocker {
+    position: static;
+  }
+
+  .modal {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    transform: none;
+  }
+
+  .modal A.close-modal {
+    top: 0;
+    right: -14px;
+  }
+
+  #incrisis,
+  #thankyou {
+    width: 100%;
+    padding: 1em;
+  }
+
+  #mailchimp-form INPUT[type="email"] {
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -2575,5 +2901,13 @@ html {
 
   .funding-current-header {
     font-size: 35px;
+  }
+
+  .donation H1 {
+    font-size: 54px;
+  }
+
+  .connect-banner .left H1 {
+    font-size: 60px;
   }
 }

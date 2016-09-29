@@ -18,6 +18,6 @@
     </ul>
   </li>
   <li><a href="#">Beyond the Blues</a></li>
-  <li><a href="#">Connect</a></li>
+  <li><a href="connect.php">Connect</a></li>
   <li class="incrisis"><a href="#incrisis">In Crisis?</a></li>
 </ul>
