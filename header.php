@@ -38,6 +38,10 @@ function email($address, $name="") {
           $(".scrolling-menu").toggleClass("sticky", direction == "down");
         });
 
+        $(".btb-banner .header-left").waypoint(function(direction) {
+          $(".scrolling-menu").toggleClass("btb-sticky", direction == "down");
+        },{offset: '75px'});
+
         $('a[href="#incrisis"]').click(function(event) {
           event.preventDefault();
           $(this).modal({ fadeDuration: 200, fadeDelay: 0 });
@@ -77,10 +81,16 @@ function email($address, $name="") {
     </div>
     <?php } ?>
 
-    <div class="menu-holder">
+    <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">
       <div class="scrolling-menu">
         <div class="site-width">
-          <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
+          <a href="." class="logo">
+            <?php if (isset($PageMod)) { ?>
+            <img src="images/beyond-the-blues-logo.png" alt="Beyond the Blues">
+            <?php } else { ?>
+            <img src="images/logo.png" alt="The Charles E. Kubly Foundation">
+            <?php } ?>
+          </a>
 
           <input type="checkbox" id="scrolling-show-menu" role="button">
           <label for="scrolling-show-menu" id="scrolling-menu-toggle"></label>

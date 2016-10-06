@@ -1,4 +1,5 @@
 <ul>
+  <li class="home"><a href=".">Home</a></li>
   <li>
     <a href="foundation.php">Foundation</a>
     <ul>
@@ -17,7 +18,7 @@
       <li><a href="projects-funded.php">Projects Funded</a></li>
     </ul>
   </li>
-  <li><a href="#">Beyond the Blues</a></li>
+  <li class="btb"><a href="beyond-the-blues.php">Beyond the Blues</a></li>
   <li><a href="connect.php">Connect</a></li>
   <li class="incrisis"><a href="#incrisis">In Crisis?</a></li>
 </ul>

@@ -214,8 +214,13 @@ A.watchvideo:after {
   padding-left: 6%;
 }
 
-.menu UL LI:first-child {
+.menu UL LI:first-child,
+.menu > UL > LI:nth-of-type(2) {
   padding-left: 0;
+}
+
+.menu UL LI.home {
+  display: none;
 }
 
 .menu UL LI.incrisis {
@@ -246,6 +251,12 @@ A.watchvideo:after {
 .menu UL LI A:hover,
 .menu UL LI A:active {
   color: #112C37;
+}
+
+.btb .menu UL LI:hover A,
+.btb .menu UL LI A:hover,
+.btb .menu UL LI A:active {
+  color: #82C150;
 }
 
 .menu UL LI UL {
@@ -282,6 +293,16 @@ A.watchvideo:after {
 .menu UL LI UL LI A:hover,
 .menu UL LI UL LI A:active {
   color: #112C37;
+}
+
+.btb .menu UL LI UL LI A:link,
+.btb .menu UL LI UL LI A:visited {
+  color: #FFFFFF;
+}
+
+.btb .menu UL LI UL LI A:hover,
+.btb .menu UL LI UL LI A:active {
+  color: #82C150;
 }
 
 .home-banner {
@@ -334,9 +355,21 @@ A.watchvideo:after {
   height: 82px;
 }
 
+.menu-holder.btb {
+  height: 0;
+}
+
 .scrolling-menu {
   background: linear-gradient(90deg, #F8F8F8 50%, #0E8DC8 50%);
   position: relative;
+}
+
+.btb .scrolling-menu {
+  background: transparent;
+}
+
+.btb .scrolling-menu.btb-sticky {
+  background: #000000;
 }
 
 .scrolling-menu.sticky {
@@ -347,10 +380,17 @@ A.watchvideo:after {
   width: 100%;
 }
 
+.btb .scrolling-menu.sticky { top: 14px; }
+.btb .scrolling-menu.sticky.btb-sticky { top: 0; }
+
 .scrolling-menu .logo {
   width: 12.3%;
   padding-right: 2.6%;
   height: 82px;
+}
+
+.btb .scrolling-menu .logo {
+  width: 13.7%;
 }
 
 .scrolling-menu .menu {
@@ -359,13 +399,34 @@ A.watchvideo:after {
   line-height: 82px;
 }
 
+.btb .scrolling-menu .menu {
+  width: 83.7%;
+}
+
+.btb .scrolling-menu .menu UL {
+  background: transparent;
+}
+
 .scrolling-menu .menu UL LI,
 .scrolling-menu .menu UL LI.incrisis {
   padding-left: 5.5%;
 }
 
-.scrolling-menu .menu UL LI:first-child {
+.scrolling-menu .menu UL LI:first-child,
+.scrolling-menu .menu > UL > LI:nth-of-type(2) {
   padding-left: 0;
+}
+
+.btb .scrolling-menu .menu > UL > LI:nth-of-type(2) {
+  padding-left: 5.5%;
+}
+
+.btb .scrolling-menu .menu UL LI.home {
+  display: inline-block;
+}
+
+.btb .scrolling-menu .menu UL LI.btb {
+  display: none;
 }
 
 .scrolling-menu .menu UL LI.incrisis {
@@ -379,8 +440,15 @@ A.watchvideo:after {
   color: #052838;
 }
 
+.btb .scrolling-menu .menu UL LI.incrisis A:link,
+.btb .scrolling-menu .menu UL LI.incrisis A:visited {
+  color: #C22838;
+}
+
 .scrolling-menu .menu UL LI.incrisis A:hover,
-.scrolling-menu .menu UL LI.incrisis A:active {
+.scrolling-menu .menu UL LI.incrisis A:active,
+.btb .scrolling-menu .menu UL LI.incrisis A:hover,
+.btb .scrolling-menu .menu UL LI.incrisis A:active {
   color: #FFFFFF;
 }
 
@@ -392,6 +460,10 @@ A.watchvideo:after {
 
 .scrolling-menu .menu UL LI UL {
   top: 82px;
+}
+
+.btb .scrolling-menu.btb-sticky UL LI UL {
+  background: rgba(0,0,0,0.8);
 }
 
 .home-mission {
@@ -2055,20 +2127,20 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   outline: none;
 }
 
-#mailchimp {
+#newsletter {
   font-weight: bold;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#mailchimp-form-messages {
-  margin: 0 0 15px;
-  height: 30px;
-  line-height: 30px;
+#newsletter-form-messages {
+  margin: 15px 0;
+  height: 45px;
+  line-height: 45px;
   color: #C52C3C;
 }
 
-#mailchimp-form INPUT[type="email"] {
+#newsletter-form INPUT[type="email"] {
   border: 0;
   box-sizing: border-box;
   width: 64%;
@@ -2088,23 +2160,23 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   margin-right: 2em;
 }
 
-#mailchimp-form INPUT[type="email"]:focus {
+#newsletter-form INPUT[type="email"]:focus {
   background: #0B7BC0;
 }
 
-#mailchimp-form INPUT::-webkit-input-placeholder { color: #F1F1F2; opacity: 1; }
-#mailchimp-form INPUT:-moz-placeholder { color: #F1F1F2; opacity: 1; } /* FF 4-18 */
-#mailchimp-form INPUT::-moz-placeholder { color: #F1F1F2; opacity: 1; } /* FF 19+ */
-#mailchimp-form INPUT:-ms-input-placeholder { color: #F1F1F2; opacity: 1; } /* IE 10+ */
-#mailchimp-form INPUT:focus::-webkit-input-placeholder { color: transparent; }
-#mailchimp-form INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
-#mailchimp-form INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
-#mailchimp-form INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+#newsletter-form INPUT::-webkit-input-placeholder { color: #F1F1F2; opacity: 1; }
+#newsletter-form INPUT:-moz-placeholder { color: #F1F1F2; opacity: 1; } /* FF 4-18 */
+#newsletter-form INPUT::-moz-placeholder { color: #F1F1F2; opacity: 1; } /* FF 19+ */
+#newsletter-form INPUT:-ms-input-placeholder { color: #F1F1F2; opacity: 1; } /* IE 10+ */
+#newsletter-form INPUT:focus::-webkit-input-placeholder { color: transparent; }
+#newsletter-form INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#newsletter-form INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#newsletter-form INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
-#mailchimp-form INPUT[type="submit"] {
+#newsletter-form INPUT[type="submit"] {
   border: 0;
   box-sizing: border-box;
-  padding: 0.7em 2em;
+  padding: 0.8em 2em;
   border-radius: 50px;
   background: #EBEBEB;
   color: #0B7BC0;
@@ -2120,14 +2192,323 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
 }
 
-#mailchimp-form INPUT[type="submit"]:hover {
+#newsletter-form INPUT[type="submit"]:hover {
   background: #0B7BC0;
   color: #FFFFFF;
 }
 
-#mailchimp-form INPUT[type="submit"]:focus {
+#newsletter-form INPUT[type="submit"]:focus {
   outline: none;
 }
+
+.btb-banner {
+  background: #FFFFFF url(../images/btb-banner.jpg) no-repeat center top;
+  padding: 200px 0 3em;
+}
+
+.btb-banner .header-left {
+  float: left;
+  width: 53%;
+  color: #82C150;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 0.85em;
+}
+
+.btb-banner .header-left DIV {
+  display: inline-block;
+  padding-left: 0.25em;
+}
+
+.btb-banner .header-left SPAN {
+  color: #F5A21C;
+}
+
+.btb-banner .header-right {
+  float: right;
+  width: 40%;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.1em;
+  padding-top: 190px;
+}
+
+.btb-banner .header-right SUP {
+  font-size: 50%;
+}
+
+.btb-banner .header-right DIV {
+  font-size: 14px;
+  line-height: 1em;
+  padding-top: 0.6em;
+}
+
+.btb-banner .header-right A,
+.btb-banner .header-right .fa {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btb-banner .header-right .fa {
+  margin-top: 2.5em;
+}
+
+.btb-banner .header-right A:hover,
+.btb-banner .header-right A:active {
+  color: #FFFFFF;
+}
+
+.btb-banner .header-right A.tickets:link,
+.btb-banner .header-right A.tickets:visited {
+  color: #FFFFFF;
+  margin-left: 2em;
+}
+
+.btb-banner .header-right A.tickets:hover,
+.btb-banner .header-right A.tickets:active {
+  color: #0E8DC8;
+}
+
+.btb-banner-spacer {
+  clear: both;
+  height: 75px;
+}
+
+.btb-banner .left {
+  float: left;
+  width: 42%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  line-height: 1.8em;
+  color: #707070;
+}
+
+.btb-banner .left .btb-video {
+  background: url(../images/btb-video.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
+.btb-banner .left .btb-video A:link,
+.btb-banner .left .btb-video A:visited {
+  font-size: 87px;
+  line-height: 1em;
+  color: rgba(255,255,255,0.98);
+  border: 22px solid #FFFFFF;
+  border-color: rgba(255,255,255,0.98);
+  border-radius: 50%;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btb-banner .left .btb-video A .fa {
+  position: relative;
+  left: 0.2em;
+}
+
+.btb-banner .left .btb-video A:hover,
+.btb-banner .left .btb-video A:active {
+  color: #82C150;
+  border-color: #82C150;
+}
+
+.btb-banner .left H3 {
+  margin: 0 0 0.3em;
+  color: #82C150;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.btb-banner .left .fa-long-arrow-down {
+  color: #28AAE1;
+  margin-top: 3em;
+}
+
+.btb-banner .right {
+  float: right;
+  width: 51%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 1.8em;
+  color: #707070;
+  border: 12px solid #28AAE1;
+  padding: 5.5em 1em 3em;
+  margin-top: 3em;
+}
+
+.btb-banner .right H3 {
+  margin: 0 0 1em;
+  color: #112C37;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.6em;
+}
+
+.btb-gallery {
+  padding: 8em 0 6.5em;
+  background: #6B4099;
+  color: #160028;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.btb-gallery A {
+  float: left;
+  width: 23.5%;
+  margin: 0 2% 2% 0;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+}
+
+.btb-gallery A:nth-of-type(4n+0) {
+  margin-right: 0;
+}
+
+.btb-gallery A:after {
+  padding-top: 58.79%;
+  display: block;
+  content: '';
+}
+
+.btb-newsletter {
+  padding: 7em 0;
+  text-align: center;
+  color: #7F8082;
+}
+
+.btb-newsletter H3 {
+  margin: 0 0 0.7em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1em;
+  color: #05222D;
+}
+
+.btb-newsletter #newsletter-form INPUT[type="email"] {
+  background: #82C150;
+  color: #FFFFFF;
+}
+
+.btb-newsletter #newsletter-form INPUT[type="email"]:focus {
+  background: #649A3D;
+}
+
+.btb-newsletter #newsletter-form INPUT::-webkit-input-placeholder { color: #FFFFFF; opacity: 1; }
+.btb-newsletter #newsletter-form INPUT:-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 4-18 */
+.btb-newsletter #newsletter-form INPUT::-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 19+ */
+.btb-newsletter #newsletter-form INPUT:-ms-input-placeholder { color: #FFFFFF; opacity: 1; } /* IE 10+ */
+#newsletter-form INPUT:focus::-webkit-input-placeholder { color: transparent; }
+#newsletter-form INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#newsletter-form INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#newsletter-form INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+.btb-newsletter #newsletter-form INPUT[type="submit"] {
+  background: #649A3D;
+  color: #FFFFFF;
+}
+
+.btb-newsletter #newsletter-form INPUT[type="submit"]:hover {
+  background: #82C150;
+}
+
+.btb-thanks {
+  padding: 6em 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.btb-thanks H1 {
+  margin: 0 0 1em;
+  color: #25AAE1;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.btb-thanks H2 {
+  margin: 0 0 2em;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.btb-thanks H3 {
+  margin: 1em 0 0.4em;
+  color: #25AAE1;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1em;
+  text-decoration: underline;
+}
+
+.btb-thanks .one-third {
+  float: left;
+  width: 31.3%;
+  margin-right: 3.05%;
+}
+
+.btb-thanks .one-third:last-of-type {
+  margin-right: 0;
+}
+
+.btb-thanks .one-third UL {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.btb-thanks .one-third UL LI {
+  line-height: 1.5em;
+  padding-bottom: 0.6em;
+}
+
+.btb-sponsorship {
+  margin-top: 2.5em;
+  border: 12px solid #82C150;
+  padding: 0.7em;
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1.2em;
+}
+
+.btb-sponsorship A:link,
+.btb-sponsorship A:visited {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.btb-sponsorship A:hover,
+.btb-sponsorship A:active {
+  color: #0E8DC8;
+}
+
+
+
 
 
 @media only screen and (max-width: 1325px) {
@@ -2280,6 +2661,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
   .scrolling-menu { background: linear-gradient(90deg, #F8F8F8 35%, #0E8DC8 35%); }
   .scrolling-menu .logo { width: 32%; }
+  .btb .scrolling-menu .logo { width: 21%; }
 
   .kf-header .site-width { height: 105px; }
   .scrolling-menu .site-width { height: 82px; }
@@ -2309,6 +2691,11 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
     color: #1E3E4A;
   }
 
+  .btb #show-menu:checked + #menu-toggle:after,
+  .btb #scrolling-show-menu:checked + #scrolling-menu-toggle:after {
+    color: #0E8DC8;
+  }
+
   #show-menu:checked + #menu-toggle + .menu,
   #scrolling-show-menu:checked + #scrolling-menu-toggle + .menu {
     display: block;
@@ -2329,6 +2716,11 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
   .scrolling-menu .menu { top: 82px; }
 
+  .btb .scrolling-menu .menu {
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+  }
+
   .menu UL {
     background: rgba(14,141,200,0.9);
     padding: 1em 0;
@@ -2344,6 +2736,8 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
     padding: 0;
     background: transparent;
   }
+
+  .menu UL LI.home { display: none; }
 
   .menu UL LI A:link,
   .menu UL LI A:visited,
@@ -2374,6 +2768,11 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
     color: #052838;
   }
 
+  .btb .menu UL LI A:hover,
+  .btb .menu UL LI A:active {
+    color: #82C150;
+  }
+
   .menu UL LI.incrisis A:hover,
   .menu UL LI.incrisis A:active {
     color: #FFFFFF;
@@ -2393,8 +2792,34 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
     box-shadow: none;
   }
 
+  .btb .scrolling-menu.btb-sticky UL LI UL {
+    background: transparent;
+  }
+
   .home-banner .home-banner-slide .site-width H1 {
     font-size: 60px;
+  }
+
+  .btb-banner {
+    padding-top: 150px;
+  }
+
+  .btb-banner-spacer {
+    height: 25px;
+  }
+
+  .btb-banner .left .btb-video {
+    height: auto;
+  }
+
+  .btb-banner .left .btb-video:after {
+    padding-top: 100%;
+    display: inline-block;
+    content: '';
+  }
+
+  .btb-banner .right {
+    margin-top: 6em;
   }
 
   #grant-priorities,
@@ -2404,6 +2829,10 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
   .donation H1 {
     font-size: 55px;
+  }
+
+  .btb-sponsorship {
+    font-size: 22px;
   }
 }
 
@@ -2679,6 +3108,62 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   #connect-form {
     width: 100%;
   }
+
+  .btb-banner {
+    padding-top: 125px;
+  }
+
+  .btb-banner .header-left,
+  .btb-banner .header-right,
+  .btb-banner .left,
+  .btb-banner .right {
+    float: none;
+    width: 100%;
+  }
+
+  .btb-banner .header-right {
+    padding-top: 1.2em;
+  }
+
+  .btb-banner .header-right .fa,
+  .btb-banner .left .fa-long-arrow-down {
+    display: none;
+  }
+
+  .btb-banner-spacer {
+    height: 2.5em;
+  }
+
+  .btb-banner .right {
+    margin-top: 2em;
+    padding-top: 3em;
+  }
+
+  .btb-gallery A,
+  .btb-gallery A:nth-of-type(4n+0) {
+    width: 49%;
+  }
+
+  .btb-gallery A:nth-of-type(2n+0) {
+    margin-right: 0;
+  }
+
+  .btb-thanks .one-third {
+    width: 48%;
+    margin-right: 0;
+  }
+
+  .btb-thanks .one-third:first-of-type {
+    margin-right: 4%;
+  }
+
+  .btb-sponsorship {
+    position: absolute;
+    bottom: 3em;
+    left: 2%;
+    width: 46%;
+    font-size: 27px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -2687,7 +3172,10 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   .logo { width: 70%; }
 
   .scrolling-menu { background: linear-gradient(90deg, #F8F8F8 62%, #0E8DC8 38%); }
-  .scrolling-menu .logo { width: 58%; }
+  .scrolling-menu .logo,
+  .btb .scrolling-menu .logo {
+    width: 58%;
+  }
 
   .home-banner .home-banner-slide .site-width H1 {
     font-size: 48px;
@@ -2706,6 +3194,10 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
   .scrolling-menu.sticky {
     position: relative;
+  }
+
+  .btb .scrolling-menu.sticky.btb-sticky {
+    top: 14px;
   }
 
   .home-mission .home-mission-left H1 {
@@ -2831,9 +3323,34 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
     padding: 1em;
   }
 
-  #mailchimp-form INPUT[type="email"] {
+  #newsletter-form INPUT[type="email"] {
     width: 100%;
     margin: 0 0 1em 0;
+  }
+
+  .btb-banner .header-left {
+    font-size: 86px;
+  }
+
+  .btb-gallery A,
+  .btb-gallery A:nth-of-type(4n+0),
+  .btb-gallery A:nth-of-type(2n+0) {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .btb-thanks .one-third,
+  .btb-thanks .one-third:first-of-type {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .btb-sponsorship {
+    position: static;
+    width: 100%;
+    font-size: 38px;
+    margin-top: 1em;
   }
 }
 
@@ -2909,5 +3426,17 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
   .connect-banner .left H1 {
     font-size: 60px;
+  }
+
+  .btb-banner .header-left {
+    font-size: 72px;
+  }
+
+  .btb-banner .right H3 {
+    font-size: 25px;
+  }
+
+  .btb-sponsorship {
+    font-size: 31px;
   }
 }

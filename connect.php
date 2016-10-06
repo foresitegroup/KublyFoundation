@@ -127,12 +127,12 @@ include "header.php";
 
 <div class="footer-call">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
-  <div class="site-width" id="mailchimp">
-    <!-- Begin MailChimp Signup Form -->
+  <div class="site-width" id="newsletter">
+    <!-- Begin Newsletter Signup Form -->
     <script type="text/javascript">
       $(document).ready(function() {
-        var form = $('#mailchimp-form');
-        var formMessages = $('#mailchimp-form-messages');
+        var form = $('#newsletter-form');
+        var formMessages = $('#newsletter-form-messages');
         $(form).submit(function(event) {
           event.preventDefault();
           
@@ -170,21 +170,21 @@ include "header.php";
     // Settings for randomizing form field names
     $ip = $_SERVER['REMOTE_ADDR'];
     $timestamp = time();
-    $salt = "KublyMailchimpForm";
+    $salt = "KublyNewsletterForm";
     ?>
 
     <noscript>
     <?php
-    $mcfeedback = (!empty($_SESSION['mcfeedback'])) ? $_SESSION['mcfeedback'] : "";
-    unset($_SESSION['mcfeedback']);
+    $nlfeedback = (!empty($_SESSION['nlfeedback'])) ? $_SESSION['nlfeedback'] : "";
+    unset($_SESSION['nlfeedback']);
     ?>
     </noscript>
 
     Sign me up for the Charles E. Kubly Newsletter.<br>
 
-    <div id="mailchimp-form-messages"><?php echo $mcfeedback; ?></div>
+    <div id="newsletter-form-messages"><?php echo $nlfeedback; ?></div>
 
-    <form action="form-mailchimp.php" method="POST" id="mailchimp-form">
+    <form action="form-newsletter.php" method="POST" id="newsletter-form">
       <div>
         <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address">
         <input type="submit" name="submit" value="SIGN UP">
@@ -194,7 +194,7 @@ include "header.php";
         <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
       </div>
     </form>
-    <!--End MailChimp Signup Form -->
+    <!--End Newsletter Signup Form -->
   </div>
 </div>
 

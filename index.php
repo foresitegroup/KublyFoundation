@@ -71,7 +71,7 @@ include "header.php";
       Sponsorships available now!<br>
       <br>
 
-      <a href="#" class="button">EVENT INFO</a>
+      <a href="beyond-the-blues.php" class="button">EVENT INFO</a>
       <a href="#" class="more">+ MORE EVENTS</a>
     </div>
   </div>
