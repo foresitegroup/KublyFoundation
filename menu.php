@@ -9,7 +9,7 @@
       <li><a href="foundation.php#board-leadership">Board &amp; Leadership</a></li>
     </ul>
   </li>
-  <li><a href="#">Signs &amp; Facts</a></li>
+  <li><a href="signs-and-facts.php">Signs &amp; Facts</a></li>
   <li>
     <a href="grants.php">Grants</a>
     <ul>

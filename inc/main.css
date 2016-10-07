@@ -2507,6 +2507,242 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   color: #0E8DC8;
 }
 
+.facts-banner {
+  height: 650px;
+  background: url(../images/facts-banner.jpg) center center no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 83px;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.facts-banner .site-width {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.facts-banner .fa {
+  font-size: 18px;
+  color: #0E8DC8;
+  margin-top: 5em;
+}
+
+.depression {
+  background: url(../images/depression-background.png) center top no-repeat;
+  padding-bottom: 240px;
+}
+
+.facts-left {
+  float: left;
+  width: 51.2%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.facts-right {
+  float: right;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.depression-box {
+  box-sizing: border-box;
+  border: 12px solid #E1E1E1;
+  padding: 3em 0.5em 1em;
+  color: #0E8DC8;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 1.3em;
+  position: relative;
+  top: -2em;
+}
+
+.depression-box H1 {
+  margin: 0 0 0.2em;
+  color: #112C37;
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.depression-box .fa {
+  font-size: 18px;
+  margin-top: 2em;
+}
+
+.facts-left UL {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.facts-left LI {
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+  position: relative;
+}
+
+.facts-left LI:before {
+  font-family: FontAwesome;
+  content: '\f10c';
+  font-size: 0.4em;
+  font-weight: bold;
+  position: absolute;
+  top: 0.2em;
+  left: -1.7em;
+  color: #139AD2;
+}
+
+.facts-images {
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.facts-images:after {
+  padding-top: 142%;
+  display: block;
+  content: '';
+}
+
+.facts-images IMG {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+}
+
+.facts-images .facts1 {
+  top: -2em;
+  right: 0;
+  width: 90%;
+  z-index: 1;
+}
+
+.facts-images .facts2 {
+  top: 35%;
+  left: 0;
+  width: 67%;
+  z-index: 2;
+}
+
+.facts-images .facts3 {
+  bottom: 0;
+  right: 0;
+  width: 65%;
+  z-index: 3;
+}
+
+.facts-right H3 {
+  margin: 0 0 0.5em;
+  color: #0E8DC8;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.the-facts {
+  background: url(../images/the-facts-background.png) center top no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 7em;
+}
+
+.the-facts .site-width {
+  position: relative;
+}
+
+.call-circle {
+  width: 287px;
+  height: 287px;
+  border-radius: 50%;
+  background: #112C37;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.5em;
+  text-align: center;
+  position: absolute;
+  top: -220px;
+}
+
+.call-circle DIV {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 2em;
+}
+
+.call-circle H3 {
+  margin: 0.5em 0 0;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 1em;
+}
+
+.call-circle A {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.suicide-box {
+  box-sizing: border-box;
+  border: 12px solid #E1E1E1;
+  padding: 1em 0.5em;
+  color: #112C37;
+  font-weight: 800;
+  font-size: 78px;
+  line-height: 1.3em;
+}
+
+.the-facts-left {
+  float: left;
+  width: 46%;
+  color: #0B7BC0;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1.2em;
+}
+
+.the-facts-right {
+  float: right;
+  width: 49%;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.5em;
+  padding-top: 0.25em;
+}
+
+.the-facts-left IMG {
+  max-width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+}
+
+.the-facts-right A.button:link,
+.the-facts-right A.button:visited {
+  background: #112C37;
+  font-size: 22px;
+  padding: 0.7em 1.2em;
+  letter-spacing: 0.1em;
+  margin-top: 2em;
+}
+
+.the-facts-right A.button:hover,
+.the-facts-right A.button:active {
+  background: #139AD2;
+}
+
+
+
+
 
 
 
