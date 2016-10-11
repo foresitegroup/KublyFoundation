@@ -16,12 +16,12 @@
         </div>
 
         <div class="footer-menu">
-          <a href="connect.php">CONTACT</a>
-          <a href="donate.php">DONATE</a>
+          <a href="<?php echo $TopDir; ?>connect.php">CONTACT</a>
+          <a href="<?php echo $TopDir; ?>donate.php">DONATE</a>
           <a href="#">FUNDING</a>
           <a href="#">LOGIN</a>
-          <a href="legal.php">LEGAL</a>
-          <a href="privacy.php">PRIVACY</a>
+          <a href="l<?php echo $TopDir; ?>egal.php">LEGAL</a>
+          <a href="<?php echo $TopDir; ?>privacy.php">PRIVACY</a>
         </div>
 
         <div class="copyright">

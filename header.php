@@ -7,6 +7,8 @@ function email($address, $name="") {
   if ($name == "") $name = $email;
   echo "<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;$email\">$name</a>";
 }
+
+if (!isset($TopDir)) $TopDir = "";
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,8 +17,8 @@ function email($address, $name="") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title>The Charles E. Kubly Foundation<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
     <meta name="description" content="<?php if (isset($Description)) echo $Description; ?>">
     <meta name="keywords" content="<?php if (isset($Keywords)) echo $Keywords; ?>">
@@ -25,11 +27,11 @@ function email($address, $name="") {
     <meta name="viewport" content="width=device-width">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="inc/main.css">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css">
 
-    <script type="text/javascript" src="inc/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.waypoints.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.modal.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -84,11 +86,11 @@ function email($address, $name="") {
     <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">
       <div class="scrolling-menu">
         <div class="site-width">
-          <a href="." class="logo">
+          <a href="<?php echo $TopDir; ?>." class="logo">
             <?php if (isset($PageMod)) { ?>
             <img src="images/beyond-the-blues-logo.png" alt="Beyond the Blues">
             <?php } else { ?>
-            <img src="images/logo.png" alt="The Charles E. Kubly Foundation">
+            <img src="<?php echo $TopDir; ?>images/logo.png" alt="The Charles E. Kubly Foundation">
             <?php } ?>
           </a>
 

@@ -1,2 +1,11 @@
 .DS_Store
 images/.DS_Store
+news/*
+!news/wp-content/
+news/wp-content/*
+!news/wp-content/themes/
+news/wp-content/themes/*
+!news/wp-content/themes/kublyfoundation
+news/wp-content/themes/kublyfoundation/.DS_Store
+
+images/.DS_Store

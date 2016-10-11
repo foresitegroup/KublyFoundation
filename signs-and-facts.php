@@ -32,17 +32,11 @@ include "header.php";
       </ul>
     </div>
 
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.facts-right IMG').css('opacity','0');
-      });
-    </script>
-
     <div class="facts-right">
       <div class="facts-images">
-        <img src="images/facts1.jpg" alt="" class="facts1" data-anijs="if: scroll, on: window, do: fadeIn animated fast, before: scrollReveal">
-        <img src="images/facts2.jpg" alt="" class="facts2" data-anijs="if: animationend, on: .facts1, do: fadeIn animated fast">
-        <img src="images/facts3.jpg" alt="" class="facts3" data-anijs="if: animationend, on: .facts2, do: fadeIn animated fast">
+        <img src="images/facts1.jpg" alt="" class="facts1">
+        <img src="images/facts2.jpg" alt="" class="facts2">
+        <img src="images/facts3.jpg" alt="" class="facts3">
       </div>
 
       <h3>COMMONLY USED EFFECTIVE ANTIDEPRESSANTS:</h3>
@@ -65,7 +59,7 @@ include "header.php";
 
 <div class="the-facts">
   <div class="site-width">
-    <div class="call-circle" data-anijs="if: scroll, on: window, do: RollInRight animated, before: scrollReveal">
+    <div class="call-circle">
       <div>
         CALL THE NATIONAL SUICIDE PREVENTION HOTLINE:
         <h3>1-800-273-TALK</h3>
@@ -103,7 +97,7 @@ include "header.php";
       HIGHEST RATE OF SUCCESSFUL SUICIDE IN OLDER WHITE MEN LIVING IN THE U.S.<br>
       <br>
 
-      <a href="donate.php" class="button" data-anijs="if: scroll, on: window, do: pulse animated, before: scrollReveal">GET INVOLVED</a>
+      <a href="donate.php" class="button">GET INVOLVED</a>
     </div>
   </div>
 </div>
@@ -117,7 +111,24 @@ include "header.php";
 </div>
 
 <link rel="stylesheet" href="inc/animation.css">
-<script type="text/javascript" src="inc/anijs-min.js"></script>
-<script type="text/javascript" src="inc/anijs-helper-scrollreveal-min.js"></script>
+<script type="text/javascript" src="inc/scrollreveal.min.js"></script>
+<script type="text/javascript">
+  var sr = new ScrollReveal();
+  var customAni = { distance: 0, duration: 0, opacity: 1, scale: 1, viewFactor: 0, reset: true }
+
+  sr.reveal('.facts-images IMG', { distance: 0, duration: 1000, scale: 1 }, 750);
+
+  sr.reveal('.call-circle', {
+    beforeReveal: function (el) { el.classList.add('RollInRight'); },
+    beforeReset: function (el) { el.classList.remove('RollInRight'); },
+    customAni
+  });
+
+  sr.reveal('.the-facts-right .button', {
+    beforeReveal: function (el) { el.classList.add('pulse'); },
+    beforeReset: function (el) { el.classList.remove('pulse'); },
+    customAni
+  });
+</script>
 
 <?php include "footer.php"; ?>
