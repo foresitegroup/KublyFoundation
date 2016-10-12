@@ -59,64 +59,53 @@ include "header.php";
 
       <div class="allcontrols">
         <div class="controls">
-          <input type="radio" name="area" value="" id="ra-all" checked> <label for="ra-all">SHOW ALL</label><br>
-          <input type="radio" name="area" value=".local" id="ra-local"> <label for="ra-local">LOCAL</label><br>
-          <input type="radio" name="area" value=".national" id="ra-national"> <label for="ra-national">NATIONAL</label>
+          <div><input type="checkbox" name="area" value="" id="ra-all" checked> <label for="ra-all">SHOW ALL</label></div>
+          <div><input type="checkbox" name="area" value=".local" id="ra-local"> <label for="ra-local">LOCAL</label></div>
+          <div><input type="checkbox" name="area" value=".statewide" id="ra-statewide"> <label for="ra-statewide">STATEWIDE</label></div>
+          <div><input type="checkbox" name="area" value=".national" id="ra-national"> <label for="ra-national">NATIONAL</label></div>
         </div>
 
         <hr style="border-top-color: #CCCCCC;">
 
         <div class="controls">
-          <input type="radio" name="control" value="" id="r-all" checked> <label for="r-all">SHOW ALL</label><br>
-          <input type="radio" name="control" value=".men" id="r-men"> <label for="r-men">MEN</label><br>
-          <input type="radio" name="control" value=".women" id="r-women"> <label for="r-women">WOMEN</label><br>
-          <input type="radio" name="control" value=".youth" id="r-youth"> <label for="r-youth">YOUTH</label><br>
-          <input type="radio" name="control" value=".teens" id="r-teens"> <label for="r-teens">TEENS</label><br>
-          <input type="radio" name="control" value=".college" id="r-college"> <label for="r-college">COLLEGE</label><br>
-          <input type="radio" name="control" value=".veterans" id="r-veterans"> <label for="r-veterans">VETERANS</label><br>
-          <input type="radio" name="control" value=".seniors" id="r-seniors"> <label for="r-seniors">SENIORS</label><br>
-          <input type="radio" name="control" value=".educational" id="r-educational"> <label for="r-educational">EDUCATIONAL</label><br>
-          <input type="radio" name="control" value=".residential" id="r-residential"> <label for="r-residential">RESIDENTIAL</label><br>
-          <input type="radio" name="control" value=".crisis" id="r-crisis"> <label for="r-crisis">CRISIS</label><br>
-          <input type="radio" name="control" value=".lgbt" id="r-lgbt"> <label for="r-lgbt">LGBT</label><br>
-          <input type="radio" name="control" value=".minorities" id="r-minorities"> <label for="r-minorities">MINORITIES</label><br>
-          <input type="radio" name="control" value=".parent" id="r-parent"> <label for="r-parent">PARENT</label><br>
-          <input type="radio" name="control" value=".medical" id="r-medical"> <label for="r-medical">MEDICAL</label><br>
-          <input type="radio" name="control" value=".teacher" id="r-teacher"> <label for="r-teacher">TEACHER</label>
+          <div><input type="checkbox" name="control" value="" id="r-all" checked> <label for="r-all">SHOW ALL</label></div>
+          <div><input type="checkbox" name="control" value=".crisis" id="r-crisis"> <label for="r-crisis">CRISIS</label></div>
+          <div><input type="checkbox" name="control" value=".residential" id="r-residential"> <label for="r-residential">RESIDENTIAL</label></div>
+          <div><input type="checkbox" name="control" value=".men" id="r-men"> <label for="r-men">MEN</label></div>
+          <div><input type="checkbox" name="control" value=".women" id="r-women"> <label for="r-women">WOMEN</label></div>
+          <div><input type="checkbox" name="control" value=".youth" id="r-youth"> <label for="r-youth">YOUTH</label></div>
+          <div><input type="checkbox" name="control" value=".teen" id="r-teen"> <label for="r-teen">TEEN</label></div>
+          <div><input type="checkbox" name="control" value=".school" id="r-school"> <label for="r-school">SCHOOL</label></div>
+          <div><input type="checkbox" name="control" value=".college" id="r-college"> <label for="r-college">COLLEGE</label></div>
+          <div><input type="checkbox" name="control" value=".seniors" id="r-seniors"> <label for="r-seniors">SENIORS</label></div>
+          <div><input type="checkbox" name="control" value=".veteran" id="r-veteran"> <label for="r-veteran">VETERAN</label></div>
+          <div><input type="checkbox" name="control" value=".family" id="r-family"> <label for="r-family">PARENT</label></div>
+          <div><input type="checkbox" name="control" value=".minority" id="r-minority"> <label for="r-minority">MINORITY</label></div>
+          <div><input type="checkbox" name="control" value=".educational" id="r-educational"> <label for="r-educational">EDUCATIONAL</label></div>
         </div>
       </div>
     </div>
 
     <div id="mixcontainer">
-      <div class="mix national college educational">
-        <h4>ACTIVE MINDS</h4>
-        Active Minds is the nation's only nonprofit organization dedicated to utilizing the student voice to change the conversation about mental health on college campuses. Active Minds empowers young leaders on over 200 campuses across the country to educate, support, and advocate on behalf of their peers. Together, we work to dispel the stigma that surrounds mental illness and ensure that future generations of young people will have access to the mental health services they need.<br>
-        <a href="http://www.activeminds.org">www.activeminds.org</a>
-      </div>
+      <?php
+      include_once "inc/dbconfig.php";
 
-      <div class="mix national youth teens medical">
-        <h4>AACAP: AMERICAN ACADEMY FOR CHILD AND ADOLESCENT PSYCHIATRY</h4>
-        AACAP is a professional medical association dedicated to treatment and improving the quality of life for children, adolescents and families experiencing psychiatric disorders. Their website is designed for parents and families as well as providers and offers useful fact sheets.<br>
-        <a href="http://www.aacap.org">www.aacap.org</a>
-      </div>
+      $result = $mysqli->query("SELECT * FROM resources ORDER BY
+        CASE 
+          WHEN title REGEXP '^(A|An|The)[[:space:]]' = 1 THEN 
+            TRIM(SUBSTR(title , INSTR(title ,' '))) 
+          ELSE title
+        END
+        ASC");
 
-      <div class="mix local">
-        <h4>AMERY AREA COMMUNITY CENTER</h4>
-        The mission of the Amery Area Community Center is to provide a welcoming place to the community for interaction of various generations through programs, services, meals, and social gatherings.  Their goal is to be flexible in serving the ever changing needs of the Amery Area citizenry, so as to enhance the lives of their members and friends.  With an emphasis on social and emotional wellbeing, they offer support groups and services to address areas necessary to help people stay emotionally healthy and live independently.  With help from the Charles E. Kubly Foundation, they are pleased to now offer a new program that helps recognize depression and suicidal thoughts, and how to properly intervene in such a case. Visit their website at<br>
-        <a href="http://www.amerych.com">www.amerych.com</a>
-      </div>
-
-      <div class="mix local medical">
-        <h4>AURORA BEHAVIORAL HEALTH SERVICES</h4>
-        Aurora Behavioral Health Services is a fully integrated system of outpatient and inpatient behavioral health programs and services. They also provide specialized programming for many behavioral health issues including eating disorders, substance abuse, obsessive-compulsive disorder and child and adolescent issues.<br>
-        <a href="http://www.aurorahealthcare.org/services/behavioral-health-addiction">www.aurorahealthcare.org/services/behavioral-health-addiction</a>
-      </div>
-
-      <div class="mix local medical">
-        <h4>AURORA FAMILY SERVICES</h4>
-        Aurora Family Service offers a full continuum of services designed to strengthen individual, family health and well being to promote self-sufficiency through every stage of life. AFS counsels individuals and families in need regardless of their financial circumstances but also offers in home counseling for those that cannot come into the office. AFS is a licensed outpatient mental health treatment facility helping individuals and families work through issues such as anxiety, depression, relationship concerns, loss, divorce, unemployment and parenting issues. AFS works to enhance the mental health status of the families we serve by providing easy access to services and building relationships that decrease social isolation.<br>
-        <a href="http://www.aurorahealthcare.org/services/aurora-family-service">www.aurorahealthcare.org/services/aurora-family-service</a>
-      </div>
+      while($row = $result->fetch_array(MYSQLI_ASSOC)) {
+        echo "<div class=\"mix " . $row['categories'] . "\">\n";
+        echo "<h4>" . $row['title'] . "</h4>\n";
+        echo nl2br($row['description']) . "<br>\n";
+        echo "<a href=\"http://" . $row['link'] . "\">" . $row['link'] . "</a>\n";
+        echo "</div>\n\n";
+      }
+      ?>
     </div>
   </div>
 </div>

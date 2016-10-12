@@ -7,9 +7,15 @@
       <li><a href="<?php echo $TopDir; ?>foundation.php#charlies-story">Charlie's Story</a></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#faq">FAQ</a></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#board-leadership">Board &amp; Leadership</a></li>
+      <li><a href="<?php echo $TopDir; ?>news/">News</a></li>
     </ul>
   </li>
-  <li><a href="<?php echo $TopDir; ?>signs-and-facts.php">Signs &amp; Facts</a></li>
+  <li>
+    <a href="<?php echo $TopDir; ?>signs-and-facts.php">Signs &amp; Facts</a>
+    <ul>
+      <li><a href="<?php echo $TopDir; ?>resources.php">RESOURCES</a></li>
+    </ul>
+  </li>
   <li>
     <a href="<?php echo $TopDir; ?>grants.php">Grants</a>
     <ul>

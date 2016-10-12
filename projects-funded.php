@@ -166,164 +166,50 @@ include "header.php";
       
       <div class="allcontrols">
         <div class="controls">
-          <input type="radio" name="control" value="" id="r-all" checked> <label for="r-all">SHOW ALL</label><br>
-          <input type="radio" name="control" value=".men" id="r-men"> <label for="r-men">MEN</label><br>
-          <input type="radio" name="control" value=".women" id="r-women"> <label for="r-women">WOMEN</label><br>
-          <input type="radio" name="control" value=".youth" id="r-youth"> <label for="r-youth">YOUTH</label><br>
-          <input type="radio" name="control" value=".teens" id="r-teens"> <label for="r-teens">TEENS</label><br>
-          <input type="radio" name="control" value=".college" id="r-college"> <label for="r-college">COLLEGE</label><br>
-          <input type="radio" name="control" value=".veterans" id="r-veterans"> <label for="r-veterans">VETERANS</label><br>
-          <input type="radio" name="control" value=".seniors" id="r-seniors"> <label for="r-seniors">SENIORS</label><br>
-          <input type="radio" name="control" value=".educational" id="r-educational"> <label for="r-educational">EDUCATIONAL</label><br>
-          <input type="radio" name="control" value=".residential" id="r-residential"> <label for="r-residential">RESIDENTIAL</label><br>
-          <input type="radio" name="control" value=".crisis" id="r-crisis"> <label for="r-crisis">CRISIS</label><br>
-          <input type="radio" name="control" value=".lgbt" id="r-lgbt"> <label for="r-lgbt">LGBT</label><br>
-          <input type="radio" name="control" value=".minorities" id="r-minorities"> <label for="r-minorities">MINORITIES</label><br>
-          <input type="radio" name="control" value=".parent" id="r-parent"> <label for="r-parent">PARENT</label><br>
-          <input type="radio" name="control" value=".medical" id="r-medical"> <label for="r-medical">MEDICAL</label><br>
-          <input type="radio" name="control" value=".teacher" id="r-teacher"> <label for="r-teacher">TEACHER</label>
+          <div><input type="checkbox" name="control" value="" id="r-all" checked> <label for="r-all">SHOW ALL</label></div>
+          <div><input type="checkbox" name="control" value=".youth" id="r-youth"> <label for="r-youth">YOUTH</label></div>
+          <div><input type="checkbox" name="control" value=".teen" id="r-teen"> <label for="r-teen">TEEN</label></div>
+          <div><input type="checkbox" name="control" value=".college" id="r-college"> <label for="r-college">COLLEGE</label></div>
+          <div><input type="checkbox" name="control" value=".school" id="r-school"> <label for="r-school">SCHOOL</label></div>
+          <div><input type="checkbox" name="control" value=".adult" id="r-adult"> <label for="r-adult">ADULT</label></div>
+          <div><input type="checkbox" name="control" value=".veterans" id="r-veterans"> <label for="r-veterans">VETERANS</label></div>
+          <div><input type="checkbox" name="control" value=".seniors" id="r-seniors"> <label for="r-seniors">SENIORS</label></div>
+          <div><input type="checkbox" name="control" value=".minorities" id="r-minorities"> <label for="r-minorities">MINORITIES</label></div>
+          <div><input type="checkbox" name="control" value=".lgbtq" id="r-lgbtq"> <label for="r-lgbtq">LGBTQ+</label></div>
+          <div><input type="checkbox" name="control" value=".men" id="r-men"> <label for="r-men">MEN</label></div>
+          <div><input type="checkbox" name="control" value=".women" id="r-women"> <label for="r-women">WOMEN</label></div>
+          <div><input type="checkbox" name="control" value=".suicide" id="r-suicide"> <label for="r-suicide">SUICIDE</label></div>
+          <div><input type="checkbox" name="control" value=".mentalhealth" id="r-mentalhealth"> <label for="r-mentalhealth">MENTAL HEALTH</label></div>
+          <div><input type="checkbox" name="control" value=".training" id="r-training"> <label for="r-training">TRAINING</label></div>
+          <div><input type="checkbox" name="control" value=".awareness" id="r-awareness"> <label for="r-awareness">AWARENESS</label></div>
+          <div><input type="checkbox" name="control" value=".professionaltraining" id="r-professionaltraining"> <label for="r-professionaltraining">PROFESSIONAL TRAINING</label></div>
+          <div><input type="checkbox" name="control" value=".awarenesssupport" id="r-awarenesssupport"> <label for="r-awarenesssupport">AWARENESS SUPPORT</label></div>
+          <div><input type="checkbox" name="control" value=".spiritualmindfulness" id="r-spiritualmindfulness"> <label for="r-spiritualmindfulness">SPIRITUAL / MINDFULNESS</label></div>
         </div>
       </div>
     </div>
 
     <div id="mixcontainer">
-      <div class="mix college educational">
-        <h4>ACTIVE MINDS AT MARQUETTE</h4>
-        Brought a suicide awareness campaign to campus. The Send Silence Packing is a suicide awareness campaign that travels throughout the country, where 1,100 packages are displayed to represent the approximately 1,100 college students that die by suicide every year.<br>
-        <a href="https://marquette.collegiatelink.net/organization/activeminds/about">https://marquette.collegiatelink.net/organization/activeminds/about</a>
-      </div>
+      <?php
+      include_once "inc/dbconfig.php";
 
-      <div class="mix youth teens educational">
-        <h4>CHILDRENS HOSPITAL OF WISCONSIN</h4>
-        will launch new comprehensive school-based mental health program for K-12th grade students. The grant will fund an awareness program essential to the launch and ongoing education campaign.<br>
-        <a href="http://www.chw.org/giving-and-volunteers/about-childrens-hospital-foundation/">www.chw.org/giving-and-volunteers/about-childrens-hospital-foundation/</a>
-      </div>
+      $result = $mysqli->query("SELECT * FROM projects_funded ORDER BY
+        CASE 
+          WHEN title REGEXP '^(A|An|The)[[:space:]]' = 1 THEN 
+            TRIM(SUBSTR(title , INSTR(title ,' '))) 
+          ELSE title
+        END
+        ASC, year DESC");
 
-      <div class="mix youth teens">
-        <h4>EXPRESS YOURSELF MKE</h4>
-        A grant to provide multidisciplinary therapeutic arts programming to boys in transition from the Milwaukee County Accountability Program to the greater Milwaukee community.<br>
-        <a href="http://www.exyomke.org">www.exyomke.org</a>
-      </div>
-
-      <div class="mix men">
-        <h4>FACE IT FOUNDATION</h4>
-        The grant will support the development of Continuing Education that focuses on Men and Depression and treatments available and effective that population.<br>
-        <a href="http://www.faceitfoundation.org">www.faceitfoundation.org</a>
-      </div>
-
-      <div class="mix medical">
-        <h4>FROEDTERT AND THE MEDICAL COLLEGE OF WISCONSIN</h4>
-        A grant to provide members of the psycho-oncology team additional training critical to the ongoing implementation of clinical treatment to reduce stress and depression in Cancer Center patients.<br>
-        <a href="http://www.froedtert.com">www.froedtert.com</a>
-      </div>
-
-      <div class="mix college">
-        <h4>THE GRAND AVENUE CLUB</h4>
-        will continue its important work with college students with persistent mental illness through the Young Adult Supported Education Program (YASE).<br>
-        <a href="http://www.froedtert.com">www.froedtert.com</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>LIFE OF HOPE</h4>
-        Will utilize a grant to train four additional people as QPR (Question, Persuade and Refer) certified trainers. As the only certified trainers in Washington County, these individuals will provide essential training to the greater community.<br>
-        <a href="http://lifeofhopeproject.org/about/">www.lifeofhopeproject.org/about/</a>
-      </div>
-
-      <div class="mix veterans">
-        <h4>MARQUETTE UNIVERSITY STUDENT VETERANS ASSOCIATION</h4>
-        will host a one-day symposium themed "Leave No Woman Behind". This event will feature speakers and resources that are available to help veterans locate resources and obtain access to programs essential to addressing their unique mental health needs.<br>
-        <a href="https://marquette.collegiatelink.net/organization/SVA">https://marquette.collegiatelink.net/organization/SVA</a>
-      </div>
-
-      <div class="mix medical">
-        <h4>THE MEDICAL COLLEGE OF WISCONSIN</h4>
-        will conduct a project to address the racial disparities in the ascertainment and identification of depression, suicidal ideation, and suicide. The project will include the development of a new culturally relevant screening protocol for depression and suicide ideation.<br>
-        <a href="http://www.mcw.edu/Injury-Research-Center/About-Us.htm">www.mcw.edu/Injury-Research-Center/About-Us.htm</a>
-      </div>
-
-      <div class="mix women educational">
-        <h4>META HOUSE</h4>
-        First grant: will provide art therapy for women in its residential and outpatient treatment program that is essential to the reduction of symptoms of anxiety and feelings of depression. Second grant: will train general staff and core counseling staff in Dielectical Behavior Therapy (DBT). The grant will support this essential training and implementation.<br>
-        <a href="http://metahouse.org">www.metahouse.org</a>
-      </div>
-
-      <div class="mix college">
-        <h4>MOUNT MARY UNIVERSITY</h4>
-        will provide support to the trauma sensitive school processes and procedures to ensure they are sustainable for the future at Northwest Catholic School.<br>
-        <a href="http://www.mtmary.edu/news-events/news-archives/2014/kubly-grant-trauma-project.html">www.mtmary.edu/news-events/news-archives/2014/kubly-grant-trauma-project.html</a>
-      </div>
-
-      <div class="mix educational crisis">
-        <h4>NAMI OZAUKEE</h4>
-        will offer Critical Incident Training (CIT) to all Ozaukee officers including the Sheriff's Department to police departments from Port Washington, Saukville, Grafton, Cedarburg, Mequon and Thiensville.<br>
-        <a href="http://namiozaukee.org">www.namiozaukee.org</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>NAMI WAUKESHA</h4>
-        will recruit and train four additional presenters for NAMI's signature program, In Our Own Voices (IOOV). The additional presenters will allow NAMI to present stories of hope and recovery to individuals throughout Waukesha County.<br>
-        <a href="http://www.namiwaukesha.org">www.namiwaukesha.org</a>
-      </div>
-
-      <div class="mix crisis">
-        <h4>PREVENT SUICIDE KENOSHA COUNTY</h4>
-        will purchase and distribute gun locks free of charge in the State of Wisconsin. The locks will feature a hang tag with suicide prevention phone numbers, and will be distributed with a brochure on means restriction.<br>
-        <a href="http://justliveinc.org">www.justliveinc.org</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>PREVENT SUICIDE GREATER MILWAUKEE</h4>
-        will develop and implement a website essential to providing information to the greater Milwaukee Community on suicide prevention efforts, resources, and facilitate future training opportunities.<br>
-        <a href="http://www.mhawisconsin.org/psgm.aspx">www.mhawisconsin.org/psgm.aspx</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>SAFE COMMUNITIES OF MADISON AND DANE COUNTY</h4>
-        will develop and implement a community wide Zero Suicide initiative. To learn more about Zero Suicide please visit <a href="http://www.zerosuicide.sprc.org">www.zerosuicide.sprc.org</a>.<br>
-        <a href="http://www.safercommunity.net">www.safercommunity.net</a>
-      </div>
-
-      <div class="mix teens">
-        <h4>SAMARITAN FOUNDATION FOR CHURCH AND FAMILY WELLNESS</h4>
-        A grant to support printing copies of the Living Compass for Teens notebooks and guidebooks. These will be used in the Living Compass for Teens program in area high schools and nonprofit organizations.<br>
-        <a href="http://www.samaritanfamilywellness.com/index.iml">www.samaritanfamilywellness.com/index.iml</a>
-      </div>
-
-      <div class="mix youth teens educational">
-        <h4>STARTING POINT OF OZAUKEE COUNTY</h4>
-        will bring a production of PIECES: In My Own Voice, a theatrical production about mental illness, to Ozaukee County School District. It will also host a fair to raise awareness about mental health and addiction.<br>
-        <a href="http://www.startingpointoz.org">www.startingpointoz.org</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>THE WISCONSIN INITIATIVE FOR STIGMA ELIMINATION (WISE)</h4>
-        Support for statewide trainings on an evidence based stigma reduction model. Staff members will train key community leaders about stigma reduction through personal story telling; the community health care leaders will serve as regional leaders for future expansion of these efforts.<br>
-        <a href="http://rogersinhealth.org/wise">www.rogersinhealth.org/wise</a>
-      </div>
-
-      <div class="mix teens">
-        <h4>THINK THROUGH YOUR LIFE</h4>
-        will put on a concert and event in July, 2015 to provide information for students aged 14-20. The event will feature multiple speakers and musicians who all share the story that things will get better. They will strive to impress upon those with mental health issues, that they are not alone.<br>
-        <a href="http://thinkthroughyourlife.org">www.thinkthroughyourlife.org</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>VISION FORWARD ASSOCIATION</h4>
-        will acquire essential QPR (Question, Persuade, and Refer) training for staff. The grant will also help individuals in the organizations' New Perspectives Program and provide critical psycho support to those in need.<br>
-        <a href="http://vision-forward.org">www.vision-forward.org</a>
-      </div>
-
-      <div class="mix educational">
-        <h4>WISCONSIN FAMILY TIES</h4>
-        will bring new and unique speakers to the 2015 Children Come First Conference. It will also support the conference and provide scholarships to those that may otherwise be unable to attend.<br>
-        <a href="http://www.wifamilyties.org">www.wifamilyties.org</a>
-      </div>
-
-      <div class="mix women">
-        <h4>WISCONSIN WOMEN'S HEALTH FOUNDATION</h4>
-        will develop and improve the GrapeVine Project's mental health education unit that focuses on depression and anxiety for women. The grant will help train 60 new nurses in this program who will deploy and present the information statewide.<br>
-        <a href="www.wwhf.org">http://www.wwhf.org</a>
-      </div>
+      while($row = $result->fetch_array(MYSQLI_ASSOC)) {
+        echo "<div class=\"mix " . $row['categories'] . "\">\n";
+        echo "<h4>" . $row['title'] . "</h4>\n";
+        echo nl2br($row['description']);
+        echo " (" . $row['year'] . ")<br>\n";
+        if ($row['link'] != "") echo "<a href=\"http://" . $row['link'] . "\">" . $row['link'] . "</a>\n";
+        echo "</div>\n\n";
+      }
+      ?>
     </div>
   </div>
 </div>

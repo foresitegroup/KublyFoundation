@@ -105,5 +105,23 @@ $(function(){
     },
     layout: { display:'block' },
     animation: { effects: 'fade rotateY' }
-  });    
+  });
+  
+  // Clear all other checkboxes when "ALL" is checked
+  $('#r-all').click(function() {
+    $('input[type=checkbox][name=control]').prop('checked', false);
+  });
+  $('#ra-all').click(function() {
+    $('input[type=checkbox][name=area]').prop('checked', false);
+  });
+  
+  // Clear the "ALL" checkbox when any other is checked
+  $('input[type=checkbox][name=control]').click(function() {
+    $('#r-all').prop('checked', false);
+    if (!$('input[type=checkbox][name=control]:checked').length) $('#r-all').prop('checked', true);
+  });
+  $('input[type=checkbox][name=area]').click(function() {
+    $('#ra-all').prop('checked', false);
+    if (!$('input[type=checkbox][name=area]:checked').length) $('#ra-all').prop('checked', true);
+  });
 });

@@ -1535,7 +1535,7 @@ A.logo-link:active IMG {
 }
 
 .mixitup #mixfilter H4 {
-  margin: 0 2em 0.25em 0;
+  margin: 0 2em 1em 0;
   text-align: right;
   color: #959595;
   font-family: 'Open Sans', sans-serif;
@@ -1554,7 +1554,15 @@ A.logo-link:active IMG {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 16px;
-  line-height: 2em;
+  line-height: 1em;
+}
+
+.mixitup .allcontrols HR {
+  margin-bottom: 1em;
+}
+
+.mixitup .allcontrols .controls DIV {
+  margin-bottom: 1em;
 }
 
 .mixitup .allcontrols LABEL {
@@ -1564,6 +1572,7 @@ A.logo-link:active IMG {
   padding-right: 1.5em;
 }
 
+.mixitup .allcontrols INPUT[type=checkbox],
 .mixitup .allcontrols INPUT[type=radio] {
   display: none;
 }
@@ -1575,11 +1584,13 @@ A.logo-link:active IMG {
   height: 1em;
   position: absolute;
   right: 0;
-  bottom: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
   background: #CCCCCC;
   border-radius: 50%;
 }
 
+.mixitup .allcontrols INPUT[type=checkbox]:checked + LABEL:after,
 .mixitup .allcontrols INPUT[type=radio]:checked + LABEL:after {
   background: #112C37;
   -webkit-box-shadow:inset 0px 0px 0px 3px #CCCCCC;
@@ -1606,6 +1617,7 @@ A.logo-link:active IMG {
   font-weight: 800;
   font-size: 24px;
   line-height: 1.1em;
+  text-transform: uppercase;
   text-decoration: underline;
 }
 
