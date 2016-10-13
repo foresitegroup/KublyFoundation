@@ -10,12 +10,7 @@
       <li><a href="<?php echo $TopDir; ?>news/">News</a></li>
     </ul>
   </li>
-  <li>
-    <a href="<?php echo $TopDir; ?>signs-and-facts.php">Signs &amp; Facts</a>
-    <ul>
-      <li><a href="<?php echo $TopDir; ?>resources.php">RESOURCES</a></li>
-    </ul>
-  </li>
+  <li><a href="<?php echo $TopDir; ?>signs-and-facts.php">Signs &amp; Facts</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>grants.php">Grants</a>
     <ul>
@@ -25,6 +20,12 @@
     </ul>
   </li>
   <li class="btb"><a href="<?php echo $TopDir; ?>beyond-the-blues.php">Beyond the Blues</a></li>
-  <li><a href="<?php echo $TopDir; ?>connect.php">Connect</a></li>
+  <li>
+    <a href="<?php echo $TopDir; ?>connect.php">Connect</a>
+    <ul>
+      <li><a href="<?php echo $TopDir; ?>resources.php">Resources</a></li>
+      <li><a href="<?php echo $TopDir; ?>donate.php">Donate</a></li>
+    </ul>
+  </li>
   <li class="incrisis"><a href="#incrisis">In Crisis?</a></li>
 </ul>
