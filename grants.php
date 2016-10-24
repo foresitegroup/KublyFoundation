@@ -34,7 +34,6 @@ include "header.php";
       <li>Do not request money for personnel salary, meals or refreshments, child care or overhead expenses;</li>
       <li>Will not be a critical source of funds to support the ongoing fiscal health of the receiving organization.</li>
       <li>Do not request money for film production; however, we will consider promotional help once completed.</li>
-      <li>We prefer to provide grants that impact the state of Wisconsin, as the majority of our donor base resides here. We will fund grants outside of our state if they are deemed to have potential as a future project for the state of Wisconsin.</li>
     </ol>
   </div>
 </div>

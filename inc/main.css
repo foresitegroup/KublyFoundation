@@ -2240,7 +2240,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 .btb-banner .header-left {
   float: left;
   width: 53%;
-  color: #82C150;
+  color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 120px;
   font-weight: 800;
@@ -2252,9 +2252,13 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   padding-left: 0.25em;
 }
 
-.btb-banner .header-left SPAN {
-  color: #F5A21C;
-}
+.btb-green { color: #82C150; }
+.btb-yellow { color: #F5E20B; }
+.btb-orange { color: #F5A21C; }
+.btb-red { color: #EE312B; }
+.btb-pink { color: #F171AB; }
+.btb-purple { color: #6B4099; }
+.btb-blue { color: #24A6DC; }
 
 .btb-banner .header-right {
   float: right;

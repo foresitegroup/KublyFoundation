@@ -88,7 +88,7 @@ include "header.php";
         <input type="hidden" name="item_number" value="cekdonation">
         <input type="hidden" name="currency_code" value="USD">
 
-        <input type="text" name="donation-amount" placeholder="Amount $">
+        <input type="text" name="amount" placeholder="Amount $">
 
         <span class="bluetext">DONATION TYPE</span><br>
         <input type="radio" name="recipient-donation-type" value="" id="r-standard" checked> <label for="r-standard">Standard</label>

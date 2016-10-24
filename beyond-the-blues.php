@@ -10,7 +10,8 @@ include "header.php";
 <div class="btb-banner">
   <div class="site-width">
     <div class="header-left">
-      BEYOND <div>THE</div> BLUES <span>2017</span>
+      <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span>
+      <span class="btb-blue"><div>THE</div> BLUES</span> 2017
     </div>
 
     <div class="header-right">
