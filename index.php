@@ -72,7 +72,7 @@ include "header.php";
       <br>
 
       <a href="beyond-the-blues.php" class="button">EVENT INFO</a>
-      <a href="#" class="more">+ MORE EVENTS</a>
+      <a href="events.php" class="more">+ MORE EVENTS</a>
     </div>
   </div>
 

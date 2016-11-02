@@ -18,7 +18,7 @@ $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 	<div class="site-width">
 	  <h1>BEYOND THE BLUES CONCERT EVENT</h1>
 	  SATURDAY SEPTEMBER 16, 2017<br>
-	  <a href="<php echo $TopDir; ?>/beyond-the-blues.php">FOR EVENT INFO</a>
+	  <a href="<?php echo $TopDir; ?>beyond-the-blues.php">FOR EVENT INFO</a>
 	</div>
 </div>
 
