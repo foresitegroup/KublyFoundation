@@ -9,7 +9,7 @@ include "header.php";
 <div class="site-width legal">
   <h1>PRIVACY</h1>
   
-  The Charles E. Kubly Foundation (the "Foundation") recognizes that your privacy is important, and that you have the right to know how we treat the information you provide to us through this Web Site. If you have questions about privacy that this Privacy Policy does not answer below, please contact us via the Web Site or at The Charles E. Kubly Foundation, P.O. Box 170284, Milwaukee, WI 53217.<br>
+  The Charles E. Kubly Foundation (the "Foundation") recognizes that your privacy is important, and that you have the right to know how we treat the information you provide to us through this Web Site. If you have questions about privacy that this Privacy Policy does not answer below, please contact us via the Web Site or at The Charles E. Kubly Foundation, 1341 W. Mequon Road, Suite 220, Mequon, WI 53092.<br>
   <br>
 
   <strong>1. Information Gathered</strong><br>

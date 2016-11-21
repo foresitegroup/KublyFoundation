@@ -138,8 +138,9 @@ include "header.php";
   <br>
 
   The Charles E. Kubly Foundation<br>
-  P.O. Box 170284<br>
-  Milwaukee, WI 53217<br>
+  1341 W. Mequon Road<br>
+  Suite 220<br>
+  Mequon, WI 53092<br>
   <br>
 
   Thank you very much for your support.<br>

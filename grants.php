@@ -41,7 +41,7 @@ include "header.php";
 <div id="grant-guidelines">
   <div class="site-width">
     <h1>GRANT REQUEST GUIDELINES</h1>
-    Grant Request Guidelines The Board of Directors of the Charles E. Kubly Foundation formally reviews proposals and makes gifts twice annually: once in the spring and again in the fall. We encourage you to submit your grant request no later than <strong>MARCH 20, 2016</strong> for consideration during our spring review and no later than <strong>SEPTEMBER 20, 2016</strong> for consideration during our fall review. Listed below are the steps to anticipate in preparing a grant request.<br>
+    The Board of Directors of the Charles E. Kubly Foundation formally reviews proposals and makes gifts twice annually: once in the spring and again in the fall. We encourage you to submit your grant request no later than <strong>MARCH 20, 2016</strong> for consideration during our spring review and no later than <strong>SEPTEMBER 20, 2016</strong> for consideration during our fall review. Listed below are the steps to anticipate in preparing a grant request.<br>
     <br>
     <br>
 
@@ -63,8 +63,9 @@ include "header.php";
         Submit your grant request for formal review by providing 9 paper clipped copies of your request and mail to:<br>
 
         <div class="bluetext">Charles E. Kubly Foundation<br>
-        P.O. Box 170284<br>
-        Milwaukee, WI 53217</div>
+        1341 W. Mequon Road<br>
+        Suite 220<br>
+        Mequon, WI 53092</div>
       </li>
       <li>The Board makes its decision regarding your grant request; and our Executive Director will notify you of our decision.</li>
     </ol>

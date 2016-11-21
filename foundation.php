@@ -103,7 +103,7 @@ include "header.php";
     </div>
 
     <div class="right">
-      Keeping overhead costs down enables the maximum amount of funds to be provided for life-improving projects. This is one of the Foundation's main goals. We have tried to answer as many FAQs to allow for our volunteers and employees to dedicate themselves to as much project-related work as possible. Feel free to <a href="#">contact</a> us with any questions.
+      Keeping overhead costs down enables the maximum amount of funds to be provided for life-improving projects. This is one of the Foundation's main goals. We have tried to answer as many FAQs to allow for our volunteers and employees to dedicate themselves to as much project-related work as possible. Feel free to <a href="connect.php">contact</a> us with any questions.
     </div>
 
     <div style="clear: both;"></div><br>
@@ -112,7 +112,7 @@ include "header.php";
     <strong class="q">Q: I want to help the Charles E. Kubly Foundation in its efforts to improve the lives of those affected by depression. What can I do?</strong><br>
     <br>
 
-    <a href="#">Register</a> with us so that you can receive our mailings and news about upcoming events electronically. Make a <a href="#">donation</a> to the foundation and help fund quality mental health projects. Talk about the illness of depression openly. Spread the word that it is a treatable disease.<br>
+    <a href="connect.php#newsletter">Register</a> with us so that you can receive our mailings and news about upcoming events electronically. Make a <a href="donate.php">donation</a> to the foundation and help fund quality mental health projects. Talk about the illness of depression openly. Spread the word that it is a treatable disease.<br>
     <br>
     <br>
 
@@ -135,8 +135,9 @@ include "header.php";
 
     Project proposals can be mailed to:<br>
     The Charles E. Kubly Foundation<br>
-    P.O. Box 170284<br>
-    Milwaukee, WI 53217<br>
+    1341 W. Mequon Road<br>
+    Suite 220<br>
+    Mequon, WI 53092<br>
     Currently, the Board of Directors of the Charles E. Kubly Foundation reviews project proposals and provides grants bi-annually.<br>
     <br>
     <br>

@@ -22,8 +22,9 @@ include "header.php";
     <div class="right">
       <div>
         The Charles E. Kubly Foundation<br>
-        P.O. Box 170284<br>
-        Milwaukee, WI 53217<br>
+        1341 W. Mequon Road<br>
+        Suite 220<br>
+        Mequon, WI 53092<br>
         <br>
 
         <strong>(414) 477-9959</strong><br>

@@ -2,7 +2,7 @@
     <div class="footer-join<?php if (isset($ArrowNo)) echo " noarrow"; ?>">
       <div class="site-width">
         <h2>JOIN OUR EFFORTS</h2>
-        <a href="https://twitter.com/hashtag/mentalhealthfeelslike">#mentalhealthfeelslike</a>
+        <a href="https://twitter.com/hashtag/mentalhealthdoesmatter">#mentalhealthdoesmatter</a>
       </div>
     </div>
 
