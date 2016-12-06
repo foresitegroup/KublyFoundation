@@ -46,7 +46,10 @@ include "header.php";
     <script src="inc/swipebox/jquery.swipebox.min.js"></script>
     <link rel="stylesheet" href="inc/swipebox/swipebox.css">
     <script type="text/javascript">
-      $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
+      $(document).ready(function() {
+        $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0});
+        $('.swipe-box').swipebox({autoplayVideos: true, hideBarsDelay : 0});
+      });
     </script>
     <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">WATCH VIDEO</a>
   </div>
@@ -55,7 +58,7 @@ include "header.php";
 <div class="home-event">
   <div class="site-width">
     <div class="home-event-left">
-      <a href="https://www.youtube.com/watch?v=vv5wdXHEbYM" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/watch?v=vv5wdXHEbYM" class="swipe-box"><i class="fa fa-play" aria-hidden="true"></i></a>
     </div>
 
     <div class="home-event-right">
