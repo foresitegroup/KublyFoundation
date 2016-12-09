@@ -17,7 +17,11 @@ include "header.php";
     <div class="header-right">
       SATURDAY<br>
       SEPTEMBER 16<sup>TH</sup> 2017<br>
-      <div>AT DISCOVERY WORLD - PIER WISCONSIN</div>
+      <div>
+        AT DISCOVERY WORLD - PIER WISCONSIN<br>
+        <br>
+        Charles E Kubly Foundation Fundraiser
+      </div>
       <br>
 
       <a href="#btb-video">BTB 2016</a>
@@ -247,7 +251,7 @@ include "header.php";
 
       <div class="btb-sponsorship">
         INTERESTED IN SPONSORSHIP?<br>
-        <a href="donate.php">LEARN MORE</a>
+        <a href="pdf/Sponsor_Reply_Sheet_2016.pdf">LEARN MORE</a>
       </div>
     </div>
   </div>

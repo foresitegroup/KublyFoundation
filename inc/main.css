@@ -151,6 +151,13 @@ A.watchvideo:after {
 
 .bluetext { color: #0E8DC8; }
 
+.smalltext {
+  font-weight: normal;
+  font-size: 70%;
+  line-height: 1.3em;
+  display: inline-block;
+}
+
 .image-slider {
   overflow: hidden;
   position: relative;
@@ -1473,6 +1480,25 @@ A.logo-link:active IMG {
   padding: 4em 0;
 }
 
+.funding-current .slick-prev { display: none !important; }
+
+.funding-current .slick-next {
+  position: absolute;
+  top: -0.2em;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: 30px;
+  color: #0E8DC8;
+}
+
+.funding-current .slick-next:hover {
+  color: #B7B7B7;
+}
+
 .funding-current .slick-slider {
   -webkit-user-select: all;
   -moz-user-select: all;
@@ -2268,7 +2294,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   font-size: 32px;
   font-weight: 800;
   line-height: 1.1em;
-  padding-top: 190px;
+  padding-top: 170px;
 }
 
 .btb-banner .header-right SUP {
@@ -2720,6 +2746,10 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   line-height: 1em;
 }
 
+.call-circle H3:first-of-type {
+  margin-bottom: 0.5em;
+}
+
 .call-circle A {
   color: #FFFFFF;
   text-decoration: none;
@@ -3100,7 +3130,8 @@ A.featured-read:active {
 
 .news-footer .site-width H1 {
   margin: 0 0 0.3em;
-  color: #82C150;
+  /*color: #82C150;*/
+  color: #EE312B;
   font-weight: 800;
   font-size: 99px;
   line-height: 1em;

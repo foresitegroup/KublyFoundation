@@ -27,7 +27,7 @@ if (!isset($TopDir)) $TopDir = "";
     <meta name="viewport" content="width=device-width">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css<?php if ($TopDir == "") echo '?'.filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
@@ -57,7 +57,7 @@ if (!isset($TopDir)) $TopDir = "";
       If you or someone you know is at immediate risk of harm or has harmed themselves <u>CALL 911</u> immediately.<br>
       <br>
 
-      If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>1-800-273-8255</u> or, TEXT the Crisis Text Line by texting "LISTEN" to <u>741-741</u>.
+      If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>1-800-273-8255</u> or, TEXT the HOPELINE <u>741741</u>.
     </div>
 
     <?php if (!isset($PageTitle)) { ?>

@@ -32,7 +32,7 @@ include "header.php";
       <script type="text/javascript">
         $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
       </script>
-      <a href="https://www.youtube.com/watch?v=VK9Z8rtzzOs" class="watchvideo swipebox">WATCH VIDEO</a>
+      <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">2015 PROJECT VIDEO</a>
     </div>
 
     <div class="foundation-right">
@@ -197,13 +197,17 @@ include "header.php";
     </div>
 
     <div class="right">
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Molly Fritz</strong>, President &nbsp; // &nbsp; <strong>Ross Williams</strong>, Treasurer, Robert W. Baird &amp; Co. &nbsp; // &nbsp; <strong>John Bolger</strong>, Secretary, Bolger Legal Group &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, AMC Networks &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Sally Kubly</strong>, Independent Career Coach &nbsp; // &nbsp; <strong>Linda L. Lundeen</strong>, Coldwell Banker &nbsp; // &nbsp; <strong>Devin Wolf</strong>, Wolf Paving<br>
+      <h4>BOARD OF DIRECTORS:</h4> <strong>Molly Kubly Fritz</strong>, President &nbsp; // &nbsp; <strong>Ross Williams</strong>, Treasurer, Robert W. Baird &amp; Co. &nbsp; // &nbsp; <strong>John Bolger</strong>, Secretary, Bolger Legal Group &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, AMC Networks &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Sally Kubly</strong>, Independent Career Coach &nbsp; // &nbsp; <strong>Linda L. Lundeen</strong>, Coldwell Banker &nbsp; // &nbsp; <strong>Devin Wolf</strong>, Wolf Paving<br>
       <br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
 
       <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson</strong>, MD Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake</strong>, MD Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Joseph Layde</strong>, MD, JD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride</strong>, MD Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts</strong>, MD National Medical Advisor Stanford University<br>
+      <br>
+
+      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Joseph Layde</strong>, MD, JD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin<br>
+      <strong>We are extremely grateful for the time, expertise and dedication to the Grant Review Committee.</strong><br>
       <br>
 
       <h4>COMMUNITY ADVISORY BOARD:</h4> <strong>Kerry Bolger</strong> &nbsp; // &nbsp; <strong>T. Michael Bolger</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>David Fritz</strong>, Executive Benefits Network &nbsp; // &nbsp; <strong>Chip Kubly</strong>, Jim's Cheese &nbsp; // &nbsp; <strong>Susie Jennings</strong> &nbsp; // &nbsp; <strong>Susie Steiner</strong> &nbsp; // &nbsp; <strong>Julie Pandl</strong>, Author &nbsp; // &nbsp; <strong>Maureen Stalle</strong>, Keller Williams Realty &nbsp; // &nbsp; <strong>Angela Williams</strong> &nbsp; // &nbsp; <strong>Sandy Williams</strong>, Foley &amp; Lardner Retired<br>

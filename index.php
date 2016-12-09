@@ -38,7 +38,7 @@ include "header.php";
   <div class="site-width">
     <h1>PROJECTS FUNDED</h1>
 
-    Through the generous support of our donors, we fund quality mental health projects and provide grants to nonprofit organizations for projects that are consistent with our mission to raise awareness of depression, reduce the stigma associated with it and help people access resources in their communities. Additionally we have funded projects that address suicide prevention.<br>
+    Through the generous support of our donors, we provide grants to fund quality mental health projects to nonprofit organizations for projects that are consistent with our mission to raise awareness of depression, reduce the stigma associated with it and help people access resources in their communities. Additionally, we fund projects that address suicide prevention.<br>
     <br>
 
     <a href="grants.php#grant-guidelines" class="button">GRANT REQUESTS</a>
@@ -51,7 +51,7 @@ include "header.php";
         $('.swipe-box').swipebox({autoplayVideos: true, hideBarsDelay : 0});
       });
     </script>
-    <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">WATCH VIDEO</a>
+    <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">2015 PROJECT VIDEO</a>
   </div>
 </div>
 

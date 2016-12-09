@@ -51,8 +51,11 @@ include "header.php";
       Lithium Carbonate, Divalproex Sodium (Depakote), Lamotrigine (Lamictal).<br>
       <br>
 
-      <h3>ELECTROCONVULSIVE THERAPY (ECT):</h3>
-      Effective treatment of refractory or suicidal depression.
+      <h3>ELECTROCONVULSIVE THERAPY (ECT), REPETITIVE TRANSCRANIAL MAGNETIC STIMULATION (rTMS):</h3>
+      Non-Medication Treatment Alternatives for unresponsive depression may include ECT, TMS and VNS.<br>
+      <br>
+
+      <em class="smalltext">These are common mediations and procedures in the treatment of depression. Please consult your doctor to determine the medication or treatment appropriate for you.</em>
     </div>
   </div>
 </div>
@@ -63,6 +66,8 @@ include "header.php";
       <div>
         CALL THE NATIONAL SUICIDE PREVENTION HOTLINE:
         <h3>1-800-273-TALK</h3>
+        TEXT THE HOPELINE:
+        <h3>741741</h3>
       </div>
     </div>
 
@@ -97,7 +102,7 @@ include "header.php";
       HIGHEST RATE OF SUCCESSFUL SUICIDE IN OLDER WHITE MEN LIVING IN THE U.S.<br>
       <br>
 
-      <a href="donate.php" class="button">GET INVOLVED</a>
+      <a href="donate.php" class="button">MAKE A DIFFERENCE</a>
     </div>
   </div>
 </div>
@@ -106,7 +111,8 @@ include "header.php";
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span>
+    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span><br>
+    TEXT the HOPELINE: <span class="bluetext">741741</span>
   </div>
 </div>
 

@@ -17,7 +17,7 @@ include "header.php";
       <script type="text/javascript">
         $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
       </script>
-      <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">WATCH VIDEO</a>
+      <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">2015 PROJECT VIDEO</a>
     </div>
 
     <div class="right">
@@ -28,7 +28,7 @@ include "header.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    WE HAVE PROVIDED FUNDS TO THE FOLLOWING ORGANIZATIONS IN 2016:
+    CEKF HAS FUNDED OVER $1.8 MILLION TO 230 PROJECTS SINCE 2003
   </div>
 </div>
 
@@ -38,7 +38,7 @@ include "header.php";
 
 <div class="funding-current-menu">
   <div class="site-width">
-    <div class="left">FUNDED ORGANIZATION:</div>
+    <div class="left">CURRENT PROJECTS FUNDED:</div>
     <div class="right"></div>
   </div>
 </div>
@@ -149,7 +149,7 @@ include "header.php";
 
 <div class="mixitup-header">
   <div class="site-width">
-    Since 2004, we have provided funds to the following organizations.
+    Since 2003, we have provided funds to the following organizations.
   </div>
 </div>
 
@@ -218,7 +218,8 @@ include "header.php";
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span>
+    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span><br>
+    TEXT the HOPELINE: <span class="bluetext">741741</span>
   </div>
 </div>
 
