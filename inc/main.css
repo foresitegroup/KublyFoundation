@@ -4046,13 +4046,47 @@ A.featured-read:active {
 
 @media only screen and (max-width: 480px) {
   /* Phone */
-  .kf-header { background: linear-gradient(90deg, #FFFFFF 73%, #0E8DC8 27%); }
-  .logo { width: 70%; }
+  .kf-header {
+    display: none;
+  }
 
-  .scrolling-menu { background: linear-gradient(90deg, #F8F8F8 62%, #0E8DC8 38%); }
+  .scrolling-menu {
+    background: linear-gradient(90deg, #FFFFFF 73%, #0E8DC8 27%);
+  }
+
+  .scrolling-menu .site-width {
+    height: 105px;
+  }
+
   .scrolling-menu .logo,
   .btb .scrolling-menu .logo {
-    width: 58%;
+    width: 70%;
+    height: 105px;
+  }
+
+  .menu-holder {
+    position: absolute;
+    top: 0;
+  }
+
+  .menu UL LI A:link,
+  .menu UL LI A:visited,
+  .menu UL LI UL LI A:link,
+  .menu UL LI UL LI A:visited,
+  .scrolling-menu .menu UL LI A:link,
+  .scrolling-menu .menu UL LI A:visited {
+    font-size: 35px;
+  }
+  
+  .scrolling-menu .menu,
+  .scrolling-menu .menu UL LI UL,
+  .menu UL LI UL {
+    padding: 0;
+    top: 105px;
+  }
+
+  .home-banner {
+    margin-top: 105px;
   }
 
   .home-banner .home-banner-slide .site-width H1 {
@@ -4068,14 +4102,6 @@ A.featured-read:active {
   .home-banner A.learnmore:visited {
     display: inline-block;
     margin-top: 1em;
-  }
-
-  .scrolling-menu.sticky {
-    position: relative;
-  }
-
-  .btb .scrolling-menu.sticky.btb-sticky {
-    top: 14px;
   }
 
   .home-mission .home-mission-left H1 {
@@ -4318,7 +4344,7 @@ A.featured-read:active {
   .menu UL LI UL LI A:visited,
   .scrolling-menu .menu UL LI A:link,
   .scrolling-menu .menu UL LI A:visited {
-    font-size: 220%;
+    font-size: 28px;
   }
 
   .foundation-left {
