@@ -43,7 +43,7 @@ include "header.php";
       Selective Serotonin Reuptake Inhibiters (SSRIs), Such as Fluoxetine (Prozac), Sertraline (Zoloft), Paroxetine (Paxil), Citalopram (Celexa), among others.<br>
       <br>
 
-      <h3>OTHER COMPOUNDS MAY INCLUDE</h3>
+      <h3>OTHER COMPOUNDS MAY INCLUDE:</h3>
       Bupropion (Wellbutrin), Venlafaxine (Effexor), Duloxetine (Cymbalta), and Amitriptyline (Elavil).<br>
       <br>
 

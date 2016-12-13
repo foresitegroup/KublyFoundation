@@ -135,7 +135,7 @@ include "header.php";
 
   <h3>NOTIFY ME WHEN TICKETS BECOME AVAILABLE.</h3>
 
-  Sign me up for Beyond the Blues &amp; Charles E. Kubly updates.<br>
+  Sign me up for Beyond the Blues updates and the Charles E. Kubly Foundation newsletter.<br>
 
   <div id="newsletter-form-messages"><?php echo $nlfeedback; ?></div>
 

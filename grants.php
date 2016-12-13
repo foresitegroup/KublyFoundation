@@ -30,9 +30,9 @@ include "header.php";
     <h2>WE PREFER GRANT REQUESTS THAT:</h2>
     <ol>
       <li>Impact the state of Wisconsin, as the majority of our donor base reside here.  We will consider grants outside of our state if they are deemed to have potential as a future project for the state of Wisconsin.</li>
-      <li>Are projects with a beginning and end. Must have measureable outcomes to evaluate the effectiveness of the program. Please note any train the trainer programs will require outcomes for three (3) levels of training.</li>
+      <li>Are projects with a beginning and end. Must have measureable outcomes to evaluate the effectiveness of the program. Please note any "train the trainer" programs will require outcomes for three (3) levels of training.</li>
       <li>Do not request money for meals or refreshments, child care or overhead expenses, including travel expenses for employees.  Travel expenses for a speaker or panelist will be considered.</li>
-      <li>Do not request money for legislative or political purposes</li>
+      <li>Do not request money for legislative or political purposes.</li>
       <li>Will not be a critical source of funds to support the ongoing fiscal health of the receiving organization. We will consider salaries as long as only for the Grant period.</li>
       <li>Do not request money for film production; however, we will consider promotional help once completed.</li>
     </ol>
@@ -58,7 +58,7 @@ include "header.php";
         <div class="bluetext long-string">
           Molly Kubly Fritz<br>
           Executive Director<br>
-          <?php email("Mollykiblyfritz@cekf.org"); ?><br>
+          <?php email("Mollykublyfritz@cekf.org"); ?><br>
           (414) 217-0397
         </div>
       </li>

@@ -110,7 +110,7 @@ include "header.php";
 
       <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Message"></textarea>
 
-      <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> <label for="c-subscribe"><span></span>I would like to receive the Charles E. Kubly newsletter and event information.</label>
+      <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> <label for="c-subscribe"><span></span>I would like to receive the Charles E. Kubly Foundation newsletter and event information.</label>
 
       <input type="hidden" name="referrer" value="connect.php">
 

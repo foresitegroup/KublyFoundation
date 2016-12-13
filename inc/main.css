@@ -2059,6 +2059,7 @@ html {
   width: 65%;
   margin: 3em auto 0;
   font-size: 16px;
+  text-align: left;
 }
 
 #connect-form .required {
@@ -2128,6 +2129,9 @@ INPUT[type="checkbox"]#c-subscribe {
 INPUT[type="checkbox"]#c-subscribe + LABEL {
   display: block;
   color: #707070;
+  padding-left: 1.5em;
+  position: relative;
+  line-height: 1.2em;
 }
 
 INPUT[type="checkbox"]#c-subscribe + LABEL:before {
@@ -2139,8 +2143,9 @@ INPUT[type="checkbox"]#c-subscribe + LABEL:before {
   content: "";
   background: #0E8DC8;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   top: 0.15em;
+  left: 0;
 }
 
 INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
