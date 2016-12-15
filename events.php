@@ -28,6 +28,23 @@ include "header.php";
   <div class="site-width">
     <div class="event">
       <div class="event-left">
+        <div class="event-day">Saturday</div>
+        January 7<br>
+        7:00 pm
+
+        <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a>
+      </div>
+
+      <div class="event-right">
+        <div class="event-title">Charlie's Night Out</div>
+        A fun night out for a great cause! Grab your friends and join us for our FIRST ever blue jean casual "Charlie's Night Out" fundraiser at the Black Swan in Milwaukee's Downtown Third Ward. Tickets are $25.00.
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
         <div class="event-day">Thursday</div>
         November 3<br>
         5:30 pm
