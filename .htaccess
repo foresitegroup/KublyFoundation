@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^cekf.org [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.cekf.org [NC]
+RewriteRule ^(.*)$ http://www.charlesekublyfoundation.org/$1 [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} ^beyondtheblues.org [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.beyondtheblues.org$ [NC]
+RewriteRule ^(.*)$ http://www.charlesekublyfoundation.org/beyond-the-blues.php [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^charliesfund.org [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.charliesfund.org [NC]
+RewriteRule ^(.*)$ http://www.charlesekublyfoundation.org/$1 [L,R=301,NC]

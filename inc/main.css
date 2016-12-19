@@ -288,7 +288,7 @@ A.watchvideo:after {
   position: absolute;
   top: 105px;
   left: -50000px;
-  z-index: 1;
+  z-index: 10000;
   width: 100%;
   background: rgba(255,255,255,0.9);
   line-height: 1em;
