@@ -10,7 +10,7 @@
       <div class="site-width">
         <div class="social">
           <a href="https://www.facebook.com/Charles-E-Kubly-FoundationBeyond-the-Blues-284170516290/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <!-- <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
           <a href="https://www.youtube.com/channel/UCaCjuonRqJgEgAau-bJpybg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
           <!-- <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
         </div>
@@ -29,6 +29,9 @@
         </div>
       </div>
     </div>
+
+  </div> <!-- /#my-page For mobile menu -->
+  <nav id="my-menu"><?php include "menu.php" ?></nav>
 
   </body>
 </html>

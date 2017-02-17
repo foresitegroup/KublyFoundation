@@ -28,4 +28,8 @@
     </ul>
   </li>
   <li class="incrisis"><a href="#incrisis">In Crisis?</a></li>
+  <li class="social">
+    <a href="https://www.facebook.com/Charles-E-Kubly-FoundationBeyond-the-Blues-284170516290/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href="https://www.youtube.com/channel/UCaCjuonRqJgEgAau-bJpybg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+  </li>
 </ul>

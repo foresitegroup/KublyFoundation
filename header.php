@@ -27,11 +27,13 @@ if (!isset($TopDir)) $TopDir = "";
     <meta name="viewport" content="width=device-width">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="<?php echo $TopDir; ?>inc/jquery.mmenu.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css<?php if ($TopDir == "") echo '?'.filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery.modal.min.js"></script>
+    <script src="<?php echo $TopDir; ?>inc/jquery.mmenu.min.js" type="text/javascript"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http'], a[href$='.pdf']").not("[href*='" + window.location.host + "']").attr('target','_blank');
@@ -48,6 +50,12 @@ if (!isset($TopDir)) $TopDir = "";
           event.preventDefault();
           $(this).modal({ fadeDuration: 200, fadeDelay: 0 });
         });
+
+        // Mobile menu dropdowns
+        $("#my-menu").mmenu({
+          "navbar": { "title": '<a href="#my-page">&times</a>' },
+          "extensions": [ "pagedim-black" ]
+        });
       });
     </script>
 
@@ -62,70 +70,73 @@ if (!isset($TopDir)) $TopDir = "";
     </script>
   </head>
   <body>
+    <div id="my-page"> <!-- For mobile menu -->
 
-    <div id="incrisis" style="display: none;">
-      If you or someone you know is at immediate risk of harm or has harmed themselves <u>CALL 911</u> immediately.<br>
-      <br>
+      <div id="incrisis" style="display: none;">
+        If you or someone you know is at immediate risk of harm or has harmed themselves <u>CALL 911</u> immediately.<br>
+        <br>
 
-      If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>1-800-273-8255</u> or, TEXT the HOPELINE <u>741741</u>.
-    </div>
-
-    <?php if (!isset($PageTitle)) { ?>
-    <div class="kf-header">
-      <div class="site-width">
-        <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
-
-        <input type="checkbox" id="show-menu" role="button">
-        <label for="show-menu" id="menu-toggle"></label>
-        <div class="menu"><?php include "menu.php" ?></div>
+        If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>1-800-273-8255</u> or, TEXT the HOPELINE <u>741741</u>.
       </div>
-    </div>
-    
-    <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
-    <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-<!--       <div class="home-banner-slide night-out">
+
+      <?php if (!isset($PageTitle)) { ?>
+      <div class="kf-header">
         <div class="site-width">
-          <h1>CHARLIE'S NIGHT OUT</h1>
-          <h2>
-            <div class="green"></div>
-            <div class="yellow"></div>
-            <div class="orange"></div>
-            LET'S TALK ABOUT MENTAL ILLNESS
-            <div class="red"></div>
-            <div class="pink"></div>
-            <div class="purple"></div>
-          </h2>
-          <h3>A CHARLES E KUBLY FOUNDATION EVENT</h3>
-
-          <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699" class="button">TICKETS + INFO</a>
-        </div>
-      </div> -->
-
-      <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
-        <div class="site-width">
-          <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
-
-          <a href="donate.php" class="button">DONATE</a>
-          <a href="foundation.php" class="learnmore">LEARN MORE</a>
-        </div>
-      </div>
-    </div>
-    <?php } ?>
-
-    <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">
-      <div class="scrolling-menu">
-        <div class="site-width">
-          <a href="<?php echo $TopDir; ?>." class="logo">
-            <?php if (isset($PageMod)) { ?>
-            <img src="images/beyond-the-blues-logo.png" alt="Beyond the Blues">
-            <?php } else { ?>
-            <img src="<?php echo $TopDir; ?>images/logo.png" alt="The Charles E. Kubly Foundation">
-            <?php } ?>
-          </a>
-
-          <input type="checkbox" id="scrolling-show-menu" role="button">
-          <label for="scrolling-show-menu" id="scrolling-menu-toggle"></label>
+          <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
+          
+          <a href="#my-menu" class="my-menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+          <input type="checkbox" id="show-menu" role="button">
+          <label for="show-menu" id="menu-toggle"></label>
           <div class="menu"><?php include "menu.php" ?></div>
         </div>
       </div>
-    </div>
+      
+      <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
+      <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
+  <!--       <div class="home-banner-slide night-out">
+          <div class="site-width">
+            <h1>CHARLIE'S NIGHT OUT</h1>
+            <h2>
+              <div class="green"></div>
+              <div class="yellow"></div>
+              <div class="orange"></div>
+              LET'S TALK ABOUT MENTAL ILLNESS
+              <div class="red"></div>
+              <div class="pink"></div>
+              <div class="purple"></div>
+            </h2>
+            <h3>A CHARLES E KUBLY FOUNDATION EVENT</h3>
+
+            <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699" class="button">TICKETS + INFO</a>
+          </div>
+        </div> -->
+
+        <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
+          <div class="site-width">
+            <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
+
+            <a href="donate.php" class="button">DONATE</a>
+            <a href="foundation.php" class="learnmore">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+      <?php } ?>
+
+      <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">
+        <div class="scrolling-menu">
+          <div class="site-width">
+            <a href="<?php echo $TopDir; ?>." class="logo">
+              <?php if (isset($PageMod)) { ?>
+              <img src="images/beyond-the-blues-logo.png" alt="Beyond the Blues">
+              <?php } else { ?>
+              <img src="<?php echo $TopDir; ?>images/logo.png" alt="The Charles E. Kubly Foundation">
+              <?php } ?>
+            </a>
+            
+            <a href="#my-menu" class="my-menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <input type="checkbox" id="scrolling-show-menu" role="button">
+            <label for="scrolling-show-menu" id="scrolling-menu-toggle"></label>
+            <div class="menu"><?php include "menu.php" ?></div>
+          </div>
+        </div>
+      </div>
