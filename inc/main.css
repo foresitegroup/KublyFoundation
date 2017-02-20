@@ -3678,162 +3678,6 @@ A.featured-read:active {
     height: 0.5em;
   }
 
-  /*#menu-toggle,
-  #scrolling-menu-toggle {
-    display: block;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 200%;
-    color: #FFFFFF;
-    position: relative;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-    float: right;
-  }
-
-  #show-menu:checked + #menu-toggle,
-  #scrolling-show-menu:checked + #scrolling-menu-toggle {
-    z-index: 1000;
-  }
-
-  #menu-toggle:after,
-  #scrolling-menu-toggle:after {
-    font-family: "FontAwesome";
-    content: "\f0c9";
-  }
-  
-  #show-menu:checked + #menu-toggle:after,
-  #scrolling-show-menu:checked + #scrolling-menu-toggle:after {
-    content: "\f00d";
-    color: #1E3E4A;
-  }
-
-  .btb #show-menu:checked + #menu-toggle:after,
-  .btb #scrolling-show-menu:checked + #scrolling-menu-toggle:after {
-    color: #0E8DC8;
-  }
-
-  #show-menu:checked + #menu-toggle + .menu,
-  #scrolling-show-menu:checked + #scrolling-menu-toggle + .menu {
-    display: block;
-  }
-
-  .menu,
-  .scrolling-menu .menu {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    width: 100%;
-    height: auto;
-    line-height: 1em;
-    text-align: center;
-    float: none;
-  }
-
-  .scrolling-menu .menu { top: 0; }
-
-  .btb .scrolling-menu .menu {
-    width: 100%;
-    background: rgba(0,0,0,0.9);
-  }
-
-  .menu > UL {
-    background: rgba(14,141,200,0.98);
-    padding: 5em 0 3em;
-  }
-
-  .menu UL LI,
-  .menu UL LI.incrisis,
-  .menu UL LI UL LI,
-  .menu UL LI UL LI:first-child,
-  .scrolling-menu .menu UL LI,
-  .scrolling-menu .menu UL LI.incrisis {
-    display: block;
-    padding: 0;
-    background: transparent;
-  }
-
-  .menu UL LI.home { display: none; }
-
-  .menu UL LI.social {
-    display: block;
-    padding: 2em 0 0.5em;
-  }
-
-  .menu UL LI A:link,
-  .menu UL LI A:visited,
-  .menu UL LI UL LI A:link,
-  .menu UL LI UL LI A:visited,
-  .scrolling-menu .menu UL LI A:link,
-  .scrolling-menu .menu UL LI A:visited {
-    display: block;
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 1em;
-    padding: 0.8em 0;
-    left: 0;
-    color: #FFFFFF;
-  }
-
-  .menu UL LI.incrisis A:link,
-  .menu UL LI.incrisis A:visited {
-    color: #052838;
-  }
-
-  .menu UL LI A:hover,
-  .menu UL LI A:active,
-  .menu UL LI UL LI A:hover,
-  .menu UL LI UL LI A:active,
-  .scrolling-menu .menu UL LI A:hover,
-  .scrolling-menu .menu UL LI A:active {
-    color: #052838;
-  }
-
-  .btb .menu UL LI A:hover,
-  .btb .menu UL LI A:active {
-    color: #82C150;
-  }
-
-  .menu UL LI.incrisis A:hover,
-  .menu UL LI.incrisis A:active {
-    color: #FFFFFF;
-  }
-
-  .menu UL LI.social A:link,
-  .menu UL LI.social A:visited {
-    display: inline-block;
-    padding: 0;
-    color: #052838;
-    border-color: #052838;
-  }
-
-  .menu UL LI.social A:hover,
-  .menu UL LI.social A:active {
-    color: #FFFFFF;
-    border-color: #FFFFFF;
-  }
-  
-  .menu UL LI UL {
-    opacity: 1;
-    display: none;
-  }
-
-  .menu UL LI:hover UL {
-    display: block;
-    position: static;
-    background: transparent;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-  }
-
-  .btb .scrolling-menu.btb-sticky UL LI UL {
-    background: transparent;
-  }*/
-
   .home-banner .home-banner-slide .site-width H1 {
     font-size: 60px;
   }
@@ -4385,21 +4229,6 @@ A.featured-read:active {
     font-size: 50px;
   }
 
-/*  .menu UL LI A:link,
-  .menu UL LI A:visited,
-  .menu UL LI UL LI A:link,
-  .menu UL LI UL LI A:visited,
-  .scrolling-menu .menu UL LI A:link,
-  .scrolling-menu .menu UL LI A:visited {
-    font-size: 35px;
-  }
-  
-  .scrolling-menu .menu,
-  .scrolling-menu .menu UL LI UL,
-  .menu UL LI UL {
-    padding: 0;
-  }*/
-
   .home-banner {
     margin-top: 105px;
   }
@@ -4653,15 +4482,6 @@ A.featured-read:active {
 
 @media only screen and (max-width: 320px) {
   /* Small Phone */
-/*  .menu UL LI A:link,
-  .menu UL LI A:visited,
-  .menu UL LI UL LI A:link,
-  .menu UL LI UL LI A:visited,
-  .scrolling-menu .menu UL LI A:link,
-  .scrolling-menu .menu UL LI A:visited {
-    font-size: 28px;
-  }*/
-
   .mm-menu .mm-navbar A,
   .mm-listview > li > a,
   .mm-listview > li > span {
