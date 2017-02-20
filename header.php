@@ -84,9 +84,7 @@ if (!isset($TopDir)) $TopDir = "";
         <div class="site-width">
           <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
           
-          <a href="#my-menu" class="my-menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
-          <input type="checkbox" id="show-menu" role="button">
-          <label for="show-menu" id="menu-toggle"></label>
+          <a href="#my-menu" class="my-menu-toggle"></a>
           <div class="menu"><?php include "menu.php" ?></div>
         </div>
       </div>
@@ -133,9 +131,7 @@ if (!isset($TopDir)) $TopDir = "";
               <?php } ?>
             </a>
             
-            <a href="#my-menu" class="my-menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
-            <input type="checkbox" id="scrolling-show-menu" role="button">
-            <label for="scrolling-show-menu" id="scrolling-menu-toggle"></label>
+            <a href="#my-menu" class="my-menu-toggle"></i></a>
             <div class="menu"><?php include "menu.php" ?></div>
           </div>
         </div>

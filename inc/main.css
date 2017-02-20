@@ -210,13 +210,6 @@ A.my-menu-toggle {
   display: none;
 }
 
-#show-menu,
-#menu-toggle,
-#scrolling-show-menu,
-#scrolling-menu-toggle {
-  display: none;
-}
-
 .menu {
   float: right;
   width: 77.5%;
@@ -3575,6 +3568,11 @@ A.featured-read:active {
     color: #FFFFFF;
     font-size: 40px;
     text-decoration: none;
+  }
+
+  A.my-menu-toggle:after {
+    font-family: FontAwesome;
+    content: "\f0c9";
   }
   
   .mm-menu {
