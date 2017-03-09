@@ -61,6 +61,8 @@ include "header.php";
           <?php email("Mollykublyfritz@cekf.org"); ?><br>
           (414) 217-0397
         </div>
+
+        <em style="font-size: 80%; line-height: 1.3em;">Please contact Molly until April 3rd, 2017, after which you may contact Ann Homstad, new Executive Director at 414-477-8901</em>
       </li>
       <li>Receive an invitation to submit a formal grant request</li>
       <li>
