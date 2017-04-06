@@ -3959,13 +3959,21 @@ A.featured-read:active {
     font-size: 24px;
     color: #112C37;
     margin-bottom: 2em;
+    padding-left: 30px;
+    position: relative;
   }
 
   #filter-toggle:before {
     font-family: "FontAwesome";
     content: "\f0c9";
     color: #139AD2;
-    margin-right: 0.5em ;
+    position: absolute;
+    left: 0;
+  }
+
+  #show-filter:checked + #filter-toggle:before {
+    content: "\f00d";
+    font-size: 102.1%;
   }
 
   .mixitup .allcontrols {
@@ -3975,13 +3983,9 @@ A.featured-read:active {
     color: #FFFFFF;
     padding: 0.5em 1em;
     position: absolute;
-    top: 4em;
+    top: 6em;
     right: 0;
     z-index: 99999;
-  }
-
-  #show-filter:checked + #filter-toggle:before {
-    color: #1E3E4A;
   }
 
   #show-filter:checked + #filter-toggle + .allcontrols {
