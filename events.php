@@ -45,6 +45,23 @@ include "header.php";
 
     <div class="event">
       <div class="event-left">
+        <div class="event-day">Friday</div>
+        June 2<br>
+        7:00 pm
+
+        <a href="https://www.eventbrite.com/e/gs-big-jig-registration-33235548420">EVENT DETAILS</a>
+      </div>
+
+      <div class="event-right">
+        <div class="event-title">G's Big Jig</div>
+        Please Register for the first annual G's Big Jig 5K fun run/walk. There will be a family-friendly gathering in the park with food, beer, and entertainment. All proceeds will be donated to the Garrett Kelley Memorial Fund in coordination with the Charles E. Kubly Foundation to further our mission of providing more awareness and support for those suffering the effects of suicide and depression.
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
         <div class="event-day">Thursday</div>
         November 3<br>
         5:30 pm
