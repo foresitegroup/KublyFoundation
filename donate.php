@@ -42,7 +42,7 @@ include "header.php";
         
         $('#donation').submit(function(event) {
           function formValidation() {
-            if (!$('#r-standard').is(':checked') && $('#recipient-name').val() === '') {
+            if ($('#r-honor').is(':checked') || $('#r-memory').is(':checked') && $('#recipient-name').val() === '') {
               alert('Recpient name is required');
               $('#recipient-name').focus();
               return false;
@@ -52,7 +52,7 @@ include "header.php";
           }
           
           if (formValidation()) {
-            if (!$('#r-standard').is(':checked')) {
+            if ($('#r-honor').is(':checked') || $('#r-memory').is(':checked')) {
               var paypalstring = $('#recipient-name').val() + "^";
               paypalstring += $('#notification-address').val() + "^";
               paypalstring += $('#notification-city').val() + "^";
