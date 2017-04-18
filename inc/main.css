@@ -441,6 +441,18 @@ A.my-menu-toggle {
   color: #139AD2;
 }
 
+.home-banner .big-jig .site-width {
+  top: auto;
+  transform: none;
+  height: 100%;
+}
+
+.home-banner .big-jig .site-width A {
+  position: absolute;
+  left: 36%;
+  bottom: 4em;
+}
+
 .menu-holder {
   height: 82px;
 }
@@ -3441,6 +3453,9 @@ A.featured-read:active {
     font-size: 12px;
   }
 
+  .home-banner .home-banner-slide.big-jig { height: 500px; }
+  .home-banner .big-jig .site-width A { bottom: 10%; }
+
   .home-event-right A.button:link,
   .home-event-right A.button:visited {
     margin-right: 0;
@@ -3768,6 +3783,8 @@ A.featured-read:active {
   .mm-listview > li > span {
     font-size: 25px;
   }
+
+  .home-banner .home-banner-slide.big-jig { height: 400px; }
 
   .home-mission,
   .home-mission .site-width {
@@ -4249,6 +4266,9 @@ A.featured-read:active {
     display: inline-block;
     margin-top: 1em;
   }
+
+  .home-banner .home-banner-slide.big-jig { height: 250px; }
+  .home-banner .big-jig .site-width A { font-size: 15px; }
 
   .home-mission .home-mission-left H1 {
     font-size: 68px;
