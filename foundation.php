@@ -216,7 +216,7 @@ include "header.php";
       <h4>BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
       <br>
 
-      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Ann Homestad</strong>, 414.477.8901, <?php email("ahomestad@charlesekublyfoundation.org"); ?>
+      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Ann Homestad</strong>, 414.477.9959, <?php email("ahomestad@charlesekublyfoundation.org"); ?>
     </div>
   </div>
 </div>
