@@ -56,13 +56,11 @@ include "header.php";
         Contact our Executive Director by telephone to generally discuss your grant request and these guidelines or send a Letter of Inquiry. We encourage you to do this well in advance of our deadline. Grants that have been sent in without a previous discussion with the ED will not be accepted.<br>
 
         <div class="bluetext long-string">
-          Molly Kubly Fritz<br>
+          Ann Homstad<br>
           Executive Director<br>
-          <?php email("Mollykublyfritz@cekf.org"); ?><br>
-          (414) 217-0397
+          <?php email("ahomstad@cekf.org"); ?><br>
+          (414) 477-8901
         </div>
-
-        <em style="font-size: 80%; line-height: 1.3em;">Please contact Molly until April 3rd, 2017, after which you may contact Ann Homstad, new Executive Director at 414-477-8901</em>
       </li>
       <li>Receive an invitation to submit a formal grant request</li>
       <li>

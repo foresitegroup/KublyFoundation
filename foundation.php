@@ -203,10 +203,10 @@ include "header.php";
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
 
-      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson</strong>, MD Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake</strong>, MD Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Joseph Layde</strong>, MD, JD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride</strong>, MD Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts</strong>, MD National Medical Advisor Stanford University<br>
+      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson</strong>, MD Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake</strong>, MD Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride</strong>, MD Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts</strong>, MD National Medical Advisor Stanford University<br>
       <br>
 
-      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Joseph Layde</strong>, MD, JD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin<br>
+      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin<br>
       <strong>We are extremely grateful for the time, expertise and dedication to the Grant Review Committee.</strong><br>
       <br>
 
@@ -216,7 +216,7 @@ include "header.php";
       <h4>BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
       <br>
 
-      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Ann Homestad</strong>, 414.477.9959, <?php email("ahomestad@charlesekublyfoundation.org"); ?>
+      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Ann Homstad</strong>, 414.477.8901, <?php email("ahomstad@cekf.org"); ?>
     </div>
   </div>
 </div>
