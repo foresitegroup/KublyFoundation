@@ -46,59 +46,59 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> ALVERNO COLLEGE</h3>
+      <h3><span class="bluetext">01.</span> CATALPA HEALTH</h3>
       <div class="content">
-        Will develop and launch a new Wellness Website to improve student access to, and awareness of mental health resources. It will also provide engaging, interactive tools, educational content and activities.
+        A grant to develop a social media strategy in the Fox Valley area of Wisconsin that raises awareness of mental health issues, while offering education and outreach to their community served.
       </div><br>
       <br>
 
-      <a href="http://www.franciscanhealth.org">www.franciscanhealth.org</a>
+      <a href="http://www.catalpahealth.org">www.catalpahealth.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> ERIKA'S LIGHTHOUSE</h3>
+      <h3><span class="bluetext">02.</span> CATHOLIC CHARITIES OF MADISON</h3>
       <div class="content">
-        will continue its critical work of providing parents with a practical guide to depression.  It will provide parents with an electronic handbook, free of charge, to parents who need a road map for the many issues they may face over the course of their child's depression.
+        Funding to expand the existing FACE-Kids (Five+ Agency Cooperative Effort) to Mt. Horab, WI.  FACE-Kids uses a collaborative system as a strategy to provide accessible group counseling in schools, neighborhood centers, and FACE-Kids agencies.
       </div><br>
       <br>
 
-      <a href="http://www.erikaslighthouse.org">www.erikaslighthouse.org</a>
+      <a href="http://www.catholiccharitiesofmadison.org">www.catholiccharitiesofmadison.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> FEAST OF CRISPIN</h3>
+      <h3><span class="bluetext">03.</span> COPE SERVICES OF GRAFTON</h3>
       <div class="content">
-        will provide 20 three-day 14 hour theater intensives, and a veteran-only full production of Julius Ceasar.  This program is essential to provide military veterans, facing PTSD, depression, or disassociation, an opportunity to face these challenges and envision a new future.  The production will also raise awareness of the civilian public.
+        A grant to provide 6 QPR Training sessions (one every other month) for community members and advertisement of COPE hotline.
       </div><br>
       <br>
 
-      <a href="http://www.feastofcrispian.org">www.feastofcrispian.org</a>
+      <a href="http://www.copeservices.org">www.copeservices.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> KNOW THYSELF</h3>
+      <h3><span class="bluetext">04.</span> JEWISH FAMILY SERVICES</h3>
       <div class="content">
-        is a 20 year old youth service organization that helps students become better aware of self and others, better manage their behaviors and emotions, to ensure positive contributions to society.  This grant will formalize and standardize the curriculum of the organization and increase the capacity of services provided.
+        A grant to help fund "Real Men, Real Stories" at their Spring 2017 Mental Health conference.
       </div><br>
       <br>
 
-      <a href="http://knowthyselfproject.org">www.knowthyselfproject.org</a>
+      <a href="http://www.jfsmilw.org">www.jfsmilw.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> MARIAN UNIVERSITY</h3>
+      <h3><span class="bluetext">05.</span> LIFE OF HOPE</h3>
       <div class="content">
-        will host a conference titled "Speaking About Suicide": Community Support for Suicide Prevention".  This conference is open to the public in Fond du Lac County and will provide practitioners, teachers, coaches, fire and emergency personnel an opportunity to learn more about Zero Suicide and Trauma Informed Care.
+        A grant to have 2 staff members attend QPR "Train the Trainer" programs so that they may then provide ongoing QPR training throughout Washington County schools, businesses and the general public.
       </div><br>
       <br>
 
-      <a href="https://marian.edu">www.marian.edu</a>
+      <a href="https://www.lifeofhope.org">www.lifeofhope.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> MENTAL HEALTH AMERICA OF WISCONSIN (MILWAUKEE COUNTY)</h3>
+      <h3><span class="bluetext">06.</span> MENTAL HEALTH AMERICA</h3>
       <div class="content">
-        will work in conjunction with Milwaukee Latino Health Coalition's Mental Health Action Team (MHAT) to establish a Spanish text line for individuals in need of support in a culturally relevant structure for Latinos within the Milwaukee community.  Once operational, the text line will operate four to five evenings per week.
+        Funding for the publication of 7,500 Resource Guides and an online version -- both done in English and Spanish.
       </div><br>
       <br>
 
@@ -106,43 +106,103 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> MENTAL HEALTH AMERICA OF WISCONSIN (SHEBOYGAN COUNTY)</h3>
+      <h3><span class="bluetext">07.</span> MENTAL HEALTH AMERICA - PREVENT SUICIDE GREATER MILWAUKEE</h3>
       <div class="content">
-        A grant to support costs associated with printing and distributing the 2016-2017 Mental Health, Wellness and Addiction Services Resource Guide for Sheboygan County.
+        Funding for the organization's 3rd annual conference held in Milwaukee.  This conference provides important information sharing of national and regional resources and statistics, focused on suicide.
       </div><br>
       <br>
 
-      <a href="http://www.mhawisconsin.org">www.mhawisconsin.org</a>
+      <a href="http://www.preventsuicidemke.org">www.preventsuicidemke.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> NAMI WASHINGTON COUNTY</h3>
+      <h3><span class="bluetext">08.</span> MILWAUKEE RESCUE MISSION</h3>
       <div class="content">
-        will work to expand its public awareness program, "Ending the Silence" by identifying and training two to three additional presenters for its program.  This grant will support expanded services in the Hartford, Germantown, Slinger and Kewaskum School Districts.
+        A grant to provide "trauma-informed care" training to the staff at Joy House, a family shelter for moms and kids.
       </div><br>
       <br>
 
-      <a href="http://www.nami-positiveimage.org">www.nami-positiveimage.org</a>
+      <a href="http://www.thejoyhouse.org">www.thejoyhouse.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> SIXTEEN STREET CLINIC</h3>
+      <h3><span class="bluetext">09.</span> MAVRC -- UNIVERSITY OF WISCONSIN -- MILWAUKEE</h3>
       <div class="content">
-        a grant to support the implementation of a pilot tele-psychiatry program essential to addressing the shortage of mental health providers in the Milwaukee area.  This pilot program will ensure urban patients will have access to mental health providers free of cultural and linguistic barriers.
+        Funding for a "Project 22" (a documentary based on two veterans who complete a 22 day motorcycle ride across the country to raise awareness of veteran suicides) viewing and conference with the filmmakers for a panel discussion.
       </div><br>
       <br>
 
-      <a href="http://sschc.org">www.sschc.org</a>
+      <a href="http://www.uwm.edu/mavrc">www.uwm.edu/mavrc</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> WISCONSIN FAMILY TIES</h3>
+      <h3><span class="bluetext">10.</span> NAMI GREATER MILWAUKEE</h3>
       <div class="content">
-        will bring new and unique speakers to the 2016 Children Come First Conference, including a youth panel.  The grant will also support the conference and provide scholarships to those that may otherwise be unable to attend.
+        Funding provided for the creation of a youth version of "Pieces: In My Own Voice" and then bringing the performance, post-performance discussion and resources to ten Milwaukee area schools, as well as the follow-up in-service mental health education to teachers and school staff.
       </div><br>
       <br>
 
-      <a href="http://www.wifamilyties.org">www.wifamilyties.org</a>
+      <a href="http://www.namigrm.org">www.namigrm.org</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">11.</span> NAMI WAUKESHA</h3>
+      <div class="content">
+        Funding for a Suicide Awareness and Prevention Conference for approximately 250 attendees and a comprehensive program designed to eliminate misinformation by care-giving individuals.  The program hopes to give youth, families and the community at large a common language and understanding of how to help someone dealing with a mental health condition that could eventually lead to suicide.
+      </div><br>
+      <br>
+
+      <a href="http://www.namiwaukesha.org">www.namiwaukesha.org</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">12.</span> PIUS CATHOLIC HIGH SCHOOL</h3>
+      <div class="content">
+        A grant to begin part one of a two-part program to develop a standardized approach I identifying, serving and educating students with risk factors for depression, anxiety, adverse childhood experiences and sustained trauma by sending two teachers to "7ei of Trauma Sensitive Schools"- Train the Trainer.
+      </div><br>
+      <br>
+
+      <a href="http://www.piusxi.org">www.piusxi.org</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">13.</span> SAFE COMMUNITIES OF MADISON &amp; DANE COUNTY</h3>
+      <div class="content">
+        Funding for part two of a three-part program that brings the concept of Zero Suicide to mental health practitioners in and around Madison, WI, through training and conferences. "Zero Suicide" is a foundational belief that all suicides of someone currently in care from a behavioral or health system are preventable.
+      </div><br>
+      <br>
+
+      <a href="http://www.safercommunity.net">www.safercommunity.net</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">14.</span> UNIVERSITY OF WISCONSIN - PLATTEVILLE</h3>
+      <div class="content">
+        Funding to invite Frank Warren, a Suicide Prevention Specialist and motivational speaker, to the University of Wisconsin-Platteville.  This will include several promotions and other events surrounding the main speaking event.
+      </div><br>
+      <br>
+
+      <a href="http://www.uwplatt.edu">www.uwplatt.edu</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">15.</span> VERY SPECIAL ARTS</h3>
+      <div class="content">
+        Funding for seven six-week long visual arts studio class sessions for 30-40 military veterans.
+      </div><br>
+      <br>
+
+      <a href="http://www.vsawis.org">www.vsawis.org</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">16.</span> YMCA - CAMP SOUL</h3>
+      <div class="content">
+        A grant to support an overnight camp for approximately 58 youth and teens that have suffered a loss of someone near to them.
+      </div><br>
+      <br>
+
+      <a href="http://www.kyleskorner.org/camp-soul">www.kyleskorner.org/camp-soul</a>
     </div>
   </div>
 </div>
@@ -163,7 +223,7 @@ include "header.php";
 
       <input type="checkbox" id="show-filter" role="button">
       <label for="show-filter" id="filter-toggle">FILTER</label>
-      
+
       <div class="allcontrols">
         <div class="controls">
           <div><input type="checkbox" name="control" value="" id="r-all" checked> <label for="r-all">SHOW ALL</label></div>
@@ -194,9 +254,9 @@ include "header.php";
       include_once "inc/dbconfig.php";
 
       $result = $mysqli->query("SELECT * FROM projects_funded ORDER BY
-        CASE 
-          WHEN title REGEXP '^(A|An|The)[[:space:]]' = 1 THEN 
-            TRIM(SUBSTR(title , INSTR(title ,' '))) 
+        CASE
+          WHEN title REGEXP '^(A|An|The)[[:space:]]' = 1 THEN
+            TRIM(SUBSTR(title , INSTR(title ,' ')))
           ELSE title
         END
         ASC, year DESC");
