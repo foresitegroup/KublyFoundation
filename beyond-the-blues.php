@@ -251,7 +251,7 @@ include "header.php";
 
       <div class="btb-sponsorship">
         INTERESTED IN SPONSORSHIP?<br>
-        <a href="pdf/Sponsor_Reply_Sheet_2016.pdf">LEARN MORE</a>
+        <a href="pdf/Sponsor_Reply_Sheet_2017.pdf">LEARN MORE</a>
       </div>
     </div>
   </div>
