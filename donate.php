@@ -53,14 +53,14 @@ include "header.php";
           
           if (formValidation()) {
             if ($('#r-honor').is(':checked') || $('#r-memory').is(':checked')) {
-              var paypalstring = $('#recipient-name').val() + "^";
-              paypalstring += $('#notification-address').val() + "^";
-              paypalstring += $('#notification-city').val() + "^";
-              paypalstring += $('#notification-state').val() + "^";
-              paypalstring += $('#notification-zip').val() + "^";
-              paypalstring += $('input[name=recipient-donation-type]:checked').val() + "^";
-              paypalstring += $('#donor-name').val() + "^";
-              paypalstring += $('#notification-name').val();
+              var paypalstring = $('input[name=recipient-donation-type]:checked').val() + "^";
+              paypalstring += "Recipient Name: " + $('#recipient-name').val() + "^";
+              paypalstring += "Donor Name: " + $('#donor-name').val() + "^";
+              paypalstring += "Notification Name: " + $('#notification-name').val() + "^";
+              paypalstring += "Notification Address: " + $('#notification-address').val() + "^";
+              paypalstring += "Notification City: " + $('#notification-city').val() + "^";
+              paypalstring += "Notification State: " + $('#notification-state').val() + "^";
+              paypalstring += "Notification Zip: " + $('#notification-zip').val();
               $('#paypal-custom-field').val(paypalstring);
             }
           } else {
