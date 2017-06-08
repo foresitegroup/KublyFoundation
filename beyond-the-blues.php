@@ -155,49 +155,38 @@ include "header.php";
 <div class="footer-call btb-thanks">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
-    <h1>THANK YOU TO EVERYONE WHO MADE THIS YEAR'S EVENT A GREAT SUCCESS!!</h1>
+    <h1>INTERESTED IN BEING A SPONSOR OF 2017 BEYOND THE BLUES?<br><a href="pdf/Sponsor_Reply_Sheet_2017.pdf">LEARN MORE</a></h1>
 
-    <h2>2016 SPONSORS</h1>
+    <h2>2017 SPONSORS TO DATE</h1>
 
     <div class="one-third">
-      <h3>Sapphire Level - $20,000</h3>
+      <!-- <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Meg Fetherston Kasch &amp; Libby Kasch</li>
         <li>Billie &amp; Mike Kubly</li>
-      </ul>
+      </ul> -->
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
         <li>Colony Brands, Inc.</li>
-        <li>Jeanne &amp; Michael Schmitz</li>
-        <li>The Windhover Foundation</li>
+        <li>Michael &amp; Jeanne Schmitz</li>
       </ul>
 
-      <h3>Teal Level - $5,000</h3>
+      <!-- <h3>Teal Level - $5,000</h3>
       <ul>
         <li>Murph &amp; John Burke</li>
         <li>William &amp; Sandy Heitz Family Foundation</li>
         <li>Sandy &amp; Dennis Kuester</li>
         <li>Rite-Hite Holding Corporation</li>
-      </ul>
+      </ul> -->
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-        <li>Children's Hospital of Wisconsin</li>
         <li>Crescent Grove Advisors</li>
-        <li>Executive Benefits Network</li>
         <li>Hauske Family Foundation</li>
         <li>Diane &amp; Robert Jenkins</li>
-        <li>Mary &amp; Ted Kellner</li>
-        <li>Beth &amp; Will Kubly</li>
         <li>Sally &amp; Chip Kubly</li>
-        <li>The Fred Luber Family</li>
-        <li>College of Health Sciences at Marquette University</li>
-        <li>Department of Psychiatry &amp; Behavioral Medicine - Medical College of Wisconsin</li>
-        <li>Linda &amp; John Mellowes</li>
-        <li>Milwaukee Admirals</li>
-        <li>Rogers Memorial Hospital</li>
-        <li>Libby &amp; Jim Wigdale</li>
+        <li>Department of Psychiatry &amp; Behavioral Medicine – Medical College of Wisconsin</li>
         <li>Angela &amp; Ross Williams</li>
       </ul>
     </div>
@@ -205,48 +194,33 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
-        <li>Suzy &amp; John Brennan</li>
+        <li>The Bourne Family</li>
         <li>Continental Properties Company, Inc.</li>
-        <li>Dr. William Cullinan</li>
-        <li>Sue &amp; Russ Darrow</li>
-        <li>John Dickens</li>
-        <li>Jean &amp; Charlie Gorham</li>
-        <li>Leander &amp; Susan Jennings</li>
+        <li>Godfrey &amp; Khan, S.C.</li>
+        <li>Cookie &amp; Tom Goris</li>
+        <li>Julie &amp; Andy Gusho</li>
         <li>Evelyn Kelly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
-        <li>Power Test, Inc.</li>
-        <li>Ned &amp; Peggy Purtell</li>
-        <li>R &amp; R Insurance Services, Inc.</li>
-        <li>Julie &amp; Steve Spadafora</li>
+        <li>Anne &amp; Fred Luber Foundation</li>
+        <li>Peggy &amp; Ned Purtell</li>
+        <li>R&amp;R Insurance Services, Inc.</li>
+        <li>Julianne &amp; Stephen Spadafora</li>
         <li>Joy &amp; Cy Tector</li>
         <li>Kathleen &amp; Frank Thometz</li>
         <li>Chris &amp; Mary Tornehl</li>
-        <li>Debbie &amp; Camp Vandyke</li>
-        <li>Sunny &amp; Sandy Williams</li>
-        <li>Wolf Paving Company, Inc.</li>
+        <li>Debbie &amp; Camp VanDyke</li>
+        <li>Wolf Paving</li>
       </ul>
     </div>
 
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
-        <li>Aversa - Bayshore Town Center</li>
-        <li>Christina &amp; Adam Berger</li>
+        <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
         <li>Ginny &amp; Mike Bolger</li>
-        <li>Deanna Braeger</li>
-        <li>Julia &amp; Adam Desmond, NeedleRock Capital</li>
-        <li>Lori, Abby &amp; Chloe Kilian - in memory of Debbie Thom</li>
-        <li>Laura &amp; Pat Koppa</li>
-        <li>Kathy Paulsen</li>
-        <li>Candy &amp; Bruce Pindyck</li>
-        <li>Kris &amp; Robert Rick</li>
-        <li>Samaritan Family Wellness</li>
-        <li>Jen &amp; Todd Schoon</li>
+        <li>Patty &amp; Mike Grebe</li>
         <li>Kitty Tierney</li>
-        <li>Bonnie &amp; Ned Timarac</li>
-        <li>Betsy Trimble</li>
-        <li>Julia and David Uihlein, Jr.</li>
+        <li>Jen &amp; Todd Schoon</li>
       </ul>
 
       <div class="btb-sponsorship">

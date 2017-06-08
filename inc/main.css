@@ -2590,6 +2590,18 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   text-align: center;
 }
 
+.btb-thanks H1 A:link,
+.btb-thanks H1 A:visited {
+  font-size: 80%;
+  line-height: 1em;
+  color: #82C150;
+}
+
+.btb-thanks H1 A:hover,
+.btb-thanks H1 A:active {
+  color: #FFFFFF;
+}
+
 .btb-thanks H2 {
   margin: 0 0 2em;
   font-weight: 800;
