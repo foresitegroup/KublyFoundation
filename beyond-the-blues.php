@@ -188,6 +188,7 @@ include "header.php";
         <li>Sally &amp; Chip Kubly</li>
         <li>Department of Psychiatry &amp; Behavioral Medicine – Medical College of Wisconsin</li>
         <li>Angela &amp; Ross Williams</li>
+        <li>Anne &amp; Fred Luber Foundation</li>
       </ul>
     </div>
 
@@ -201,7 +202,6 @@ include "header.php";
         <li>Julie &amp; Andy Gusho</li>
         <li>Evelyn Kelly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
-        <li>Anne &amp; Fred Luber Foundation</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>R&amp;R Insurance Services, Inc.</li>
         <li>Julianne &amp; Stephen Spadafora</li>
