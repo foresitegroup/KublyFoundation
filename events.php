@@ -20,13 +20,28 @@ include "header.php";
 
 <div class="events-header">
   <div class="site-width">
-    UPCOMING EVENTS 2016-2017
+    UPCOMING EVENTS 2017-2018
   </div>
 </div>
 
 <div class="events">
   <div class="site-width">
     <div class="event">
+      <div class="event-left">
+        <div class="event-day">Saturday</div>
+        September 16<br>
+        Time TBA
+      </div>
+
+      <div class="event-right">
+        <div class="event-title">Beyond the Blues</div>
+        A Charles E Kubly Foundation Fundraising Event to better the lives of those affected by depression by increasing public awareness of the disease and its devastating effects, eliminating the stigma associated with it, supporting suicide prevention programs and promoting improved access to quality mental health resources within communities.
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <!-- <div class="event">
       <div class="event-left">
         <div class="event-day">Friday</div>
         June 2<br>
@@ -41,9 +56,9 @@ include "header.php";
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
 
-    <div class="event">
+    <!-- <div class="event">
       <div class="event-left">
         <div class="event-day">Thursday</div>
         November 3<br>
@@ -56,9 +71,9 @@ include "header.php";
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
 
-    <div class="event">
+    <!-- <div class="event">
       <div class="event-left">
         <div class="event-day">Sunday</div>
         November 6<br>
@@ -67,13 +82,13 @@ include "header.php";
 
       <div class="event-right">
         <div class="event-title">Dining in the Dark</div>
-        Presented by Vision-Forward. For more information contact: <?php email("klynch@vision-forward.org"); ?> or at 414-615-0161.
+        Presented by Vision-Forward. For more information contact: <?php //email("klynch@vision-forward.org"); ?> or at 414-615-0161.
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
 
-    <div class="event">
+    <!-- <div class="event">
       <div class="event-left">
         <div class="event-day">Wednesday, Thursday</div>
         November 16-17
@@ -87,9 +102,9 @@ include "header.php";
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
 
-    <div class="event">
+    <!-- <div class="event">
       <div class="event-left">
         <div class="event-day">Saturday</div>
         January 7<br>
@@ -104,7 +119,7 @@ include "header.php";
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
   </div>
 </div>
 

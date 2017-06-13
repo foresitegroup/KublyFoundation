@@ -65,12 +65,11 @@ include "header.php";
       <img src="images/beyond-the-blues-logo.png" alt=""><br>
       <br>
 
-      <h3>FRIDAY<br>SEPTEMBER 23, 2016</h3>
-      <h4>TURNER HALL, MILWAUKEE</h4>
+      <h3>SATURDAY<br>SEPTEMBER 16, 2017</h3>
+      <h4>DISCOVERY WORLD - PIER WISCONSIN</h4>
       <br>
 
-      Beyond the Blues entertainment provided by the <strong>Dan Dance Trio and the Rhythm Kings</strong>!<br>
-      Ticket Sales Start August 1st, 2016.<br>
+      Beyond the Blues entertainment and ticket sales TBA.<br>
       Sponsorships available now!<br>
       <br>
 
