@@ -109,20 +109,20 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <!-- <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
+        <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
             <a href="donate.php" class="button">DONATE</a>
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
           </div>
-        </div> -->
+        </div>
 
-        <div class="home-banner-slide big-jig" style="background-image: url(images/banner-big-jig.jpg);">
+        <!-- <div class="home-banner-slide big-jig" style="background-image: url(images/banner-big-jig.jpg);">
           <div class="site-width">
             <a href="https://www.eventbrite.com/e/gs-big-jig-registration-33235548420" class="button">REGISTER</a>
           </div>
-        </div>
+        </div> -->
       </div>
       <?php } ?>
 
