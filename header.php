@@ -83,12 +83,12 @@ if (!isset($TopDir)) $TopDir = "";
       <div class="kf-header">
         <div class="site-width">
           <a href="." class="logo"><img src="images/logo.png" alt="The Charles E. Kubly Foundation"></a>
-          
+
           <a href="#my-menu" class="my-menu-toggle"></a>
           <div class="menu"><?php include "menu.php" ?></div>
         </div>
       </div>
-      
+
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
   <!--       <div class="home-banner-slide night-out">
@@ -109,6 +109,18 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
+        <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb.jpg);">
+          <div class="site-width">
+            <h1>JOIN OUR EFFORTS!</h1>
+
+            <h2>BECOME A <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span> SPONSOR TODAY!</h2>
+
+            <h3>#MentalHealthMatters</h3>
+
+            <a href="beyond-the-blues.php#newsletter-form" class="button">LEARN MORE</a>
+          </div>
+        </div>
+
         <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
@@ -117,12 +129,6 @@ if (!isset($TopDir)) $TopDir = "";
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
           </div>
         </div>
-
-        <!-- <div class="home-banner-slide big-jig" style="background-image: url(images/banner-big-jig.jpg);">
-          <div class="site-width">
-            <a href="https://www.eventbrite.com/e/gs-big-jig-registration-33235548420" class="button">REGISTER</a>
-          </div>
-        </div> -->
       </div>
       <?php } ?>
 
@@ -136,7 +142,7 @@ if (!isset($TopDir)) $TopDir = "";
               <img src="<?php echo $TopDir; ?>images/logo.png" alt="The Charles E. Kubly Foundation">
               <?php } ?>
             </a>
-            
+
             <a href="#my-menu" class="my-menu-toggle"></i></a>
             <div class="menu"><?php include "menu.php" ?></div>
           </div>
