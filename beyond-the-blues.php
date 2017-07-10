@@ -172,23 +172,21 @@ include "header.php";
         <li>Michael &amp; Jeanne Schmitz</li>
       </ul>
 
-      <!-- <h3>Teal Level - $5,000</h3>
+      <h3>Teal Level - $5,000</h3>
       <ul>
-        <li>Murph &amp; John Burke</li>
         <li>William &amp; Sandy Heitz Family Foundation</li>
-        <li>Sandy &amp; Dennis Kuester</li>
-        <li>Rite-Hite Holding Corporation</li>
-      </ul> -->
+      </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
         <li>Crescent Grove Advisors</li>
+        <li>Daniel &amp; Laura Gruber Charitable Lead Trust 2</li>
         <li>Hauske Family Foundation</li>
         <li>Diane &amp; Robert Jenkins</li>
         <li>Sally &amp; Chip Kubly</li>
         <li>Department of Psychiatry &amp; Behavioral Medicine – Medical College of Wisconsin</li>
+        <li>Chip Uihlein</li>
         <li>Angela &amp; Ross Williams</li>
-        <li>Anne &amp; Fred Luber Foundation</li>
       </ul>
     </div>
 
@@ -198,8 +196,10 @@ include "header.php";
         <li>The Bourne Family</li>
         <li>Continental Properties Company, Inc.</li>
         <li>Godfrey &amp; Khan, S.C.</li>
+        <li>Jean &amp; Charlie Gorham</li>
         <li>Cookie &amp; Tom Goris</li>
         <li>Julie &amp; Andy Gusho</li>
+        <li>Dr. &amp; Mrs. Leander Jennings</li>
         <li>Evelyn Kelly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
         <li>Peggy &amp; Ned Purtell</li>
@@ -217,10 +217,12 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
+        <li>Aversa – Bayshore Town Center</li>
         <li>Ginny &amp; Mike Bolger</li>
         <li>Patty &amp; Mike Grebe</li>
-        <li>Kitty Tierney</li>
         <li>Jen &amp; Todd Schoon</li>
+        <li>Kitty Tierney</li>
+        <li>Bonnie &amp; Ned Timarac</li>
       </ul>
 
       <div class="btb-sponsorship">
