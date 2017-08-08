@@ -111,6 +111,18 @@ if (!isset($TopDir)) $TopDir = "";
 
         <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb.jpg);">
           <div class="site-width">
+            <h1><span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span></h1>
+
+            <h2>TICKETS ARE ON SALE NOW!</h2>
+
+            <h3>Saturday September 16<sup>th</sup> at Discovery World</h3>
+
+            <a href="tickets.php" class="button">BUY TICKETS</a>
+          </div>
+        </div>
+
+        <!-- <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb.jpg);">
+          <div class="site-width">
             <h1>JOIN OUR EFFORTS!</h1>
 
             <h2>BECOME A <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span> SPONSOR TODAY!</h2>
@@ -119,16 +131,16 @@ if (!isset($TopDir)) $TopDir = "";
 
             <a href="beyond-the-blues.php#newsletter-form" class="button">LEARN MORE</a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
+        <!-- <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
             <a href="donate.php" class="button">DONATE</a>
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
           </div>
-        </div>
+        </div> -->
       </div>
       <?php } ?>
 

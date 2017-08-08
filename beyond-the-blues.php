@@ -18,14 +18,16 @@ include "header.php";
       SATURDAY<br>
       SEPTEMBER 16<sup>TH</sup> 2017<br>
       <div>
+        6:30pm - 11:00pm<br>
+        <br>
         AT DISCOVERY WORLD - PIER WISCONSIN<br>
         <br>
-        Charles E Kubly Foundation Fundraiser
+        500 N. Harbor Drive, Milwaukee, WI
       </div>
       <br>
 
-      <a href="#btb-video">BTB 2016</a>
-      <a href="#newsletter" class="tickets">TICKETS</a><br>
+      <!-- <a href="#btb-video">BTB 2016</a> -->
+      <a href="tickets.php" class="tickets">BUY TICKETS</a><br>
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
     </div>
@@ -43,20 +45,31 @@ include "header.php";
       </div><br>
       <br>
 
-      <h3>A SPECIAL THANK YOU TO:</h3>
-      The Turner Hall Staff, Saz's Catering, Canopies Rentals, Keehn's Valet Service, the Rhythm Kings, the Dan Dance Trio and Jon Edquist for their Creativity, Excellent Service and GOOD TIMES!<br>
+      <!-- <h3>A SPECIAL THANK YOU TO:</h3>
+      The Turner Hall Staff, Saz's Catering, Canopies Rentals, Keehn's Valet Service, the Rhythm Kings, the Dan Dance Trio and Jon Edquist for their Creativity, Excellent Service and GOOD TIMES!<br> -->
 
-      <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+      <!-- <i class="fa fa-long-arrow-down" aria-hidden="true"></i> -->
     </div>
 
     <div class="right">
-      <h3>THE CHARLES E. KUBLY FOUNDATION WOULD LIKE TO THANK EVERYONE WHO SPONSORED, ATTENDED, VOLUNTEERED OR MADE A DONATION TO BEYOND THE BLUES 2016.</h3>
+      <!-- <h3>THE CHARLES E. KUBLY FOUNDATION WOULD LIKE TO THANK EVERYONE WHO SPONSORED, ATTENDED, VOLUNTEERED OR MADE A DONATION TO BEYOND THE BLUES 2016.</h3>
 
-      It was a great success again this year and your support will allow us to continue to fund important mental health projects within SE Wisconsin.
+      It was a great success again this year and your support will allow us to continue to fund important mental health projects within SE Wisconsin. -->
+
+      <h4>MUSIC BY THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
+      <br>
+
+      <h4>FARE BY BARTOLOTTA CATERING</h4>
+      <br>
+
+      Cash Bar<br>
+      Complimentary Valet Parking<br>
+      Blue Jean Casual
     </div>
   </div>
 </div>
 
+<!--
 <div class="btb-gallery">
   <div class="site-width">
     <?php
@@ -81,7 +94,6 @@ include "header.php";
 </div>
 
 <div class="site-width btb-newsletter" id="newsletter">
-  <!-- Begin Newsletter Signup Form -->
   <script type="text/javascript">
     $(document).ready(function() {
       var form = $('#newsletter-form');
@@ -149,10 +161,10 @@ include "header.php";
       <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
     </div>
   </form>
-  <!--End Newsletter Signup Form -->
 </div>
+-->
 
-<div class="footer-call btb-thanks">
+<div class="footer-call btb-thanks" id="sponsors">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     <h1>INTERESTED IN BEING A SPONSOR OF 2017 BEYOND THE BLUES?<br><a href="pdf/Sponsor_Reply_Sheet_2017.pdf">LEARN MORE</a></h1>
@@ -160,11 +172,11 @@ include "header.php";
     <h2>2017 SPONSORS TO DATE</h1>
 
     <div class="one-third">
-      <!-- <h3>Sapphire Level - $20,000</h3>
+      <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Meg Fetherston Kasch &amp; Libby Kasch</li>
         <li>Billie &amp; Mike Kubly</li>
-      </ul> -->
+      </ul>
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
@@ -175,16 +187,23 @@ include "header.php";
       <h3>Teal Level - $5,000</h3>
       <ul>
         <li>William &amp; Sandy Heitz Family Foundation</li>
+        <li>Sandy &amp; Dennis Kuester</li>
+        <li>Windhover Foundation</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Children's Hospital of Wisconsin</li>
+        <li>College of Health Sciences at Marquette University</li>
         <li>Crescent Grove Advisors</li>
         <li>Daniel &amp; Laura Gruber Charitable Lead Trust 2</li>
+        <li>Executive Benefits Network</li>
         <li>Hauske Family Foundation</li>
         <li>Diane &amp; Robert Jenkins</li>
         <li>Sally &amp; Chip Kubly</li>
-        <li>Department of Psychiatry &amp; Behavioral Medicine – Medical College of Wisconsin</li>
+        <li>Anne &amp; Fred Luber Foundation</li>
+        <li>Medical College of Wisconsin &mdash; Department of Psychiatry &amp; Behavioral Medicine</li>
+        <li>Milwaukee Admirals</li>
         <li>Chip Uihlein</li>
         <li>Angela &amp; Ross Williams</li>
       </ul>
@@ -202,6 +221,8 @@ include "header.php";
         <li>Dr. &amp; Mrs. Leander Jennings</li>
         <li>Evelyn Kelly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
+        <li>Elizabeth &amp; Tom Long</li>
+        <li>Candy &amp; Bruce Pindyck</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>R&amp;R Insurance Services, Inc.</li>
         <li>Julianne &amp; Stephen Spadafora</li>
@@ -217,9 +238,12 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
-        <li>Aversa – Bayshore Town Center</li>
+        <li>Aversa &mdash; Bayshore Town Center</li>
         <li>Ginny &amp; Mike Bolger</li>
         <li>Patty &amp; Mike Grebe</li>
+        <li>Ann Homstad</li>
+        <li>Laura &amp; Pat Koppa</li>
+        <li>Kris &amp; Robert Rick</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Kitty Tierney</li>
         <li>Bonnie &amp; Ned Timarac</li>

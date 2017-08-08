@@ -455,9 +455,9 @@ A.my-menu-toggle {
 
 .home-banner .home-banner-slide.btb .site-width H1 {
   font-weight: 800;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 1em;
-  margin: 0 0 0.5em;
+  margin: 0 0 0;
   text-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
 
@@ -470,12 +470,14 @@ A.my-menu-toggle {
 }
 
 .home-banner .home-banner-slide.btb .site-width H3 {
-  font-weight: 800;
-  font-size: 35px;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 1em;
   margin: 0 0 2em;
   text-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
+
+.home-banner .home-banner-slide.btb .site-width H3 SUP { font-size: 50%; }
 
 .menu-holder {
   height: 82px;
@@ -1983,6 +1985,111 @@ A.logo-link:active IMG {
   color: #A1A1A1;
 }
 
+.btb-tickets {
+  padding: 5em 0;
+  background: #052838;
+  color: #F1F2F2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.8em;
+}
+
+.btb-tickets .btb-banner {
+  background: transparent;
+  padding: 0;
+  position: relative;
+  margin-bottom: 4em;
+}
+
+.btb-tickets .btb-banner .header-left {
+  float: none;
+}
+
+.btb-tickets .btb-banner .info {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 40%;
+}
+
+#tickets {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#tickets INPUT[type="text"] {
+  border: 0;
+  border-bottom: 2px solid #FFFFFF;
+  width: 2em;
+  height: 1em;
+  padding: 0;
+  background: transparent;
+  color: #0E8DC8;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1em;
+  text-align: center;
+  -webkit-appearance: none;
+  outline: 0;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+}
+
+#tickets INPUT[type="text"]#donation_name {
+  width: 70%;
+}
+
+#tickets INPUT::-webkit-input-placeholder { color: #0E8DC8; opacity: 1; }
+#tickets INPUT:-moz-placeholder { color: #0E8DC8; opacity: 1; } /* FF 4-18 */
+#tickets INPUT::-moz-placeholder { color: #0E8DC8; opacity: 1; } /* FF 19+ */
+#tickets INPUT:-ms-input-placeholder { color: #0E8DC8; opacity: 1; } /* IE 10+ */
+
+#tickets INPUT:focus::-webkit-input-placeholder { color: transparent; }
+#tickets INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+#tickets INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+#tickets INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+#tickets INPUT[type="submit"] {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0.7em 2em;
+  border-radius: 50px;
+  background: #0B7BC0;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+}
+
+#tickets INPUT[type="submit"]:hover {
+  background: #25AAE1;
+}
+
+#tickets INPUT[type="submit"]:focus {
+  outline: none;
+}
+
+.ticket-sponsors {
+  padding: 2em 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.ticket-sponsors A {
+  text-decoration: none;
+}
+
 /* BEGIN modal css */
 html {
   overflow-y: scroll;
@@ -2431,7 +2538,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 .btb-banner .header-right A.tickets:link,
 .btb-banner .header-right A.tickets:visited {
   color: #FFFFFF;
-  margin-left: 2em;
+  /*margin-left: 2em;*/
 }
 
 .btb-banner .header-right A.tickets:hover,
@@ -2514,7 +2621,8 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   line-height: 1.8em;
   color: #707070;
   border: 12px solid #28AAE1;
-  padding: 5.5em 1em 3em;
+  /*padding: 5.5em 1em 3em;*/
+  padding: 3em 1em 3em;
   margin-top: 3em;
 }
 
@@ -2524,6 +2632,14 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   font-weight: 800;
   font-size: 32px;
   line-height: 1.6em;
+}
+
+.btb-banner .right H4 {
+  margin: 0;
+  color: #112C37;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1em;
 }
 
 .btb-gallery {
@@ -3466,6 +3582,19 @@ A.featured-read:active {
   .home-banner .home-banner-slide.night-out .site-width H3 {
     font-size: 2.8vw;
   }
+
+  #tickets { width: 65%; }
+}
+
+@media only screen and (max-width: 1000px) {
+  .scrolling-menu .menu UL LI A:link,
+  .scrolling-menu .menu UL LI A:visited {
+    font-size: 1.45vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .btb-tickets .btb-banner .info { width: 30%; }
 }
 
 @media only screen and (max-width: 800px) {
@@ -3591,6 +3720,15 @@ A.featured-read:active {
   .event-right {
     width: 65%;
   }
+
+  .btb-tickets .btb-banner .info {
+    position: static;
+    transform: none;
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  #tickets { width: 90%; }
 }
 
 @media only screen and (max-width: 768px) {
@@ -4210,9 +4348,13 @@ A.featured-read:active {
     width: 58%;
   }
 
-  .home-banner .home-banner-slide.btb .site-width H1 { font-size: 9.5vw; margin-bottom: 1em; }
-  .home-banner .home-banner-slide.btb .site-width H2 { font-size: 7.5vw; margin-bottom: 1em; }
-  .home-banner .home-banner-slide.btb .site-width H3 { font-size: 5vw; }
+  .home-banner .home-banner-slide.btb .site-width H1 { font-size: 9.5vw; /*margin-bottom: 1em;*/ }
+  .home-banner .home-banner-slide.btb .site-width H2 { font-size: 6.6vw; margin-bottom: 1em; }
+  .home-banner .home-banner-slide.btb .site-width H3 { font-size: 4.2vw; }
+
+  .btb-tickets .btb-banner .header-left { font-size: 20vw; }
+
+  #tickets { width: 100%; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4441,6 +4583,8 @@ A.featured-read:active {
   .btb-banner .header-left {
     font-size: 86px;
   }
+
+  .btb-tickets .btb-banner { padding-top: 80px; }
 
   .btb-gallery A,
   .btb-gallery A:nth-of-type(4n+0),

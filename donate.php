@@ -94,7 +94,7 @@ include "header.php";
         <input type="radio" name="recipient-donation-type" value="" id="r-standard" checked> <label for="r-standard">Standard</label>
         <input type="radio" name="recipient-donation-type" value="In honor of" id="r-honor"> <label for="r-honor">In Honor Of</label>
         <input type="radio" name="recipient-donation-type" value="In memory of" id="r-memory"> <label for="r-memory">In Memory Of</label>
-        <input type="radio" name="recipient-donation-type" value="G's Big Jig" id="r-bigjig"> <label for="r-bigjig">G's Big Jig</label>
+        <!-- <input type="radio" name="recipient-donation-type" value="G's Big Jig" id="r-bigjig"> <label for="r-bigjig">G's Big Jig</label> -->
 
         <div class="donation-reveal">
           <input id="paypal-custom-field" name="custom" type="hidden">
