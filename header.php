@@ -109,15 +109,13 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb.jpg);">
+        <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb2017.jpg);">
           <div class="site-width">
             <h1><span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span></h1>
 
-            <h2>TICKETS ARE ON SALE NOW!</h2>
+            <h3>Thank you to all who helped make Beyond the Blues a great success!</h3>
 
-            <h3>Saturday September 16<sup>th</sup> at Discovery World</h3>
-
-            <a href="tickets.php" class="button">BUY TICKETS</a>
+            <a href="beyond-the-blues.php" class="button">MORE INFORMATION</a>
           </div>
         </div>
 

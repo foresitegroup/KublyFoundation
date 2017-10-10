@@ -14,7 +14,7 @@ include "header.php";
       <span class="btb-blue"><div>THE</div> BLUES</span> 2017
     </div>
 
-    <div class="header-right">
+    <div class="header-right" style="visibility: hidden;">
       SATURDAY<br>
       SEPTEMBER 16<sup>TH</sup> 2017<br>
       <div>
@@ -27,7 +27,7 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <a href="tickets.php" class="tickets">BUY TICKETS</a><br>
+      <a href="tickets.php" class="tickets">TICKET INFORMATION</a><br>
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
     </div>
@@ -41,7 +41,7 @@ include "header.php";
         <script type="text/javascript">
           $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
         </script>
-        <a href="https://www.youtube.com/watch?v=jHhtyXikxb8" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/watch?v=dQClkoB-7DE" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
       </div><br>
       <br>
 
@@ -56,7 +56,7 @@ include "header.php";
 
       It was a great success again this year and your support will allow us to continue to fund important mental health projects within SE Wisconsin. -->
 
-      <h4>MUSIC BY THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
+      <!-- <h4>MUSIC BY THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
       <br>
 
       <h4>FARE BY BARTOLOTTA CATERING</h4>
@@ -64,16 +64,19 @@ include "header.php";
 
       Cash Bar<br>
       Complimentary Valet Parking<br>
-      Blue Jean Casual
+      Blue Jean Casual -->
+      <h4>Check out a recap from this year's event!</h4><br>
+
+      We are blown away every year at the amount of support we receive for the Charles E. Kubly Foundation. Thank you to everyone who made this year as memorable as ever! We could not do it without you!
     </div>
   </div>
 </div>
 
-<!--
-<div class="btb-gallery">
+<div class="btb-gallery" style="position: relative;">
+  <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
   <div class="site-width">
     <?php
-    $main_dir = "images/galleries/btb2016";
+    $main_dir = "images/galleries/btb2017";
 
     $files = scandir($main_dir);
 
@@ -92,7 +95,7 @@ include "header.php";
     ?>
   </div>
 </div>
-
+<!--
 <div class="site-width btb-newsletter" id="newsletter">
   <script type="text/javascript">
     $(document).ready(function() {
@@ -164,12 +167,12 @@ include "header.php";
 </div>
 -->
 
-<div class="footer-call btb-thanks" id="sponsors">
+<!-- <div class="footer-call btb-thanks" id="sponsors">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     <h1>INTERESTED IN BEING A SPONSOR OF 2017 BEYOND THE BLUES?<br><a href="pdf/Sponsor_Reply_Sheet_2017.pdf">LEARN MORE</a></h1>
 
-    <h2>2017 SPONSORS TO DATE</h1>
+    <h2>2017 SPONSORS</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
@@ -186,6 +189,7 @@ include "header.php";
 
       <h3>Teal Level - $5,000</h3>
       <ul>
+        <li>William Fitzhugh Fox</li>
         <li>William &amp; Sandy Heitz Family Foundation</li>
         <li>Sandy &amp; Dennis Kuester</li>
         <li>Windhover Foundation</li>
@@ -193,17 +197,21 @@ include "header.php";
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Baird</li>
         <li>Children's Hospital of Wisconsin</li>
         <li>College of Health Sciences at Marquette University</li>
         <li>Crescent Grove Advisors</li>
-        <li>Daniel &amp; Laura Gruber Charitable Lead Trust 2</li>
+        <li>Laura Gralton</li>
         <li>Executive Benefits Network</li>
         <li>Hauske Family Foundation</li>
         <li>Diane &amp; Robert Jenkins</li>
+        <li>Mary &amp; Ted Kellner</li>
         <li>Sally &amp; Chip Kubly</li>
+        <li>Beth &amp; Will Kubly</li>
         <li>Anne &amp; Fred Luber Foundation</li>
         <li>Medical College of Wisconsin &mdash; Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
+        <li>Rogers Behavioral Health</li>
         <li>Chip Uihlein</li>
         <li>Angela &amp; Ross Williams</li>
       </ul>
@@ -212,17 +220,23 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>Anonymous</li>
         <li>The Bourne Family</li>
         <li>Continental Properties Company, Inc.</li>
+        <li>Dr. William Cullinan</li>
+        <li>Sue &amp; Russ Darrow</li>
         <li>Godfrey &amp; Khan, S.C.</li>
         <li>Jean &amp; Charlie Gorham</li>
         <li>Cookie &amp; Tom Goris</li>
         <li>Julie &amp; Andy Gusho</li>
+        <li>Susie Hawkins</li>
         <li>Dr. &amp; Mrs. Leander Jennings</li>
+        <li>Johnson Bank</li>
         <li>Evelyn Kelly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
         <li>Elizabeth &amp; Tom Long</li>
         <li>Candy &amp; Bruce Pindyck</li>
+        <li>Power Test, Inc.</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>R&amp;R Insurance Services, Inc.</li>
         <li>Julianne &amp; Stephen Spadafora</li>
@@ -230,7 +244,9 @@ include "header.php";
         <li>Kathleen &amp; Frank Thometz</li>
         <li>Chris &amp; Mary Tornehl</li>
         <li>Debbie &amp; Camp VanDyke</li>
+        <li>Kate Schuett &amp; John Wasmer</li>
         <li>Wolf Paving</li>
+        <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
 
@@ -239,14 +255,23 @@ include "header.php";
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
         <li>Aversa &mdash; Bayshore Town Center</li>
+        <li>Joan Bell</li>
         <li>Ginny &amp; Mike Bolger</li>
         <li>Patty &amp; Mike Grebe</li>
+        <li>Marilyn &amp; Bill Haker</li>
+        <li>Ann &amp; Jon Hammes</li>
         <li>Ann Homstad</li>
+        <li>Kiki &amp; Phil Jennings</li>
+        <li>Susie &amp; Fred Kasten</li>
+        <li>Julie &amp; John Kennedy</li>
         <li>Laura &amp; Pat Koppa</li>
+        <li>Donna &amp; James Lovelace</li>
         <li>Kris &amp; Robert Rick</li>
+        <li>Samaritan Family Wellness</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Kitty Tierney</li>
         <li>Bonnie &amp; Ned Timarac</li>
+        <li>Abby &amp; Scott Williams</li>
       </ul>
 
       <div class="btb-sponsorship">
@@ -255,6 +280,6 @@ include "header.php";
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <?php include "footer.php"; ?>

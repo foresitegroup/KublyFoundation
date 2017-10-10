@@ -44,11 +44,11 @@ include "header.php";
         <input type="hidden" name="item_name_1" value="Beyond The Blues Tickets">
         <input type="hidden" name="amount_1" value="80">
         <input type="hidden" name="item_name_2" value="Blues Backer Board Donation">
-        
+
         Send me <input type="text" name="quantity_1"> tickets to Beyond the Blues at $80 each.<br>
         <br>
 
-        List me on the Blue Backers Board at the event for an additional $75 or more donation: $<input type="text" name="amount_2"><br>
+        List me on the Blues Backers Board at the event for an additional $75 or more donation: $<input type="text" name="amount_2"><br>
         <input type="hidden" name="on0" value="Blues Backer Board Name(s)">
         <input type="text" name="os0" placeholder="List my donation under this name(s)" id="donation_name"><br>
         <br>
@@ -57,6 +57,7 @@ include "header.php";
         <input type="submit" name="submit" value="PURCHASE NOW">
       </div>
     </form>
+    Online ticket sales have ended &mdash; please join us and purchase your ticket at the door at Discovery World! See you Saturday!
 
     <div id="thankyou" style="display: none;">
       <h3>Thank You!</h3>

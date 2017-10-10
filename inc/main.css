@@ -471,9 +471,9 @@ A.my-menu-toggle {
 
 .home-banner .home-banner-slide.btb .site-width H3 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 29px;
   line-height: 1em;
-  margin: 0 0 2em;
+  margin: 0.5em 0 2em;
   text-shadow: 0 0 15px rgba(0, 0, 0, 1);
 }
 
@@ -916,6 +916,11 @@ A.my-menu-toggle {
   -webkit-clip-path: polygon(calc(38% - 18px) 0, 38% 100%, calc(38% + 18px) 0);
   clip-path: polygon(calc(38% - 18px) 0, 38% 100%, calc(38% + 18px) 0);
   outline: 1px solid #112C37;
+}
+
+.footer-arrow-mask.purple {
+  background: #6B4099;
+  outline: 1px solid #6B4099;
 }
 
 .home-foundation .footer-arrow-mask {
@@ -2561,7 +2566,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 }
 
 .btb-banner .left .btb-video {
-  background: url(../images/btb-video.jpg) no-repeat center center;
+  background: url(../images/btb-video-2017.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
   height: 400px;
