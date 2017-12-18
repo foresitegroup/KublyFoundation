@@ -42,8 +42,8 @@ include "header.php";
         
         $('#donation').submit(function(event) {
           function formValidation() {
-            if ($('#r-honor').is(':checked') || $('#r-memory').is(':checked') && $('#recipient-name').val() === '') {
-              alert('Recpient name is required');
+            if (($('#r-honor').is(':checked') || $('#r-memory').is(':checked')) && $('#recipient-name').val() === '') {
+              alert('Recipient name is required');
               $('#recipient-name').focus();
               return false;
             }
