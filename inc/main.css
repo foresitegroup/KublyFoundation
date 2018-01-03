@@ -381,9 +381,21 @@ A.my-menu-toggle {
 }
 
 .home-banner .home-banner-slide.night-out {
-  background: #128DC4;
+  background: #128DC4 url(../images/charlies-night-out-2018.jpg) center center no-repeat;
+  background-size: cover;
+  text-shadow: 0 0 5px rgba(14,141,200, 1);
   text-align: center;
   position: relative;
+}
+
+.home-banner .home-banner-slide.night-out:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(14,141,200,0.4);
 }
 
 .home-banner .home-banner-slide.night-out:after {
@@ -400,12 +412,13 @@ A.my-menu-toggle {
 
 .home-banner .home-banner-slide.night-out .site-width H1 {
   margin: 0;
+  font-size: 75px;
 }
 
 .home-banner .home-banner-slide.night-out .site-width H2 {
   margin: 0;
   line-height: 1em;
-  font-size: 37px;
+  font-size: 30px;
 }
 
 .home-banner .home-banner-slide.night-out .site-width H2 DIV {
@@ -424,14 +437,15 @@ A.my-menu-toggle {
 .home-banner .home-banner-slide.night-out .site-width H2 DIV.purple { background: #6B4099; }
 
 .home-banner .home-banner-slide.night-out .site-width H3 {
-  margin: 0.5em 0 3em;
+  margin: 0;
   line-height: 1em;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: normal;
 }
 
 .home-banner .night-out A.button:link,
 .home-banner .night-out A.button:visited {
+  margin-top: 66px;
   background: #112C37;
   color: #FFFFFF;
 }
@@ -3577,7 +3591,7 @@ A.featured-read:active {
   }
 
   .home-banner .home-banner-slide.night-out .site-width H2 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .home-banner .home-banner-slide.night-out .site-width H2 DIV {

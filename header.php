@@ -91,25 +91,25 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-  <!--       <div class="home-banner-slide night-out">
+        <div class="home-banner-slide night-out">
           <div class="site-width">
+            <h3>JOIN US FOR</h3>
             <h1>CHARLIE'S NIGHT OUT</h1>
             <h2>
               <div class="green"></div>
               <div class="yellow"></div>
               <div class="orange"></div>
-              LET'S TALK ABOUT MENTAL ILLNESS
+              A NIGHT OUT FOR MENTAL HEALTH AWARENESS
               <div class="red"></div>
               <div class="pink"></div>
               <div class="purple"></div>
             </h2>
-            <h3>A CHARLES E KUBLY FOUNDATION EVENT</h3>
 
-            <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699" class="button">TICKETS + INFO</a>
+            <a href="https://www.eventbrite.com/e/charlies-night-a-night-out-for-mental-health-awareness-tickets-41263055911" class="button">TICKETS + INFO</a>
           </div>
-        </div> -->
+        </div>
 
-        <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb2017.jpg);">
+<!--         <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb2017.jpg);">
           <div class="site-width">
             <h1><span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span></h1>
 
@@ -117,7 +117,7 @@ if (!isset($TopDir)) $TopDir = "";
 
             <a href="beyond-the-blues.php" class="button">MORE INFORMATION</a>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb.jpg);">
           <div class="site-width">
