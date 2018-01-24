@@ -91,7 +91,7 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <div class="home-banner-slide night-out">
+<!--         <div class="home-banner-slide night-out">
           <div class="site-width">
             <h3>JOIN US FOR</h3>
             <h1>CHARLIE'S NIGHT OUT</h1>
@@ -107,7 +107,7 @@ if (!isset($TopDir)) $TopDir = "";
 
             <a href="https://www.eventbrite.com/e/charlies-night-a-night-out-for-mental-health-awareness-tickets-41263055911" class="button">TICKETS + INFO</a>
           </div>
-        </div>
+        </div> -->
 
 <!--         <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb2017.jpg);">
           <div class="site-width">
@@ -131,14 +131,14 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <!-- <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
+        <div class="home-banner-slide" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
             <a href="donate.php" class="button">DONATE</a>
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
           </div>
-        </div> -->
+        </div>
       </div>
       <?php } ?>
 
