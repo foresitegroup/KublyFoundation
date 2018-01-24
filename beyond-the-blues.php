@@ -11,15 +11,15 @@ include "header.php";
   <div class="site-width">
     <div class="header-left">
       <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span>
-      <span class="btb-blue"><div>THE</div> BLUES</span> 2017
+      <span class="btb-blue"><div>THE</div> BLUES</span> 2018
     </div>
 
-    <div class="header-right" style="visibility: hidden;">
-      SATURDAY<br>
-      SEPTEMBER 16<sup>TH</sup> 2017<br>
+    <div class="header-right">
+      FRIDAY<br>
+      SEPTEMBER 21<sup>ST</sup> 2018<br>
       <div>
-        6:30pm - 11:00pm<br>
-        <br>
+        <!-- 6:30pm - 11:00pm<br>
+        <br> -->
         AT DISCOVERY WORLD - PIER WISCONSIN<br>
         <br>
         500 N. Harbor Drive, Milwaukee, WI
@@ -27,9 +27,9 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <a href="tickets.php" class="tickets">TICKET INFORMATION</a><br>
+      <!-- <a href="tickets.php" class="tickets">TICKET INFORMATION</a><br>
 
-      <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+      <i class="fa fa-long-arrow-down" aria-hidden="true"></i> --><br><br><br><br>
     </div>
 
     <div class="btb-banner-spacer"></div>
@@ -65,7 +65,7 @@ include "header.php";
       Cash Bar<br>
       Complimentary Valet Parking<br>
       Blue Jean Casual -->
-      <h4>Check out a recap from this year's event!</h4><br>
+      <h4>Check out a recap from the 2017 event!</h4><br>
 
       We are blown away every year at the amount of support we receive for the Charles E. Kubly Foundation. Thank you to everyone who made this year as memorable as ever! We could not do it without you!
     </div>
