@@ -493,6 +493,24 @@ A.my-menu-toggle {
 
 .home-banner .home-banner-slide.btb .site-width H3 SUP { font-size: 50%; }
 
+#dogear {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  z-index: 999;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.home-banner .home-banner-slide.dogear .site-width {
+  box-sizing: border-box;
+  padding-right: 18%;
+}
+
+.home-banner .home-banner-slide.dogear .site-width H1 {
+  font-size: 50px;
+}
+
 .menu-holder {
   height: 82px;
 }
@@ -3231,12 +3249,44 @@ A.featured-read:active {
   font-weight: 800;
 }
 
+.news-content-single H1,
+.news-content-single H2,
+.news-content-single H3,
 .news-content-single H4 {
   margin: 0;
   color: #0E8DC8;
   font-weight: 800;
-  font-size: 20px;
   line-height: 1.6em;
+}
+
+.news-content-single H1 { font-size: 35px; }
+.news-content-single H2 { font-size: 30px; }
+.news-content-single H3 { font-size: 25px; }
+.news-content-single H4 { font-size: 20px; }
+
+.news-content-single IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.news-content-single .alignleft {
+  float: left;
+  margin: 0 2.5em 1em 0;
+  max-width: 45%;
+  height: auto;
+}
+
+.news-content-single .alignright {
+  float: right;
+  margin: 0 0 1em 2.5em;
+  max-width: 45%;
+  height: auto;
+}
+
+.news-content-single .alignnone,
+.news-content-single .aligncenter {
+  margin: 35px auto;
+  display: block;
 }
 
 .news-index-third {
@@ -3564,6 +3614,11 @@ A.featured-read:active {
 
 @media only screen and (max-width: 1024px) {
   .site-width, .nav-links { width: 96%; }
+
+  #dogear IMG {
+    max-width: 45vw;
+    height: auto;
+  }
 
   .home-foundation-arrow-mask {
     background: url(../images/home-foundation.jpg) no-repeat center bottom;
@@ -3978,6 +4033,9 @@ A.featured-read:active {
   }
 
   .home-banner .home-banner-slide.big-jig { height: 400px; }
+
+  .home-banner .home-banner-slide.dogear .site-width { padding-right: 0; }
+  .home-banner .home-banner-slide.dogear .site-width H1 { font-size: 8vw; margin-bottom: 50px; }
 
   .home-mission,
   .home-mission .site-width {
@@ -4470,6 +4528,14 @@ A.featured-read:active {
 
   .home-banner .home-banner-slide.big-jig { height: 250px; }
   .home-banner .big-jig .site-width A { font-size: 15px; }
+  
+  #dogear IMG { max-width: 55vw; }
+  .home-banner .home-banner-slide.dogear .site-width H1 { font-size: 9vw; }
+  .home-banner .home-banner-slide.dogear A.learnmore:link,
+  .home-banner .home-banner-slide.dogear A.learnmore:visited {
+    display: block;
+    margin-top: 1em;
+  }
 
   .home-mission .home-mission-left H1 {
     font-size: 68px;
