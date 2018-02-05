@@ -46,69 +46,89 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> CATALPA HEALTH</h3>
+      <h3><span class="bluetext">01.</span> ALMOST SUNRISE</h3>
       <div class="content">
-        A grant to develop a social media strategy in the Fox Valley area of Wisconsin that raises awareness of mental health issues, while offering education and outreach to their community served.
+        A grant to fund a companion piece to follow the Fall 2017 PBS airing of the award-winning documentary "Almost Sunrise".
       </div><br>
       <br>
 
-      <a href="http://www.catalpahealth.org">www.catalpahealth.org</a>
+      <a href="http://sunrisedocumentary.com">www.sunrisedocumentary.com</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> CATHOLIC CHARITIES OF MADISON</h3>
+      <h3><span class="bluetext">02.</span> CHILDREN'S HOSPITAL OF WISCONSIN</h3>
       <div class="content">
-        Funding to expand the existing FACE-Kids (Five+ Agency Cooperative Effort) to Mt. Horab, WI.  FACE-Kids uses a collaborative system as a strategy to provide accessible group counseling in schools, neighborhood centers, and FACE-Kids agencies.
+        Funding for NAMI Greater Milwaukee's theater performance of "Pieces" at the Pediatric Nursing Conference in November 2017.
       </div><br>
       <br>
 
-      <a href="http://www.catholiccharitiesofmadison.org">www.catholiccharitiesofmadison.org</a>
+      <a href="https://www.chw.org">www.chw.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> COPE SERVICES OF GRAFTON</h3>
+      <h3><span class="bluetext">03.</span> BOYS &amp; GIRLS CLUB - GREATER MILWAUKEE </h3>
       <div class="content">
-        A grant to provide 6 QPR Training sessions (one every other month) for community members and advertisement of COPE hotline.
+        Train Boys &amp; Girls Club staff to use LEADS for Youth curriculum and to receive Anger Management certification to better address mental health for youth club members as well as support Mental Health Awareness Month activities at the Boys &amp; Girls Clubs.
       </div><br>
       <br>
 
-      <a href="http://www.copeservices.org">www.copeservices.org</a>
+      <a href="http://www.boysgirlsclubs.org">www.boysgirlsclubs.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> JEWISH FAMILY SERVICES</h3>
+      <h3><span class="bluetext">04.</span> GIVING VOICE TO DEPRESSION </h3>
       <div class="content">
-        A grant to help fund "Real Men, Real Stories" at their Spring 2017 Mental Health conference.
+        The weekly podcast "Giving Voice to Depression" and its Facebook page help normalize conversations about mental illness and create an environment where people feel secure seeking the help and support they need to lead healthy lives.
       </div><br>
       <br>
 
-      <a href="http://www.jfsmilw.org">www.jfsmilw.org</a>
+      <a href="http://www.givingvoicetodepression.com">www.givingvoicetodepression.com</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> LIFE OF HOPE</h3>
+      <h3><span class="bluetext">05.</span> MENTAL HEALTH AMERICA - WISCONSIN</h3>
       <div class="content">
-        A grant to have 2 staff members attend QPR "Train the Trainer" programs so that they may then provide ongoing QPR training throughout Washington County schools, businesses and the general public.
+        Funding for the 8th annual Prevent Suicide Wisconsin Conference to be held April 1, 2018.
       </div><br>
       <br>
 
-      <a href="https://www.lifeofhope.org">www.lifeofhope.org</a>
+      <a href="https://www.mhawisconsin.org">www.mhawisconsin.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> MENTAL HEALTH AMERICA</h3>
+      <h3><span class="bluetext">06.</span> NAMI - DANE COUNTY</h3>
       <div class="content">
-        Funding for the publication of 7,500 Resource Guides and an online version -- both done in English and Spanish.
+        Crisis Intervention Team Training for Dane County to improve officer and consumer safety during interventions involving individuals with mental illness and to redirect such individuals into community-based treatment instead of having them enter the criminal justice system.
       </div><br>
       <br>
 
-      <a href="http://www.mhawisconsin.org">www.mhawisconsin.org</a>
+      <a href="https://www.namidanecounty.org">www.namidanecounty.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> MENTAL HEALTH AMERICA - PREVENT SUICIDE GREATER MILWAUKEE</h3>
+      <h3><span class="bluetext">07.</span> NAMI - WASHINGTON COUNTY</h3>
       <div class="content">
-        Funding for the organization's 3rd annual conference held in Milwaukee.  This conference provides important information sharing of national and regional resources and statistics, focused on suicide.
+        The development of AHA Connections:  Acceptance, Harmony &amp; Affirmation - to resolve isolation of mentally ill community members.  NAMI Washington County and Life of Hope developed this project jointly to provide activities and social opportunities.
+      </div><br>
+      <br>
+
+      <a href="http://www.nami-positiveimage.org">www.nami-positiveimage.org</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">08.</span> NAMI - WAUKESHA COUNTY</h3>
+      <div class="content">
+        An educational offering called Ending the Silence for approximately 1,500 middle and high school students.  The program is designed to improve suicide awareness and prevention, as well as mental health awareness for young adults.
+      </div><br>
+      <br>
+
+      <a href="https://www.namiwaukesha.org">www.namiwaukesha.org</a>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">09.</span> PREVENT SUICIDE GREATER MILWAUKEE</h3>
+      <div class="content">
+        QPR (Question/Persuade/Refer) training to increase number of QPR trainers available to high risk groups such as veterans, non-English speaking, LGBTQ and men in middle years. These are demographics that have a high suicide rate.
       </div><br>
       <br>
 
@@ -116,93 +136,53 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> MILWAUKEE RESCUE MISSION</h3>
+      <h3><span class="bluetext">10.</span> PROHEALTH CARE FOUNDATION </h3>
       <div class="content">
-        A grant to provide "trauma-informed care" training to the staff at Joy House, a family shelter for moms and kids.
+        Funding for critical staff training to launch a collaborative care pilot which will improve the capabilities of primary care providers to treat depression by integrating behavioral health into clinic settings.
       </div><br>
       <br>
 
-      <a href="http://www.thejoyhouse.org">www.thejoyhouse.org</a>
+      <a href="http://www.prohealthcare.org/foundation.aspx">www.prohealthcare.org/foundation.aspx</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> MAVRC -- UNIVERSITY OF WISCONSIN -- MILWAUKEE</h3>
+      <h3><span class="bluetext">11.</span> RADIO MILWAUKEE 88.9</h3>
       <div class="content">
-        Funding for a "Project 22" (a documentary based on two veterans who complete a 22 day motorcycle ride across the country to raise awareness of veteran suicides) viewing and conference with the filmmakers for a panel discussion.
+        In the Wings radio and video segments focused on mental health and specifically, removing stigma and increasing understanding by featuring individual people telling their own stories.
       </div><br>
       <br>
 
-      <a href="http://www.uwm.edu/mavrc">www.uwm.edu/mavrc</a>
+      <a href="https://radiomilwaukee.org">www.radiomilwaukee.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> NAMI GREATER MILWAUKEE</h3>
+      <h3><span class="bluetext">12.</span> RAWHIDE</h3>
       <div class="content">
-        Funding provided for the creation of a youth version of "Pieces: In My Own Voice" and then bringing the performance, post-performance discussion and resources to ten Milwaukee area schools, as well as the follow-up in-service mental health education to teachers and school staff.
+        Funding to establish a licensed mental health clinic within the Silver Spring Neighborhood Center and build relationships with community residents and other community providers.  They are also hoping to reduce the stigma of seeking mental health services.
       </div><br>
       <br>
 
-      <a href="http://www.namigrm.org">www.namigrm.org</a>
+      <a href="http://www.rawhide.org">www.rawhide.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> NAMI WAUKESHA</h3>
+      <h3><span class="bluetext">13.</span> SIXTEENTH STREET CLINIC</h3>
       <div class="content">
-        Funding for a Suicide Awareness and Prevention Conference for approximately 250 attendees and a comprehensive program designed to eliminate misinformation by care-giving individuals.  The program hopes to give youth, families and the community at large a common language and understanding of how to help someone dealing with a mental health condition that could eventually lead to suicide.
+        Funding for the opening of the Layton Clinic which will serve unmet community needs.  They will screen more adults and adolescents for depression and create follow-up plans -- hoping to create 11,000 behavioral encounters in the first year.
       </div><br>
       <br>
 
-      <a href="http://www.namiwaukesha.org">www.namiwaukesha.org</a>
+      <a href="http://sschc.org">www.sschc.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> PIUS CATHOLIC HIGH SCHOOL</h3>
+      <h3><span class="bluetext">14.</span> TRAUMATIC INCIDENT RESOURCE</h3>
       <div class="content">
-        A grant to begin part one of a two-part program to develop a standardized approach I identifying, serving and educating students with risk factors for depression, anxiety, adverse childhood experiences and sustained trauma by sending two teachers to "7ei of Trauma Sensitive Schools"- Train the Trainer.
+        Mental Health First Aid training for several first responder honor guard members who will then be able to train peers in Wisconsin and beyond. Mental Health First Aid teaches how to identify, understand, and respond to signs of mental health and substance abuse disorders in the community.
       </div><br>
       <br>
 
-      <a href="http://www.piusxi.org">www.piusxi.org</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">13.</span> SAFE COMMUNITIES OF MADISON &amp; DANE COUNTY</h3>
-      <div class="content">
-        Funding for part two of a three-part program that brings the concept of Zero Suicide to mental health practitioners in and around Madison, WI, through training and conferences. "Zero Suicide" is a foundational belief that all suicides of someone currently in care from a behavioral or health system are preventable.
-      </div><br>
-      <br>
-
-      <a href="http://www.safercommunity.net">www.safercommunity.net</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">14.</span> UNIVERSITY OF WISCONSIN - PLATTEVILLE</h3>
-      <div class="content">
-        Funding to invite Frank Warren, a Suicide Prevention Specialist and motivational speaker, to the University of Wisconsin-Platteville.  This will include several promotions and other events surrounding the main speaking event.
-      </div><br>
-      <br>
-
-      <a href="http://www.uwplatt.edu">www.uwplatt.edu</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">15.</span> VERY SPECIAL ARTS</h3>
-      <div class="content">
-        Funding for seven six-week long visual arts studio class sessions for 30-40 military veterans.
-      </div><br>
-      <br>
-
-      <a href="http://www.vsawis.org">www.vsawis.org</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">16.</span> YMCA - CAMP SOUL</h3>
-      <div class="content">
-        A grant to support an overnight camp for approximately 58 youth and teens that have suffered a loss of someone near to them.
-      </div><br>
-      <br>
-
-      <a href="http://www.kyleskorner.org/camp-soul">www.kyleskorner.org/camp-soul</a>
+      <a href="http://www.nonprofitfacts.com/WI/Traumatic-Incident-Resource.html">www.nonprofitfacts.com/WI/Traumatic-Incident-Resource.html</a>
     </div>
   </div>
 </div>
@@ -231,6 +211,7 @@ include "header.php";
           <div><input type="checkbox" name="control" value=".teen" id="r-teen"> <label for="r-teen">TEEN</label></div>
           <div><input type="checkbox" name="control" value=".college" id="r-college"> <label for="r-college">COLLEGE</label></div>
           <div><input type="checkbox" name="control" value=".school" id="r-school"> <label for="r-school">SCHOOL</label></div>
+          <div><input type="checkbox" name="control" value=".parents" id="r-parents"> <label for="r-parents">PARENTS</label></div>
           <div><input type="checkbox" name="control" value=".adult" id="r-adult"> <label for="r-adult">ADULT</label></div>
           <div><input type="checkbox" name="control" value=".veterans" id="r-veterans"> <label for="r-veterans">VETERANS</label></div>
           <div><input type="checkbox" name="control" value=".seniors" id="r-seniors"> <label for="r-seniors">SENIORS</label></div>
