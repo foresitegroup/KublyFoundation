@@ -58,14 +58,14 @@ include "header.php";
 <div class="home-event">
   <div class="site-width">
     <div class="home-event-left">
-      <a href="https://www.youtube.com/watch?v=vv5wdXHEbYM" class="swipe-box"><i class="fa fa-play" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/watch?v=dQClkoB-7DE" class="swipe-box"><i class="fa fa-play" aria-hidden="true"></i></a>
     </div>
 
     <div class="home-event-right">
       <img src="images/beyond-the-blues-logo.png" alt=""><br>
       <br>
 
-      <h3>SATURDAY<br>SEPTEMBER 16, 2017</h3>
+      <h3>SATURDAY<br>SEPTEMBER 21, 2018</h3>
       <h4>DISCOVERY WORLD - PIER WISCONSIN</h4>
       <br>
 
