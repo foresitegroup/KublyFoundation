@@ -65,7 +65,7 @@ include "header.php";
       <img src="images/beyond-the-blues-logo.png" alt=""><br>
       <br>
 
-      <h3>SATURDAY<br>SEPTEMBER 21, 2018</h3>
+      <h3>FRIDAY<br>SEPTEMBER 21, 2018</h3>
       <h4>DISCOVERY WORLD - PIER WISCONSIN</h4>
       <br>
 
