@@ -1,86 +1,95 @@
 <?php
 session_start();
 
+require_once "inc/dbconfig.php";
+require_once "inc/recaptchalib.php";
+
+$response = null;
+$reCaptcha = new ReCaptcha($RCkey);
+if ($_POST["g-recaptcha-response"]) $response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $_POST["g-recaptcha-response"]);
+
 $salt = "KublyConnectForm";
 
-if ($_POST['confirmationCAP'] == "") {
-  if (
-      $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-      $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
-     )
-  {
-    $Subject = "Contact From Kubly Foundation Website";
-    $SendTo = "krick@charlesekublyfoundation.org";
-    $Headers = "From: Contact Form <connectform@charlesekublyfoundation.org/>\r\n";
-    $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
-    $Headers .= "Bcc: mark@foresitegrp.com\r\n";
+if ($response != null && $response->success) {
+  if ($_POST['confirmationCAP'] == "") {
+    if (
+        $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
+        $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
+       )
+    {
+      $Subject = "Contact From Kubly Foundation Website";
+      $SendTo = "krick@charlesekublyfoundation.org";
+      $Headers = "From: Contact Form <connectform@charlesekublyfoundation.org/>\r\n";
+      $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+      $Headers .= "Bcc: mark@foresitegrp.com\r\n";
 
-    $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
-    
-    if (isset($_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
-    $Message .= "\n" . $_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])];
-
-    if (isset($_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
-    $Message .= "\n" . $_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])];
-    
-    if (isset($_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
-    $Message .= "\n\n" . $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])];
-    
-    if (isset($_POST['subscribe'])) {
-      $data = [
-        'email'  => $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])],
-        'status' => 'subscribed'
-      ];
+      $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
       
-      function syncMailchimp($data) {
-        $apiKey = 'a3820f880f16a587390412816e3beda1-us14';
-        $listId = '30867c8d51';
+      if (isset($_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
+      $Message .= "\n" . $_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])];
 
-        $memberId = md5(strtolower($data['email']));
-        $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
-        $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/' . $memberId;
+      if (isset($_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
+      $Message .= "\n" . $_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])];
+      
+      if (isset($_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
+      $Message .= "\n\n" . $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])];
+      
+      if (isset($_POST['subscribe'])) {
+        $data = [
+          'email'  => $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])],
+          'status' => 'subscribed'
+        ];
+        
+        function syncMailchimp($data) {
+          $apiKey = 'a3820f880f16a587390412816e3beda1-us14';
+          $listId = '30867c8d51';
 
-        $json = json_encode([
-          'email_address' => $data['email'],
-          'status'        => $data['status']
-        ]);
+          $memberId = md5(strtolower($data['email']));
+          $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
+          $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/' . $memberId;
 
-        $ch = curl_init($url);
+          $json = json_encode([
+            'email_address' => $data['email'],
+            'status'        => $data['status']
+          ]);
 
-        curl_setopt($ch, CURLOPT_USERPWD, 'user:' . $apiKey);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 10);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $json);                                                                                                                 
+          $ch = curl_init($url);
 
-        $result = curl_exec($ch);
-        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
+          curl_setopt($ch, CURLOPT_USERPWD, 'user:' . $apiKey);
+          curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+          curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+          curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
+          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+          curl_setopt($ch, CURLOPT_POSTFIELDS, $json);                                                                                                                 
 
-        return $httpCode;
+          $result = curl_exec($ch);
+          $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+          curl_close($ch);
+
+          return $httpCode;
+        }
+
+        syncMailchimp($data);
       }
 
-      syncMailchimp($data);
-    }
-
-    $Message = stripslashes($Message);
-  
-    mail($SendTo, $Subject, $Message, $Headers);
+      $Message = stripslashes($Message);
     
-    $feedback = "<strong>Your message has been sent!</strong> Thank you for your interest. You will be contacted shortly.";
-    
-    if (!empty($_REQUEST['src'])) {
-      header("HTTP/1.0 200 OK");
-      echo $feedback;
-    }
-  } else {
-    $feedback = "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong>";
+      mail($SendTo, $Subject, $Message, $Headers);
+      
+      $feedback = "<strong>Your message has been sent!</strong> Thank you for your interest. You will be contacted shortly.";
+      
+      if (!empty($_REQUEST['src'])) {
+        header("HTTP/1.0 200 OK");
+        echo $feedback;
+      }
+    } else {
+      $feedback = "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong>";
 
-    if (!empty($_REQUEST['src'])) {
-      header("HTTP/1.0 500 Internal Server Error");
-      echo $feedback;
+      if (!empty($_REQUEST['src'])) {
+        header("HTTP/1.0 500 Internal Server Error");
+        echo $feedback;
+      }
     }
   }
 }
