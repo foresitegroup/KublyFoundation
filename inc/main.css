@@ -3088,6 +3088,16 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   height: 563px;
 }
 
+.banner-news-single:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.2);
+}
+
 .banner-news-index .site-width,
 .banner-news-single .site-width {
   position: absolute;
@@ -3104,6 +3114,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
 .banner-news-single .site-width {
   color: #0E8DC8;
+  text-shadow: 0 0 13px rgba(255,255,255, 0.7);
 }
 
 .banner-news-index H1 {
@@ -3120,6 +3131,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   line-height: 1.2em;
   text-decoration: underline;
   color: #FFFFFF;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 .featured-post {
