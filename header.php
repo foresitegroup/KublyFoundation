@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+$GLOBALS['btbdate'] = strtotime('September 21, 2018');
+
 function email($address, $name="") {
   $email = "";
   for ($i = 0; $i < strlen($address); $i++) { $email .= (rand(0, 1) == 0) ? "&#" . ord(substr($address, $i)) . ";" : substr($address, $i, 1); }

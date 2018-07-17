@@ -20,7 +20,7 @@ include "header.php";
 
 <div class="events-header">
   <div class="site-width">
-    UPCOMING EVENTS 2017-2018
+    UPCOMING EVENTS 2018-2019
   </div>
 </div>
 
@@ -28,8 +28,8 @@ include "header.php";
   <div class="site-width">
     <div class="event">
       <div class="event-left">
-        <div class="event-day">Saturday</div>
-        September 16<br>
+        <div class="event-day"><?php echo strtoupper(date("l", $GLOBALS['btbdate'])); ?></div>
+        <?php echo strtoupper(date("F j", $GLOBALS['btbdate'])); ?><br>
         Time TBA
       </div>
 
@@ -128,7 +128,7 @@ include "header.php";
 
   <div class="site-width">
     <h1>BEYOND THE BLUES CONCERT EVENT</h1>
-    SATURDAY SEPTEMBER 16, 2017<br>
+    <?php echo strtoupper(date("l F j, Y", $GLOBALS['btbdate'])); ?><br>
     <a href="beyond-the-blues.php">FOR EVENT INFO</a>
   </div>
 </div>
