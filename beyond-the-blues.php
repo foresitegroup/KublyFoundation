@@ -11,12 +11,11 @@ include "header.php";
   <div class="site-width">
     <div class="header-left">
       <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span>
-      <span class="btb-blue"><div>THE</div> BLUES</span> 2018
+      <span class="btb-blue"><div>THE</div> BLUES</span> <?php echo date("Y", $GLOBALS['btbdate']); ?>
     </div>
 
     <div class="header-right">
-      FRIDAY<br>
-      SEPTEMBER 21<sup>ST</sup> 2018<br>
+      <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
       <div>
         <!-- 6:30pm - 11:00pm<br>
         <br> -->
@@ -73,7 +72,7 @@ include "header.php";
 </div>
 
 <div class="btb-gallery" style="position: relative;">
-  <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
+  <!-- <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>x -->
   <div class="site-width">
     <?php
     $main_dir = "images/galleries/btb2017";
@@ -167,85 +166,63 @@ include "header.php";
 </div>
 -->
 
-<!-- <div class="footer-call btb-thanks" id="sponsors">
+<div class="footer-call btb-thanks" id="sponsors">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
-    <h1>INTERESTED IN BEING A SPONSOR OF 2017 BEYOND THE BLUES?<br><a href="pdf/Sponsor_Reply_Sheet_2017.pdf">LEARN MORE</a></h1>
+    <h1>INTERESTED IN BEING A SPONSOR OF 2018 BEYOND THE BLUES?<br><a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a></h1>
 
-    <h2>2017 SPONSORS</h2>
+    <h2>2018 SPONSORS</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
+        <li>Colony Brands</li>
         <li>Meg Fetherston Kasch &amp; Libby Kasch</li>
-        <li>Billie &amp; Mike Kubly</li>
-      </ul>
-
-      <h3>Aqua Level - $10,000</h3>
-      <ul>
-        <li>Colony Brands, Inc.</li>
-        <li>Michael &amp; Jeanne Schmitz</li>
+        <li>Billie Kubly</li>
       </ul>
 
       <h3>Teal Level - $5,000</h3>
       <ul>
-        <li>William Fitzhugh Fox</li>
         <li>William &amp; Sandy Heitz Family Foundation</li>
-        <li>Sandy &amp; Dennis Kuester</li>
-        <li>Windhover Foundation</li>
+        <li>Jeanne &amp; Mike Schmitz</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-        <li>Baird</li>
         <li>Children's Hospital of Wisconsin</li>
-        <li>College of Health Sciences at Marquette University</li>
         <li>Crescent Grove Advisors</li>
-        <li>Laura Gralton</li>
-        <li>Executive Benefits Network</li>
         <li>Hauske Family Foundation</li>
-        <li>Diane &amp; Robert Jenkins</li>
-        <li>Mary &amp; Ted Kellner</li>
         <li>Sally &amp; Chip Kubly</li>
-        <li>Beth &amp; Will Kubly</li>
-        <li>Anne &amp; Fred Luber Foundation</li>
+        <li>Anne Luber</li>
         <li>Medical College of Wisconsin &mdash; Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
         <li>Rogers Behavioral Health</li>
-        <li>Chip Uihlein</li>
-        <li>Angela &amp; Ross Williams</li>
       </ul>
     </div>
 
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>Anonymous</li>
-        <li>The Bourne Family</li>
+        <li>Susy &amp; John Brennan</li>
         <li>Continental Properties Company, Inc.</li>
-        <li>Dr. William Cullinan</li>
         <li>Sue &amp; Russ Darrow</li>
         <li>Godfrey &amp; Khan, S.C.</li>
         <li>Jean &amp; Charlie Gorham</li>
-        <li>Cookie &amp; Tom Goris</li>
-        <li>Julie &amp; Andy Gusho</li>
-        <li>Susie Hawkins</li>
-        <li>Dr. &amp; Mrs. Leander Jennings</li>
-        <li>Johnson Bank</li>
-        <li>Evelyn Kelly</li>
+        <li>Ann M. Goris</li>
+        <li>Ann &amp; Jon Hammes</li>
+        <li>Diane &amp; Robert Jenkins</li>
+        <li>Susan &amp; Leander Jennings</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
-        <li>Elizabeth &amp; Tom Long</li>
-        <li>Candy &amp; Bruce Pindyck</li>
-        <li>Power Test, Inc.</li>
+        <li>Donna &amp; James Lovelace</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>R&amp;R Insurance Services, Inc.</li>
-        <li>Julianne &amp; Stephen Spadafora</li>
-        <li>Joy &amp; Cy Tector</li>
+        <li>Julie &amp; Steve Spadafora</li>
+        <li>Scott Sullivan, Baird</li>
         <li>Kathleen &amp; Frank Thometz</li>
-        <li>Chris &amp; Mary Tornehl</li>
-        <li>Debbie &amp; Camp VanDyke</li>
-        <li>Kate Schuett &amp; John Wasmer</li>
-        <li>Wolf Paving</li>
+        <li>Mary &amp; Chris Tornehl</li>
+        <li>Jim &amp; Jen Walker</li>
+        <li>Kate Schuett-Wasmer &amp; John Wasmer</li>
+        <li>Wolf Industries, Inc.</li>
         <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
@@ -254,32 +231,27 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
-        <li>Aversa &mdash; Bayshore Town Center</li>
-        <li>Joan Bell</li>
         <li>Ginny &amp; Mike Bolger</li>
+        <li>Jose Carlino Design</li>
+        <li>Senator Alberta Darling</li>
+        <li>Falk Ruvin Real Estate Team</li>
         <li>Patty &amp; Mike Grebe</li>
-        <li>Marilyn &amp; Bill Haker</li>
-        <li>Ann &amp; Jon Hammes</li>
-        <li>Ann Homstad</li>
-        <li>Kiki &amp; Phil Jennings</li>
-        <li>Susie &amp; Fred Kasten</li>
-        <li>Julie &amp; John Kennedy</li>
-        <li>Laura &amp; Pat Koppa</li>
-        <li>Donna &amp; James Lovelace</li>
-        <li>Kris &amp; Robert Rick</li>
-        <li>Samaritan Family Wellness</li>
+        <li>Bill &amp; Marilyn Haker</li>
+        <li>Evelyn Kelly</li>
+        <li>Linda &amp; Curt Lundeen</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Kitty Tierney</li>
         <li>Bonnie &amp; Ned Timarac</li>
+        <li>Debbie &amp; Camp VanDyke</li>
         <li>Abby &amp; Scott Williams</li>
       </ul>
 
       <div class="btb-sponsorship">
         INTERESTED IN SPONSORSHIP?<br>
-        <a href="pdf/Sponsor_Reply_Sheet_2017.pdf">LEARN MORE</a>
+        <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <?php include "footer.php"; ?>
