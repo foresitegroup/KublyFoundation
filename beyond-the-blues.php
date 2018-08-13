@@ -26,9 +26,9 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <!-- <a href="tickets.php" class="tickets">TICKET INFORMATION</a><br>
+      <a href="tickets.php" class="tickets">TICKET INFORMATION</a><br>
 
-      <i class="fa fa-long-arrow-down" aria-hidden="true"></i> --><br><br><br><br>
+      <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br><br><br><br>
     </div>
 
     <div class="btb-banner-spacer"></div>
@@ -198,6 +198,10 @@ include "header.php";
         <li>Milwaukee Admirals</li>
         <li>Rogers Behavioral Health</li>
       </ul>
+      
+      <br>
+      <h3 style="font-size: 200%; text-decoration: none;">Beyond the Blues 2018 Media Sponsor</h3>
+      <img src="images/milwaukee-magazine.png" alt="Milwaukee Magazine" style="max-width: 80%;">
     </div>
 
     <div class="one-third">

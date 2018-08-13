@@ -15,7 +15,7 @@ include "header.php";
       </div>
 
       <div class="info">
-        <span class="btb-blue">PLEASE JOIN US ON SEPTEMBER 16, 2017</span><br>
+        <span class="btb-blue">PLEASE JOIN US ON <?php echo strtoupper(date("F j, Y", $GLOBALS['btbdate'])); ?></span><br>
         6:30pm - 11:00 pm<br>
         Discovery World at Pier Wisconsin<br>
         500 N. Harbor Drive<br>
@@ -57,7 +57,7 @@ include "header.php";
         <input type="submit" name="submit" value="PURCHASE NOW">
       </div>
     </form>
-    Online ticket sales have ended &mdash; please join us and purchase your ticket at the door at Discovery World! See you Saturday!
+    <!-- Online ticket sales have ended &mdash; please join us and purchase your ticket at the door at Discovery World! See you Saturday! -->
 
     <div id="thankyou" style="display: none;">
       <h3>Thank You!</h3>
