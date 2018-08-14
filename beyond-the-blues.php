@@ -26,7 +26,7 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <a href="tickets.php" class="tickets">TICKET INFORMATION</a><br>
+      <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br>
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br><br><br><br>
     </div>
@@ -191,14 +191,18 @@ include "header.php";
       <ul>
         <li>Children's Hospital of Wisconsin</li>
         <li>Crescent Grove Advisors</li>
+        <li>Executive Benefits Network</li>
         <li>Hauske Family Foundation</li>
         <li>Sally &amp; Chip Kubly</li>
+        <li>Beth &amp; Will Kubly</li>
         <li>Anne Luber</li>
+        <li>College of Health Sciences at Marquette University</li>
         <li>Medical College of Wisconsin &mdash; Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
         <li>Rogers Behavioral Health</li>
+        <li>Angela &amp; Ross Williams</li>
       </ul>
-      
+
       <br>
       <h3 style="font-size: 200%; text-decoration: none;">Beyond the Blues 2018 Media Sponsor</h3>
       <img src="images/milwaukee-magazine.png" alt="Milwaukee Magazine" style="max-width: 80%;">
@@ -216,6 +220,7 @@ include "header.php";
         <li>Ann &amp; Jon Hammes</li>
         <li>Diane &amp; Robert Jenkins</li>
         <li>Susan &amp; Leander Jennings</li>
+        <li>Debbie &amp; Mike Judge</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
         <li>Donna &amp; James Lovelace</li>
         <li>Peggy &amp; Ned Purtell</li>
@@ -235,14 +240,18 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
+        <li>Aversa - Bayshore Town Center</li>
         <li>Ginny &amp; Mike Bolger</li>
         <li>Jose Carlino Design</li>
         <li>Senator Alberta Darling</li>
         <li>Falk Ruvin Real Estate Team</li>
         <li>Patty &amp; Mike Grebe</li>
         <li>Bill &amp; Marilyn Haker</li>
+        <li>Ann Homstad</li>
         <li>Evelyn Kelly</li>
+        <li>Laura &amp; Pat Koppa</li>
         <li>Linda &amp; Curt Lundeen</li>
+        <li>Kris &amp; Robert Rick</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Kitty Tierney</li>
         <li>Bonnie &amp; Ned Timarac</li>
