@@ -62,15 +62,15 @@ include "header.php";
     </div>
 
     <div class="home-event-right">
-      <img src="images/beyond-the-blues-logo.png" alt=""><br>
+      <img src="images/beyond-the-blues-15-logo.png" alt=""><br>
       <br>
 
       <h3><?php echo strtoupper(date("l<b\\r>F j Y", $GLOBALS['btbdate'])); ?></h3>
       <h4>DISCOVERY WORLD - PIER WISCONSIN</h4>
       <br>
 
-      Beyond the Blues entertainment and ticket sales TBA.<br>
-      <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available now!</a><br>
+      <a href="tickets.php">Tickets on sale now!</a><br>
+      <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
       <br>
 
       <a href="beyond-the-blues.php" class="button">EVENT INFO</a>
