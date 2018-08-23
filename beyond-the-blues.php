@@ -211,6 +211,7 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>Baird</li>
         <li>Susy &amp; John Brennan</li>
         <li>Continental Properties Company, Inc.</li>
         <li>Sue &amp; Russ Darrow</li>
@@ -229,8 +230,9 @@ include "header.php";
         <li>Scott Sullivan, Baird</li>
         <li>Kathleen &amp; Frank Thometz</li>
         <li>Mary &amp; Chris Tornehl</li>
-        <li>Jim &amp; Jen Walker</li>
+        <li>Jen &amp; Jim Walker</li>
         <li>Kate Schuett-Wasmer &amp; John Wasmer</li>
+        <li>Libby &amp; Jim Wigdale</li>
         <li>Wolf Industries, Inc.</li>
         <li>Diane &amp; Ed Zore</li>
       </ul>
