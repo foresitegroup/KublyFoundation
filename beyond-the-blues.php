@@ -26,7 +26,8 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br>
+      <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
+      <div style="font-size: 43%; line-height: 1.3em; font-weight: 600;">Please purchase your tickets at the door this Friday.  If you have any questions, contact Kris Rick at 414-477-9959.  Thank you!</div>
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br><br><br><br>
     </div>

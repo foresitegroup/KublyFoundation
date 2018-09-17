@@ -69,7 +69,7 @@ include "header.php";
       <h4>DISCOVERY WORLD - PIER WISCONSIN</h4>
       <br>
 
-      <a href="tickets.php">Tickets on sale now!</a><br>
+      <!-- <a href="tickets.php">Tickets on sale now!</a><br> -->
       <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
       <br>
 
