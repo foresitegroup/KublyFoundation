@@ -33,16 +33,20 @@ include "header.php";
     <script type="text/javascript">
       $(document).ready(function() {
         $('input[name="recipient-donation-type"]').on('change', function(){
-          if ($('#r-honor').is(':checked')) {
-            $("#recipient-name").attr("placeholder", "In Honor Of...Their Name");
-          } else {
-            $("#recipient-name").attr("placeholder", "In Memory Of...Their Name");
+          if ($('#r-endowment').not(':checked')) {
+            $('.donation-reveal').find('input:text').val('');
+            $('.donation-reveal').find('input:radio').removeAttr('checked');
           }
         });
         
         $('#donation').submit(function(event) {
           function formValidation() {
-            if (($('#r-honor').is(':checked') || $('#r-memory').is(':checked')) && $('#recipient-name').val() === '') {
+            if (($('#r-endowment').is(':checked')) && $('#r-gift, #r-honor, r-memory').not(':checked')) {
+              alert('You must select "My Gift", "In Honor Of" or "In Memory Of"');
+              return false;
+            }
+
+            if (($('#r-endowment').is(':checked')) && $('#recipient-name').val() === '') {
               alert('Recipient name is required');
               $('#recipient-name').focus();
               return false;
@@ -52,8 +56,8 @@ include "header.php";
           }
           
           if (formValidation()) {
-            if ($('#r-honor').is(':checked') || $('#r-memory').is(':checked')) {
-              var paypalstring = $('input[name=recipient-donation-type]:checked').val() + "^";
+            if ($('#r-endowment').is(':checked')) {
+              var paypalstring = $('input[name=sub-recipient-donation-type]:checked').val() + "^";
               paypalstring += "Recipient Name: " + $('#recipient-name').val() + "^";
               paypalstring += "Donor Name: " + $('#donor-name').val() + "^";
               paypalstring += "Notification Name: " + $('#notification-name').val() + "^";
@@ -91,15 +95,20 @@ include "header.php";
         <input type="text" name="amount" placeholder="Amount $">
 
         <span class="bluetext">DONATION TYPE</span><br>
-        <input type="radio" name="recipient-donation-type" value="" id="r-standard" checked> <label for="r-standard">Standard</label>
-        <input type="radio" name="recipient-donation-type" value="In honor of" id="r-honor"> <label for="r-honor">In Honor Of</label>
-        <input type="radio" name="recipient-donation-type" value="In memory of" id="r-memory"> <label for="r-memory">In Memory Of</label>
+        <input type="radio" name="recipient-donation-type" value="General" id="r-general" checked> <label for="r-general">General</label>
+        <input type="radio" name="recipient-donation-type" value="Endowment" id="r-endowment"> <label for="r-endowment">Endowment</label><br>
+
         <!-- <input type="radio" name="recipient-donation-type" value="G's Big Jig" id="r-bigjig"> <label for="r-bigjig">G's Big Jig</label> -->
 
         <div class="donation-reveal">
           <input id="paypal-custom-field" name="custom" type="hidden">
+          
+          <input type="radio" name="sub-recipient-donation-type" value="My Gift" id="r-gift"> <label for="r-gift">My Gift</label>
+          <input type="radio" name="sub-recipient-donation-type" value="In honor of" id="r-honor"> <label for="r-honor">In Honor Of</label>
+          <input type="radio" name="sub-recipient-donation-type" value="In memory of" id="r-memory"> <label for="r-memory">In Memory Of</label><br>
+          <br>
 
-          <input type="text" name="recipient-name" id="recipient-name">
+          <input type="text" name="recipient-name" id="recipient-name" placeholder ="Their Name">
 
           <input type="text" name="donor-name" id="donor-name" placeholder="Your Name">
 

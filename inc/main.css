@@ -1956,8 +1956,7 @@ A.logo-link:active IMG {
   transform: scale(0.8);
 }
 
-#donation INPUT[type="radio"]#r-honor:checked ~ .donation-reveal,
-#donation INPUT[type="radio"]#r-memory:checked ~ .donation-reveal {
+#donation INPUT[type="radio"]#r-endowment:checked ~ .donation-reveal {
   height: auto;
   opacity: 1;
   overflow: visible;
