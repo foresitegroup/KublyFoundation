@@ -17,8 +17,8 @@ include "header.php";
     <div class="header-right">
       <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
       <div>
-        <!-- 6:30pm - 11:00pm<br>
-        <br> -->
+        6:30pm - 11:00pm<br>
+        <br>
         AT DISCOVERY WORLD - PIER WISCONSIN<br>
         <br>
         500 N. Harbor Drive, Milwaukee, WI
@@ -27,9 +27,8 @@ include "header.php";
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
       <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
-      <div style="font-size: 43%; line-height: 1.3em; font-weight: 600;">Please purchase your tickets at the door this Friday.  If you have any questions, contact Kris Rick at 414-477-9959.  Thank you!</div>
 
-      <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br><br><br><br>
+      <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br><br>
     </div>
 
     <div class="btb-banner-spacer"></div>
@@ -56,18 +55,18 @@ include "header.php";
 
       It was a great success again this year and your support will allow us to continue to fund important mental health projects within SE Wisconsin. -->
 
-      <!-- <h4>MUSIC BY THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
+      <h4>FEATURING THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
       <br>
 
-      <h4>FARE BY BARTOLOTTA CATERING</h4>
+      <h4>CATERED BY BARTOLOTTA</h4>
       <br>
 
       Cash Bar<br>
       Complimentary Valet Parking<br>
-      Blue Jean Casual -->
-      <h4>Check out a recap from the 2017 event!</h4><br>
+      Tickets sold at the door - $80 per person
+      <!-- <h4>Check out a recap from the 2017 event!</h4><br>
 
-      We are blown away every year at the amount of support we receive for the Charles E. Kubly Foundation. Thank you to everyone who made this year as memorable as ever! We could not do it without you!
+      We are blown away every year at the amount of support we receive for the Charles E. Kubly Foundation. Thank you to everyone who made this year as memorable as ever! We could not do it without you! -->
     </div>
   </div>
 </div>
@@ -184,12 +183,14 @@ include "header.php";
 
       <h3>Teal Level - $5,000</h3>
       <ul>
+        <li>Rite Hite Foundation -- Cathy &amp; Mike White</li>
         <li>William &amp; Sandy Heitz Family Foundation</li>
         <li>Jeanne &amp; Mike Schmitz</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Baird</li>
         <li>Children's Hospital of Wisconsin</li>
         <li>Crescent Grove Advisors</li>
         <li>Executive Benefits Network</li>
@@ -201,6 +202,7 @@ include "header.php";
         <li>Medical College of Wisconsin &mdash; Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
         <li>Rogers Behavioral Health</li>
+        <li>Schwanke-Kasten Jewelers</li>
         <li>Angela &amp; Ross Williams</li>
       </ul>
 
@@ -212,10 +214,13 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>Baird</li>
+        <li>The Bourne Family</li>
         <li>Susy &amp; John Brennan</li>
+        <li>Jose Carlino Design</li>
         <li>Continental Properties Company, Inc.</li>
+        <li>Dr. William Cullinan</li>
         <li>Sue &amp; Russ Darrow</li>
+        <li>Anne &amp; Dean Fitzgerald</li>
         <li>Godfrey &amp; Khan, S.C.</li>
         <li>Jean &amp; Charlie Gorham</li>
         <li>Ann M. Goris</li>
@@ -223,15 +228,18 @@ include "header.php";
         <li>Diane &amp; Robert Jenkins</li>
         <li>Susan &amp; Leander Jennings</li>
         <li>Debbie &amp; Mike Judge</li>
+        <li>Sue Kubly &amp; Anna Kubly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
         <li>Donna &amp; James Lovelace</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>R&amp;R Insurance Services, Inc.</li>
+        <li>Karen &amp; Jeffrey Siemers</li>
         <li>Julie &amp; Steve Spadafora</li>
-        <li>Scott Sullivan, Baird</li>
+        <li>Scott Sullivan</li>
         <li>Kathleen &amp; Frank Thometz</li>
         <li>Mary &amp; Chris Tornehl</li>
         <li>Jen &amp; Jim Walker</li>
+        <li>Anne &amp; Tom Wamser</li>
         <li>Kate Schuett-Wasmer &amp; John Wasmer</li>
         <li>Libby &amp; Jim Wigdale</li>
         <li>Wolf Industries, Inc.</li>
@@ -243,29 +251,43 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
+        <li>Amy &amp; Daniel Argall</li>
         <li>Aversa - Bayshore Town Center</li>
+        <li>Mary Jane &amp; Mark Baumgartner</li>
         <li>Ginny &amp; Mike Bolger</li>
-        <li>Jose Carlino Design</li>
         <li>Senator Alberta Darling</li>
         <li>Falk Ruvin Real Estate Team</li>
+        <li>Susie Gebhardt</li>
+        <li>Ellen &amp; Richard Glaisner</li>
         <li>Patty &amp; Mike Grebe</li>
         <li>Bill &amp; Marilyn Haker</li>
+        <li>Emily &amp; J. Shepard Harder</li>
+        <li>Jenny &amp; Bob Hillis</li>
         <li>Ann Homstad</li>
+        <li>Mr. and Mrs. Fred Kasten</li>
         <li>Evelyn Kelly</li>
         <li>Laura &amp; Pat Koppa</li>
         <li>Linda &amp; Curt Lundeen</li>
+        <li>Linda Mellowes</li>
+        <li>Barbara &amp; Rik Moe</li>
+        <li>Catherine &amp; Bill Perez</li>
+        <li>Candy &amp; Bruce Pindyck</li>
         <li>Kris &amp; Robert Rick</li>
+        <li>Elizabeth &amp; Stephen Robbins</li>
         <li>Jen &amp; Todd Schoon</li>
+        <li>Nancy &amp; Greg Smith</li>
+        <li>Joy &amp; Cy Tector</li>
         <li>Kitty Tierney</li>
         <li>Bonnie &amp; Ned Timarac</li>
         <li>Debbie &amp; Camp VanDyke</li>
         <li>Abby &amp; Scott Williams</li>
+        <li>Sunny &amp; Sandy Williams</li>
       </ul>
 
-      <div class="btb-sponsorship">
+<!--       <div class="btb-sponsorship">
         INTERESTED IN SPONSORSHIP?<br>
         <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
