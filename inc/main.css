@@ -1949,20 +1949,20 @@ A.logo-link:active IMG {
 
 #donation .donation-reveal {
   margin-top: 3em;
-  height: 0;
+/*  height: 0;
   opacity: 0;
   overflow: hidden;
   transition: 0.5s;
-  transform: scale(0.8);
+  transform: scale(0.8);*/
 }
 
-#donation INPUT[type="radio"]#r-endowment:checked ~ .donation-reveal {
+/*#donation INPUT[type="radio"]#r-endowment:checked ~ .donation-reveal {
   height: auto;
   opacity: 1;
   overflow: visible;
   margin-bottom: 2.2em;
   transform: scale(1);
-}
+}*/
 
 #donation .left {
   float: left;
