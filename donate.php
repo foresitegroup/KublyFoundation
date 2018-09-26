@@ -96,7 +96,7 @@ include "header.php";
         <input type="text" name="amount" placeholder="Amount $">
 
         <span class="bluetext">DONATION TYPE</span><br>
-        <input type="radio" name="recipient-donation-type" value="General" id="r-general" checked> <label for="r-general">General</label>
+        <input type="radio" name="recipient-donation-type" value="General" id="r-general" checked> <label for="r-general">General Support</label>
         <input type="radio" name="recipient-donation-type" value="Endowment" id="r-endowment"> <label for="r-endowment">Endowment</label><br>
 
         <!-- <input type="radio" name="recipient-donation-type" value="G's Big Jig" id="r-bigjig"> <label for="r-bigjig">G's Big Jig</label> -->
