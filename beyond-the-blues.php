@@ -15,32 +15,34 @@ include "header.php";
     </div>
 
     <div class="header-right">
-      <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
-      <div>
+      Our 15th Anniversary Beyond the Blues was held Friday, September 21st at the Discovery World Pier Wisconsin Pavilion.
+
+      <?php //echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
+<!--       <div>
         6:30pm - 11:00pm<br>
         <br>
         AT DISCOVERY WORLD - PIER WISCONSIN<br>
         <br>
         500 N. Harbor Drive, Milwaukee, WI
       </div>
-      <br>
+      <br> -->
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
       <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
 
-      <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br><br>
+      <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br>
     </div>
 
     <div class="btb-banner-spacer"></div>
 
     <div class="left">
-      <div class="btb-video" id="btb-video">
+      <div class="btb-video" id="btb-video" style="background-image: url(https://img.youtube.com/vi/FLu97T4y6Jk/maxresdefault.jpg);">
         <script src="inc/swipebox/jquery.swipebox.min.js"></script>
         <link rel="stylesheet" href="inc/swipebox/swipebox.css">
         <script type="text/javascript">
           $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
         </script>
-        <a href="https://www.youtube.com/watch?v=dQClkoB-7DE" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/watch?v=FLu97T4y6Jk" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
       </div><br>
       <br>
 
@@ -55,7 +57,7 @@ include "header.php";
 
       It was a great success again this year and your support will allow us to continue to fund important mental health projects within SE Wisconsin. -->
 
-      <h4>FEATURING THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
+      <!-- <h4>FEATURING THE DAN DANCE TRIO AND THE KRIS CROW BAND</h4>
       <br>
 
       <h4>CATERED BY BARTOLOTTA</h4>
@@ -63,10 +65,11 @@ include "header.php";
 
       Cash Bar<br>
       Complimentary Valet Parking<br>
-      Tickets sold at the door - $80 per person
-      <!-- <h4>Check out a recap from the 2017 event!</h4><br>
+      Tickets sold at the door - $80 per person -->
 
-      We are blown away every year at the amount of support we receive for the Charles E. Kubly Foundation. Thank you to everyone who made this year as memorable as ever! We could not do it without you! -->
+      <h4>Check out a video reflection of our 15th year</h4><br>
+
+      We are blown away every year at the amount of support we receive for the Charles E. Kubly Foundation. Thank you to everyone who made this year as memorable as ever! We could not do it without you!
     </div>
   </div>
 </div>
@@ -75,7 +78,7 @@ include "header.php";
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>x -->
   <div class="site-width">
     <?php
-    $main_dir = "images/galleries/btb2017";
+    $main_dir = "images/galleries/btb2018";
 
     $files = scandir($main_dir);
 
@@ -92,6 +95,7 @@ include "header.php";
       <?php
     }
     ?>
+    Dennis Felber Photography
   </div>
 </div>
 <!--
@@ -231,6 +235,7 @@ include "header.php";
         <li>Sue Kubly &amp; Anna Kubly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
         <li>Donna &amp; James Lovelace</li>
+        <li>Keith &amp; Dee Miller Fund - Bryan &amp; Lori O'Hagen</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>R&amp;R Insurance Services, Inc.</li>
         <li>Karen &amp; Jeffrey Siemers</li>
@@ -242,7 +247,7 @@ include "header.php";
         <li>Anne &amp; Tom Wamser</li>
         <li>Kate Schuett-Wasmer &amp; John Wasmer</li>
         <li>Libby &amp; Jim Wigdale</li>
-        <li>Wolf Industries, Inc.</li>
+        <li>Wolf Paving</li>
         <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
