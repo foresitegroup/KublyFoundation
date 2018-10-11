@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$GLOBALS['btbdate'] = strtotime('September 21, 2018');
+$GLOBALS['btbdate'] = strtotime('September 20, 2019');
 
 function email($address, $name="") {
   $email = "";

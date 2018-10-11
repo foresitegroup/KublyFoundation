@@ -28,9 +28,43 @@ include "header.php";
   <div class="site-width">
     <div class="event">
       <div class="event-left">
+        <div class="event-day">Saturday</div>
+        December 8<br>
+        6:30 pm
+
+        <!-- <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a> -->
+      </div>
+
+      <div class="event-right">
+        <div class="event-title">Cause for the Claus</div>
+        Ozaukee County Fairgrounds Pavilion, Cedarburg, WI.
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
+        <div class="event-day">Saturday</div>
+        January 12<br>
+        7:00 pm
+
+        <!-- <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a> -->
+      </div>
+
+      <div class="event-right">
+        <div class="event-title">Charlie's Night Out</div>
+        A fun night out for a great cause! Grab your friends and join us for our blue jean casual "Charlie's Night Out" fundraiser at the Black Swan in Milwaukee's Downtown Third Ward.
+      </div>
+
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="event">
+      <div class="event-left">
         <div class="event-day"><?php echo strtoupper(date("l", $GLOBALS['btbdate'])); ?></div>
         <?php echo strtoupper(date("F j", $GLOBALS['btbdate'])); ?><br>
-        Time TBA
+        <!-- Time TBA -->
       </div>
 
       <div class="event-right">
@@ -99,23 +133,6 @@ include "header.php";
       <div class="event-right">
         <div class="event-title">Children Come First Conference</div>
         This Charles E Kubly Foundation sponsored Children Come First Conference is for those caring for, working with, or concerned with the well being of children and young adults with social, emotional, and behavioral challenges. Each year, this conference brings together professionals, educators, and families, with national experts in the field of children's mental health.
-      </div>
-
-      <div style="clear: both;"></div>
-    </div> -->
-
-    <!-- <div class="event">
-      <div class="event-left">
-        <div class="event-day">Saturday</div>
-        January 7<br>
-        7:00 pm
-
-        <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a>
-      </div>
-
-      <div class="event-right">
-        <div class="event-title">Charlie's Night Out</div>
-        A fun night out for a great cause! Grab your friends and join us for our FIRST ever blue jean casual "Charlie's Night Out" fundraiser at the Black Swan in Milwaukee's Downtown Third Ward. Tickets are $25.00.
       </div>
 
       <div style="clear: both;"></div>

@@ -58,27 +58,28 @@ include "header.php";
 <div class="home-event">
   <div class="site-width">
     <div class="home-event-left">
-      <a href="https://www.youtube.com/watch?v=dQClkoB-7DE" class="swipe-box"><i class="fa fa-play" aria-hidden="true"></i></a>
+      <!-- <a href="https://www.youtube.com/watch?v=dQClkoB-7DE" class="swipe-box"><i class="fa fa-play" aria-hidden="true"></i></a> -->
     </div>
 
     <div class="home-event-right">
       <img src="images/beyond-the-blues-15-logo.png" alt=""><br>
       <br>
-
-      <h3><?php echo strtoupper(date("l<b\\r>F j Y", $GLOBALS['btbdate'])); ?></h3>
-      <h4>DISCOVERY WORLD - PIER WISCONSIN</h4>
+      
+      <h4>Save the Date<br>Beyond the Blues 2019</h4>
+      <h3><?php echo strtoupper(date("l<b\\r>F j, Y", $GLOBALS['btbdate'])); ?></h3>
+      <h4>DISCOVERY WORLD PIER WISCONSIN PAVILION</h4>
       <br>
 
       <!-- <a href="tickets.php">Tickets on sale now!</a><br> -->
-      <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
-      <br>
+      <!-- <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
+      <br> -->
 
       <a href="beyond-the-blues.php" class="button">EVENT INFO</a>
       <a href="events.php" class="more">+ MORE EVENTS</a>
     </div>
   </div>
 
-  <div class="home-event-back"></div>
+  <div class="home-event-back" style="background-image: url(images/discovery-world.jpg);"></div>
 </div>
 
 <div class="home-foundation">
