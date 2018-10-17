@@ -495,12 +495,36 @@ A.my-menu-toggle {
 
 #dogear {
   position: absolute;
-  bottom: -1px;
+  bottom: 0;
   right: 0;
   z-index: 999;
-  font-size: 0px;
-  line-height: 0px;
+  width: 350px;
+  height: 400px;
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #EE312B 50%, #EE312B 100%);
 }
+
+#dogear DIV {
+  position: absolute;
+  top: 52%;
+  right: 2%;
+  width: 50%;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+#dogear DIV > SPAN {
+  color: #82C150;
+  font-weight: 900;
+  font-size: 200%;
+  line-height: 1em;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
+#dogear DIV > SPAN SPAN { display: block; font-size: 70%; }
 
 .home-banner .home-banner-slide.dogear .site-width {
   box-sizing: border-box;
@@ -2037,6 +2061,8 @@ A.logo-link:active IMG {
   margin-bottom: 4em;
 }
 
+.btb-tickets .btb-banner.cftc { margin-bottom: 2em; }
+
 .btb-tickets .btb-banner .header-left {
   float: none;
 }
@@ -2048,6 +2074,8 @@ A.logo-link:active IMG {
   transform: translateY(-50%);
   width: 40%;
 }
+
+.btb-tickets .btb-banner.cftc .info { width: 50%; }
 
 #tickets {
   width: 50%;
@@ -2522,10 +2550,14 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   line-height: 0.85em;
 }
 
+.btb-banner.cftc .header-left { width: 50%; font-size: 100px; }
+
 .btb-banner .header-left DIV {
   display: inline-block;
   padding-left: 0.25em;
 }
+
+.btb-banner.cftc .header-left DIV { font-size: 80%; padding-left: 1em; }
 
 .btb-green { color: #82C150; }
 .btb-yellow { color: #F5E20B; }
@@ -4030,6 +4062,10 @@ A.featured-read:active {
   .news-footer .site-width H1 {
     font-size: 88px;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  #dogear { width: 300px; height: 350px; font-size: 16px; }
 }
 
 @media only screen and (max-width: 600px) {
