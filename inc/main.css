@@ -3169,7 +3169,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 .banner-news-single H1 {
   margin: 0 0 0.5em;
   font-weight: 800;
-  font-size: 68px;
+  font-size: 60px;
   line-height: 1.2em;
   text-decoration: underline;
   color: #FFFFFF;
@@ -3210,7 +3210,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   margin: 0.25em 0 0.75em;
   color: #112C37;
   font-weight: 800;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 1.1em;
   text-transform: uppercase;
   text-decoration: underline;
