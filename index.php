@@ -62,7 +62,7 @@ include "header.php";
     </div>
 
     <div class="home-event-right">
-      <img src="images/beyond-the-blues-15-logo.png" alt=""><br>
+      <img src="images/beyond-the-blues-logo.png" alt=""><br>
       <br>
       
       <h4>Save the Date<br>Beyond the Blues 2019</h4>

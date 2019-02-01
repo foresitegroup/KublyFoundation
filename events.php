@@ -20,19 +20,19 @@ include "header.php";
 
 <div class="events-header">
   <div class="site-width">
-    UPCOMING EVENTS 2018-2019
+    UPCOMING EVENTS 2019
   </div>
 </div>
 
 <div class="events">
   <div class="site-width">
-    <div class="event">
+<!--     <div class="event">
       <div class="event-left">
         <div class="event-day">Saturday</div>
         December 8<br>
         6:30 pm
 
-        <!-- <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a> -->
+        <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a>
       </div>
 
       <div class="event-right">
@@ -41,15 +41,15 @@ include "header.php";
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
 
-    <div class="event">
+<!--     <div class="event">
       <div class="event-left">
         <div class="event-day">Saturday</div>
         January 12<br>
         7:00 pm
 
-        <!-- <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a> -->
+        <a href="https://www.eventbrite.com/e/charlies-night-out-tickets-30130353699">EVENT DETAILS</a>
       </div>
 
       <div class="event-right">
@@ -58,7 +58,7 @@ include "header.php";
       </div>
 
       <div style="clear: both;"></div>
-    </div>
+    </div> -->
 
     <div class="event">
       <div class="event-left">

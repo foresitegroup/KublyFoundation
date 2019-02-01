@@ -15,17 +15,18 @@ include "header.php";
     </div>
 
     <div class="header-right">
-      Our 15th Anniversary Beyond the Blues was held Friday, September 21st at the Discovery World Pier Wisconsin Pavilion.
+      Save the Date<br>
+      Beyond the Blues 2019<br>
 
-      <?php //echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
-<!--       <div>
-        6:30pm - 11:00pm<br>
-        <br>
-        AT DISCOVERY WORLD - PIER WISCONSIN<br>
+      <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
+      <div>
+        <!-- 6:30pm - 11:00pm<br>
+        <br> -->
+        DISCOVERY WORLD PIER WISCONSIN PAVILION<br>
         <br>
         500 N. Harbor Drive, Milwaukee, WI
       </div>
-      <br> -->
+      <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
       <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
@@ -173,7 +174,7 @@ include "header.php";
 <div class="footer-call btb-thanks" id="sponsors">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
-    <h1>INTERESTED IN BEING A SPONSOR OF 2018 BEYOND THE BLUES?<br><a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a></h1>
+    <h1>INTERESTED IN BEING A SPONSOR OF 2019 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span><!--<a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a>--></h1>
 
     <h2>2018 SPONSORS</h2>
 
