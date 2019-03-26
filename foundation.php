@@ -82,11 +82,12 @@ include "header.php";
   </div>
 </div>
 
-<link rel="stylesheet" href="inc/slick/slick.css">
-<script type="text/javascript" src="inc/slick/slick.min.js"></script>
-<script type="text/javascript" src="inc/slick/slick.init.slider.js"></script>
+<script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="inc/jquery.cycle2.carousel.min.js"></script>
 
 <div class="image-slider">
+  <a href="#" class="prev cycle-prev"><i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i></a>
+  <a href="#" class="next cycle-next"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
   <img src="images/foundation-slider1.jpg" alt="">
   <img src="images/foundation-slider2.jpg" alt="">
   <img src="images/foundation-slider3.jpg" alt="">
@@ -95,6 +96,33 @@ include "header.php";
   <img src="images/foundation-slider6.jpg" alt="">
   <img src="images/foundation-slider7.jpg" alt="">
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    function buildCarousel() {
+      var slides = 3;
+
+      if (window.innerWidth <= 800) { slides = 2; }
+      if (window.innerWidth <= 600) { slides = 1; }
+
+      $('.image-slider').cycle({
+        timeout: 0,
+        fx: 'carousel',
+        carouselFluid: 'true',
+        carouselVisible: slides
+      });
+    }
+
+    function resizeCarousel() {
+      $('.image-slider').cycle('destroy');
+      buildCarousel();
+    }
+
+    buildCarousel();
+
+    $(window).resize(function(){ setTimeout(function() { resizeCarousel(); },100); });
+  });
+</script>
 
 <div id="faq">
   <div class="site-width">
