@@ -163,8 +163,8 @@ A.watchvideo:after {
   position: relative;
 }
 
-.image-slider A.slick-arrow:link,
-.image-slider A.slick-arrow:visited {
+.image-slider A.prev:link, .image-slider A.next:link,
+.image-slider A.prev:visited, .image-slider A.next:visited {
   position: absolute;
   top: 42%;
   z-index: 1000;
@@ -174,16 +174,16 @@ A.watchvideo:after {
   outline: none;
 }
 
-.image-slider .prev.slick-arrow {
+.image-slider .prev {
   left: 1%;
 }
 
-.image-slider .next.slick-arrow {
+.image-slider .next {
   right: 1%;
 }
 
-.image-slider A.slick-arrow:hover,
-.image-slider A.slick-arrow:active {
+.image-slider A.prev:hover, .image-slider A.next:hover,
+.image-slider A.prev:active, .image-slider A.next:active {
   color: rgba(17, 44, 55, 0.6);
 }
 
@@ -500,31 +500,33 @@ A.my-menu-toggle {
   z-index: 999;
   width: 350px;
   height: 400px;
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #EE312B 50%, #EE312B 100%);
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #F1F2F2 50%, #F1F2F2 100%);
 }
 
 #dogear DIV {
   position: absolute;
   top: 52%;
   right: 2%;
-  width: 50%;
-  color: #FFFFFF;
+  width: 60%;
+  color: #112C37;
   font-weight: 700;
-  line-height: 1.4em;
+  font-size: 22px;
+  line-height: 1.2em;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
 }
 
 #dogear DIV > SPAN {
-  color: #82C150;
+  display: block;
+  color: #ED1C24;
   font-weight: 900;
-  font-size: 200%;
-  line-height: 1em;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
+  font-size: 80%;
+  /*line-height: 1em;*/
+  /*text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);*/
 }
 
-#dogear DIV > SPAN SPAN { display: block; font-size: 70%; }
+/*#dogear DIV > SPAN SPAN { display: block; font-size: 70%; }*/
 
 .home-banner .home-banner-slide.dogear .site-width {
   box-sizing: border-box;
@@ -621,7 +623,8 @@ A.my-menu-toggle {
 .scrolling-menu .menu UL LI.incrisis A:link,
 .scrolling-menu .menu UL LI.incrisis A:visited {
   left: 0;
-  color: #052838;
+  /*color: #052838;*/
+  color: #C22838;
 }
 
 .btb .scrolling-menu .menu UL LI.incrisis A:link,
@@ -3633,6 +3636,148 @@ A.featured-read:active {
   color: #0E8DC8;
 }
 
+#endowment-banner {
+  background: #112C37 url(../images/endowment-banner.jpg) center center no-repeat;
+  background-size: contain;
+  color: #EBEBEB;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 1.2em;
+  text-align: center;
+  text-shadow: 0 0 10px #112C37;
+  padding: 3.75em 0 0.25em;
+  position: relative;
+}
+
+#endowment-banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: url(../images/endowment-joey.jpg) left center no-repeat;
+  background-size: contain;
+}
+
+#endowment-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: url(../images/endowment-charlie.jpg) right center no-repeat;
+  background-size: contain;
+}
+
+#endowment-banner .site-width { position: relative; z-index: 5; }
+
+#banner-caption {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+  font-size: 12px;
+}
+
+[id^="endowment-"]:not(#endowment-banner) {
+  padding: 5em 0;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9em;
+}
+
+[id^="endowment-"]:not(#endowment-banner) H2 {
+  color: #052838;
+  margin: 0 0 0.1em;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+#endowment-gift {
+  font-weight: bold;
+}
+
+#endowment-goal,
+#endowment-giving {
+  background: #052838;
+  color: #F1F2F2;
+}
+
+#endowment-goal H2, #endowment-giving H2 { color: #F1F2F2 !important; }
+
+#endowment-goal H3 {
+  color: #F1F2F2;
+  margin: 0;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#endowment-goal H4 {
+  padding: 0.2em 0 0.5em;
+  color: #0E8DC8;
+  margin: 0;
+  font-weight: 800;
+  font-size: 120px;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#total-raised-bar {
+  background: #F1F2F2;
+  min-height: 12px;
+  margin-bottom: 3.5%;
+}
+
+.outer-therm {
+  background: #0E8DC8;
+  height: 12px;
+}
+
+.inner-therm {
+  position: relative;
+  overflow: visible !important;
+}
+
+.inner-therm SPAN {
+  padding: 0 !important;
+  position: absolute;
+  right: -1.1em;
+  bottom: 150%;
+  z-index: 7;
+  color: #0E8DC8;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1em;
+}
+
+#endowment-giving A:hover, #endowment-giving A:active {
+  color: #F1F2F2;
+}
+
+
+#endowment-giving A.button:link, #endowment-giving A.button:visited {
+  font-size: 18px;
+  line-height: 1em;
+  padding: 0.6em 1.2em;
+}
+
+#endowment-giving A.button:hover, #endowment-giving A.button:active {
+  background: #F1F2F2;
+  color: #052838;
+}
+
+#endowment-tribute IMG {
+  float: right;
+  margin-left: 2em;
+  max-width: 40%;
+  height: auto;
+}
 
 
 
@@ -3666,6 +3811,10 @@ A.featured-read:active {
   .scrolling-menu .menu UL LI.incrisis { display: inline-block; }
 }
 
+@media only screen and (max-width: 1200px) {
+  #endowment-banner { font-size: 6.2vw; }
+}
+
 @media only screen and (max-width: 1024px) {
   .site-width, .nav-links { width: 96%; }
 
@@ -3693,6 +3842,10 @@ A.featured-read:active {
   #thankyou {
     width: 96%;
     padding: 2em;
+  }
+
+  .menu UL LI UL LI, .menu UL LI UL LI:first-child {
+    padding: 1.4em 1%;
   }
 
   .home-banner .home-banner-slide.night-out .site-width H1 {
@@ -3789,7 +3942,7 @@ A.featured-read:active {
   }
 
   #charlies-story .right {
-    font-size: 70px;
+    font-size: 9vw;
   }
 
   #faq .left {
@@ -4062,10 +4215,17 @@ A.featured-read:active {
   .news-footer .site-width H1 {
     font-size: 88px;
   }
+
+  #endowment-banner { font-size: 9vw; padding: 1.5em 0; }
+  #endowment-banner:before, #endowment-banner:after { background-size: cover; }
 }
 
 @media only screen and (max-width: 700px) {
   #dogear { width: 300px; height: 350px; font-size: 16px; }
+
+  #endowment-goal H3 { font-size: 6vw; }
+  #endowment-goal H4 { font-size: 17vw; }
+  .inner-therm SPAN { font-size: 4vw; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -4202,7 +4362,6 @@ A.featured-read:active {
 
   #charlies-story .right {
     width: 60%;
-    font-size: 65px;
   }
 
   #faq .left,
@@ -4490,6 +4649,8 @@ A.featured-read:active {
   .btb-tickets .btb-banner .header-left { font-size: 20vw; }
 
   #tickets { width: 100%; }
+
+  #endowment-tribute IMG { float: none; margin-left: 0; max-width: 100%; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4827,6 +4988,10 @@ A.featured-read:active {
   .event-left A:visited {
     margin-top: 1.5em;
   }
+
+  #endowment-banner { margin-top: 105px; }
+
+  [id^="endowment-"]:not(#endowment-banner) H2 { font-size: 12.6vw; }
 }
 
 @media only screen and (max-width: 320px) {

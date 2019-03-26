@@ -4,6 +4,7 @@
     <a href="<?php echo $TopDir; ?>foundation.php">Foundation</a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>foundation.php#foundation">The Foundation</a></li>
+      <li><a href="<?php echo $TopDir; ?>endowment.php">Endowment</a></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#charlies-story">Charlie's Story</a></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#faq">FAQ</a></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#board-leadership">Board &amp; Leadership</a></li>
