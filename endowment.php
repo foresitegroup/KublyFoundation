@@ -80,10 +80,10 @@ include "header.php";
 <div id="endowment-power">
   <div class="site-width">
     <h2>The Power of Your Gift</h2>
-    Why invest now in an endowment gift to the CEKF?  Unfortunately, depression, mental health and suicide prevention receive very little philanthropic support despite the fact suicide rates continue to rise. Nationally, suicide is 10th leading cause of death  For people ages 15-34, suicide is the second leading cause of death.  Meanwhile, the National Institute of Mental Health reports that more than 16 million adults&mdash;or 6.7% of the population&mdash;experienced a major depressive episode in 2016, making it one of the most common mental health disorders.<br>
+    Why invest now in an endowment gift to the CEKF?  Unfortunately, depression, mental health and suicide prevention receive very little philanthropic support despite the fact suicide rates continue to rise. Nationally, suicide is the 10th leading cause of death and it is the second most common cause of death among individuals ages 15-34.  Meanwhile, the National Institute of Mental Health reports that more than 16 million adults&mdash;or 6.7% of the population&mdash;experienced a major depressive episode in 2016, making it one of the most common mental health disorders.<br>
     <br>
 
-    You can help raise awareness of depression,eliminate stigma and prevent suicide.  Give today to the Endowment Fund and watch the multiplier effect of your gift create impact far into the future.  Your gift, leveraged with those of other donors, will generate earnings to support both our mission today and the future sustainability of our efforts.
+    You can help raise awareness of depression, eliminate stigma and prevent suicide.  Give today to the Endowment Fund and watch the multiplier effect of your gift create impact far into the future.  Your gift, leveraged with those of other donors, will generate earnings to support both our mission today and the future sustainability of our efforts.
   </div>
 </div>
 
@@ -122,10 +122,7 @@ include "header.php";
     <br>
 
     In our opinion, the Charles E. Kubly Foundation has achieved the success and has reached the stage of growth where the community should support an expansion of your program and provide for its long-term existence. The best means to accomplish this is to establish an endowment fund. The time to create this permanent financial base has come. You have demonstrated the performance to warrant our trust, and we hope, the community's trust as well."</em><br>
-    Michael &amp; Jeanne Schmitz<br>
-    <br>
-
-    <a href="news/the-charles-e-kubly-foundation-receives-500000-donation-to-establish-the-joey-schmitz-charlie-kubly-endowment-fund/" class="button">READ MORE</a>
+    Michael &amp; Jeanne Schmitz
   </div>
 </div>
 

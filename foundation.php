@@ -231,14 +231,14 @@ include "header.php";
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
 
-      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson</strong>, MD Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake</strong>, MD Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride</strong>, MD Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts</strong>, MD National Medical Advisor Stanford University<br>
+      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
-      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson</strong>, MEd, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan</strong>, M.D. Medical College of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann</strong>, MD Medical College of Wisconsin<br>
-      <strong>We are extremely grateful for the time, expertise and dedication to the Grant Review Committee.</strong><br>
+      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
+      <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
-      <h4>COMMUNITY ADVISORY BOARD:</h4> <strong>Kerry Bolger</strong> &nbsp; // &nbsp; <strong>T. Michael Bolger</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>David Fritz</strong>, Executive Benefits Network &nbsp; // &nbsp; <strong>Chip Kubly</strong> &nbsp; // &nbsp; <strong>Susie Jennings</strong> &nbsp; // &nbsp; <strong>Susie Steiner</strong> &nbsp; // &nbsp; <strong>Julie Pandl</strong>, Author &nbsp; // &nbsp; <strong>Maureen Stalle</strong>, Keller Williams Realty &nbsp; // &nbsp; <strong>Angela Williams</strong> &nbsp; // &nbsp; <strong>Sandy Williams</strong>, Foley &amp; Lardner Retired<br>
+      <h4>COMMUNITY ADVISORY BOARD:</h4> <strong>Kerry Bolger</strong> &nbsp; // &nbsp; <strong>David Fritz</strong>, Executive Benefits Network &nbsp; // &nbsp; <strong>Chip Kubly</strong> &nbsp; // &nbsp; <strong>Sally Kubly</strong> &nbsp; // &nbsp; <strong>Susie Jennings</strong> &nbsp; // &nbsp; <strong>Susie Steiner</strong> &nbsp; // &nbsp; <strong>Julie Pandl</strong>, Author &nbsp; // &nbsp; <strong>Maureen Stalle</strong>, Keller Williams Realty &nbsp; // &nbsp; <strong>Angela Williams</strong> &nbsp; // &nbsp; <strong>Sandy Williams</strong>, Foley &amp; Lardner Retired<br>
       <br>
 
       <h4>BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
