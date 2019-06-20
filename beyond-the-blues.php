@@ -176,79 +176,52 @@ include "header.php";
   <div class="site-width">
     <h1>INTERESTED IN BEING A SPONSOR OF 2019 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span><!--<a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a>--></h1>
 
-    <h2>2018 SPONSORS</h2>
+    <h2>2019 SPONSORS TO DATE</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
-        <li>Colony Brands</li>
         <li>Meg Fetherston Kasch &amp; Libby Kasch</li>
-        <li>Billie Kubly</li>
+      </ul>
+
+      <h3>Aqua Level - $10,000</h3>
+      <ul>
+        <li>William &amp; Sandy Heitz Family Foundation</li>
       </ul>
 
       <h3>Teal Level - $5,000</h3>
       <ul>
-        <li>Rite Hite Foundation -- Cathy &amp; Mike White</li>
-        <li>William &amp; Sandy Heitz Family Foundation</li>
-        <li>Jeanne &amp; Mike Schmitz</li>
+        <li>National Center for Housing Management Charities</li>
+        <li>Michael Schmitz</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-        <li>Baird</li>
-        <li>Children's Hospital of Wisconsin</li>
         <li>Crescent Grove Advisors</li>
-        <li>Executive Benefits Network</li>
-        <li>Hauske Family Foundation</li>
-        <li>Sally &amp; Chip Kubly</li>
         <li>Beth &amp; Will Kubly</li>
-        <li>Anne Luber</li>
-        <li>College of Health Sciences at Marquette University</li>
-        <li>Medical College of Wisconsin &mdash; Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
-        <li>Rogers Behavioral Health</li>
-        <li>Schwanke-Kasten Jewelers</li>
-        <li>Angela &amp; Ross Williams</li>
       </ul>
 
-      <br>
+      <!-- <br>
       <h3 style="font-size: 200%; text-decoration: none;">Beyond the Blues 2018 Media Sponsor</h3>
-      <img src="images/milwaukee-magazine.png" alt="Milwaukee Magazine" style="max-width: 80%;">
+      <img src="images/milwaukee-magazine.png" alt="Milwaukee Magazine" style="max-width: 80%;"> -->
     </div>
 
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>The Bourne Family</li>
         <li>Susy &amp; John Brennan</li>
         <li>Jose Carlino Design</li>
-        <li>Continental Properties Company, Inc.</li>
-        <li>Dr. William Cullinan</li>
-        <li>Sue &amp; Russ Darrow</li>
-        <li>Anne &amp; Dean Fitzgerald</li>
+        <li>State Senator Alberta Darling</li>
+        <li>Susie Gebhardt</li>
         <li>Godfrey &amp; Khan, S.C.</li>
-        <li>Jean &amp; Charlie Gorham</li>
-        <li>Ann M. Goris</li>
         <li>Ann &amp; Jon Hammes</li>
-        <li>Diane &amp; Robert Jenkins</li>
-        <li>Susan &amp; Leander Jennings</li>
-        <li>Debbie &amp; Mike Judge</li>
-        <li>Sue Kubly &amp; Anna Kubly</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
-        <li>Donna &amp; James Lovelace</li>
-        <li>Keith &amp; Dee Miller Fund - Bryan &amp; Lori O'Hagen</li>
+        <li>Tom & Elizabeth Long</li>
         <li>Peggy &amp; Ned Purtell</li>
-        <li>R&amp;R Insurance Services, Inc.</li>
-        <li>Karen &amp; Jeffrey Siemers</li>
+        <li>Nancy &amp; Greg Smith</li>
         <li>Julie &amp; Steve Spadafora</li>
-        <li>Scott Sullivan</li>
-        <li>Kathleen &amp; Frank Thometz</li>
         <li>Mary &amp; Chris Tornehl</li>
-        <li>Jen &amp; Jim Walker</li>
-        <li>Anne &amp; Tom Wamser</li>
-        <li>Kate Schuett-Wasmer &amp; John Wasmer</li>
-        <li>Libby &amp; Jim Wigdale</li>
-        <li>Wolf Paving</li>
         <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
@@ -257,37 +230,17 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
-        <li>Amy &amp; Daniel Argall</li>
         <li>Aversa - Bayshore Town Center</li>
-        <li>Mary Jane &amp; Mark Baumgartner</li>
-        <li>Ginny &amp; Mike Bolger</li>
-        <li>Senator Alberta Darling</li>
-        <li>Falk Ruvin Real Estate Team</li>
-        <li>Susie Gebhardt</li>
-        <li>Ellen &amp; Richard Glaisner</li>
-        <li>Patty &amp; Mike Grebe</li>
-        <li>Bill &amp; Marilyn Haker</li>
+        <li>William &amp; Marilyn Haker</li>
         <li>Emily &amp; J. Shepard Harder</li>
         <li>Jenny &amp; Bob Hillis</li>
-        <li>Ann Homstad</li>
-        <li>Mr. and Mrs. Fred Kasten</li>
         <li>Evelyn Kelly</li>
-        <li>Laura &amp; Pat Koppa</li>
-        <li>Linda &amp; Curt Lundeen</li>
-        <li>Linda Mellowes</li>
-        <li>Barbara &amp; Rik Moe</li>
-        <li>Catherine &amp; Bill Perez</li>
-        <li>Candy &amp; Bruce Pindyck</li>
-        <li>Kris &amp; Robert Rick</li>
-        <li>Elizabeth &amp; Stephen Robbins</li>
+        <li>Linda &amp; John Mellowes</li>
+        <li>The Samaritan Family Wellness Foundation</li>
         <li>Jen &amp; Todd Schoon</li>
-        <li>Nancy &amp; Greg Smith</li>
-        <li>Joy &amp; Cy Tector</li>
-        <li>Kitty Tierney</li>
-        <li>Bonnie &amp; Ned Timarac</li>
+        <li>Betsy Trimble</li>
         <li>Debbie &amp; Camp VanDyke</li>
         <li>Abby &amp; Scott Williams</li>
-        <li>Sunny &amp; Sandy Williams</li>
       </ul>
 
 <!--       <div class="btb-sponsorship">
