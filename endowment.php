@@ -34,7 +34,7 @@ include "header.php";
 <div id="endowment-goal">
   <div class="site-width">
     <?php
-    $TotalRaised = 779858;
+    $TotalRaised = 778100;
     $TotalPercent = number_format(($TotalRaised/1000000) * 100);
     ?>
 
