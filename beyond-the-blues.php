@@ -15,8 +15,8 @@ include "header.php";
     </div>
 
     <div class="header-right">
-      Save the Date<br>
-      Beyond the Blues 2019<br>
+      <!-- Save the Date<br>
+      Beyond the Blues 2019<br> -->
 
       <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
       <div>
@@ -29,7 +29,7 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
+      <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br>
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br>
     </div>
@@ -181,7 +181,9 @@ include "header.php";
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
+        <li>Colony Brands, Inc.</li>
         <li>Meg Fetherston Kasch &amp; Libby Kasch</li>
+        <li>Billie Kubly</li>
       </ul>
 
       <h3>Aqua Level - $10,000</h3>
@@ -197,9 +199,15 @@ include "header.php";
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Children's Hospital of Wisconsin</li>
         <li>Crescent Grove Advisors</li>
-        <li>Beth &amp; Will Kubly</li>
+        <li>Executive Benefits Network</li>
+        <li>Hauske Family Foundation</li>
+        <li>Sally &amp; Chip Kubly</li>
+        <li>Will &amp; Beth Kubly</li>
+        <li>Anne Luber</li>
         <li>Milwaukee Admirals</li>
+        <li>Rogers Behavioral Health</li>
       </ul>
 
       <!-- <br>
@@ -215,13 +223,16 @@ include "header.php";
         <li>State Senator Alberta Darling</li>
         <li>Susie Gebhardt</li>
         <li>Godfrey &amp; Khan, S.C.</li>
+        <li>Ann Goris</li>
+        <li>Patty &amp; Mike Grebe</li>
         <li>Ann &amp; Jon Hammes</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
-        <li>Tom & Elizabeth Long</li>
+        <li>Tom &amp; Elizabeth Long</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>Nancy &amp; Greg Smith</li>
         <li>Julie &amp; Steve Spadafora</li>
         <li>Mary &amp; Chris Tornehl</li>
+        <li>Kathleen & Frank Thometz</li>
         <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
@@ -231,13 +242,19 @@ include "header.php";
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
         <li>Aversa - Bayshore Town Center</li>
+        <li>Deanna Braeger</li>
         <li>William &amp; Marilyn Haker</li>
         <li>Emily &amp; J. Shepard Harder</li>
         <li>Jenny &amp; Bob Hillis</li>
+        <li>Ann Homstad</li>
         <li>Evelyn Kelly</li>
+        <li>Laura &amp; Pat Koppa</li>
         <li>Linda &amp; John Mellowes</li>
+        <li>Kris &amp; Robert Rick</li>
         <li>The Samaritan Family Wellness Foundation</li>
         <li>Jen &amp; Todd Schoon</li>
+        <li>Jane &amp; Johan Segerdahl</li>
+        <li>Barbara Sullivan</li>
         <li>Betsy Trimble</li>
         <li>Debbie &amp; Camp VanDyke</li>
         <li>Abby &amp; Scott Williams</li>
