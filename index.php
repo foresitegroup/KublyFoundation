@@ -65,12 +65,12 @@ include "header.php";
       <img src="images/beyond-the-blues-logo.png" alt=""><br>
       <br>
       
-      <h4>Save the Date<br>Beyond the Blues 2019</h4>
+      <!-- <h4>Save the Date<br>Beyond the Blues 2019</h4> -->
       <h3><?php echo strtoupper(date("l<b\\r>F j, Y", $GLOBALS['btbdate'])); ?></h3>
       <h4>DISCOVERY WORLD PIER WISCONSIN PAVILION</h4>
       <br>
 
-      <!-- <a href="tickets.php">Tickets on sale now!</a><br> -->
+      <a href="tickets.php">Tickets on sale now!</a><br><br>
       <!-- <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
       <br> -->
 
