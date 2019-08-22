@@ -19,9 +19,9 @@ if ($response != null && $response->success) {
     {
       $Subject = "Contact From Kubly Foundation Website";
       $SendTo = "krick@charlesekublyfoundation.org";
-      $Headers = "From: Contact Form <connectform@charlesekublyfoundation.org/>\r\n";
+      $Headers = "From: Contact Form <connectform@charlesekublyfoundation.org>\r\n";
       $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
-      $Headers .= "Bcc: mark@foresitegrp.com\r\n";
+      $Headers .= "Bcc: foresitegroupllc@gmail.com\r\n";
 
       $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
       
