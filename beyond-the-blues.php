@@ -199,15 +199,20 @@ include "header.php";
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Baird</li>
         <li>Children's Hospital of Wisconsin</li>
         <li>Crescent Grove Advisors</li>
         <li>Executive Benefits Network</li>
+        <li>Charlie &amp; Jean Gorham</li>
         <li>Hauske Family Foundation</li>
         <li>Sally &amp; Chip Kubly</li>
         <li>Will &amp; Beth Kubly</li>
         <li>Anne Luber</li>
+        <li>College of Health Sciences at Marquette University</li>
+        <li>Medical College of Wisconsin Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
         <li>Rogers Behavioral Health</li>
+        <li>Angela &amp; Ross Williams</li>
       </ul>
 
       <!-- <br>
@@ -218,21 +223,31 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>The Bourne Family</li>
         <li>Susy &amp; John Brennan</li>
         <li>Jose Carlino Design</li>
+        <li>Continental Properties, Inc.</li>
         <li>State Senator Alberta Darling</li>
         <li>Susie Gebhardt</li>
         <li>Godfrey &amp; Khan, S.C.</li>
         <li>Ann Goris</li>
         <li>Patty &amp; Mike Grebe</li>
         <li>Ann &amp; Jon Hammes</li>
+        <li>Susan Hawkins &mdash; in memory of Debbie Thom
+        <li>Lee &amp; Susie Jennings</li>
+        <li>Debbie &amp; Mike Judge</li>
+        <li>Mary &amp; Ted Kellner</li>
         <li>Mary Ann &amp; Charles P. LaBahn</li>
         <li>Tom &amp; Elizabeth Long</li>
+        <li>Linda &amp; John Mellowes</li>
+        <li>Candy &amp; Bruce Pindyck</li>
         <li>Peggy &amp; Ned Purtell</li>
         <li>Nancy &amp; Greg Smith</li>
         <li>Julie &amp; Steve Spadafora</li>
         <li>Mary &amp; Chris Tornehl</li>
-        <li>Kathleen & Frank Thometz</li>
+        <li>Kathleen &amp; Frank Thometz</li>
+        <li>Mary &amp; Chris Tornehl</li>
+        <li>Julie Uihlein</li>
         <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
@@ -241,22 +256,32 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
+        <li>Al Hurvis/ADAMM Education Foundation</li>
         <li>Aversa - Bayshore Town Center</li>
+        <li>Joan Bell</li>
+        <li>Ginny Bolger</li>
         <li>Deanna Braeger</li>
         <li>William &amp; Marilyn Haker</li>
-        <li>Emily &amp; J. Shepard Harder</li>
         <li>Jenny &amp; Bob Hillis</li>
         <li>Ann Homstad</li>
+        <li>Richard &amp; Carolyn Jacobus
+        <li>Phil &amp; Kiki Jennings</li>
+        <li>Evelyn Kelly</li>
+        <li>Lori Kilian</li>
         <li>Evelyn Kelly</li>
         <li>Laura &amp; Pat Koppa</li>
-        <li>Linda &amp; John Mellowes</li>
+        <li>Mary S. Lillydahl</li>
+        <li>Henrik &amp; Barbara Moe</li>
+        <li>The Naegele Family</li>
+        <li>Mitchell &amp; Jennifer Prosk</li>
         <li>Kris &amp; Robert Rick</li>
         <li>The Samaritan Family Wellness Foundation</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Jane &amp; Johan Segerdahl</li>
         <li>Barbara Sullivan</li>
         <li>Betsy Trimble</li>
-        <li>Debbie &amp; Camp VanDyke</li>
+        <li>Debbie &amp; Camp Van Dyke</li>
+        <li>Brooke &amp; Bob Walker</li>
         <li>Abby &amp; Scott Williams</li>
       </ul>
 
