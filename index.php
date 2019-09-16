@@ -69,8 +69,9 @@ include "header.php";
       <h3><?php echo strtoupper(date("l<b\\r>F j, Y", $GLOBALS['btbdate'])); ?></h3>
       <h4>DISCOVERY WORLD PIER WISCONSIN PAVILION</h4>
       <br>
-
-      <a href="tickets.php">Tickets on sale now!</a><br><br>
+      
+      Tickets Available at the Door<br><br>
+      <!-- <a href="tickets.php">Tickets on sale now!</a><br><br> -->
       <!-- <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
       <br> -->
 

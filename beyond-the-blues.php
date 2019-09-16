@@ -29,7 +29,8 @@ include "header.php";
       <br>
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
-      <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br>
+      <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
+      <small style="font-size: 60%;">Tickets Available at the Door</small><br>
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br>
     </div>
