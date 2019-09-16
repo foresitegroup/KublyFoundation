@@ -20,8 +20,9 @@ include "header.php";
 
       <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
       <div>
-        <!-- 6:30pm - 11:00pm<br>
-        <br> -->
+        6:30pm - 11:00pm<br>
+        Short program at 8:30<br>
+        <br>
         DISCOVERY WORLD PIER WISCONSIN PAVILION<br>
         <br>
         500 N. Harbor Drive, Milwaukee, WI
