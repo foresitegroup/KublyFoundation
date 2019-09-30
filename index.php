@@ -70,7 +70,7 @@ include "header.php";
       <h4>DISCOVERY WORLD PIER WISCONSIN PAVILION</h4>
       <br>
       
-      Tickets Available at the Door<br><br>
+      <!-- Tickets Available at the Door<br><br> -->
       <!-- <a href="tickets.php">Tickets on sale now!</a><br><br> -->
       <!-- <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
       <br> -->

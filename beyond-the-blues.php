@@ -31,7 +31,7 @@ include "header.php";
 
       <!-- <a href="#btb-video">BTB 2016</a> -->
       <!-- <a href="tickets.php" class="tickets">PURCHASE TICKETS</a><br> -->
-      <small style="font-size: 60%;">Tickets Available at the Door</small><br>
+      <!-- <small style="font-size: 60%;">Tickets Available at the Door</small><br> -->
 
       <i class="fa fa-long-arrow-down" aria-hidden="true"></i><br>
     </div>
@@ -81,7 +81,7 @@ include "header.php";
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>x -->
   <div class="site-width">
     <?php
-    $main_dir = "images/galleries/btb2018";
+    $main_dir = "images/galleries/btb2019";
 
     $files = scandir($main_dir);
 
@@ -98,7 +98,6 @@ include "header.php";
       <?php
     }
     ?>
-    Dennis Felber Photography
   </div>
 </div>
 <!--
@@ -176,9 +175,9 @@ include "header.php";
 <div class="footer-call btb-thanks" id="sponsors">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
-    <h1>INTERESTED IN BEING A SPONSOR OF 2019 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span><!--<a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a>--></h1>
+    <!-- <h1>INTERESTED IN BEING A SPONSOR OF 2019 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span></h1> -->
 
-    <h2>2019 SPONSORS TO DATE</h2>
+    <h2>2019 SPONSORS</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
@@ -213,6 +212,7 @@ include "header.php";
         <li>College of Health Sciences at Marquette University</li>
         <li>Medical College of Wisconsin Department of Psychiatry &amp; Behavioral Medicine</li>
         <li>Milwaukee Admirals</li>
+        <li>Betsie &amp; Patrick O'Brien</li>
         <li>Rogers Behavioral Health</li>
         <li>Angela &amp; Ross Williams</li>
       </ul>
@@ -227,9 +227,11 @@ include "header.php";
       <ul>
         <li>The Bourne Family</li>
         <li>Susy &amp; John Brennan</li>
+        <li>Dr. William Cullinan</li>
         <li>Jose Carlino Design</li>
         <li>Continental Properties, Inc.</li>
         <li>State Senator Alberta Darling</li>
+        <li>The Fincher Family</li>
         <li>Susie Gebhardt</li>
         <li>Godfrey &amp; Khan, S.C.</li>
         <li>Ann Goris</li>
@@ -261,8 +263,10 @@ include "header.php";
         <li>Al Hurvis/ADAMM Education Foundation</li>
         <li>Aversa - Bayshore Town Center</li>
         <li>Joan Bell</li>
+        <li>Sally &amp; Peter Blommer</li>
         <li>Ginny Bolger</li>
         <li>Deanna Braeger</li>
+        <li>Christiane Endres</li>
         <li>William &amp; Marilyn Haker</li>
         <li>Jenny &amp; Bob Hillis</li>
         <li>Ann Homstad</li>
@@ -270,20 +274,25 @@ include "header.php";
         <li>Phil &amp; Kiki Jennings</li>
         <li>Evelyn Kelly</li>
         <li>Lori Kilian</li>
-        <li>Evelyn Kelly</li>
         <li>Laura &amp; Pat Koppa</li>
+        <li>Peter Lanigan</li>
         <li>Mary S. Lillydahl</li>
         <li>Henrik &amp; Barbara Moe</li>
         <li>The Naegele Family</li>
         <li>Mitchell &amp; Jennifer Prosk</li>
         <li>Kris &amp; Robert Rick</li>
+        <li>Elizabeth Robbins</li>
         <li>The Samaritan Family Wellness Foundation</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Jane &amp; Johan Segerdahl</li>
+        <li>Julie &amp; Bill Sellars</li>
         <li>Barbara Sullivan</li>
+        <li>Joy &amp; Cy Tector</li>
+        <li>Susan &amp; Stacy Terris</li>
         <li>Betsy Trimble</li>
         <li>Debbie &amp; Camp Van Dyke</li>
         <li>Brooke &amp; Bob Walker</li>
+        <li>Mary &amp; Willard Walker</li>
         <li>Abby &amp; Scott Williams</li>
       </ul>
 
