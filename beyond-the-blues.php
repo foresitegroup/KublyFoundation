@@ -15,13 +15,11 @@ include "header.php";
     </div>
 
     <div class="header-right">
-      <!-- Save the Date<br>
-      Beyond the Blues 2019<br> -->
+      <h1 style="margin: 0; transform: translateY(-0.5em);">Save the Date</h1>
 
       <?php echo strtoupper(date("l<b\\r>F j<\s\up>S</\s\up> Y", $GLOBALS['btbdate'])); ?><br>
       <div>
         6:30pm - 11:00pm<br>
-        Short program at 8:30<br>
         <br>
         DISCOVERY WORLD PIER WISCONSIN PAVILION<br>
         <br>
