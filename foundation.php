@@ -225,7 +225,7 @@ include "header.php";
     </div>
 
     <div class="right">
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Molly Kubly Fritz</strong>, President &nbsp; // &nbsp; <strong>Linda L. Lundeen</strong>, President Elect, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Secretary &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Ross Williams</strong>, Robert W. Baird &nbsp; // &nbsp; <strong>Devin Wolf</strong>, Wolf Paving<br>
+      <h4>BOARD OF DIRECTORS:</h4> <strong>Molly Kubly Fritz</strong>, President &nbsp; // &nbsp; <strong>Linda L. Lundeen</strong>, President Elect, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer, Messmer Catholic Schools &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Secretary &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Ross Williams</strong>, Robert W. Baird &nbsp; // &nbsp; <strong>Devin Wolf</strong>, Wolf Paving<br>
       <br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
