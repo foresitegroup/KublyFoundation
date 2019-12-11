@@ -94,7 +94,7 @@ if (!isset($TopDir)) $TopDir = "";
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
         <a href="endowment.php" id="dogear"><div>The Joey Schmitz &amp; Charlie Kubly Endowment Fund <span>Read More &raquo;</span></div></a>
-<!--         <div class="home-banner-slide night-out">
+        <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
             <h3>JOIN US FOR</h3>
             <h1>CHARLIE'S NIGHT OUT</h1>
@@ -112,7 +112,7 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-<!--         <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb2017.jpg);">
+        <!-- <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb2017.jpg);">
           <div class="site-width">
             <h1><span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span></h1>
 
@@ -122,17 +122,17 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <!-- <div class="home-banner-slide btb" style="background-image: url(images/home-banner-btb.jpg);">
+        <div class="home-banner-slide btb" style="background-image: url(images/charlies-night-2019.jpg);">
           <div class="site-width">
-            <h1>JOIN OUR EFFORTS!</h1>
+            <h3>JANUARY 4, 2020</h3>
 
-            <h2>BECOME A <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> <span class="btb-blue">THE BLUES</span> SPONSOR TODAY!</h2>
+            <h1>CHARLIE'S NIGHT</h1>
 
-            <h3>#MentalHealthMatters</h3>
+            <h2>DEPRESSION AWARENESS EVENT AND FUNDRAISER 2020</h2>
 
-            <a href="beyond-the-blues.php#newsletter-form" class="button">LEARN MORE</a>
+            <a href="https://www.eventbrite.com/e/charlies-night-depression-awareness-event-and-fundraiser-2020-tickets-82879559995" class="button">GET TICKETS</a>
           </div>
-        </div> -->
+        </div>
 
         <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
