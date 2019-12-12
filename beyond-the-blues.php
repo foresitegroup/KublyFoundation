@@ -228,7 +228,6 @@ include "header.php";
         <li>Dr. William Cullinan</li>
         <li>Jose Carlino Design</li>
         <li>Continental Properties, Inc.</li>
-        <li>State Senator Alberta Darling</li>
         <li>The Fincher Family</li>
         <li>Susie Gebhardt</li>
         <li>Godfrey &amp; Khan, S.C.</li>
