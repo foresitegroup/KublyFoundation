@@ -122,7 +122,7 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <div class="home-banner-slide btb" style="background-image: url(images/charlies-night-2019.jpg);">
+        <!-- <div class="home-banner-slide btb" style="background-image: url(images/charlies-night-2019.jpg);">
           <div class="site-width">
             <h3>JANUARY 4, 2020</h3>
 
@@ -132,7 +132,7 @@ if (!isset($TopDir)) $TopDir = "";
 
             <a href="https://www.eventbrite.com/e/charlies-night-depression-awareness-event-and-fundraiser-2020-tickets-82879559995" class="button">GET TICKETS</a>
           </div>
-        </div>
+        </div> -->
 
         <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
