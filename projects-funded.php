@@ -28,7 +28,7 @@ include "header.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    CEKF HAS FUNDED OVER $1.8 MILLION TO 230 PROJECTS SINCE 2003
+    CEKF HAS FUNDED OVER $2.6 MILLION TO 316 PROJECTS SINCE 2003
   </div>
 </div>
 
