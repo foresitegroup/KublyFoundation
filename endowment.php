@@ -34,7 +34,7 @@ include "header.php";
 <div id="endowment-goal">
   <div class="site-width">
     <?php
-    $TotalRaised = 985600;
+    $TotalRaised = 1008135;
     $TotalPercent = number_format(($TotalRaised/1000000) * 100);
     ?>
 
@@ -73,7 +73,7 @@ include "header.php";
     <br><br>
 
     <h2>Our Endowment Goal</h2>
-    The $500,000 Schmitz endowment gift was announced publicly at the September 21, 2018 Beyond the Blues event, the CEKF's largest annual fundraiser, to a crowd of more than 400 guests.  The CEKF Board has set a goal to reach a total of $1 million for the new endowment fund in 2019.  Watch our progress here then come to the next Beyond the Blues, September 20, 2019, to celebrate with us!
+    The $500,000 Schmitz endowment gift was announced publicly at the September 21, 2018 Beyond the Blues event, the CEKF's largest annual fundraiser, to a crowd of more than 400 guests.  The CEKF Board set a goal to reach a total of $1 million for the new endowment fund in 2019.
   </div>
 </div>
 
