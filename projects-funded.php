@@ -48,7 +48,7 @@ include "header.php";
     <div>
       <h3><span class="bluetext">01.</span> ALMOST SUNRISE</h3>
       <div class="content">
-        A grant to fund a companion piece to follow the Fall 2017 PBS airing of the award-winning documentary "Almost Sunrise".
+        Grant to fund community screenings, audience discussion guides, and a website of resources for veterans related to the Almost Sunrise documentary.  The film follows a cross-country trek by two Wisconsin veterans seeking to heal from the wartime experiences which are affecting their mental health. A subsequent grant helped fund a companion piece which followed the national airing of Almost Sunrise on PBS. (2017 & 2018)
       </div><br>
       <br>
 
@@ -78,7 +78,7 @@ include "header.php";
     <div>
       <h3><span class="bluetext">04.</span> GIVING VOICE TO DEPRESSION </h3>
       <div class="content">
-        The weekly podcast "Giving Voice to Depression" and its Facebook page help normalize conversations about mental illness and create an environment where people feel secure seeking the help and support they need to lead healthy lives.
+        The weekly podcast "Giving Voice to Depression" and its Facebook page help normalize conversations about mental illness and create an environment where people feel secure seeking the help and support they need to lead healthy lives. (2018 & Garrett Kelley Memorial Grant 2019)
       </div><br>
       <br>
 
