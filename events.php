@@ -20,7 +20,7 @@ include "header.php";
 
 <div class="events-header">
   <div class="site-width">
-    UPCOMING EVENTS 2019
+    UPCOMING EVENTS 2020
   </div>
 </div>
 
