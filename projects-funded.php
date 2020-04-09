@@ -46,49 +46,36 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> ALMOST SUNRISE</h3>
+      <h3><span class="bluetext">01.</span> ASCENSION ALL SAINTS-WOMEN OF WORTH</h3>
       <div class="content">
-        Grant to fund community screenings, audience discussion guides, and a website of resources for veterans related to the Almost Sunrise documentary.  The film follows a cross-country trek by two Wisconsin veterans seeking to heal from the wartime experiences which are affecting their mental health. A subsequent grant helped fund a companion piece which followed the national airing of Almost Sunrise on PBS. (2017 & 2018)
-      </div><br>
-      <br>
-
-      <a href="http://sunrisedocumentary.com">www.sunrisedocumentary.com</a>
+        A CEKF grant will support the health education and parenting programs of Ascension All Saints's Women of Worth Program (WOW) which serves women Racine and Kenosha Counties with behavioral health issues.  Both programs provide participants with strategies to help women find more control and balance in their lives thus reducing accompanying anxiety and depression.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> CHILDREN'S HOSPITAL OF WISCONSIN</h3>
+      <h3><span class="bluetext">02.</span> INSTITUTIONAL MINISTRIES</h3>
       <div class="content">
         Funding for NAMI Greater Milwaukee's theater performance of "Pieces" at the Pediatric Nursing Conference in November 2017.
       </div><br>
       <br>
 
-      <a href="https://www.chw.org">www.chw.org</a>
+      <a href="https://im.life/">im.life</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> BOYS &amp; GIRLS CLUB - GREATER MILWAUKEE </h3>
+      <h3><span class="bluetext">03.</span> JORDAN PORCO FOUNDATION</h3>
       <div class="content">
-        Train Boys &amp; Girls Club staff to use LEADS for Youth curriculum and to receive Anger Management certification to better address mental health for youth club members as well as support Mental Health Awareness Month activities at the Boys &amp; Girls Clubs.
+        Funding for Fresh Check Days on five Wisconsin college campuses.  Fresh Check Day is a fair-like event held on college campuses that builds a campus community around mental health and suicide prevention through engaging peer-to-peer education.
       </div><br>
       <br>
 
-      <a href="http://www.boysgirlsclubs.org">www.boysgirlsclubs.org</a>
+      <a href="https://www.rememberingjordan.org">www.rememberingjordan.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> GIVING VOICE TO DEPRESSION </h3>
+      <h3><span class="bluetext">04.</span> MENTAL HEALTH AMERICA OF WISCONSIN</h3>
       <div class="content">
-        The weekly podcast "Giving Voice to Depression" and its Facebook page help normalize conversations about mental illness and create an environment where people feel secure seeking the help and support they need to lead healthy lives. (2018 & Garrett Kelley Memorial Grant 2019)
-      </div><br>
-      <br>
-
-      <a href="http://www.givingvoicetodepression.com">www.givingvoicetodepression.com</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">05.</span> MENTAL HEALTH AMERICA - WISCONSIN</h3>
-      <div class="content">
-        Funding for the 8th annual Prevent Suicide Wisconsin Conference to be held April 1, 2018.
+        Funding for awareness-raising events for the grand opening of the nation's first peer-run respite home for veterans, as well as a video showing the home and explaining its respite program.
       </div><br>
       <br>
 
@@ -96,93 +83,73 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> NAMI - DANE COUNTY</h3>
+      <h3><span class="bluetext">05.</span> NAMI GREATER MILWAUKEE</h3>
       <div class="content">
-        Crisis Intervention Team Training for Dane County to improve officer and consumer safety during interventions involving individuals with mental illness and to redirect such individuals into community-based treatment instead of having them enter the criminal justice system.
+        A two-day Crisis Intervention Partner training designed for any adult who regularly comes into contact with individuals impacted by mental health conditions and wants to gain skills about understanding how mental health issues impact an individual, how to identify when an individual is in crisis, and how to best support them and connect them with services.
       </div><br>
       <br>
 
-      <a href="https://www.namidanecounty.org">www.namidanecounty.org</a>
+      <a href="https://www.namigrm.org">www.namigrm.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> NAMI - WASHINGTON COUNTY</h3>
+      <h3><span class="bluetext">06.</span> PROJECT ECHELON</h3>
       <div class="content">
-        The development of AHA Connections:  Acceptance, Harmony &amp; Affirmation - to resolve isolation of mentally ill community members.  NAMI Washington County and Life of Hope developed this project jointly to provide activities and social opportunities.
+        A CEKF grant will fund Question Persuade Refer (QPR) suicide prevention training for Project Echelon  mentors and board members; as well as support development of SMART goal workshops, coaching and mentorships, and help defray equipment costs or other fees for veterans struggling with addiction or suicidal thoughts.
       </div><br>
       <br>
 
-      <a href="http://www.nami-positiveimage.org">www.nami-positiveimage.org</a>
+      <a href="https://www.projectechelon.org">www.projectechelon.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> NAMI - WAUKESHA COUNTY</h3>
+      <h3><span class="bluetext">07.</span> ROCK VALLEY COMMUNITY PROGRAM (RVCP)</h3>
       <div class="content">
-        An educational offering called Ending the Silence for approximately 1,500 middle and high school students.  The program is designed to improve suicide awareness and prevention, as well as mental health awareness for young adults.
+        Funding for 16 directors, managers and supervisors to be certified as trainers in the Question Persuade Refer (QPR) suicide prevention model so they can train staff on an ongoing basis in order to reduce the risk of suicide and suicidal behaviors in the individuals they serve.
       </div><br>
       <br>
 
-      <a href="https://www.namiwaukesha.org">www.namiwaukesha.org</a>
+      <a href="https://www.rvcp.org">www.rvcp.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> PREVENT SUICIDE GREATER MILWAUKEE</h3>
+      <h3><span class="bluetext">08.</span> SAMARITAN COUNSELING CENTER (SCC)</h3>
       <div class="content">
-        QPR (Question/Persuade/Refer) training to increase number of QPR trainers available to high risk groups such as veterans, non-English speaking, LGBTQ and men in middle years. These are demographics that have a high suicide rate.
+        SCC has run a screening program for mental health concerns in schools since 2012.  A CEKF grant will fund a new software system which is needed to manage the growing volume of screenings and information and allow for expansion of services, while building capacity for future revenue opportunities through potential licensing to other organizations.
       </div><br>
       <br>
 
-      <a href="http://www.preventsuicidemke.org">www.preventsuicidemke.org</a>
+      <a href="https://scclanc.org">scclanc.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> PROHEALTH CARE FOUNDATION </h3>
+      <h3><span class="bluetext">09.</span> SEEDS OF HEALTH SCHOOLS</h3>
       <div class="content">
-        Funding for critical staff training to launch a collaborative care pilot which will improve the capabilities of primary care providers to treat depression by integrating behavioral health into clinic settings.
+        Through this pilot made possible by a CEKF grant, a therapist from SaintA offers consultation services that support teachers and staff in addressing their students' mental health needs as well as providing direct therapy for students at a clinic established within Seeds of Health Elementary School.
       </div><br>
       <br>
 
-      <a href="http://www.prohealthcare.org/foundation.aspx">www.prohealthcare.org/foundation.aspx</a>
+      <a href="https://www.seedsofhealth.org">www.seedsofhealth.org</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> RADIO MILWAUKEE 88.9</h3>
+      <h3><span class="bluetext">10.</span> SCATTERING CJ (STONE SOUP PRODUCTIONS)</h3>
       <div class="content">
-        In the Wings radio and video segments focused on mental health and specifically, removing stigma and increasing understanding by featuring individual people telling their own stories.
+        Funding for three Wisconsin screenings and development of a related audience discussion kit of the documentary, "Scattering CJ".  The film documents the efforts of Hallie Twomey to spread the ashes of her son CJ, who she lost to suicide, in different places around the globe and seeks to unpack the complexity and ambiguity that surrounds suicide, as well as start  conversations that can break the stigmas associated with mental illness and depression.
       </div><br>
       <br>
 
-      <a href="https://radiomilwaukee.org">www.radiomilwaukee.org</a>
+      <a href="https://www.stonetosoup.org/scattering-cj">www.stonetosoup.org/scattering-cj</a>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> RAWHIDE</h3>
+      <h3><span class="bluetext">11.</span> WISCONSIN ASSOCIATION OF INDEPENDENT COLLEGES &amp; UNIVERSITIES</h3>
       <div class="content">
-        Funding to establish a licensed mental health clinic within the Silver Spring Neighborhood Center and build relationships with community residents and other community providers.  They are also hoping to reduce the stigma of seeking mental health services.
+        This all-day conference on November 8, 2019 focused on primary prevention for suicide on college campuses and specifically on stigma reduction since stigma can prevent students from seeking help.
       </div><br>
       <br>
 
-      <a href="http://www.rawhide.org">www.rawhide.org</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">13.</span> SIXTEENTH STREET CLINIC</h3>
-      <div class="content">
-        Funding for the opening of the Layton Clinic which will serve unmet community needs.  They will screen more adults and adolescents for depression and create follow-up plans -- hoping to create 11,000 behavioral encounters in the first year.
-      </div><br>
-      <br>
-
-      <a href="http://sschc.org">www.sschc.org</a>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">14.</span> TRAUMATIC INCIDENT RESOURCE</h3>
-      <div class="content">
-        Mental Health First Aid training for several first responder honor guard members who will then be able to train peers in Wisconsin and beyond. Mental Health First Aid teaches how to identify, understand, and respond to signs of mental health and substance abuse disorders in the community.
-      </div><br>
-      <br>
-
-      <a href="http://www.nonprofitfacts.com/WI/Traumatic-Incident-Resource.html">www.nonprofitfacts.com/WI/Traumatic-Incident-Resource.html</a>
+      <a href="http://www.waicu.org">www.waicu.org</a>
     </div>
   </div>
 </div>
