@@ -4653,6 +4653,11 @@ A.featured-read:active {
   #endowment-tribute IMG { float: none; margin-left: 0; max-width: 100%; }
 }
 
+@media only screen and (max-width: 500px) {
+  #dogear { width: 100%; height: auto; background: #112C37; text-decoration: none; }
+  #dogear DIV { position: static; width: 100%; color: #FFFFFF; padding: 0.5em 0; }
+}
+
 @media only screen and (max-width: 480px) {
   /* Phone */
   .kf-header {
@@ -4748,13 +4753,13 @@ A.featured-read:active {
   .home-banner .home-banner-slide.big-jig { height: 250px; }
   .home-banner .big-jig .site-width A { font-size: 15px; }
   
-  #dogear IMG { max-width: 55vw; }
+/*  #dogear IMG { max-width: 55vw; }
   .home-banner .home-banner-slide.dogear .site-width H1 { font-size: 9vw; }
   .home-banner .home-banner-slide.dogear A.learnmore:link,
   .home-banner .home-banner-slide.dogear A.learnmore:visited {
     display: block;
     margin-top: 1em;
-  }
+  }*/
 
   .home-mission .home-mission-left H1 {
     font-size: 68px;
