@@ -173,46 +173,31 @@ include "header.php";
 <div class="footer-call btb-thanks" id="sponsors">
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
-    <!-- <h1>INTERESTED IN BEING A SPONSOR OF 2019 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span></h1> -->
+    <h1>INTERESTED IN BEING A SPONSOR OF 2020 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span></h1>
 
-    <h2>2019 SPONSORS</h2>
+    <h2>2020 SPONSORS TO DATE</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
-        <li>Colony Brands, Inc.</li>
-        <li>Meg Fetherston Kasch &amp; Libby Kasch</li>
-        <li>Billie Kubly</li>
+        <li>Meg &amp; Libby Kasch</li>
       </ul>
 
-      <h3>Aqua Level - $10,000</h3>
+<!--       <h3>Aqua Level - $10,000</h3>
       <ul>
         <li>William &amp; Sandy Heitz Family Foundation</li>
-      </ul>
+      </ul> -->
 
       <h3>Teal Level - $5,000</h3>
       <ul>
-        <li>National Center for Housing Management Charities</li>
-        <li>Michael Schmitz</li>
+        <li>Michael J. Schmitz</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-        <li>Baird</li>
-        <li>Children's Hospital of Wisconsin</li>
-        <li>Crescent Grove Advisors</li>
-        <li>Executive Benefits Network</li>
-        <li>Charlie &amp; Jean Gorham</li>
-        <li>Hauske Family Foundation</li>
-        <li>Sally &amp; Chip Kubly</li>
-        <li>Will &amp; Beth Kubly</li>
-        <li>Anne Luber</li>
-        <li>College of Health Sciences at Marquette University</li>
-        <li>Medical College of Wisconsin Department of Psychiatry &amp; Behavioral Medicine</li>
-        <li>Milwaukee Admirals</li>
+        <li>Julie &amp; Andy Gusho</li>
+        <li>The Kellner Family</li>
         <li>Betsie &amp; Patrick O'Brien</li>
-        <li>Rogers Behavioral Health</li>
-        <li>Angela &amp; Ross Williams</li>
       </ul>
 
       <!-- <br>
@@ -224,72 +209,27 @@ include "header.php";
       <h3>Navy Level - $1,000</h3>
       <ul>
         <li>The Bourne Family</li>
-        <li>Susy &amp; John Brennan</li>
-        <li>Dr. William Cullinan</li>
-        <li>Jose Carlino Design</li>
-        <li>Continental Properties, Inc.</li>
-        <li>The Fincher Family</li>
-        <li>Susie Gebhardt</li>
-        <li>Godfrey &amp; Khan, S.C.</li>
-        <li>Ann Goris</li>
-        <li>Patty &amp; Mike Grebe</li>
+        <li>Dean Fitzgerald</li>
+        <li>Godfrey &amp; Kahn, S.C.</li>
         <li>Ann &amp; Jon Hammes</li>
-        <li>Susan Hawkins &mdash; in memory of Debbie Thom
-        <li>Lee &amp; Susie Jennings</li>
-        <li>Debbie &amp; Mike Judge</li>
-        <li>Mary &amp; Ted Kellner</li>
-        <li>Mary Ann &amp; Charles P. LaBahn</li>
-        <li>Tom &amp; Elizabeth Long</li>
-        <li>Linda &amp; John Mellowes</li>
-        <li>Candy &amp; Bruce Pindyck</li>
-        <li>Peggy &amp; Ned Purtell</li>
+        <li>In loving memory of Debbie Thom &mdash; Susie Hawkins</li>
+        <li>Susie &amp; Lee Jennings</li>
+        <li>The Naegele Family</li>
         <li>Nancy &amp; Greg Smith</li>
-        <li>Julie &amp; Steve Spadafora</li>
-        <li>Mary &amp; Chris Tornehl</li>
-        <li>Kathleen &amp; Frank Thometz</li>
-        <li>Mary &amp; Chris Tornehl</li>
-        <li>Julie Uihlein</li>
-        <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
 
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
-        <li>Ace Worldwide Elite Relocation Services/Steiner Group</li>
-        <li>Al Hurvis/ADAMM Education Foundation</li>
-        <li>Aversa - Bayshore Town Center</li>
-        <li>Joan Bell</li>
-        <li>Sally &amp; Peter Blommer</li>
-        <li>Ginny Bolger</li>
-        <li>Deanna Braeger</li>
         <li>Christiane Endres</li>
-        <li>William &amp; Marilyn Haker</li>
-        <li>Jenny &amp; Bob Hillis</li>
-        <li>Ann Homstad</li>
-        <li>Richard &amp; Carolyn Jacobus
-        <li>Phil &amp; Kiki Jennings</li>
-        <li>Evelyn Kelly</li>
-        <li>Lori Kilian</li>
-        <li>Laura &amp; Pat Koppa</li>
-        <li>Peter Lanigan</li>
-        <li>Mary S. Lillydahl</li>
-        <li>Henrik &amp; Barbara Moe</li>
-        <li>The Naegele Family</li>
-        <li>Mitchell &amp; Jennifer Prosk</li>
-        <li>Kris &amp; Robert Rick</li>
-        <li>Elizabeth Robbins</li>
-        <li>The Samaritan Family Wellness Foundation</li>
+        <li>Ellen &amp; Richard Glaisner</li>
+        <li>Diane &amp; Bob Jenkins</li>
+        <li>Mary Lillydahl</li>
+        <li>Linda &amp; John Mellowes</li>
         <li>Jen &amp; Todd Schoon</li>
-        <li>Jane &amp; Johan Segerdahl</li>
-        <li>Julie &amp; Bill Sellars</li>
-        <li>Barbara Sullivan</li>
-        <li>Joy &amp; Cy Tector</li>
-        <li>Susan &amp; Stacy Terris</li>
-        <li>Betsy Trimble</li>
+        <li>Betsy Trimble &amp; Family</li>
         <li>Debbie &amp; Camp Van Dyke</li>
-        <li>Brooke &amp; Bob Walker</li>
-        <li>Mary &amp; Willard Walker</li>
         <li>Abby &amp; Scott Williams</li>
       </ul>
 
