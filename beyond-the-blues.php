@@ -180,6 +180,7 @@ include "header.php";
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
+        <li>Colony Brands, Inc.</li>
         <li>Meg &amp; Libby Kasch</li>
       </ul>
 
@@ -190,6 +191,7 @@ include "header.php";
 
       <h3>Teal Level - $5,000</h3>
       <ul>
+        <li>William &amp; Sandy Heitz Family Foundation</li>
         <li>Michael J. Schmitz</li>
       </ul>
 
@@ -198,6 +200,7 @@ include "header.php";
         <li>Julie &amp; Andy Gusho</li>
         <li>The Kellner Family</li>
         <li>Betsie &amp; Patrick O'Brien</li>
+        <li>Kate Schuett Wasmer &amp; John Wasmer</li>
       </ul>
 
       <!-- <br>
@@ -216,6 +219,7 @@ include "header.php";
         <li>Susie &amp; Lee Jennings</li>
         <li>The Naegele Family</li>
         <li>Nancy &amp; Greg Smith</li>
+        <li>Julianne &amp; Stephen Spadafora</li>
       </ul>
     </div>
 
@@ -223,6 +227,7 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Christiane Endres</li>
+        <li>Susie Gebhardt</li>
         <li>Ellen &amp; Richard Glaisner</li>
         <li>Diane &amp; Bob Jenkins</li>
         <li>Mary Lillydahl</li>
