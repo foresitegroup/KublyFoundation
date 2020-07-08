@@ -198,7 +198,9 @@ include "header.php";
       <h3>Turquoise Level - $2,500</h3>
       <ul>
         <li>Julie &amp; Andy Gusho</li>
+        <li>Hauske Family Foundation</li>
         <li>The Kellner Family</li>
+        <li>Milwaukee Admirals</li>
         <li>Betsie &amp; Patrick O'Brien</li>
         <li>Kate Schuett Wasmer &amp; John Wasmer</li>
       </ul>
@@ -212,11 +214,17 @@ include "header.php";
       <h3>Navy Level - $1,000</h3>
       <ul>
         <li>The Bourne Family</li>
+        <li>Jose Carlino Design</li>
+        <li>Mary &amp; William Cullinan</li>
         <li>Dean Fitzgerald</li>
         <li>Godfrey &amp; Kahn, S.C.</li>
+        <li>Ann M. Goris</li>
+        <li>Patty &amp; Mike Grebe</li>
         <li>Ann &amp; Jon Hammes</li>
         <li>In loving memory of Debbie Thom &mdash; Susie Hawkins</li>
         <li>Susie &amp; Lee Jennings</li>
+        <li>Laura &amp; Pat Koppa</li>
+        <li>Mary Ann &amp; Charles La Bahn</li>
         <li>The Naegele Family</li>
         <li>Nancy &amp; Greg Smith</li>
         <li>Julianne &amp; Stephen Spadafora</li>
@@ -226,6 +234,7 @@ include "header.php";
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
+        <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
         <li>Christiane Endres</li>
         <li>Susie Gebhardt</li>
         <li>Ellen &amp; Richard Glaisner</li>
@@ -233,6 +242,7 @@ include "header.php";
         <li>Mary Lillydahl</li>
         <li>Linda &amp; John Mellowes</li>
         <li>Jen &amp; Todd Schoon</li>
+        <li>Jane &amp; Johan Segerdahl</li>
         <li>Betsy Trimble &amp; Family</li>
         <li>Debbie &amp; Camp Van Dyke</li>
         <li>Abby &amp; Scott Williams</li>
