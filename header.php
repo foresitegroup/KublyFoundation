@@ -151,7 +151,7 @@ if (!isset($TopDir)) $TopDir = "";
             </div>
             
             <div class="text">
-              This year only! Our much-loved, annual Beyond the Blues event transforms into a weeklong campaign to support mental health and suicide prevention.  Donate to make a donation of any size or to become a Blues Backer or Campaign Sponsor.<br>
+              This year only! Our much-loved, annual Beyond the Blues event transforms into a weeklong campaign to support mental health and suicide prevention.  Click below to make a donation of any size or to become a Blues Backer or Campaign Sponsor.<br>
 
               <a href="donate.php" class="button">DONATE</a>
               <a href="beyond-the-blues.php" class="button">MORE INFO</a>

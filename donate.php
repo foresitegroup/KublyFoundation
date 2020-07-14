@@ -96,14 +96,14 @@ include "header.php";
         <input type="text" name="amount" placeholder="Amount $">
 
         <span class="bluetext">DONATION TYPE</span><br>
+        <input type="radio" name="recipient-donation-type" value="Beyond the Blues" id="r-btb"> <label for="r-btb">Beyond the Blues</label>
         <input type="radio" name="recipient-donation-type" value="General" id="r-general" checked> <label for="r-general">General Support</label>
-        <input type="radio" name="recipient-donation-type" value="Endowment" id="r-endowment"> <label for="r-endowment">Endowment</label>
-        <input type="radio" name="recipient-donation-type" value="Beyond the Blues" id="r-btb"> <label for="r-btb">Beyond the Blues</label><br>
+        <input type="radio" name="recipient-donation-type" value="Endowment" id="r-endowment"> <label for="r-endowment">Endowment</label><br>
         <br>
 
         <!-- <input type="radio" name="recipient-donation-type" value="G's Big Jig" id="r-bigjig"> <label for="r-bigjig">G's Big Jig</label> -->
 
-        <small>Beyond the Blues Doners: Give $150 or more and you'll be listed as a Blues Backer; give $500 or more to be listed at one of our campaign sponsor levels.</small>
+        <small>Beyond the Blues Donors: Give $150 or more and you'll be listed as a Blues Backer; give $500 or more to be listed at one of our campaign sponsor levels.</small>
 
         <div class="donation-reveal">
           <input id="paypal-custom-field" name="custom" type="hidden">
