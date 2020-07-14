@@ -51,36 +51,8 @@ include "header.php";
         $('.swipe-box').swipebox({autoplayVideos: true, hideBarsDelay : 0});
       });
     </script>
-    <a href="https://www.youtube.com/watch?v=hsIOcLMTwfI" class="watchvideo swipebox">2015 PROJECT VIDEO</a>
+    <a href="https://www.youtube.com/watch?v=FLu97T4y6Jk" class="watchvideo swipebox">15th ANNIVERSARY VIDEO</a>
   </div>
-</div>
-
-<div class="home-event">
-  <div class="site-width">
-    <div class="home-event-left">
-      <!-- <a href="https://www.youtube.com/watch?v=dQClkoB-7DE" class="swipe-box"><i class="fa fa-play" aria-hidden="true"></i></a> -->
-    </div>
-
-    <div class="home-event-right">
-      <img src="images/beyond-the-blues-logo.png" alt=""><br>
-      <br>
-      
-      <!-- <h4>Save the Date<br>Beyond the Blues 2019</h4> -->
-      <h3><?php echo strtoupper(date("l<b\\r>F j, Y", $GLOBALS['btbdate'])); ?></h3>
-      <h4>DISCOVERY WORLD PIER WISCONSIN PAVILION</h4>
-      <br>
-      
-      <!-- Tickets Available at the Door<br><br> -->
-      <!-- <a href="tickets.php">Tickets on sale now!</a><br><br> -->
-      <!-- <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">Sponsorships available</a><br>
-      <br> -->
-
-      <a href="beyond-the-blues.php" class="button">EVENT INFO</a>
-      <a href="events.php" class="more">+ MORE EVENTS</a>
-    </div>
-  </div>
-
-  <div class="home-event-back" style="background-image: url(images/discovery-world.jpg);"></div>
 </div>
 
 <div class="home-foundation">

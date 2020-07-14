@@ -93,7 +93,8 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <a href="endowment.php" id="dogear"><div>The Joey Schmitz &amp; Charlie Kubly Endowment Fund <span>Read More &raquo;</span></div></a>
+        <!-- <a href="endowment.php" id="dogear"><div>The Joey Schmitz &amp; Charlie Kubly Endowment Fund <span>Read More &raquo;</span></div></a> -->
+
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
             <h3>JOIN US FOR</h3>
@@ -134,12 +135,27 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
+        <!-- <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
             <a href="donate.php" class="button">DONATE</a>
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
+          </div>
+        </div> -->
+
+        <div class="home-banner-slide btb" style="background-image: url(images/btb-banner-2020.jpg);">
+          <div class="site-width">
+            <div class="image">
+              <img src="images/beyond-the-blues-2020-logo.png" alt="Beyond the Blues 2020">
+            </div>
+            
+            <div class="text">
+              This year only! Our much-loved, annual Beyond the Blues event transforms into a weeklong campaign to support mental health and suicide prevention.  Donate to make a donation of any size or to become a Blues Backer or Campaign Sponsor.<br>
+
+              <a href="donate.php" class="button">DONATE</a>
+              <a href="beyond-the-blues.php" class="button">MORE INFO</a>
+            </div>
           </div>
         </div>
       </div>
@@ -150,7 +166,7 @@ if (!isset($TopDir)) $TopDir = "";
           <div class="site-width">
             <a href="<?php echo $TopDir; ?>." class="logo">
               <?php if (isset($PageMod)) { ?>
-              <img src="images/beyond-the-blues-logo.png" alt="Beyond the Blues">
+              <img src="images/beyond-the-blues-2020-logo.png" alt="Beyond the Blues">
               <?php } else { ?>
               <img src="<?php echo $TopDir; ?>images/logo.png" alt="The Charles E. Kubly Foundation">
               <?php } ?>

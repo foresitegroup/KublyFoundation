@@ -29,7 +29,7 @@ include "header.php";
     <div style="clear: both;"></div><br>
     <br>
     <br>
-    
+
     <script type="text/javascript">
       $(document).ready(function() {
         // $('input[name="recipient-donation-type"]').on('change', function(){
@@ -38,7 +38,7 @@ include "header.php";
         //     $('.donation-reveal').find('input:radio').removeAttr('checked');
         //   }
         // });
-        
+
         $('#donation').submit(function(event) {
           function formValidation() {
             // if (($('#r-endowment').is(':checked')) && $('#r-gift, #r-honor, r-memory').not(':checked')) {
@@ -54,7 +54,7 @@ include "header.php";
 
             return true;
           }
-          
+
           if (formValidation()) {
             // if ($('#r-endowment').is(':checked')) {
               var paypalstring = $('input[name=recipient-donation-type]:checked').val() + "^";
@@ -97,13 +97,17 @@ include "header.php";
 
         <span class="bluetext">DONATION TYPE</span><br>
         <input type="radio" name="recipient-donation-type" value="General" id="r-general" checked> <label for="r-general">General Support</label>
-        <input type="radio" name="recipient-donation-type" value="Endowment" id="r-endowment"> <label for="r-endowment">Endowment</label><br>
+        <input type="radio" name="recipient-donation-type" value="Endowment" id="r-endowment"> <label for="r-endowment">Endowment</label>
+        <input type="radio" name="recipient-donation-type" value="Beyond the Blues" id="r-btb"> <label for="r-btb">Beyond the Blues</label><br>
+        <br>
 
         <!-- <input type="radio" name="recipient-donation-type" value="G's Big Jig" id="r-bigjig"> <label for="r-bigjig">G's Big Jig</label> -->
 
+        <small>Beyond the Blues Doners: Give $150 or more and you'll be listed as a Blues Backer; give $500 or more to be listed at one of our campaign sponsor levels.</small>
+
         <div class="donation-reveal">
           <input id="paypal-custom-field" name="custom" type="hidden">
-          
+
           <input type="radio" name="sub-recipient-donation-type" value="My Gift" id="r-gift" checked> <label for="r-gift">My Gift</label>
           <input type="radio" name="sub-recipient-donation-type" value="In honor of" id="r-honor"> <label for="r-honor">In Honor Of</label>
           <input type="radio" name="sub-recipient-donation-type" value="In memory of" id="r-memory"> <label for="r-memory">In Memory Of</label><br>
@@ -121,11 +125,11 @@ include "header.php";
           <input type="text" name="notification-address" id="notification-address" placeholder="Address">
 
           <input type="text" name="notification-city" id="notification-city" placeholder="City">
-          
+
           <div class="left">
             <input type="text" name="notification-state" id="notification-state" placeholder="State">
           </div>
-          
+
           <div class="right">
             <input type="text" name="notification-zip" id="notification-zip" placeholder="Zip Code">
           </div>
@@ -136,7 +140,7 @@ include "header.php";
         <input type="submit" name="submit" value="DONATE NOW">
       </div>
     </form>
-    
+
     <div id="thankyou" style="display: none;">
       <h3>Thank You!</h3>
       Thank you very much for your donation to the Charles E Kubly Foundation. You will be receiving a confirmation of your donation via mail containing tax information.

@@ -358,6 +358,21 @@ A.my-menu-toggle {
   font-size: 26px;
 }
 
+.home-banner .home-banner-slide.btb .site-width { display: flex; justify-content: space-between; }
+
+.home-banner .home-banner-slide.btb .site-width .image { width: 47%; }
+
+.home-banner .home-banner-slide.btb .site-width .image IMG { max-width: 100%; height: auto; }
+
+.home-banner .home-banner-slide.btb .site-width .text {
+  width: 47%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.home-banner .home-banner-slide.btb .site-width .text .button { margin-top: 1em; }
+
 .home-banner .home-banner-slide .site-width H1 {
   font-weight: 800;
   font-size: 65px;
@@ -2539,26 +2554,42 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 }
 
 .btb-banner {
-  background: #FFFFFF url(../images/btb-banner.jpg) no-repeat center top;
-  padding: 200px 0 3em;
+  background: url(../images/btb-banner-2020.jpg) no-repeat center top;
+  background-size: cover;
+  position: relative;
+}
+
+.btb-banner .site-width {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-42%);
+}
+
+.btb-banner:before {
+  content: "";
+  display: block;
+  padding-top: 57.39%;
 }
 
 .btb-banner .header-left {
   float: left;
-  width: 53%;
+  width: 50%;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 120px;
+  font-size: 110px;
   font-weight: 800;
   line-height: 0.85em;
 }
 
 .btb-banner.cftc .header-left { width: 50%; font-size: 100px; }
 
-.btb-banner .header-left DIV {
+.btb-banner .header-left .btb-blue DIV {
   display: inline-block;
   padding-left: 0.25em;
 }
+
+.btb-banner .header-left DIV.year { line-height: 0.85em; }
 
 .btb-banner.cftc .header-left DIV { font-size: 80%; padding-left: 1em; }
 
@@ -2570,15 +2601,17 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 .btb-purple { color: #6B4099; }
 .btb-blue { color: #24A6DC; }
 
+.btb-banner .header-left .button { transform: translateY(-1em); }
+
 .btb-banner .header-right {
   float: right;
-  width: 40%;
+  width: 50%;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 1.1em;
-  padding-top: 170px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5em;
+  padding-top: 0.5em;
 }
 
 .btb-banner .header-right SUP {
@@ -3796,6 +3829,10 @@ A.featured-read:active {
   .menu UL LI.incrisis { position: static; }
 }
 
+@media only screen and (max-width: 1200px) {
+  #endowment-banner { font-size: 6.2vw; }
+}
+
 @media only screen and (max-width: 1180px) {
   .connect-banner .site-width {
     width: 100%;
@@ -3809,10 +3846,9 @@ A.featured-read:active {
   .menu UL LI { padding-left: 6%; }
   .menu UL LI.incrisis { display: none; }
   .scrolling-menu .menu UL LI.incrisis { display: inline-block; }
-}
 
-@media only screen and (max-width: 1200px) {
-  #endowment-banner { font-size: 6.2vw; }
+  .btb-banner .header-left { font-size: 9.524vw; }
+  .btb-banner .header-right { font-size: 1.732vw; }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3876,6 +3912,8 @@ A.featured-read:active {
 
 @media only screen and (max-width: 900px) {
   .btb-tickets .btb-banner .info { width: 30%; }
+
+  .btb-banner .header-right { font-size: 2vw; }
 }
 
 @media only screen and (max-width: 800px) {
@@ -4001,6 +4039,8 @@ A.featured-read:active {
   .event-right {
     width: 65%;
   }
+
+  .btb-banner .header-left .button { transform: none; }
 
   .btb-tickets .btb-banner .info {
     position: static;
@@ -4168,9 +4208,9 @@ A.featured-read:active {
     content: '';
   }
 
-  .btb-banner .right {
+/*  .btb-banner .right {
     margin-top: 6em;
-  }
+  }*/
 
   #grant-priorities,
   #grant-guidelines {
@@ -4254,6 +4294,10 @@ A.featured-read:active {
 
   .home-banner .home-banner-slide.dogear .site-width { padding-right: 0; }
   .home-banner .home-banner-slide.dogear .site-width H1 { font-size: 8vw; margin-bottom: 50px; }
+
+  .home-banner .home-banner-slide.btb .site-width { flex-direction: column; }
+  .home-banner .home-banner-slide.btb .site-width .image,
+  .home-banner .home-banner-slide.btb .site-width .text { width: 100%; }
 
   .home-mission,
   .home-mission .site-width {
@@ -4529,9 +4573,11 @@ A.featured-read:active {
     width: 100%;
   }
 
-  .btb-banner {
+/*  .btb-banner {
     padding-top: 125px;
-  }
+  }*/
+
+  .btb-banner:before { padding-top: 80%; }
 
   .btb-banner .header-left,
   .btb-banner .header-right,
@@ -4540,6 +4586,10 @@ A.featured-read:active {
     float: none;
     width: 100%;
   }
+
+  .btb-banner .header-right { font-size: 3vw; }
+
+  .btb-banner .header-left .btb-blue DIV { padding: 0; }
 
   .btb-banner .header-right {
     padding-top: 1.2em;
@@ -4656,6 +4706,8 @@ A.featured-read:active {
 @media only screen and (max-width: 500px) {
   #dogear { width: 100%; height: auto; background: #112C37; text-decoration: none; }
   #dogear DIV { position: static; width: 100%; color: #FFFFFF; padding: 0.5em 0; }
+
+  .btb-banner .header-left .button { margin-top: 1em; }
 }
 
 @media only screen and (max-width: 480px) {
@@ -4889,9 +4941,11 @@ A.featured-read:active {
     margin: 0 0 1em 0;
   }
 
-  .btb-banner .header-left {
+  .btb-banner:before { padding-top: 100%; }
+
+  /*.btb-banner .header-left {
     font-size: 86px;
-  }
+  }*/
 
   .btb-tickets .btb-banner { padding-top: 80px; }
 
@@ -5070,9 +5124,9 @@ A.featured-read:active {
     font-size: 60px;
   }
 
-  .btb-banner .header-left {
+  /*.btb-banner .header-left {
     font-size: 72px;
-  }
+  }*/
 
   .btb-banner .right H3 {
     font-size: 25px;
