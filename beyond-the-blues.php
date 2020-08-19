@@ -56,10 +56,12 @@ include "header.php";
         <li>Julie &amp; Andy Gusho</li>
         <li>Hauske Family Foundation</li>
         <li>The Kellner Family</li>
+        <li>Beth &amp; Will Kubly</li>
         <li>Milwaukee Admirals</li>
         <li>Betsie &amp; Patrick O'Brien</li>
         <li>Power Test</li>
         <li>Kate Schuett Wasmer &amp; John Wasmer</li>
+        <li>Angela &amp; Ross Williams</li>
       </ul>
 
       <!-- <br>
@@ -71,7 +73,7 @@ include "header.php";
       <h3>Navy Level - $1,000</h3>
       <ul>
         <li>The Bourne Family</li>
-        <li>Suzy & John Brennan</li>
+        <li>Suzy &amp; John Brennan</li>
         <li>Jose Carlino Design</li>
         <li>Mary &amp; William Cullinan</li>
         <li>Dean Fitzgerald</li>
@@ -84,8 +86,10 @@ include "header.php";
         <li>Laura &amp; Pat Koppa</li>
         <li>Mary Ann &amp; Charles La Bahn</li>
         <li>The Naegele Family</li>
+        <li>Peggy &amp; Ned Purtell</li>
         <li>Nancy &amp; Greg Smith</li>
         <li>Julianne &amp; Stephen Spadafora</li>
+        <li>Mary &amp; Chris Tornehl</li>
       </ul>
     </div>
 
@@ -93,14 +97,17 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
+        <li>Deanna Braeger</li>
         <li>Christiane Endres</li>
         <li>Susie Gebhardt</li>
         <li>Ellen &amp; Richard Glaisner</li>
+        <li>Marilyn &amp; William Haker</li>
         <li>Diane &amp; Bob Jenkins</li>
         <li>Mary Lillydahl</li>
         <li>Linda &amp; John Mellowes</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Jane &amp; Johan Segerdahl</li>
+        <li>Barbie Sullivan</li>
         <li>Betsy Trimble &amp; Family</li>
         <li>Debbie &amp; Camp Van Dyke</li>
         <li>Abby &amp; Scott Williams</li>
