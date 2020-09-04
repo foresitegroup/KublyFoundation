@@ -5,9 +5,8 @@ news/*
 news/wp-content/*
 !news/wp-content/themes/
 news/wp-content/themes/*
-!news/wp-content/themes/kublyfoundation
+!news/wp-content/themes/kublyfoundation/
 news/wp-content/themes/kublyfoundation/.DS_Store
 images/.DS_Store
 inc/dbconfig.php
-
 inc/.DS_Store
