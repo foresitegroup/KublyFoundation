@@ -38,6 +38,7 @@ include "header.php";
       <ul>
         <li>Colony Brands, Inc.</li>
         <li>Meg &amp; Libby Kasch</li>
+        <li>Billie Kubly</li>
       </ul>
 
 <!--       <h3>Aqua Level - $10,000</h3>
@@ -47,12 +48,15 @@ include "header.php";
 
       <h3>Teal Level - $5,000</h3>
       <ul>
+        <li>Elaine Burke</li>
         <li>William &amp; Sandy Heitz Family Foundation</li>
+        <li>Sandy & Dennis Kuester</li>
         <li>Michael J. Schmitz</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Jean &amp; Charlie Gorham</li>
         <li>Julie &amp; Andy Gusho</li>
         <li>Hauske Family Foundation</li>
         <li>The Kellner Family</li>
@@ -76,20 +80,28 @@ include "header.php";
         <li>Suzy &amp; John Brennan</li>
         <li>Jose Carlino Design</li>
         <li>Mary &amp; William Cullinan</li>
+        <li>Sue & Russ Darrow</li>
         <li>Dean Fitzgerald</li>
         <li>Godfrey &amp; Kahn, S.C.</li>
         <li>Ann M. Goris</li>
+        <li>Thomas Gould</li>
         <li>Patty &amp; Mike Grebe</li>
         <li>Ann &amp; Jon Hammes</li>
         <li>In loving memory of Debbie Thom &mdash; Susie Hawkins</li>
+        <li>Kathy &amp; Al Hentzen</li>
         <li>Susie &amp; Lee Jennings</li>
         <li>Laura &amp; Pat Koppa</li>
         <li>Mary Ann &amp; Charles La Bahn</li>
+        <li>Mary Lillydahl</li>
+        <li>Anne Luber</li>
         <li>The Naegele Family</li>
         <li>Peggy &amp; Ned Purtell</li>
+        <li>Peggy &amp; Bob Schuemann</li>
         <li>Nancy &amp; Greg Smith</li>
         <li>Julianne &amp; Stephen Spadafora</li>
         <li>Mary &amp; Chris Tornehl</li>
+        <li>Debbie & Camp Van Dyke</li>
+        <li>Abby & Scott Williams</li>
       </ul>
     </div>
 
@@ -97,20 +109,28 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
+        <li>Linda &amp; John Awe</li>
         <li>Deanna Braeger</li>
+        <li>Maripat &amp; Tom Dalum</li>
         <li>Christiane Endres</li>
         <li>Susie Gebhardt</li>
         <li>Ellen &amp; Richard Glaisner</li>
         <li>Marilyn &amp; William Haker</li>
+        <li>Andy Jaekels</li>
         <li>Diane &amp; Bob Jenkins</li>
-        <li>Mary Lillydahl</li>
+        <li>Evie Kelly</li>
         <li>Linda &amp; John Mellowes</li>
+        <li>Linda &amp; Jeff Perrigo</li>
+        <li>Mary &amp; John Rickmeier</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Jane &amp; Johan Segerdahl</li>
         <li>Barbie Sullivan</li>
+        <li>Kathryn Szeflinski</li>
+        <li>Jennifer &amp; Joseph Teglia</li>
         <li>Betsy Trimble &amp; Family</li>
-        <li>Debbie &amp; Camp Van Dyke</li>
-        <li>Abby &amp; Scott Williams</li>
+        <li>Laura &amp; Scott Vuchetich</li>
+        <li>Sarah &amp; Michael Weiss</li>
+        <li>Carol K. Wythes</li>
       </ul>
 
 <!--       <div class="btb-sponsorship">
