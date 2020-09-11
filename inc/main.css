@@ -515,15 +515,15 @@ A.my-menu-toggle {
   z-index: 999;
   width: 350px;
   height: 400px;
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #F1F2F2 50%, #F1F2F2 100%);
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #ED1C24 50%, #ED1C24 100%);
 }
 
 #dogear DIV {
   position: absolute;
-  top: 52%;
+  top: 65%;
   right: 2%;
   width: 60%;
-  color: #112C37;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2em;
@@ -2655,34 +2655,44 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   height: 75px;
 }
 
-.btb-banner .left {
-  float: left;
-  width: 42%;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  line-height: 1.8em;
-  color: #707070;
+#btb-video-banner {
+  background: #25AAE1;
+  color: #112C37;
+  padding: 3em 0;
 }
 
-.btb-banner .left .btb-video {
-  background: url(../images/btb-video-2017.jpg) no-repeat center center;
+#btb-video-banner .site-width { display: flex; justify-content: space-between; align-items: center; }
+
+#btb-video-banner .text {
+  width: 33%;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+#btb-video-banner .text H3 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 150%;
+}
+
+#btb-video {
+  width: 60%;
+  margin-left: auto;
+  background: url(../images/btb-2020-video.jpg) no-repeat center;
   background-size: cover;
   position: relative;
-  height: 400px;
 }
 
-.btb-banner .left .btb-video:after {
+#btb-video:before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(40,170,225,0.5);
+  display: block;
+  padding-top: 56.25%;
 }
 
-.btb-banner .left .btb-video A:link,
-.btb-banner .left .btb-video A:visited {
+#btb-video A:link,
+#btb-video A:visited {
   font-size: 87px;
   line-height: 1em;
   color: rgba(255,255,255,0.98);
@@ -2703,13 +2713,13 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   z-index: 2;
 }
 
-.btb-banner .left .btb-video A .fa {
+#btb-video A .fa {
   position: relative;
   left: 0.2em;
 }
 
-.btb-banner .left .btb-video A:hover,
-.btb-banner .left .btb-video A:active {
+#btb-video A:hover,
+#btb-video A:active {
   color: #82C150;
   border-color: #82C150;
 }
@@ -4050,6 +4060,9 @@ A.featured-read:active {
   }
 
   #tickets { width: 90%; }
+
+  #btb-video-banner .site-width { flex-direction: column; }
+  #btb-video-banner .text, #btb-video { width: 100%; }
 }
 
 @media only screen and (max-width: 768px) {

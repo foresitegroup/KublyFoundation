@@ -26,6 +26,23 @@ include "header.php";
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
 
+<div id="btb-video-banner">
+  <div class="site-width">
+    <div class="text">
+      A message from <h3>John McGivern &amp; Billie Kubly</h3>
+    </div>
+
+    <div class="btb-video" id="btb-video">
+      <script src="inc/swipebox/jquery.swipebox.min.js"></script>
+      <link rel="stylesheet" href="inc/swipebox/swipebox.css">
+      <script type="text/javascript">
+        $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
+      </script>
+      <a href="https://www.youtube.com/watch?v=QzhJ4obhcg4&rel=0" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+
 <div class="footer-call btb-thanks" id="sponsors">
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
   <div class="site-width">

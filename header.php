@@ -93,7 +93,7 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <!-- <a href="endowment.php" id="dogear"><div>The Joey Schmitz &amp; Charlie Kubly Endowment Fund <span>Read More &raquo;</span></div></a> -->
+        <a href="https://youtu.be/QzhJ4obhcg4" id="dogear"><div>A message from John McGivern &amp; Billie Kubly &#9658;</div></a>
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
