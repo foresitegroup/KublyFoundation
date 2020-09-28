@@ -77,10 +77,15 @@ include "header.php";
         <li>Julie &amp; Andy Gusho</li>
         <li>Hauske Family Foundation</li>
         <li>The Kellner Family</li>
+        <li>Dr. Rosa Kim &amp; Dr. Matthew Kleban</li>
+        <li>Sally &amp; Chip Kubly</li>
         <li>Beth &amp; Will Kubly</li>
         <li>Milwaukee Admirals</li>
         <li>Betsie &amp; Patrick O'Brien</li>
+        <li>Catherine &amp; Bill Perez</li>
         <li>Power Test</li>
+        <li>Rogers Behavioral Health</li>
+        <li>Schwanke-Kasten Jewelers</li>
         <li>Kate Schuett Wasmer &amp; John Wasmer</li>
         <li>Angela &amp; Ross Williams</li>
       </ul>
@@ -93,20 +98,28 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>Lisa &amp; Souheil Badran</li>
         <li>The Bourne Family</li>
         <li>Suzy &amp; John Brennan</li>
+        <li>Kathleen &amp; Jim Caragher</li>
         <li>Jose Carlino Design</li>
         <li>Mary &amp; William Cullinan</li>
-        <li>Sue & Russ Darrow</li>
+        <li>David Michael Darrow Memorial Fund at the Greater Milwaukee Foundation</li>
+        <li>Sue &amp; Russ Darrow</li>
+        <li>Executive Benefits Network - David Fritz</li>
         <li>Dean Fitzgerald</li>
+        <li>Katie Frommelt in memory of Garrett Kelley</li>
         <li>Godfrey &amp; Kahn, S.C.</li>
         <li>Ann M. Goris</li>
         <li>Thomas Gould</li>
         <li>Patty &amp; Mike Grebe</li>
+        <li>Marilyn &amp; William Haker</li>
         <li>Ann &amp; Jon Hammes</li>
-        <li>In loving memory of Debbie Thom &mdash; Susie Hawkins</li>
+        <li>Jean &amp; Thomas Harbeck Family Foundation</li>
+        <li>Susie Hawkins in memory of Debbie Thom</li>
         <li>Kathy &amp; Al Hentzen</li>
         <li>Susie &amp; Lee Jennings</li>
+        <li>Susan Kasten</li>
         <li>Laura &amp; Pat Koppa</li>
         <li>Mary Ann &amp; Charles La Bahn</li>
         <li>Mary Lillydahl</li>
@@ -117,8 +130,10 @@ include "header.php";
         <li>Nancy &amp; Greg Smith</li>
         <li>Julianne &amp; Stephen Spadafora</li>
         <li>Mary &amp; Chris Tornehl</li>
-        <li>Debbie & Camp Van Dyke</li>
-        <li>Abby & Scott Williams</li>
+        <li>Debbie &amp; Camp Van Dyke</li>
+        <li>Abby &amp; Scott Williams</li>
+        <li>Jessica Wirtz &amp; Lily Kubly</li>
+        <li>Diane &amp; Ed Zore</li>
       </ul>
     </div>
 
@@ -126,19 +141,34 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
+        <li>Amy Argall in memory of Dan Argall</li>
         <li>Linda &amp; John Awe</li>
         <li>Deanna Braeger</li>
+        <li>Geralyn &amp; Bill Cannon</li>
         <li>Maripat &amp; Tom Dalum</li>
         <li>Christiane Endres</li>
+        <li>Mr. &amp; Mrs. Gary Fandek</li>
+        <li>Anna Claire &amp; George Gaspar</li>
         <li>Susie Gebhardt</li>
         <li>Ellen &amp; Richard Glaisner</li>
-        <li>Marilyn &amp; William Haker</li>
+        <li>Cynthia &amp; Jeff Harris</li>
+        <li>Ann Homstad</li>
         <li>Andy Jaekels</li>
         <li>Diane &amp; Bob Jenkins</li>
         <li>Evie Kelly</li>
+        <li>The Lanigan Family</li>
+        <li>Mitchell Lindstrom in memory of Joey Van Susteren</li>
+        <li>Nancy Lucas</li>
         <li>Linda &amp; John Mellowes</li>
+        <li>Susan &amp; Bob Mikulay</li>
+        <li>Barbara &amp; Rik Moe</li>
         <li>Linda &amp; Jeff Perrigo</li>
+        <li>Randy Perry</li>
+        <li>Constance &amp; Reik Read</li>
+        <li>Kristin &amp; Kerry Rick</li>
+        <li>Kris &amp; Robert Rick</li>
         <li>Mary &amp; John Rickmeier</li>
+        <li>Elizabeth Robbins</li>
         <li>Jen &amp; Todd Schoon</li>
         <li>Jane &amp; Johan Segerdahl</li>
         <li>Barbie Sullivan</li>
@@ -146,7 +176,11 @@ include "header.php";
         <li>Jennifer &amp; Joseph Teglia</li>
         <li>Betsy Trimble &amp; Family</li>
         <li>Laura &amp; Scott Vuchetich</li>
+        <li>Brooke &amp; Robert Walker</li>
+        <li>Mary Walker</li>
         <li>Sarah &amp; Michael Weiss</li>
+        <li>Lindsay &amp; Steve Wojciechowski</li>
+        <li>Devin Wolf</li>
         <li>Carol K. Wythes</li>
       </ul>
 
