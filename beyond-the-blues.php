@@ -18,10 +18,10 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      This year only! Our much-loved, annual Beyond the Blues event transforms into a weeklong campaign to support mental health and suicide prevention. Every year donor contributions to Beyond the Blues provide a significant amount of funding for our work&mdash;including the grants we make to organizations in Southeastern Wisconsin and beyond.<br>
+      This year only! Our much-loved, annual Beyond the Blues event transformed into a weeklong campaign to support mental health and suicide prevention. Every year donor contributions to Beyond the Blues provide a significant amount of funding for our work&mdash;including the grants we make to organizations in Southeastern Wisconsin and beyond.<br>
       <br>
 
-      Help ramp up our efforts in a year where mental health concerns are rising! Click Donate to make a donation of any size or to become a Blues Backer or Campaign Sponsor.
+      Many thanks to all who donated and became a part of our Beyond the Blues 2020 campaign! Your contributions have totaled over $190,000! See our list of sponsors below, and save the date for next year's Beyond the Blues 2021 &mdash; LIVE at Discovery World Pier Wisconsin Pavilion on Friday, September 10th! See you there!
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
@@ -46,9 +46,9 @@ include "header.php";
 <div class="footer-call btb-thanks" id="sponsors">
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
   <div class="site-width">
-    <h1>INTERESTED IN BEING A SPONSOR OF 2020 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span></h1>
+    <!-- <h1>INTERESTED IN BEING A SPONSOR OF 2020 BEYOND THE BLUES?<br><span>CONTACT KRIS RICK at (414) 477-9959</span></h1> -->
 
-    <h2>2020 SPONSORS TO DATE</h2>
+    <h2>BEYOND THE BLUES 2020 SPONSORS</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
