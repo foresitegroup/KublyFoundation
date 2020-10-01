@@ -93,7 +93,7 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <a href="https://youtu.be/QzhJ4obhcg4" id="dogear"><div>A message from John McGivern &amp; Billie Kubly &#9658;</div></a>
+        <!-- <a href="https://youtu.be/QzhJ4obhcg4" id="dogear"><div>A message from John McGivern &amp; Billie Kubly &#9658;</div></a> -->
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
@@ -135,16 +135,16 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <!-- <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
+        <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
             <a href="donate.php" class="button">DONATE</a>
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
           </div>
-        </div> -->
+        </div>
 
-        <div class="home-banner-slide btb" style="background-image: url(images/btb-banner-2020.jpg);">
+        <!-- <div class="home-banner-slide btb" style="background-image: url(images/btb-banner-2020.jpg);">
           <div class="site-width">
             <div class="image">
               <img src="images/beyond-the-blues-2020-logo.png" alt="Beyond the Blues 2020">
@@ -157,7 +157,7 @@ if (!isset($TopDir)) $TopDir = "";
               <a href="beyond-the-blues.php" class="button">MORE INFO</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <?php } ?>
 
