@@ -234,7 +234,7 @@ include "header.php";
       <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
-      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
+      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, PhD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
