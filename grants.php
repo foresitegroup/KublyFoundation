@@ -94,7 +94,19 @@ include "header.php";
       <li>Please provide measurable outcomes for each goal. Actual surveys/questions may be attached. Examples of effective survey questions are <a href="pdf/Effective_Survey_Questions.pdf">here</a>.<br><br></li>
       <li>Timeline to completion including major milestones.<br><br></li>
       <li>How the foundation's support will be acknowledged. We request that the Foundation's name be mentioned in all media or video interviews that come as a result of this project.<br><br></li>
+      <li>These formatted logos can be used in any promotion of the grant and mention of The Charles E. Kubly Foundation as a sponsor, etc.</li>
     </ul>
+    <br>
+
+    <div style="text-align: center;">
+      <img src="images/CEKF_Logo.jpg" alt="" style="max-width: 50%; height: auto;"><br>
+      <a href="images/CEKF_Logo.jpg">Download .jpg</a> |
+      <a href="images/CEKF_Logo.png">Download .png</a> |
+      <a href="images/CEKF_Logo.svg">Download .svg</a><br>
+
+      <a href="pdf/Brand_Guidelines_of_the_CEKF.pdf">Brand Guidelines of the CEKF</a>
+    </div>
+    <br>
     <br>
 
     NOTE:  All grant recipients will be required to complete a <a href="pdf/Grant_Report.pdf">Grant Report</a> within 30 days after project completion.<br>
