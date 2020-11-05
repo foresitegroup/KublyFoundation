@@ -98,42 +98,48 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>Lisa &amp; Souheil Badran</li>
+        <li>Lisa & Souheil Badran</li>
+        <li>Baird</li>
         <li>The Bourne Family</li>
-        <li>Suzy &amp; John Brennan</li>
-        <li>Kathleen &amp; Jim Caragher</li>
+        <li>Suzy & John Brennan</li>
+        <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
-        <li>Mary &amp; William Cullinan</li>
+        <li>Mary & William Cullinan</li>
         <li>David Michael Darrow Memorial Fund at the Greater Milwaukee Foundation</li>
-        <li>Sue &amp; Russ Darrow</li>
-        <li>Executive Benefits Network - David Fritz</li>
+        <li>Sue & Russ Darrow</li>
+        <li>Executive Benefits Network -- David Fritz</li>
         <li>Dean Fitzgerald</li>
         <li>Katie Frommelt in memory of Garrett Kelley</li>
-        <li>Godfrey &amp; Kahn, S.C.</li>
+        <li>Godfrey & Kahn, S.C.</li>
         <li>Ann M. Goris</li>
         <li>Thomas Gould</li>
-        <li>Patty &amp; Mike Grebe</li>
-        <li>Marilyn &amp; William Haker</li>
-        <li>Ann &amp; Jon Hammes</li>
-        <li>Jean &amp; Thomas Harbeck Family Foundation</li>
+        <li>Patty & Mike Grebe</li>
+        <li>Marilyn & William Haker</li>
+        <li>Ann & Jon Hammes</li>
+        <li>Jean & Thomas Harbeck Family Foundation</li>
         <li>Susie Hawkins in memory of Debbie Thom</li>
-        <li>Kathy &amp; Al Hentzen</li>
-        <li>Susie &amp; Lee Jennings</li>
+        <li>Kathy & Al Hentzen</li>
+        <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
-        <li>Laura &amp; Pat Koppa</li>
-        <li>Mary Ann &amp; Charles La Bahn</li>
+        <li>Laura & Pat Koppa</li>
+        <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
         <li>Anne Luber</li>
+        <li>Linda & Curt Lundeen</li>
+        <li>Keith and Dee Miller Fund</li>
+        <li>Shelley & Mike Muranyi</li>
         <li>The Naegele Family</li>
-        <li>Peggy &amp; Ned Purtell</li>
-        <li>Peggy &amp; Bob Schuemann</li>
-        <li>Nancy &amp; Greg Smith</li>
-        <li>Julianne &amp; Stephen Spadafora</li>
-        <li>Mary &amp; Chris Tornehl</li>
-        <li>Debbie &amp; Camp Van Dyke</li>
-        <li>Abby &amp; Scott Williams</li>
-        <li>Jessica Wirtz &amp; Lily Kubly</li>
-        <li>Diane &amp; Ed Zore</li>
+        <li>Candy & Bruce Pindyck</li>
+        <li>Peggy & Ned Purtell</li>
+        <li>Peggy & Bob Schuemann</li>
+        <li>Nancy & Greg Smith</li>
+        <li>Julianne & Stephen Spadafora</li>
+        <li>Mary & Chris Tornehl</li>
+        <li>Julia Uihlein in honor of Chucker Aring</li>
+        <li>Debbie & Camp Van Dyke</li>
+        <li>Abby & Scott Williams</li>
+        <li>Jessica Wirtz & Lily Kubly</li>
+        <li>Diane & Ed Zore</li>
       </ul>
     </div>
 
@@ -142,44 +148,47 @@ include "header.php";
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
         <li>Amy Argall in memory of Dan Argall</li>
-        <li>Linda &amp; John Awe</li>
+        <li>Linda & John Awe</li>
         <li>Deanna Braeger</li>
-        <li>Geralyn &amp; Bill Cannon</li>
-        <li>Maripat &amp; Tom Dalum</li>
+        <li>Geralyn & Bill Cannon</li>
+        <li>Maripat & Tom Dalum</li>
         <li>Christiane Endres</li>
-        <li>Mr. &amp; Mrs. Gary Fandek</li>
-        <li>Anna Claire &amp; George Gaspar</li>
+        <li>Mr. & Mrs. Gary Fandek</li>
+        <li>Anna Claire & George Gaspar</li>
         <li>Susie Gebhardt</li>
-        <li>Ellen &amp; Richard Glaisner</li>
-        <li>Cynthia &amp; Jeff Harris</li>
+        <li>Ellen & Richard Glaisner</li>
+        <li>Cynthia & Jeff Harris</li>
         <li>Ann Homstad</li>
         <li>Andy Jaekels</li>
-        <li>Diane &amp; Bob Jenkins</li>
+        <li>Diane & Bob Jenkins</li>
         <li>Evie Kelly</li>
+        <li>Maryglen and Robert Kieckhefer</li>
+        <li>Lori Kilian in memory of Debbie Thom</li>
         <li>The Lanigan Family</li>
         <li>Mitchell Lindstrom in memory of Joey Van Susteren</li>
         <li>Nancy Lucas</li>
-        <li>Linda &amp; John Mellowes</li>
-        <li>Susan &amp; Bob Mikulay</li>
-        <li>Barbara &amp; Rik Moe</li>
-        <li>Linda &amp; Jeff Perrigo</li>
+        <li>Mr. Peter Mahler, Sotheby's</li>
+        <li>Linda & John Mellowes</li>
+        <li>Susan & Bob Mikulay</li>
+        <li>Barbara & Rik Moe</li>
+        <li>Linda & Jeff Perrigo</li>
         <li>Randy Perry</li>
-        <li>Constance &amp; Reik Read</li>
-        <li>Kristin &amp; Kerry Rick</li>
-        <li>Kris &amp; Robert Rick</li>
-        <li>Mary &amp; John Rickmeier</li>
+        <li>Constance & Reik Read</li>
+        <li>Kristin & Kerry Rick</li>
+        <li>Kris & Robert Rick</li>
+        <li>Mary & John Rickmeier</li>
         <li>Elizabeth Robbins</li>
-        <li>Jen &amp; Todd Schoon</li>
-        <li>Jane &amp; Johan Segerdahl</li>
+        <li>Jen & Todd Schoon</li>
+        <li>Jane & Johan Segerdahl</li>
         <li>Barbie Sullivan</li>
         <li>Kathryn Szeflinski</li>
-        <li>Jennifer &amp; Joseph Teglia</li>
-        <li>Betsy Trimble &amp; Family</li>
-        <li>Laura &amp; Scott Vuchetich</li>
-        <li>Brooke &amp; Robert Walker</li>
-        <li>Mary Walker</li>
-        <li>Sarah &amp; Michael Weiss</li>
-        <li>Lindsay &amp; Steve Wojciechowski</li>
+        <li>Jennifer & Joseph Teglia</li>
+        <li>Betsy Trimble & Family</li>
+        <li>Laura & Scott Vuchetich</li>
+        <li>Brooke & Robert Walker</li>
+        <li>Mary & Willard Walker</li>
+        <li>Sarah & Michael Weiss</li>
+        <li>Lindsay & Steve Wojciechowski</li>
         <li>Devin Wolf</li>
         <li>Carol K. Wythes</li>
       </ul>
@@ -195,6 +204,7 @@ include "header.php";
 <div class="btb-gallery" style="position: relative;">
   <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
   <div class="site-width">
+    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2019</h2>
     <?php
     $main_dir = "images/galleries/btb2019";
 
