@@ -238,10 +238,10 @@ include "header.php";
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
-      <h4>COMMUNITY ADVISORY BOARD:</h4> <strong>Kerry Bolger</strong> &nbsp; // &nbsp; <strong>David Fritz</strong>, Executive Benefits Network &nbsp; // &nbsp; <strong>Chip Kubly</strong> &nbsp; // &nbsp; <strong>Sally Kubly</strong> &nbsp; // &nbsp; <strong>Susie Jennings</strong> &nbsp; // &nbsp; <strong>Susie Steiner</strong> &nbsp; // &nbsp; <strong>Julie Pandl</strong>, Author &nbsp; // &nbsp; <strong>Maureen Stalle</strong>, Keller Williams Realty &nbsp; // &nbsp; <strong>Angela Williams</strong> &nbsp; // &nbsp; <strong>Sandy Williams</strong>, Foley &amp; Lardner Retired<br>
+      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Quinn Butler</strong> &nbsp; // &nbsp; <strong>Augie Fitz</strong> &nbsp; // &nbsp; <strong>Colin Fitz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong> &nbsp; // &nbsp; <strong>Monica Quesnell</strong><br>
       <br>
 
-      <h4>BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
+      <h4>BUSINESS &amp; EVENTS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
       <br>
 
       <h4>EXECUTIVE DIRECTOR:</h4> <strong>Ann Homstad</strong>, 414.477.8901, <?php email("ahomstad@cekf.org"); ?>
