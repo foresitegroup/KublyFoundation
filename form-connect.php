@@ -2,15 +2,13 @@
 session_start();
 
 require_once "inc/dbconfig.php";
-require_once "inc/recaptchalib.php";
 
-$response = null;
-$reCaptcha = new ReCaptcha($RCkey);
-if ($_POST["g-recaptcha-response"]) $response = $reCaptcha->verifyResponse($_SERVER["REMOTE_ADDR"], $_POST["g-recaptcha-response"]);
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$RCkey."&response=".$_POST['g-recaptcha-response']);
+$responsekeys = json_decode($response);
 
 $salt = "KublyConnectForm";
 
-if ($response != null && $response->success) {
+if ($responsekeys->success) {
   if ($_POST['confirmationCAP'] == "") {
     if (
         $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
@@ -95,7 +93,7 @@ if ($response != null && $response->success) {
 }
 
 if (empty($_REQUEST['src'])) {
-  $_SESSION['feedback'] = $feedback;
+  // $_SESSION['feedback'] = $feedback;
   header("Location: " . $_POST['referrer'] . "#connect-form");
 }
 ?>
