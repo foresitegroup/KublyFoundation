@@ -3,7 +3,7 @@ session_start();
 
 require_once "inc/dbconfig.php";
 
-$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$RCkey."&response=".$_POST['g-recaptcha-response']);
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$RCkey."&response=".$_POST['g-recaptcha']);
 $responsekeys = json_decode($response);
 
 $salt = "KublyConnectForm";
