@@ -73,21 +73,21 @@ include "header.php";
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-        <li>Jean &amp; Charlie Gorham</li>
-        <li>Julie &amp; Andy Gusho</li>
+        <li>Jean & Charlie Gorham</li>
+        <li>Julie & Andy Gusho</li>
         <li>Hauske Family Foundation</li>
         <li>The Kellner Family</li>
-        <li>Dr. Rosa Kim &amp; Dr. Matthew Kleban</li>
-        <li>Sally &amp; Chip Kubly</li>
-        <li>Beth &amp; Will Kubly</li>
+        <li>Dr. Rosa Kim & Dr. Matthew Kleban</li>
+        <li>Sally & Chip Kubly</li>
+        <li>Beth & Will Kubly</li>
         <li>Milwaukee Admirals</li>
-        <li>Betsie &amp; Patrick O'Brien</li>
-        <li>Catherine &amp; Bill Perez</li>
+        <li>Betsie & Patrick O'Brien</li>
+        <li>Catherine & Bill Perez</li>
         <li>Power Test</li>
         <li>Rogers Behavioral Health</li>
         <li>Schwanke-Kasten Jewelers</li>
-        <li>Kate Schuett Wasmer &amp; John Wasmer</li>
-        <li>Angela &amp; Ross Williams</li>
+        <li>Kate Schuett Wasmer & John Wasmer</li>
+        <li>Angela & Ross Williams</li>
       </ul>
 
       <!-- <br>
@@ -171,6 +171,7 @@ include "header.php";
         <li>Linda & John Mellowes</li>
         <li>Susan & Bob Mikulay</li>
         <li>Barbara & Rik Moe</li>
+        <li>Maribeth & Bill Naleid</li>
         <li>Linda & Jeff Perrigo</li>
         <li>Randy Perry</li>
         <li>Constance & Reik Read</li>
@@ -183,6 +184,7 @@ include "header.php";
         <li>Barbie Sullivan</li>
         <li>Kathryn Szeflinski</li>
         <li>Jennifer & Joseph Teglia</li>
+        <li>Susan & Stacy Terris</li>
         <li>Betsy Trimble & Family</li>
         <li>Laura & Scott Vuchetich</li>
         <li>Brooke & Robert Walker</li>
