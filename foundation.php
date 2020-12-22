@@ -238,7 +238,7 @@ include "header.php";
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
-      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Quinn Butler</strong> &nbsp; // &nbsp; <strong>Augie Fitz</strong> &nbsp; // &nbsp; <strong>Colin Fitz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong> &nbsp; // &nbsp; <strong>Monica Quesnell</strong><br>
+      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Quinn Butler</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong> &nbsp; // &nbsp; <strong>Monica Quesnell</strong><br>
       <br>
 
       <h4>BUSINESS &amp; EVENTS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
