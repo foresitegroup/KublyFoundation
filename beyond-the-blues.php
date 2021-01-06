@@ -66,28 +66,30 @@ include "header.php";
       <h3>Teal Level - $5,000</h3>
       <ul>
         <li>Elaine Burke</li>
-        <li>William &amp; Sandy Heitz Family Foundation</li>
+        <li>Kathryn M. Burke</li>
+        <li>William & Sandy Heitz Family Foundation</li>
         <li>Sandy & Dennis Kuester</li>
+        <li>Rite Hite Foundation</li>
         <li>Michael J. Schmitz</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-        <li>Jean & Charlie Gorham</li>
-        <li>Julie & Andy Gusho</li>
-        <li>Hauske Family Foundation</li>
-        <li>The Kellner Family</li>
-        <li>Dr. Rosa Kim & Dr. Matthew Kleban</li>
-        <li>Sally & Chip Kubly</li>
-        <li>Beth & Will Kubly</li>
-        <li>Milwaukee Admirals</li>
-        <li>Betsie & Patrick O'Brien</li>
-        <li>Catherine & Bill Perez</li>
-        <li>Power Test</li>
-        <li>Rogers Behavioral Health</li>
-        <li>Schwanke-Kasten Jewelers</li>
-        <li>Kate Schuett Wasmer & John Wasmer</li>
-        <li>Angela & Ross Williams</li>
+          <li>Jean & Charlie Gorham</li>
+          <li>Julie & Andy Gusho</li>
+          <li>Hauske Family Foundation</li>
+          <li>The Kellner Family</li>
+          <li>Dr. Rosa Kim & Dr. Matthew Kleban</li>
+          <li>Sally & Chip Kubly</li>
+          <li>Beth & Will Kubly</li>
+          <li>Milwaukee Admirals</li>
+          <li>Betsie & Patrick O'Brien</li>
+          <li>Catherine & Bill Perez</li>
+          <li>Power Test</li>
+          <li>Rogers Behavioral Health</li>
+          <li>Schwanke-Kasten Jewelers</li>
+          <li>Kate Schuett Wasmer & John Wasmer</li>
+          <li>Angela & Ross Williams</li>
       </ul>
 
       <!-- <br>
@@ -179,6 +181,7 @@ include "header.php";
         <li>Kris & Robert Rick</li>
         <li>Mary & John Rickmeier</li>
         <li>Elizabeth Robbins</li>
+        <li>Julie & Mason Ross</li>
         <li>Jen & Todd Schoon</li>
         <li>Jane & Johan Segerdahl</li>
         <li>Barbie Sullivan</li>
