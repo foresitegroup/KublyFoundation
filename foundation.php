@@ -36,7 +36,7 @@ include "header.php";
     </div>
 
     <div class="foundation-right">
-      An estimated 15 million Americans suffer from depression.<br>
+      An estimated 16 million Americans suffer from depression.<br>
       <br>
 
       Only 1/3 of people with depression seek treatment.<br>
@@ -45,7 +45,7 @@ include "header.php";
       80% of those that do seek treatment are treated successfully.<br>
       <br>
 
-      Suicide claims approximately 30,000 lives annually in the U.S.
+      Suicide claims approximately 48,000 lives annually in the U.S.
     </div>
   </div>
 </div>
@@ -140,18 +140,18 @@ include "header.php";
     <strong class="q">Q: I want to help the Charles E. Kubly Foundation in its efforts to improve the lives of those affected by depression. What can I do?</strong><br>
     <br>
 
-    <a href="connect.php#newsletter">Register</a> with us so that you can receive our mailings and news about upcoming events electronically. Make a <a href="donate.php">donation</a> to the foundation and help fund quality mental health projects. Talk about the illness of depression openly. Spread the word that it is a treatable disease.<br>
+    <a href="connect.php#newsletter">Register</a> with us so that you can receive our mailings and news about upcoming events electronically. Make a <a href="donate.php">donation</a> to the Foundation and help fund quality mental health projects. Talk about the illness of depression openly. Spread the word that it is a treatable disease.<br>
     <br>
     <br>
 
-    <strong class="q">Q: How does the foundation distribute funds and decide upon projects?</strong><br>
+    <strong class="q">Q: How does the Foundation distribute funds and decide upon projects?</strong><br>
     <br>
 
     The Charles E. Kubly Foundation receives project proposals from nonprofit organizations who educate about depression and/or provide services for people with depression and other mental illness. We choose projects which closely fit with our mission to raise awareness of depression, reduce the stigma associated with it and help people access resources in their community. Additionally, some of the selected projects have focused on suicide prevention. Our goal is to raise enough funds to support depression related research as well.<br>
     <br>
     <br>
 
-    <strong class="q">Q: How long has the foundation been in existence?</strong><br>
+    <strong class="q">Q: How long has the Foundation been in existence?</strong><br>
     <br>
 
     The Charles E. Kubly Foundation was created in 2003. Friends and family of Charlie Kubly, who took his own life after a struggle with depression, came together to see what could be done to help others. It became immediately clear that the community was interested in this effort.<br>
@@ -241,10 +241,7 @@ include "header.php";
       <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Quinn Butler</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong> &nbsp; // &nbsp; <strong>Monica Quesnell</strong><br>
       <br>
 
-      <h4>BUSINESS &amp; EVENTS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
-      <br>
-
-      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Ann Homstad</strong>, 414.477.8901, <?php email("ahomstad@cekf.org"); ?>
+      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?>
     </div>
   </div>
 </div>

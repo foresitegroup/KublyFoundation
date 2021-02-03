@@ -38,7 +38,7 @@ include "header.php";
     $TotalPercent = number_format(($TotalRaised/1000000) * 100);
     ?>
 
-    <h3>We have raised a total of</h3>
+    <h3>We have reached our goal!</h3>
     <h4 id="total-raised"><noscript>$<?php echo number_format($TotalRaised); ?></noscript></h4>
 
     <div id="total-raised-bar"><div class="outer-therm" style="width: <?php echo $TotalPercent; ?>%;"><div class="inner-therm"><span><?php echo $TotalPercent; ?>%</span></div></div></div>
@@ -77,7 +77,7 @@ include "header.php";
   </div>
 </div>
 
-<div id="endowment-power">
+<!-- <div id="endowment-power">
   <div class="site-width">
     <h2>The Power of Your Gift</h2>
     Why invest now in an endowment gift to the CEKF?  Unfortunately, depression, mental health and suicide prevention receive very little philanthropic support despite the fact suicide rates continue to rise. Nationally, suicide is the 10th leading cause of death and it is the second most common cause of death among individuals ages 15-34.  Meanwhile, the National Institute of Mental Health reports that more than 16 million adults&mdash;or 6.7% of the population&mdash;experienced a major depressive episode in 2016, making it one of the most common mental health disorders.<br>
@@ -85,9 +85,9 @@ include "header.php";
 
     You can help raise awareness of depression, eliminate stigma and prevent suicide.  Give today to the Endowment Fund and watch the multiplier effect of your gift create impact far into the future.  Your gift, leveraged with those of other donors, will generate earnings to support both our mission today and the future sustainability of our efforts.
   </div>
-</div>
+</div> -->
 
-<div id="endowment-giving">
+<!-- <div id="endowment-giving">
   <div class="site-width">
     <h2>Your Giving Options</h2>
     Give now through a donation of cash, publicly-traded securities or other qualified charitable distributions.<br>
@@ -109,7 +109,7 @@ include "header.php";
 
     <a href="donate.php" class="button">CONTRIBUTE NOW</a>
   </div>
-</div>
+</div> -->
 
 <div id="endowment-tribute">
   <div class="site-width">

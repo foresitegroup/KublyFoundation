@@ -46,110 +46,119 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> ASCENSION ALL SAINTS-WOMEN OF WORTH</h3>
+      <h3><span class="bluetext">01.</span> AMERICAN FOUNDATION FOR SUICIDE PREVENTION</h3>
       <div class="content">
-        A CEKF grant will support the health education and parenting programs of Ascension All Saints's Women of Worth Program (WOW) which serves women Racine and Kenosha Counties with behavioral health issues.  Both programs provide participants with strategies to help women find more control and balance in their lives thus reducing accompanying anxiety and depression.
+        The Wisconsin chapter of AFSP will work to pilot a new customized suicide prevention program aimed at Wisconsin veterans and later to be rolled out through AFSP chapters throughout the country.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> INSTITUTIONAL MINISTRIES</h3>
+      <h3><span class="bluetext">02.</span> BELLIN HEALTH</h3>
       <div class="content">
-        Funding for NAMI Greater Milwaukee's theater performance of "Pieces" at the Pediatric Nursing Conference in November 2017.
-      </div><br>
-      <br>
-
-      <a href="https://im.life/">im.life</a>
+        Funding for Mental Health First Aid community trainings and the certification of additional staff members as trainers in the youth and adult versions of the program. Mental Health First Aid is a national program to teach the skills to respond to the signs of mental illness and substance use and help a person in crisis through a five-step action plan.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> JORDAN PORCO FOUNDATION</h3>
+      <h3><span class="bluetext">03.</span> COPE HOTLINE</h3>
       <div class="content">
-        Funding for Fresh Check Days on five Wisconsin college campuses.  Fresh Check Day is a fair-like event held on college campuses that builds a campus community around mental health and suicide prevention through engaging peer-to-peer education.
-      </div><br>
-      <br>
-
-      <a href="https://www.rememberingjordan.org">www.rememberingjordan.org</a>
+        CEKF funds will go toward support of the 24/7 COPE support and crisis line which serves five counties and took 18,000 calls in 2019.  COPE and Starting Point--two agencies with closely affiliated missions--have recently come together under the name Sirona Recovery.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> MENTAL HEALTH AMERICA OF WISCONSIN</h3>
+      <h3><span class="bluetext">04.</span> FRIENDSHIP CIRCLE</h3>
       <div class="content">
-        Funding for awareness-raising events for the grand opening of the nation's first peer-run respite home for veterans, as well as a video showing the home and explaining its respite program.
-      </div><br>
-      <br>
-
-      <a href="https://www.mhawisconsin.org">www.mhawisconsin.org</a>
+        Funding for two teen suicide prevention programs, LivingWorks Start and safeTalk, to be offered in conjunction with schools, clubs and other youth-serving organizations as well as to the Friendship Circle teen mentors who work with peers with special needs.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> NAMI GREATER MILWAUKEE</h3>
+      <h3><span class="bluetext">05.</span> GRAND AVENUE CLUB</h3>
       <div class="content">
-        A two-day Crisis Intervention Partner training designed for any adult who regularly comes into contact with individuals impacted by mental health conditions and wants to gain skills about understanding how mental health issues impact an individual, how to identify when an individual is in crisis, and how to best support them and connect them with services.
-      </div><br>
-      <br>
-
-      <a href="https://www.namigrm.org">www.namigrm.org</a>
+        A CEKF grant will benefit the support groups offered to participants in Grand Avenue Club's workplace programs.  The twice-weekly groups aid GAC members looking for work and also provide a forum for discussing issues and challenges for those who are employed. Grand Avenue Club's mission is to successfully help people experiencing mental illness achieve recovery through work, education, and community life.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> PROJECT ECHELON</h3>
+      <h3><span class="bluetext">06.</span> KIDS MATTER, INC</h3>
       <div class="content">
-        A CEKF grant will fund Question Persuade Refer (QPR) suicide prevention training for Project Echelon  mentors and board members; as well as support development of SMART goal workshops, coaching and mentorships, and help defray equipment costs or other fees for veterans struggling with addiction or suicidal thoughts.
-      </div><br>
-      <br>
-
-      <a href="https://www.projectechelon.org">www.projectechelon.org</a>
+        Funding for crisis counseling and emotional support for children impacted by the homicide of a parent or caregiver.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> ROCK VALLEY COMMUNITY PROGRAM (RVCP)</h3>
+      <h3><span class="bluetext">07.</span> MOMS MENTAL HEALTH INITIATIVE</h3>
       <div class="content">
-        Funding for 16 directors, managers and supervisors to be certified as trainers in the Question Persuade Refer (QPR) suicide prevention model so they can train staff on an ongoing basis in order to reduce the risk of suicide and suicidal behaviors in the individuals they serve.
-      </div><br>
-      <br>
-
-      <a href="https://www.rvcp.org">www.rvcp.org</a>
+        A grant for increased social media support and training to reach mothers experiencing perinatal mood and anxiety disorders.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> SAMARITAN COUNSELING CENTER (SCC)</h3>
+      <h3><span class="bluetext">08.</span> ORBAN FOUNDATION FOR VETERANS</h3>
       <div class="content">
-        SCC has run a screening program for mental health concerns in schools since 2012.  A CEKF grant will fund a new software system which is needed to manage the growing volume of screenings and information and allow for expansion of services, while building capacity for future revenue opportunities through potential licensing to other organizations.
-      </div><br>
-      <br>
-
-      <a href="https://scclanc.org">scclanc.org</a>
+        Funding for a podcast hosted by veterans for veterans with a goal of breaking stigma and sharing stories of mental health challenges and recovery.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> SEEDS OF HEALTH SCHOOLS</h3>
+      <h3><span class="bluetext">09.</span> PATHFINDERS</h3>
       <div class="content">
-        Through this pilot made possible by a CEKF grant, a therapist from SaintA offers consultation services that support teachers and staff in addressing their students' mental health needs as well as providing direct therapy for students at a clinic established within Seeds of Health Elementary School.
-      </div><br>
-      <br>
-
-      <a href="https://www.seedsofhealth.org">www.seedsofhealth.org</a>
+        Funding for the training of Pathfinder's direct service staff in Trauma-Informed Care and Motivational Interviewing.  Pathfinders provides comprehensive youth services designed to protect youth/young adults (aged 18-25) and their families who are dealing with homelessness, family problems, mental health issues, sexual abuse, teen pregnancy, alcohol and drug addictions, juvenile delinquency and educational needs.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> SCATTERING CJ (STONE SOUP PRODUCTIONS)</h3>
+      <h3><span class="bluetext">10.</span> ROGERS BEHAVIORAL HEALTH</h3>
       <div class="content">
-        Funding for three Wisconsin screenings and development of a related audience discussion kit of the documentary, "Scattering CJ".  The film documents the efforts of Hallie Twomey to spread the ashes of her son CJ, who she lost to suicide, in different places around the globe and seeks to unpack the complexity and ambiguity that surrounds suicide, as well as start  conversations that can break the stigmas associated with mental illness and depression.
-      </div><br>
-      <br>
-
-      <a href="https://www.stonetosoup.org/scattering-cj">www.stonetosoup.org/scattering-cj</a>
+        Support for the Coaching for Success initiative in which MPS, Boys & Girls Clubs and other partners will provide coaching for teachers and evaluate how coaching can translate training into successful use in the classroom.
+      </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> WISCONSIN ASSOCIATION OF INDEPENDENT COLLEGES &amp; UNIVERSITIES</h3>
+      <h3><span class="bluetext">11.</span> SIXTEENTH STREET COMMUNITY HEALTH CENTERS</h3>
       <div class="content">
-        This all-day conference on November 8, 2019 focused on primary prevention for suicide on college campuses and specifically on stigma reduction since stigma can prevent students from seeking help.
-      </div><br>
-      <br>
+        A bilingual, culturally-sensitive weekly support group facilitated by a licensed behavioral health provider helps break down barriers for parents with children in the day treatment program by providing tools and a support network to help manage their child's behavior in the home, as well as providing parents with an outlet for emotional support in coping with challenges.
+      </div>
+    </div>
 
-      <a href="http://www.waicu.org">www.waicu.org</a>
+
+
+
+
+    <div>
+      <h3><span class="bluetext">12.</span> UWM MILITARY AND VETERANS RESOURCE CENTER</h3>
+      <div class="content">
+        Funding for support of peer-to-peer coaches for UWM's military and veteran students to support those with mental health needs or concerns and to encourage them to seek resources.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">13.</span> VIVENT HEALTH (FORMER AIDS RESOURCE CENTER)</h3>
+      <div class="content">
+        Funding for Vivent's Consultant-Liaison program which embeds a mental health professional within Vivent's Milwaukee Medical Clinic.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">14.</span> WISCONSIN LUTHERAN CHILD & FAMILY SERVICES</h3>
+      <div class="content">
+        Funding for mental health screenings of freshman at three Wisconsin high schools.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">15.</span> YOUTH AND FAMILY PROJECT</h3>
+      <div class="content">
+        Free, short-term counseling to youth in crisis and their families, with additional services that include emergency short-term shelter, education, referral and availability of a 24-hour hotline.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">16.</span> HUDSON YMCA</h3>
+      <div class="content">
+        A grant to provide community Mental Health First Aid trainings in the St. Croix and Pierce Counties region of Wisconsin.
+      </div>
     </div>
   </div>
 </div>
