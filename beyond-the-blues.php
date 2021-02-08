@@ -18,10 +18,8 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      This year only! Our much-loved, annual Beyond the Blues event transformed into a weeklong campaign to support mental health and suicide prevention. Every year donor contributions to Beyond the Blues provide a significant amount of funding for our work&mdash;including the grants we make to organizations in Southeastern Wisconsin and beyond.<br>
-      <br>
-
-      Many thanks to all who donated and became a part of our Beyond the Blues 2020 campaign! Your contributions have totaled over $190,000! See our list of sponsors below, and save the date for next year's Beyond the Blues 2021 &mdash; LIVE at Discovery World Pier Wisconsin Pavilion on Friday, September 10th! See you there!
+      <br><br><br><br><br><br>
+      Save the date for Beyond the Blues 2021 &mdash; LIVE at Discovery World Pier Wisconsin Pavilion on Friday, September 10th! See you there!
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->

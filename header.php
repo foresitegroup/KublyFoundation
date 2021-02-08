@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$GLOBALS['btbdate'] = strtotime('September 11, 2020');
+$GLOBALS['btbdate'] = strtotime('September 10, 2021');
 
 function email($address, $name="") {
   $email = "";
@@ -166,7 +166,7 @@ if (!isset($TopDir)) $TopDir = "";
           <div class="site-width">
             <a href="<?php echo $TopDir; ?>." class="logo">
               <?php if (isset($PageMod)) { ?>
-              <img src="images/beyond-the-blues-2020-logo.png" alt="Beyond the Blues">
+              <img src="images/beyond-the-blues-logo.png" alt="Beyond the Blues">
               <?php } else { ?>
               <img src="<?php echo $TopDir; ?>images/logo.png" alt="The Charles E. Kubly Foundation">
               <?php } ?>

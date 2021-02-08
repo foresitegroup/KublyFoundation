@@ -2554,7 +2554,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 }
 
 .btb-banner {
-  background: url(../images/btb-banner-2020.jpg) no-repeat center top;
+  background: url(../images/btb-banner.jpg) no-repeat center top;
   background-size: cover;
   position: relative;
 }
