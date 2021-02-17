@@ -56,9 +56,9 @@ include "header.php";
         Contact our Executive Director by telephone to generally discuss your grant request and these guidelines or send a Letter of Inquiry. We encourage you to do this well in advance of our deadline. Grants that have been sent in without a previous discussion with the ED will not be accepted.<br>
 
         <div class="bluetext long-string">
-          Ann Homstad<br>
+          Kris Rick<br>
           Executive Director<br>
-          <?php email("ahomstad@cekf.org"); ?><br>
+          <?php email("krick@cekf.org"); ?><br>
           (414) 477-8901
         </div>
       </li>
