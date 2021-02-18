@@ -59,7 +59,7 @@ include "header.php";
           Kris Rick<br>
           Executive Director<br>
           <?php email("krick@cekf.org"); ?><br>
-          (414) 477-8901
+          (414) 477-9959
         </div>
       </li>
       <li>Receive an invitation to submit a formal grant request</li>
