@@ -1287,6 +1287,69 @@ A.my-menu-toggle {
   text-decoration: none;
 }
 
+#newsletters {
+  background: #1690C7;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 2em;
+  text-transform: uppercase;
+  padding: 60px 0 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+#newsletters:before {
+  content: "NEWSLETTER";
+  position: absolute;
+  top: -0.28em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #157EBF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 16.875vw;
+  line-height: 1em;
+}
+
+#newsletters .site-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  z-index: 2;
+}
+
+#newsletters .site-width .image { width: 40%; outline: 0; }
+
+#newsletters .site-width .image IMG { max-width: 100%; height: auto; box-shadow: 0 0 19px 0 rgba(0,0,0,0.25); }
+
+#newsletters .site-width .text { width: 55.6%; margin-left: auto; }
+
+#newsletters .site-width .text H3 {
+  margin: 0 0 0.25em;
+  font-weight: 800;
+  font-size: 61px;
+  line-height: 1em;
+}
+
+#newsletters .site-width .text SPAN { color: #052838; }
+
+#newsletters .site-width .text H4 {
+  margin: 0 0 0.4em;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1em;
+  color: #052838;
+}
+
+#past-newsletters { display: flex; font-size: 13px; line-height: 1.6em; text-transform: none; }
+
+#past-newsletters > DIV { margin-right: 3em; }
+
+#past-newsletters > DIV A { color: #FFFFFF; text-decoration: none; outline: 0; }
+#past-newsletters > DIV A:hover { color: #052838; }
+
 #grant-priorities {
   padding: 5em 0;
   background: #052838 url(../images/grant-background-priorities.png) calc(50% - 375px) top no-repeat;
@@ -4273,6 +4336,12 @@ A.featured-read:active {
   #endowment-banner:before, #endowment-banner:after { background-size: cover; }
 }
 
+@media only screen and (max-width: 750px) {
+  #newsletter-banner .site-width { flex-direction: column-reverse; }
+  #newsletter-banner .site-width .text { width: 100%; }
+  #newsletter-banner .site-width .image { width: 100%; margin-top: 2em; }
+}
+
 @media only screen and (max-width: 700px) {
   #dogear { width: 300px; height: 350px; font-size: 16px; }
 
@@ -5064,6 +5133,10 @@ A.featured-read:active {
   #endowment-banner { margin-top: 105px; }
 
   [id^="endowment-"]:not(#endowment-banner) H2 { font-size: 12.6vw; }
+}
+
+@media only screen and (max-width: 450px) {
+  #newsletter-banner .site-width .text H3 { font-size: 13.556vw; }
 }
 
 @media only screen and (max-width: 320px) {

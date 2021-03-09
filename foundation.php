@@ -18,6 +18,7 @@ include "header.php";
     <li><a href="#charlies-story">CHARLIE'S STORY</a></li>
     <li><a href="#faq">FAQ</a></li>
     <li><a href="#board-leadership">BOARD &amp; LEADERSHIP</a></li>
+    <li><a href="#newsletters">NEWSLETTERS</a></li>
   </ul>
 </div>
 
@@ -245,5 +246,41 @@ include "header.php";
     </div>
   </div>
 </div>
+
+<div id="newsletters">
+  <div class="site-width">
+    <a href="pdf/Kubly_Newsletter_Winter_2021.pdf" class="image"><img src="images/newsletter-winter-2021.jpg" alt=""></a>
+
+    <div class="text">
+      <h3>Winter 2021 Newsletter</h3>
+
+      <span>What's Inside</span><br>
+      A Message From Molly Kubly Fritz<br>
+      <span>01.</span> Beyond the Blues Recap<br>
+      <span>03.</span> Projects Funded<br>
+      <span>04.</span> Endowment Donors<br>
+      <span>05.</span> CEKF Young Leaders Council<br>
+      <br>
+
+      <h4>Past Newsletters</h4>
+      <div id="past-newsletters">
+        <div>
+          <a href="pdf/Kubly_Newsletter_Winter_2017.pdf">Winter 2017</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2018.pdf">Winter 2018</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2019.pdf">Winter 2019</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2020.pdf">Winter 2020</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a>
+        </div>
+
+        <div>
+          <a href="pdf/Kubly_Newsletter_Summer_2017.pdf">Summer 2017</a><br>
+          <a href="pdf/Kubly_Newsletter_Summer_2018.pdf">Summer 2018</a><br>
+          <a href="pdf/Kubly_Newsletter_Summer_2019.pdf">Summer 2019</a><br>
+          <a href="pdf/Kubly_Newsletter_Summer_2020.pdf">Summer 2020</a>
+        </div>
+      </div> <!-- /#past-newletters -->
+    </div> <!-- /.text -->
+  </div> <!-- /.site-width -->
+</div> <!-- /#newsletters -->
 
 <?php $ArrowNo = "true"; include "footer.php"; ?>
