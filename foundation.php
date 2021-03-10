@@ -265,18 +265,18 @@ include "header.php";
       <h4>Past Newsletters</h4>
       <div id="past-newsletters">
         <div>
-          <a href="pdf/Kubly_Newsletter_Winter_2017.pdf">Winter 2017</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2018.pdf">Winter 2018</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2019.pdf">Winter 2019</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2020.pdf">Winter 2020</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a>
+          <a href="pdf/Kubly_Newsletter_Winter_2019.pdf">Winter 2019</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2018.pdf">Winter 2018</a><br>
+          <a href="pdf/Kubly_Newsletter_Winter_2017.pdf">Winter 2017</a>
         </div>
 
         <div>
-          <a href="pdf/Kubly_Newsletter_Summer_2017.pdf">Summer 2017</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2018.pdf">Summer 2018</a><br>
+          <a href="pdf/Kubly_Newsletter_Summer_2020.pdf">Summer 2020</a><br>
           <a href="pdf/Kubly_Newsletter_Summer_2019.pdf">Summer 2019</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2020.pdf">Summer 2020</a>
+          <a href="pdf/Kubly_Newsletter_Summer_2018.pdf">Summer 2018</a><br>
+          <a href="pdf/Kubly_Newsletter_Summer_2017.pdf">Summer 2017</a>
         </div>
       </div> <!-- /#past-newletters -->
     </div> <!-- /.text -->
