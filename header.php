@@ -58,6 +58,13 @@ if (!isset($TopDir)) $TopDir = "";
           "navbar": { "title": '<a href="#my-page">&times</a>' },
           "extensions": [ "pagedim-black" ]
         });
+
+        function AnchorScroll($scrollloc) {
+          $('html,body').animate({scrollTop: $($scrollloc).offset().top - 82}, 300);
+            setTimeout(function(){history.replaceState(null,null,' ');},0);
+        }
+        $('a[href*="#"]:not([href="#"])').on('click', function() { AnchorScroll(this.hash); });
+        if ($('#'+location.href.split("#")[1]).length) AnchorScroll('#'+location.href.split("#")[1]);
       });
     </script>
 
