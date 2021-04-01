@@ -515,33 +515,30 @@ A.my-menu-toggle {
   z-index: 999;
   width: 350px;
   height: 400px;
-  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #ED1C24 50%, #ED1C24 100%);
+  background-image: linear-gradient(to bottom right, transparent 0%, transparent 50%, #FFFFFF 50%, #FFFFFF 100%);
 }
 
-#dogear DIV {
+#dogear > DIV {
   position: absolute;
   top: 65%;
   right: 2%;
   width: 60%;
-  color: #FFFFFF;
+  color: #139AD2;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2em;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
 }
 
-#dogear DIV > SPAN {
+#dogear > DIV > SPAN {
   display: block;
-  color: #ED1C24;
+  color: #112C37;
   font-weight: 900;
-  font-size: 80%;
-  /*line-height: 1em;*/
-  /*text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);*/
+  font-size: 70%;
+  line-height: 1em;
 }
-
-/*#dogear DIV > SPAN SPAN { display: block; font-size: 70%; }*/
 
 .home-banner .home-banner-slide.dogear .site-width {
   box-sizing: border-box;
@@ -4344,6 +4341,7 @@ A.featured-read:active {
 
 @media only screen and (max-width: 700px) {
   #dogear { width: 300px; height: 350px; font-size: 16px; }
+  #dogear > DIV { top: 50%; }
 
   #endowment-goal H3 { font-size: 6vw; }
   #endowment-goal H4 { font-size: 17vw; }
@@ -4786,8 +4784,9 @@ A.featured-read:active {
 }
 
 @media only screen and (max-width: 500px) {
-  #dogear { width: 100%; height: auto; background: #112C37; text-decoration: none; }
-  #dogear DIV { position: static; width: 100%; color: #FFFFFF; padding: 0.5em 0; }
+  #dogear { width: 100%; height: auto; background: #FFFFFF; text-decoration: none; }
+  #dogear > DIV { position: static; width: 100%; text-align: left; padding: 0.5em 2%; }
+  #dogear > DIV > SPAN:after { content: "\25ba"; margin-left: 0.25em; color: #139AD2; }
 
   .btb-banner .header-left .button { margin-top: 1em; }
 }

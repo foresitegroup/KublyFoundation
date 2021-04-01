@@ -100,7 +100,12 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <!-- <a href="https://youtu.be/QzhJ4obhcg4" id="dogear"><div>A message from John McGivern &amp; Billie Kubly &#9658;</div></a> -->
+        <a href="https://www.eventbrite.com/e/charles-e-kubly-foundation-golf-outing-tickets-137517411279" id="dogear">
+          <div>
+            Young Leaders Council Golf Outing
+            <span>Tickets on sale now!</span>
+          </div>
+        </a>
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
