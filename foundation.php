@@ -226,7 +226,7 @@ include "header.php";
     </div>
 
     <div class="right">
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer, Messmer Catholic Schools &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindshare &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
+      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer, Messmer Catholic Schools &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindshare &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
       <br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
