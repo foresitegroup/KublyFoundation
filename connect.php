@@ -113,7 +113,8 @@ include "header.php";
       <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> <label for="c-subscribe"><span></span>I would like to receive the Charles E. Kubly Foundation newsletter and event information.</label>
       <br>
 
-      <script src='https://www.google.com/recaptcha/api.js'></script>
+      <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
+      <!-- <div class="g-recaptcha" data-sitekey="6Lfk0EYUAAAAAAIL3WuhVbN0IEMpi8axB5y4j3S8"></div> -->
       <div class="g-recaptcha" data-sitekey="6Lfk0EYUAAAAAAIL3WuhVbN0IEMpi8axB5y4j3S8"></div>
 
       <input type="hidden" name="referrer" value="connect.php">
@@ -128,6 +129,8 @@ include "header.php";
       <input type="submit" name="submit" value="SEND MESSAGE">
     </div>
   </form>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </div>
 
 <div class="footer-call">
