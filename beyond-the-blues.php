@@ -46,48 +46,35 @@ include "header.php";
   <div class="site-width">
     <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick<br>414-477-9959</h1>
 
-    <h2>BEYOND THE BLUES 2020 SPONSORS</h2>
+    <h2>BEYOND THE BLUES 2021 SPONSORS</h2>
 
     <div class="one-third">
-      <h3>Sapphire Level - $20,000</h3>
+      <!-- <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Colony Brands, Inc.</li>
         <li>Meg &amp; Libby Kasch</li>
         <li>Billie Kubly</li>
-      </ul>
+      </ul> -->
 
-<!--       <h3>Aqua Level - $10,000</h3>
+      <!-- <h3>Aqua Level - $10,000</h3>
       <ul>
         <li>William &amp; Sandy Heitz Family Foundation</li>
       </ul> -->
 
       <h3>Teal Level - $5,000</h3>
       <ul>
-        <li>Elaine Burke</li>
-        <li>Kathryn M. Burke</li>
-        <li>William & Sandy Heitz Family Foundation</li>
+        <li>Continental Properties Company, Inc.</li>
         <li>Sandy & Dennis Kuester</li>
-        <li>Rite Hite Foundation</li>
-        <li>Michael J. Schmitz</li>
+        <li>Kate & John Wasmer</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-          <li>Jean & Charlie Gorham</li>
-          <li>Julie & Andy Gusho</li>
-          <li>Hauske Family Foundation</li>
-          <li>The Kellner Family</li>
-          <li>Dr. Rosa Kim & Dr. Matthew Kleban</li>
-          <li>Sally & Chip Kubly</li>
-          <li>Beth & Will Kubly</li>
-          <li>Milwaukee Admirals</li>
-          <li>Betsie & Patrick O'Brien</li>
-          <li>Catherine & Bill Perez</li>
-          <li>Power Test</li>
-          <li>Rogers Behavioral Health</li>
-          <li>Schwanke-Kasten Jewelers</li>
-          <li>Kate Schuett Wasmer & John Wasmer</li>
-          <li>Angela & Ross Williams</li>
+        <li>Hauske Family Foundation</li>
+        <li>Kelben Foundation</li>
+        <li>Anne Luber</li>
+        <li>Betsie & Patrick O'Brien</li>
+        <li>Rogers Behavioral Health</li>
       </ul>
 
       <!-- <br>
@@ -98,47 +85,16 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>Lisa & Souheil Badran</li>
-        <li>Baird</li>
-        <li>The Bourne Family</li>
-        <li>Suzy & John Brennan</li>
-        <li>Kathleen & Jim Caragher</li>
-        <li>Jose Carlino Design</li>
-        <li>Mary & William Cullinan</li>
-        <li>David Michael Darrow Memorial Fund at the Greater Milwaukee Foundation</li>
-        <li>Sue & Russ Darrow</li>
-        <li>Executive Benefits Network -- David Fritz</li>
-        <li>Dean Fitzgerald</li>
-        <li>Katie Frommelt in memory of Garrett Kelley</li>
         <li>Godfrey & Kahn, S.C.</li>
-        <li>Ann M. Goris</li>
-        <li>Thomas Gould</li>
-        <li>Patty & Mike Grebe</li>
-        <li>Marilyn & William Haker</li>
         <li>Ann & Jon Hammes</li>
-        <li>Jean & Thomas Harbeck Family Foundation</li>
         <li>Susie Hawkins in memory of Debbie Thom</li>
-        <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
-        <li>Laura & Pat Koppa</li>
-        <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
-        <li>Anne Luber</li>
-        <li>Linda & Curt Lundeen</li>
-        <li>Keith and Dee Miller Fund</li>
-        <li>Shelley & Mike Muranyi</li>
-        <li>The Naegele Family</li>
-        <li>Candy & Bruce Pindyck</li>
-        <li>Peggy & Ned Purtell</li>
         <li>Peggy & Bob Schuemann</li>
         <li>Nancy & Greg Smith</li>
         <li>Julianne & Stephen Spadafora</li>
         <li>Mary & Chris Tornehl</li>
-        <li>Julia Uihlein in honor of Chucker Aring</li>
-        <li>Debbie & Camp Van Dyke</li>
-        <li>Abby & Scott Williams</li>
-        <li>Jessica Wirtz & Lily Kubly</li>
         <li>Diane & Ed Zore</li>
       </ul>
     </div>
@@ -146,54 +102,11 @@ include "header.php";
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
-        <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
-        <li>Amy Argall in memory of Dan Argall</li>
-        <li>Linda & John Awe</li>
-        <li>Deanna Braeger</li>
-        <li>Geralyn & Bill Cannon</li>
-        <li>Maripat & Tom Dalum</li>
         <li>Christiane Endres</li>
-        <li>Mr. & Mrs. Gary Fandek</li>
-        <li>Anna Claire & George Gaspar</li>
-        <li>Susie Gebhardt</li>
-        <li>Ellen & Richard Glaisner</li>
-        <li>Cynthia & Jeff Harris</li>
-        <li>Ann Homstad</li>
-        <li>Andy Jaekels</li>
-        <li>Diane & Bob Jenkins</li>
-        <li>Evie Kelly</li>
-        <li>Maryglen and Robert Kieckhefer</li>
-        <li>Lori Kilian in memory of Debbie Thom</li>
-        <li>The Lanigan Family</li>
-        <li>Mitchell Lindstrom in memory of Joey Van Susteren</li>
-        <li>Nancy Lucas</li>
-        <li>Mr. Peter Mahler, Sotheby's</li>
-        <li>Linda & John Mellowes</li>
-        <li>Susan & Bob Mikulay</li>
-        <li>Barbara & Rik Moe</li>
-        <li>Maribeth & Bill Naleid</li>
-        <li>Linda & Jeff Perrigo</li>
-        <li>Randy Perry</li>
-        <li>Constance & Reik Read</li>
-        <li>Kristin & Kerry Rick</li>
-        <li>Kris & Robert Rick</li>
-        <li>Mary & John Rickmeier</li>
-        <li>Elizabeth Robbins</li>
-        <li>Julie & Mason Ross</li>
         <li>Jen & Todd Schoon</li>
-        <li>Jane & Johan Segerdahl</li>
-        <li>Barbie Sullivan</li>
-        <li>Kathryn Szeflinski</li>
-        <li>Jennifer & Joseph Teglia</li>
-        <li>Susan & Stacy Terris</li>
         <li>Betsy Trimble & Family</li>
-        <li>Laura & Scott Vuchetich</li>
-        <li>Brooke & Robert Walker</li>
-        <li>Mary & Willard Walker</li>
-        <li>Sarah & Michael Weiss</li>
-        <li>Lindsay & Steve Wojciechowski</li>
-        <li>Devin Wolf</li>
-        <li>Carol K. Wythes</li>
+        <li>Abby & Scott Williams</li>
+        <li>Amy & Devin Wolf</li>
       </ul>
 
 <!--       <div class="btb-sponsorship">
