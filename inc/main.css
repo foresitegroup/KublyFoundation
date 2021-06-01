@@ -1759,6 +1759,7 @@ A.logo-link:active IMG {
   font-size: 26px;
   line-height: 1em;
   color: #112C37;
+  text-transform: uppercase;
 }
 
 .funding-current .content {

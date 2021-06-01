@@ -46,118 +46,93 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> AMERICAN FOUNDATION FOR SUICIDE PREVENTION</h3>
+      <h3><span class="bluetext">01.</span> Art with Impact</h3>
       <div class="content">
-        The Wisconsin chapter of AFSP will work to pilot a new customized suicide prevention program aimed at Wisconsin veterans and later to be rolled out through AFSP chapters throughout the country.
+        Voices with Impact 2021 film festival with five winning films that focus on mental wellbeing and living with mental illness. Post-festival, the films are shared with mental health professionals and academic institutions in partnerships that leverage art to create opportunities for prevention and early intervention of mental illness.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> BELLIN HEALTH</h3>
+      <h3><span class="bluetext">02.</span> Centro Hispano of Dane County, Wisconsin</h3>
       <div class="content">
-        Funding for Mental Health First Aid community trainings and the certification of additional staff members as trainers in the youth and adult versions of the program. Mental Health First Aid is a national program to teach the skills to respond to the signs of mental illness and substance use and help a person in crisis through a five-step action plan.
+        Support of a multimedia campaign (all in Spanish) to reach Latinx families in and around Madison, Wisconsin in hopes of reducing stigma associated with mental health and to support those dealing with depression and anxiety.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> COPE HOTLINE</h3>
+      <h3><span class="bluetext">03.</span> Concordia University</h3>
       <div class="content">
-        CEKF funds will go toward support of the 24/7 COPE support and crisis line which serves five counties and took 18,000 calls in 2019.  COPE and Starting Point--two agencies with closely affiliated missions--have recently come together under the name Sirona Recovery.
+        Phase 3 of Concordia University's Mequon, WI campus comprehensive system (programs and policies) that works to improve student's emotional health and wellbeing. This phase uses the JED Foundation's JED Campus protocol.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> FRIENDSHIP CIRCLE</h3>
+      <h3><span class="bluetext">04.</span> Erika's Lighthouse</h3>
       <div class="content">
-        Funding for two teen suicide prevention programs, LivingWorks Start and safeTalk, to be offered in conjunction with schools, clubs and other youth-serving organizations as well as to the Friendship Circle teen mentors who work with peers with special needs.
+        A realignment of current mental health curriculum offered to school districts and implemented in their Teen Empowerment Clubs, Professional Development and Family Development programs. This will be a three-tiered program for different grade levels that utilizes the same language and approach.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> GRAND AVENUE CLUB</h3>
+      <h3><span class="bluetext">05.</span> Ex Fabula</h3>
       <div class="content">
-        A CEKF grant will benefit the support groups offered to participants in Grand Avenue Club's workplace programs.  The twice-weekly groups aid GAC members looking for work and also provide a forum for discussing issues and challenges for those who are employed. Grand Avenue Club's mission is to successfully help people experiencing mental illness achieve recovery through work, education, and community life.
+        An event and media campaign to help local community members craft their personal stories involving mental health and share them in "story slams" throughout the community.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> KIDS MATTER, INC</h3>
+      <h3><span class="bluetext">06.</span> Feast of Crispian</h3>
       <div class="content">
-        Funding for crisis counseling and emotional support for children impacted by the homicide of a parent or caregiver.
+        Funding for their 2021 annual production of The Honor Flight. This production will be told from the perspective of Wisconsin Viet Nam Veterans detailing the trauma and healing that was part of their deployment experience.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> MOMS MENTAL HEALTH INITIATIVE</h3>
+      <h3><span class="bluetext">07.</span> Institutional Ministries, Inc.</h3>
       <div class="content">
-        A grant for increased social media support and training to reach mothers experiencing perinatal mood and anxiety disorders.
+        Support for a one-day event in western Wisconsin called "Faith-Inspired Knowledge is Power". This presentation included QPR training, and discussed the topics of Moral Injury, Domestic Abuse and Victimization.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> ORBAN FOUNDATION FOR VETERANS</h3>
+      <h3><span class="bluetext">08.</span> Kradwell School</h3>
       <div class="content">
-        Funding for a podcast hosted by veterans for veterans with a goal of breaking stigma and sharing stories of mental health challenges and recovery.
+        A grant to provide art supplies including a clay wheel for the Art Therapy room. This room provides "in the moment" support to students and art therapy is a proven activity that helps them express their emotions and promotes healing for those who have anxiety, depression or survived trauma.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> PATHFINDERS</h3>
+      <h3><span class="bluetext">09.</span> Mental Health America of Wisconsin</h3>
       <div class="content">
-        Funding for the training of Pathfinder's direct service staff in Trauma-Informed Care and Motivational Interviewing.  Pathfinders provides comprehensive youth services designed to protect youth/young adults (aged 18-25) and their families who are dealing with homelessness, family problems, mental health issues, sexual abuse, teen pregnancy, alcohol and drug addictions, juvenile delinquency and educational needs.
+        Funding for a novel resource called The Prism Project which connects peer specialists with LGBTQ+ youth in an effort to provide mental and emotional support through mentorship.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> ROGERS BEHAVIORAL HEALTH</h3>
+      <h3><span class="bluetext">10.</span> NAMI Racine County</h3>
       <div class="content">
-        Support for the Coaching for Success initiative in which MPS, Boys & Girls Clubs and other partners will provide coaching for teachers and evaluate how coaching can translate training into successful use in the classroom.
+        An expansion of NAMI mental health programming in western Racine county. The project will expand NAMI's signature peer support groups; provide monthly educational speaker series panels and "Ending the Silence" in its three versions (for students, educators and families).
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> SIXTEENTH STREET COMMUNITY HEALTH CENTERS</h3>
+      <h3><span class="bluetext">11.</span> Rocketship Schools</h3>
       <div class="content">
-        A bilingual, culturally-sensitive weekly support group facilitated by a licensed behavioral health provider helps break down barriers for parents with children in the day treatment program by providing tools and a support network to help manage their child's behavior in the home, as well as providing parents with an outlet for emotional support in coping with challenges.
-      </div>
-    </div>
-
-
-
-
-
-    <div>
-      <h3><span class="bluetext">12.</span> UWM MILITARY AND VETERANS RESOURCE CENTER</h3>
-      <div class="content">
-        Funding for support of peer-to-peer coaches for UWM's military and veteran students to support those with mental health needs or concerns and to encourage them to seek resources.
+        This grant will provide "in the moment" trauma informed coaching and support. The support is for students, teachers and school leaders at their Northside campus, Rocketship Transformation Prep.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">13.</span> VIVENT HEALTH (FORMER AIDS RESOURCE CENTER)</h3>
+      <h3><span class="bluetext">11.</span> Warmline, Inc.</h3>
       <div class="content">
-        Funding for Vivent's Consultant-Liaison program which embeds a mental health professional within Vivent's Milwaukee Medical Clinic.
+        A grant to strengthen the capabilities of the Warmline by providing cell phones, updating their website and creation of a confidential tracking system for calls for data analysis and, if needed, to connect callers to a crisis number.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">14.</span> WISCONSIN LUTHERAN CHILD & FAMILY SERVICES</h3>
+      <h3><span class="bluetext">11.</span> Women of Worth (Through Ascension All Saints Hospital Foundation)</h3>
       <div class="content">
-        Funding for mental health screenings of freshman at three Wisconsin high schools.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">15.</span> YOUTH AND FAMILY PROJECT</h3>
-      <div class="content">
-        Free, short-term counseling to youth in crisis and their families, with additional services that include emergency short-term shelter, education, referral and availability of a 24-hour hotline.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">16.</span> HUDSON YMCA</h3>
-      <div class="content">
-        A grant to provide community Mental Health First Aid trainings in the St. Croix and Pierce Counties region of Wisconsin.
+        Funding for Women's Health Education, Parenting and Nurturing Programs. The staff of the WOW program work with women to develop their own treatment plans and provide several opportunities to learn skills that will develop their emotional health and tools for better day-to-day living.
       </div>
     </div>
   </div>
@@ -191,7 +166,7 @@ include "header.php";
           <div><input type="checkbox" name="control" value=".adult" id="r-adult"> <label for="r-adult">ADULT</label></div>
           <div><input type="checkbox" name="control" value=".veterans" id="r-veterans"> <label for="r-veterans">VETERANS</label></div>
           <div><input type="checkbox" name="control" value=".seniors" id="r-seniors"> <label for="r-seniors">SENIORS</label></div>
-          <div><input type="checkbox" name="control" value=".minorities" id="r-minorities"> <label for="r-minorities">MINORITIES</label></div>
+          <div><input type="checkbox" name="control" value=".minorities" id="r-minorities"> <label for="r-minorities">BIPOC</label></div>
           <div><input type="checkbox" name="control" value=".lgbtq" id="r-lgbtq"> <label for="r-lgbtq">LGBTQ+</label></div>
           <div><input type="checkbox" name="control" value=".men" id="r-men"> <label for="r-men">MEN</label></div>
           <div><input type="checkbox" name="control" value=".women" id="r-women"> <label for="r-women">WOMEN</label></div>
