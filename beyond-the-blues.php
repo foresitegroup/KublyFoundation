@@ -49,31 +49,36 @@ include "header.php";
     <h2>BEYOND THE BLUES 2021 SPONSORS</h2>
 
     <div class="one-third">
-      <!-- <h3>Sapphire Level - $20,000</h3>
+      <h3>Sapphire Level - $20,000</h3>
       <ul>
-        <li>Colony Brands, Inc.</li>
         <li>Meg &amp; Libby Kasch</li>
-        <li>Billie Kubly</li>
-      </ul> -->
+      </ul>
 
-      <!-- <h3>Aqua Level - $10,000</h3>
+      <h3>Aqua Level - $10,000</h3>
       <ul>
         <li>William &amp; Sandy Heitz Family Foundation</li>
-      </ul> -->
+      </ul>
 
       <h3>Teal Level - $5,000</h3>
       <ul>
         <li>Continental Properties Company, Inc.</li>
         <li>Sandy & Dennis Kuester</li>
+        <li>Michael Schmitz</li>
         <li>Kate & John Wasmer</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Executive Benefits Network</li>
         <li>Hauske Family Foundation</li>
         <li>Kelben Foundation</li>
+        <li>Beth & Will Kubly</li>
+        <li>Sally & Chip Kubly</li>
         <li>Anne Luber</li>
+        <li>Milwaukee Admirals</li>
         <li>Betsie & Patrick O'Brien</li>
+        <li>Power Test</li>
+        <li>Peggy & Ned Purtell</li>
         <li>Rogers Behavioral Health</li>
       </ul>
 
@@ -85,16 +90,24 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>The Bourne Family</li>
+        <li>Kathleen & Jim Caragher</li>
+        <li>Jose Carlino Design</li>
         <li>Godfrey & Kahn, S.C.</li>
         <li>Ann & Jon Hammes</li>
         <li>Susie Hawkins in memory of Debbie Thom</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
+        <li>Kopmeier Family Fund</li>
+        <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
+        <li>Mary & John Rickmeier</li>
         <li>Peggy & Bob Schuemann</li>
         <li>Nancy & Greg Smith</li>
         <li>Julianne & Stephen Spadafora</li>
+        <li>Joy Tector</li>
         <li>Mary & Chris Tornehl</li>
+        <li>Jen & Jim Walker</li>
         <li>Diane & Ed Zore</li>
       </ul>
     </div>
@@ -102,8 +115,14 @@ include "header.php";
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
+        <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
         <li>Christiane Endres</li>
+        <li>Ellen & Richard Glaisner</li>
+        <li>Jennifer & Mitchell Prosk</li>
+        <li>Kris & Robert Rick</li>
         <li>Jen & Todd Schoon</li>
+        <li>Barbie Sullivan</li>
+        <li>Susan & Stacy Terris</li>
         <li>Betsy Trimble & Family</li>
         <li>Abby & Scott Williams</li>
         <li>Amy & Devin Wolf</li>
