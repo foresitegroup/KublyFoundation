@@ -100,12 +100,11 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <!-- <a href="https://www.eventbrite.com/e/charles-e-kubly-foundation-golf-outing-tickets-137517411279" id="dogear">
+        <a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517" id="dogear">
           <div>
-            Young Leaders Council Golf Outing
-            <span>Tickets on sale now!</span>
+            Sponsor <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> the Blues
           </div>
-        </a> -->
+        </a>
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">

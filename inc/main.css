@@ -520,25 +520,25 @@ A.my-menu-toggle {
 
 #dogear > DIV {
   position: absolute;
-  top: 65%;
+  top: 60%;
   right: 2%;
   width: 60%;
-  color: #139AD2;
+  color: #24A6DC;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2em;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
 }
 
-#dogear > DIV > SPAN {
+/*#dogear > DIV > SPAN {
   display: block;
   color: #112C37;
   font-weight: 900;
   font-size: 70%;
   line-height: 1em;
-}
+}*/
 
 .home-banner .home-banner-slide.dogear .site-width {
   box-sizing: border-box;
@@ -2918,7 +2918,7 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
 
 .btb-thanks H1 A:link,
 .btb-thanks H1 A:visited {
-  font-size: 80%;
+  /*font-size: 80%;*/
   line-height: 1em;
   color: #82C150;
 }
