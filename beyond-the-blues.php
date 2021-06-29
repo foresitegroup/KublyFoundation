@@ -44,7 +44,7 @@ include "header.php";
 <div class="footer-call btb-thanks" id="sponsors">
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
   <div class="site-width">
-    <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at 414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1>
+    <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1>
 
     <h2>BEYOND THE BLUES 2021 SPONSORS</h2>
 
