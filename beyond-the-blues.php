@@ -51,12 +51,15 @@ include "header.php";
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
-        <li>Meg &amp; Libby Kasch</li>
+        <li>Colony Brands</li>
+        <li>Meg & Libby Kasch</li>
+        <li>Billie Kubly</li>
       </ul>
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
         <li>William &amp; Sandy Heitz Family Foundation</li>
+        <li>Julie & David Uihlein</li>
       </ul>
 
       <h3>Teal Level - $5,000</h3>
@@ -77,7 +80,7 @@ include "header.php";
         <li>Anne Luber</li>
         <li>Milwaukee Admirals</li>
         <li>Betsie & Patrick O'Brien</li>
-        <li>Power Test</li>
+        <li>Power Test, Inc.</li>
         <li>Peggy & Ned Purtell</li>
         <li>Rogers Behavioral Health</li>
       </ul>
@@ -93,21 +96,28 @@ include "header.php";
         <li>The Bourne Family</li>
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
+        <li>Children's Wisconsin</li>
+        <li>Samantha Erickson & Friends</li>
         <li>Godfrey & Kahn, S.C.</li>
         <li>Ann & Jon Hammes</li>
         <li>Susie Hawkins in memory of Debbie Thom</li>
+        <li>The Hutchinson Family</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
         <li>Kopmeier Family Fund</li>
+        <li>Laura & Pat Koppa</li>
         <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
+        <li>Katie & Mark Mohr</li>
         <li>Mary & John Rickmeier</li>
         <li>Peggy & Bob Schuemann</li>
         <li>Nancy & Greg Smith</li>
         <li>Julianne & Stephen Spadafora</li>
         <li>Joy Tector</li>
+        <li>Kathleen & Frank Thometz</li>
         <li>Mary & Chris Tornehl</li>
         <li>Jen & Jim Walker</li>
+        <li>Brooke & Robert Walker</li>
         <li>Diane & Ed Zore</li>
       </ul>
     </div>
@@ -116,8 +126,12 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
+        <li>Amy L. Argall</li>
+        <li>Bank Five Nine</li>
         <li>Christiane Endres</li>
         <li>Ellen & Richard Glaisner</li>
+        <li>Evelyn Kelly</li>
+        <li>Linda & Curt Lundeen</li>
         <li>Jennifer & Mitchell Prosk</li>
         <li>Kris & Robert Rick</li>
         <li>Jen & Todd Schoon</li>
