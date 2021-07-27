@@ -2157,10 +2157,13 @@ A.logo-link:active IMG {
 .btb-tickets .btb-banner.cftc .info { width: 50%; }
 
 #tickets {
-  width: 50%;
-  margin: 0 auto;
+  padding: 2em 0;
   text-align: center;
+  background: #112C37;
+  color: #FFFFFF;
 }
+
+#tickets > DIV { width: 50%; margin: 0 auto; }
 
 #tickets INPUT[type="text"] {
   border: 0;
@@ -2626,6 +2629,8 @@ INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
   left: 50%;
   transform: translate(-50%,-42%);
 }
+
+.tickets-header { display: flex; align-items: center; }
 
 .btb-banner:before {
   content: "";
@@ -4787,7 +4792,7 @@ A.featured-read:active {
 @media only screen and (max-width: 500px) {
   #dogear { width: 100%; height: auto; background: #FFFFFF; text-decoration: none; }
   #dogear > DIV { position: static; width: 100%; text-align: left; padding: 0.5em 2%; }
-  #dogear > DIV > SPAN:after { content: "\25ba"; margin-left: 0.25em; color: #139AD2; }
+  /*#dogear > DIV > SPAN:after { content: "\25ba"; margin-left: 0.25em; color: #139AD2; }*/
 
   .btb-banner .header-left .button { margin-top: 1em; }
 }

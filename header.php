@@ -100,9 +100,9 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517" id="dogear">
+        <a href="tickets.php" id="dogear">
           <div>
-            Sponsor <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> the Blues
+            Purchase <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> the Blues<br>Tickets
           </div>
         </a>
 

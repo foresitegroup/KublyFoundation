@@ -19,7 +19,10 @@ include "header.php";
 
     <div class="header-right">
       <br><br><br><br><br><br>
-      Save the date for Beyond the Blues 2021 &mdash; LIVE at Discovery World Pier Wisconsin Pavilion on Friday, September 10th! See you there!
+      Save the date for Beyond the Blues 2021 &mdash; LIVE at Discovery World Pier Wisconsin Pavilion on Friday, September 10th! See you there!<br>
+      <br>
+
+      <a href="tickets.php" class="button">TICKETS AVAILABLE NOW</a>
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
