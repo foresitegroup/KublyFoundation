@@ -19,30 +19,36 @@ include "header.php";
 
     <h2>WE WELCOME GRANT REQUESTS FROM NOT-FOR-PROFIT ORGANIZATIONS THAT:</h2>
     <ol>
-      <li>Provide services to either those afflicted by depression and depression-related diseases or their friends and family; or</li>
-      <li>Host events or media campaigns to reduce depression-related stigma targeting either the general public or more specific populations; or</li>
-      <li>Provide educational workshops, seminars or other such events to service providers that interact with our population of concern (e.g. medical doctors, nurses, psychologists, social workers, police, EMTs, and firefighters) to improve the knowledge and response of existing resources: or</li>
-      <li>Support educational programs with a focus on prevention of depression, depression-related diseases, and suicide.</li>
-      <li>At this time, we do not actively provide grants in support of research.  However, if you or your organization is performing research to develop a project that we would fund (i.e. items 1-4 described above), then we will consider your request.</li>
+      <li>Provide services to either those afflicted by depression and depression-related diseases or their friends and family.</li>
+      <li>Host events or media campaigns to reduce depression-related stigma targeting either the general public or more specific populations.</li>
+      <li>Provide educational workshops, seminars or other such events to service providers that interact with our population of concern (e.g. medical doctors, nurses, psychologists, social workers, police, EMTs, and firefighters) to improve the knowledge and response of existing resources.</li>
+      <li>Support educational programs with a focus on the prevention of depression, depression-related diseases, and suicide.</li>
+      <li>At this time, we do not actively provide grants in support of research. However, if you or your organization is performing research to develop a project that we would fund (i.e. items 1-4 described above), then we will consider your request.</li>
     </ol>
     <br>
 
     <h2>WE PREFER GRANT REQUESTS THAT:</h2>
     <ol>
-      <li>Impact the state of Wisconsin, as the majority of our donor base reside here.  We will consider grants outside of our state if they are deemed to have potential as a future project for the state of Wisconsin.</li>
-      <li>Are projects with a beginning and end. Must have measurable outcomes to evaluate the effectiveness of the program. Please note any "train the trainer" programs will require outcomes for three (3) levels of training.</li>
-      <li>Do not request money for meals or refreshments, child care or overhead expenses, including travel expenses for employees.  Travel expenses for a speaker or panelist will be considered.</li>
+      <li>Impact the state of Wisconsin, as the majority of our donor base resides here. We will consider grants outside of our state if they are deemed to have potential as a future project for the State of Wisconsin.</li>
+      <li>Are projects with a beginning and an end. Must have measurable outcomes to evaluate the effectiveness of the program.</li>
+      <li>Do not request money for meals or refreshments, child care, or overhead expenses, including travel expenses for employees. Travel expenses for a speaker or panelist will be considered.</li>
       <li>Do not request money for legislative or political purposes.</li>
       <li>Will not be a critical source of funds to support the ongoing fiscal health of the receiving organization. We will consider salaries as long as only for the Grant period.</li>
       <li>Do not request money for film production; however, we will consider promotional help once completed.</li>
+      <li>Do not request funding for billable services, such as therapeutic counseling and the like.</li>
+      <li>Do not request money for salary or staff time that should be covered under general operating budget.</li>
     </ol>
+
+    <br>
+
+    NOTE: All grant recipients will be required to complete a <a href="pdf/Grant_Report.pdf">Grant Report</a> within 30 days after project completion.
   </div>
 </div>
 
 <div id="grant-guidelines">
   <div class="site-width">
     <h1>GRANT REQUEST GUIDELINES</h1>
-    The Board of Directors of the Charles E. Kubly Foundation formally reviews proposals and makes gifts twice annually: once in the spring and again in the fall.  Grants packets are created and presented to Grant Committee for review and then brought to the Charles E. Kubly Foundation Board for a final vote.  This process takes approximately 5 weeks. We encourage you to submit your letter of inquiry (LOI) in time to have the final grant request in no later than <strong>MARCH 20</strong> for consideration during our spring review and no later than <strong>SEPTEMBER 20</strong> for consideration during our fall review. Listed below are the steps to anticipate in preparing a grant request.<br>
+    The Board of Directors of the Charles E. Kubly Foundation formally reviews proposals and makes gifts twice annually: once in the spring and again in the fall. Grants packets are created and presented to Grant Committee for review and then brought to the Charles E. Kubly Foundation Board for a final vote. This process takes approximately 5 weeks. We encourage you to submit your letter of inquiry (LOI) in time to have the final grant request in no later than <strong>MARCH 20</strong> for consideration during our spring review and no later than <strong>SEPTEMBER 20</strong> for consideration during our fall review. Listed below are the steps to anticipate in preparing a grant request.<br>
     <br>
     <br>
 
@@ -63,20 +69,11 @@ include "header.php";
         </div>
       </li>
       <li>Receive an invitation to submit a formal grant request</li>
-      <li>
-        Submit your grant request for formal review by providing one (1) email copy as well as 9 paper clipped copies (please do not staple as they are put into binders) of your request and mail to:<br>
-
-        <div class="bluetext">Charles E. Kubly Foundation<br>
-        1341 W. Mequon Road<br>
-        Suite 220<br>
-        Mequon, WI 53092</div>
-      </li>
+      <li>Submit your grant request by <a href="https://cekf.smapply.io/">clicking here</a>.</li>
       <li>The Board makes its final decision regarding grant requests approximately 5 weeks after the deadline date; and our Executive Director will notify you of our decision.</li>
     </ol>
     <br>
     <br>
-
-    <h2>PLEASE LIMIT ACTUAL REQUEST TO 6 PAGES<br>(supporting or other important documentation/flyers may be attached).</h2>
 
     <h2>ALL GRANT REQUESTS SHOULD INCLUDE:</h2>
     <ul>
@@ -109,11 +106,14 @@ include "header.php";
     <br>
     <br>
 
-    NOTE:  All grant recipients will be required to complete a <a href="pdf/Grant_Report.pdf">Grant Report</a> within 30 days after project completion.<br>
+    NOTE: All grant recipients will be required to complete a <a href="pdf/Grant_Report.pdf">Grant Report</a> within 30 days after project completion.<br>
     <br>
     <br>
 
-    <div style="text-align: center;"><a href="projects-funded.php" class="button">PROJECTS FUNDED</a></div>
+    <div style="text-align: center;">
+      <a href="https://cekf.smapply.io" class="button">GRANT APPLICATION</a><br>
+      <a href="projects-funded.php" class="button">PROJECTS FUNDED</a>
+    </div>
   </div>
 </div>
 
