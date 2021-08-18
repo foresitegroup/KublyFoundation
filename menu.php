@@ -17,6 +17,7 @@
     <ul>
       <li><a href="<?php echo $TopDir; ?>grants.php">Funding Priorities</a></li>
       <li><a href="<?php echo $TopDir; ?>grants.php#grant-guidelines">Grant Request Guidelines</a></li>
+      <li><a href="https://cekf.smapply.io">Grant Application</a></li>
       <li><a href="<?php echo $TopDir; ?>projects-funded.php">Projects Funded</a></li>
     </ul>
   </li>
