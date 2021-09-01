@@ -68,6 +68,7 @@ include "header.php";
       <h3>Teal Level - $5,000</h3>
       <ul>
         <li>Continental Properties Company, Inc.</li>
+        <li>Jean & Charlie Gorham</li>
         <li>Sandy & Dennis Kuester</li>
         <li>Michael Schmitz</li>
         <li>Kate & John Wasmer</li>
@@ -75,7 +76,9 @@ include "header.php";
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Crescent Grove Advisors</li>
         <li>Executive Benefits Network</li>
+        <li>Cookie Goris</li>
         <li>Hauske Family Foundation</li>
         <li>Kelben Foundation</li>
         <li>Beth & Will Kubly</li>
@@ -86,6 +89,7 @@ include "header.php";
         <li>Power Test, Inc.</li>
         <li>Peggy & Ned Purtell</li>
         <li>Rogers Behavioral Health</li>
+        <li>Angela & Ross Williams</li>
       </ul>
 
       <!-- <br>
@@ -100,18 +104,26 @@ include "header.php";
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
         <li>Children's Wisconsin</li>
+        <li>Sue & Russ Darrow</li>
         <li>Samantha Erickson & Friends</li>
         <li>Godfrey & Kahn, S.C.</li>
+        <li>Linda & Scott Haag</li>
         <li>Ann & Jon Hammes</li>
         <li>Susie Hawkins in memory of Debbie Thom</li>
         <li>The Hutchinson Family</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
+        <li>Dr. Rosa Kim & Dr. Matthew Kleban</li>
+        <li>Garry & Bridget Kelley</li>
         <li>Kopmeier Family Fund</li>
         <li>Laura & Pat Koppa</li>
-        <li>Mary Ann & Charles La Bahn</li>
+        <li>Mary Ann & Charles LaBahn</li>
         <li>Mary Lillydahl</li>
+        <li>Cathy & Paul Luber</li>
         <li>Katie & Mark Mohr</li>
+        <li>Candy & Bruce Pindyck</li>
+        <li>Dr. John & Mrs. Maggie Raymond</li>
+        <li>Pamela & Robert Reily</li>
         <li>Mary & John Rickmeier</li>
         <li>Peggy & Bob Schuemann</li>
         <li>Nancy & Greg Smith</li>
@@ -119,8 +131,11 @@ include "header.php";
         <li>Joy Tector</li>
         <li>Kathleen & Frank Thometz</li>
         <li>Mary & Chris Tornehl</li>
+        <li>Debbie & Camp Van Dyke</li>
         <li>Jen & Jim Walker</li>
         <li>Brooke & Robert Walker</li>
+        <li>Mary & Willard Walker</li>
+        <li>Carol K. Wythes</li>
         <li>Diane & Ed Zore</li>
       </ul>
     </div>
@@ -131,16 +146,29 @@ include "header.php";
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
         <li>Amy L. Argall</li>
         <li>Bank Five Nine</li>
+        <li>Joan Bell</li>
+        <li>Mary & Jeff Brown</li>
+        <li>Gretchen & Bill Burns</li>
+        <li>Michael Burton</li>
+        <li>The Difference Principle</li>
         <li>Christiane Endres</li>
         <li>Ellen & Richard Glaisner</li>
+        <li>Marilyn Haker</li>
         <li>Evelyn Kelly</li>
+        <li>Margaret & William Lidstone</li>
         <li>Linda & Curt Lundeen</li>
+        <li>Debbie & John McGregor</li>
+        <li>Barbara & Henrik Moe</li>
         <li>Jennifer & Mitchell Prosk</li>
         <li>Kris & Robert Rick</li>
+        <li>Julie & Mason Ross</li>
         <li>Jen & Todd Schoon</li>
+        <li>Patty & Peter Schuyler</li>
         <li>Barbie Sullivan</li>
         <li>Susan & Stacy Terris</li>
         <li>Betsy Trimble & Family</li>
+        <li>Ellen & Bob Venable</li>
+        <li>Barb & Bob Whealon</li>
         <li>Abby & Scott Williams</li>
         <li>Amy & Devin Wolf</li>
       </ul>
