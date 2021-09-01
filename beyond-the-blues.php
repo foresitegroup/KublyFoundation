@@ -18,11 +18,22 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <br><br><br><br><br><br>
-      Save the date for Beyond the Blues 2021 &mdash; LIVE at Discovery World Pier Wisconsin Pavilion on Friday, September 10th! See you there!<br>
+      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;">Tickets available at the door!</h2>
+      <span class="btb-blue">$80 per person</span><br>
       <br>
 
-      <a href="tickets.php" class="button">TICKETS AVAILABLE NOW</a>
+      Discovery World Pier Wisconsin Pavilion<br>
+      500 N. Harbor Drive<br>
+      Milwaukee, WI 53202<br>
+      <br>
+
+      <span class="btb-blue" style="font-size: 150%; font-weight: bold;">6:30 - 10:30 p.m.</span><br>
+      <br>
+
+      Blue Jean Casual<br>
+      Complimentary Valet Parking<br>
+      Music featuring The Dan Dance Trio & Willy Porter<br>
+      <span class="btb-blue">Catering by Bartolotta - Cash bar</span>
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
