@@ -97,6 +97,7 @@ include "header.php";
         <li>Anne Luber</li>
         <li>Milwaukee Admirals</li>
         <li>Betsie & Patrick O'Brien</li>
+        <li>Catherine & Bill Perez</li>
         <li>Power Test, Inc.</li>
         <li>Peggy & Ned Purtell</li>
         <li>Rogers Behavioral Health</li>
@@ -115,8 +116,13 @@ include "header.php";
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
         <li>Children's Wisconsin</li>
+        <li>William Cullinan</li>
+        <li>Alberta Darling</li>
         <li>Sue & Russ Darrow</li>
+        <li>Patsy & Paul Ellsworth</li>
         <li>Samantha Erickson & Friends</li>
+        <li>Thayre Faust & Friends in memory of her son Sam Vertelka</li>
+        <li>Katie Frommelt & Friends</li>
         <li>Godfrey & Kahn, S.C.</li>
         <li>Linda & Scott Haag</li>
         <li>Ann & Jon Hammes</li>
@@ -132,6 +138,7 @@ include "header.php";
         <li>Mary Lillydahl</li>
         <li>Cathy & Paul Luber</li>
         <li>Katie & Mark Mohr</li>
+        <li>Susan & Tom Parks</li>
         <li>Candy & Bruce Pindyck</li>
         <li>Dr. John & Mrs. Maggie Raymond</li>
         <li>Pamela & Robert Reily</li>
@@ -156,22 +163,30 @@ include "header.php";
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
         <li>Amy L. Argall</li>
+        <li>Susie & Steve Auchter</li>
         <li>Bank Five Nine</li>
         <li>Joan Bell</li>
+        <li>Dan Bird</li>
+        <li>Kerry & John Bolger</li>
         <li>Mary & Jeff Brown</li>
         <li>Gretchen & Bill Burns</li>
         <li>Michael Burton</li>
         <li>The Difference Principle</li>
         <li>Christiane Endres</li>
         <li>Ellen & Richard Glaisner</li>
+        <li>Pamela & Tom Goris in honor of the Kubly & Kelley families</li>
+        <li>Kelly & Michael Grebe</li>
         <li>Marilyn Haker</li>
         <li>Evelyn Kelly</li>
+        <li>Beth & John LaFond</li>
         <li>Margaret & William Lidstone</li>
         <li>Linda & Curt Lundeen</li>
         <li>Debbie & John McGregor</li>
         <li>Barbara & Henrik Moe</li>
         <li>Jennifer & Mitchell Prosk</li>
         <li>Kris & Robert Rick</li>
+        <li>Kristin Rick & Friends</li>
+        <li>Elizabeth Robbins</li>
         <li>Julie & Mason Ross</li>
         <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
