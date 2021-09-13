@@ -100,11 +100,11 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <a href="beyond-the-blues.php" id="dogear">
+        <!-- <a href="beyond-the-blues.php" id="dogear">
           <div>
             See<br><span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span> the Blues<br>info here
           </div>
-        </a>
+        </a> -->
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">

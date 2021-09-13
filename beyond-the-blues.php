@@ -18,7 +18,9 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;">Tickets available at the door!</h2>
+      <br><br><br><br><br><br>
+      Thank you to everyone who made our 2021 event a huge success!
+      <!-- <h2 style="margin: 0.5em 0 0; text-transform: uppercase;">Tickets available at the door!</h2>
       <span class="btb-blue">$80 per person</span><br>
       <br>
 
@@ -33,32 +35,32 @@ include "header.php";
       Blue Jean Casual<br>
       Complimentary Valet Parking<br>
       Music featuring The Dan Dance Trio & Willy Porter<br>
-      <span class="btb-blue">Catering by Bartolotta - Cash bar</span>
+      <span class="btb-blue">Catering by Bartolotta - Cash bar</span> -->
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
 
-<div id="btb-video-banner">
+<!-- <div id="btb-video-banner">
   <div class="site-width">
     <div class="text">
       A message from <h3>John McGivern &amp; Billie Kubly</h3>
     </div>
 
-    <div class="btb-video" id="btb-video">
+    <div class="btb-video" id="btb-video">-->
       <script src="inc/swipebox/jquery.swipebox.min.js"></script>
       <link rel="stylesheet" href="inc/swipebox/swipebox.css">
       <script type="text/javascript">
         $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
       </script>
-      <a href="https://www.youtube.com/watch?v=QzhJ4obhcg4&rel=0" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
+      <!--<a href="https://www.youtube.com/watch?v=QzhJ4obhcg4&rel=0" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="footer-call btb-thanks" id="sponsors">
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
   <div class="site-width">
-    <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1>
+    <!-- <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1> -->
 
     <h2>BEYOND THE BLUES 2021 SPONSORS</h2>
 
@@ -210,9 +212,9 @@ include "header.php";
 <div class="btb-gallery" style="position: relative;">
   <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
   <div class="site-width">
-    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2019</h2>
+    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2021</h2>
     <?php
-    $main_dir = "images/galleries/btb2019";
+    $main_dir = "images/galleries/btb2021";
 
     $files = scandir($main_dir);
 
