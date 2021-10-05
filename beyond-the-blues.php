@@ -75,7 +75,7 @@ include "header.php";
       <h3>Aqua Level - $10,000</h3>
       <ul>
         <li>William &amp; Sandy Heitz Family Foundation</li>
-        <li>Julie & David Uihlein</li>
+        <li>Julie & David Uihlein - in memory of Chucker Aring</li>
       </ul>
 
       <h3>Teal Level - $5,000</h3>
@@ -85,6 +85,7 @@ include "header.php";
         <li>Sandy & Dennis Kuester</li>
         <li>Michael Schmitz</li>
         <li>Kate & John Wasmer</li>
+        <li>Cathy & Mike White</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
@@ -93,6 +94,7 @@ include "header.php";
         <li>Executive Benefits Network</li>
         <li>Cookie Goris</li>
         <li>Hauske Family Foundation</li>
+        <li>Tena & Scott Holan</li>
         <li>Kelben Foundation</li>
         <li>Beth & Will Kubly</li>
         <li>Sally & Chip Kubly</li>
@@ -114,17 +116,19 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>Sally Blommer</li>
         <li>The Bourne Family</li>
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
         <li>Children's Wisconsin</li>
-        <li>William Cullinan</li>
+        <li>Mary & William Cullinan in memory of Patrick Mullins</li>
         <li>Alberta Darling</li>
         <li>Sue & Russ Darrow</li>
         <li>Patsy & Paul Ellsworth</li>
         <li>Samantha Erickson & Friends</li>
         <li>Thayre Faust & Friends in memory of her son Sam Vertelka</li>
-        <li>Katie Frommelt & Friends</li>
+        <li>Katie Frommelt & Friends in memory of Garrett Kelley</li>
+        <li>Kim & Dan Geigler</li>
         <li>Godfrey & Kahn, S.C.</li>
         <li>Linda & Scott Haag</li>
         <li>Ann & Jon Hammes</li>
@@ -140,7 +144,7 @@ include "header.php";
         <li>Mary Lillydahl</li>
         <li>Cathy & Paul Luber</li>
         <li>Katie & Mark Mohr</li>
-        <li>Susan & Tom Parks</li>
+        <li>Susan & Tom Parks in memory of Billy Parks</li>
         <li>Candy & Bruce Pindyck</li>
         <li>Dr. John & Mrs. Maggie Raymond</li>
         <li>Pamela & Robert Reily</li>
@@ -173,6 +177,7 @@ include "header.php";
         <li>Mary & Jeff Brown</li>
         <li>Gretchen & Bill Burns</li>
         <li>Michael Burton</li>
+        <li>Kristine Cleary & Peter Coffey</li>
         <li>The Difference Principle</li>
         <li>Christiane Endres</li>
         <li>Ellen & Richard Glaisner</li>
@@ -180,6 +185,8 @@ include "header.php";
         <li>Kelly & Michael Grebe</li>
         <li>Marilyn Haker</li>
         <li>Evelyn Kelly</li>
+        <li>Lori Kilian in memory of Debbie Thom</li>
+        <li>Stacey & John Koss</li>
         <li>Beth & John LaFond</li>
         <li>Margaret & William Lidstone</li>
         <li>Linda & Curt Lundeen</li>
