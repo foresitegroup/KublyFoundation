@@ -71,6 +71,8 @@ if ($responsekeys->success) {
         syncMailchimp($data);
       }
 
+      if (isset($_POST['ambassador'])) $Message .= "\nI am interested in becoming a CEKF Ambassador.\n";
+
       $Message = stripslashes($Message);
     
       mail($SendTo, $Subject, $Message, $Headers);

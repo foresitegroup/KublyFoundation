@@ -47,13 +47,13 @@ include "header.php";
       var formMessages = $('#connect-form-messages');
       $(form).submit(function(event) {
         event.preventDefault();
-        
+
         function formValidation() {
           if ($('#name').val() === '') { alert('First & Last name required.'); $('#name').focus(); return false; }
           if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
           return true;
         }
-        
+
         if (formValidation()) {
           var formData = $(form).serialize();
           formData += '&src=ajax';
@@ -113,6 +113,9 @@ include "header.php";
       <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> <label for="c-subscribe"><span></span>I would like to receive the Charles E. Kubly Foundation newsletter and event information.</label>
       <br>
 
+      <input type="checkbox" name="ambassador" value="yes" id="c-ambassador"> <label for="c-ambassador"><span></span>I am interested in becoming a CEKF Ambassador.</label>
+      <br>
+
       <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
       <!-- <div class="g-recaptcha" data-sitekey="6Lfk0EYUAAAAAAIL3WuhVbN0IEMpi8axB5y4j3S8"></div> -->
       <div class="g-recaptcha" data-sitekey="6Lfk0EYUAAAAAAIL3WuhVbN0IEMpi8axB5y4j3S8"></div>
@@ -143,12 +146,12 @@ include "header.php";
         var formMessages = $('#newsletter-form-messages');
         $(form).submit(function(event) {
           event.preventDefault();
-          
+
           function formValidation() {
             if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
             return true;
           }
-          
+
           if (formValidation()) {
             var formData = $(form).serialize();
             formData += '&src=ajax';

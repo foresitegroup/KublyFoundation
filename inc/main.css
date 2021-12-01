@@ -2476,11 +2476,12 @@ html {
 #connect-form TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 #connect-form TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
 
-INPUT[type="checkbox"]#c-subscribe {
+INPUT[type="checkbox"]#c-subscribe, INPUT[type="checkbox"]#c-ambassador {
   display: none;
 }
 
-INPUT[type="checkbox"]#c-subscribe + LABEL {
+INPUT[type="checkbox"]#c-subscribe + LABEL,
+INPUT[type="checkbox"]#c-ambassador + LABEL {
   display: block;
   color: #707070;
   padding-left: 1.5em;
@@ -2488,7 +2489,8 @@ INPUT[type="checkbox"]#c-subscribe + LABEL {
   line-height: 1.2em;
 }
 
-INPUT[type="checkbox"]#c-subscribe + LABEL:before {
+INPUT[type="checkbox"]#c-subscribe + LABEL:before,
+INPUT[type="checkbox"]#c-ambassador + LABEL:before {
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -2502,7 +2504,8 @@ INPUT[type="checkbox"]#c-subscribe + LABEL:before {
   left: 0;
 }
 
-INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before {
+INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before,
+INPUT[type="checkbox"]#c-ambassador:checked + LABEL:before {
   background: #FFFFFF;
   border: 4px solid #0E8DC8;
   box-sizing: border-box;
