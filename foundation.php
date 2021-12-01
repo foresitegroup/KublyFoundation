@@ -206,7 +206,7 @@ include "header.php";
     <strong class="q">Q: What should I do if I think I have depression?</strong><br>
     <br>
 
-    It is important to consult with a mental health professional. Your primary care physician can recommend someone. For more information on depression, please visit <a href="https://www.nimh.nih.gov">The National Institute of Mental Health</a>.<br>
+    It is important to consult with a mental health professional. Your primary care physician can recommend someone. For more information on depression, please visit <a href="https://www.nimh.nih.gov">The National Institute of Mental Health</a>.<br>
     <br>
     <br>
 
@@ -226,20 +226,20 @@ include "header.php";
     </div>
 
     <div class="right">
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer, Messmer Catholic Schools &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindshare &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
+      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer, Messmer Catholic Schools &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindshare &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
       <br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
 
-      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
+      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
-      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, PhD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
+      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, PhD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
-      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Quinn Butler</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong> &nbsp; // &nbsp; <strong>Monica Quesnell</strong><br>
+      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Shannon Bushman</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Adam Karnes</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Gen Klinker</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Dan Mau</strong> &nbsp; // &nbsp; <strong>Conor Quick</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong> &nbsp; // &nbsp; <strong>Monica Quesnell</strong> &nbsp; // &nbsp; <strong>Jay Zuelke</strong><br>
       <br>
 
       <h4>EXECUTIVE DIRECTOR:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?>
