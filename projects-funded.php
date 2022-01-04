@@ -28,7 +28,7 @@ include "header.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    CEKF HAS FUNDED OVER $2.6 MILLION TO 341 PROJECTS SINCE 2003
+    CEKF HAS FUNDED OVER $3.1 MILLION TO 369 PROJECTS SINCE 2003
   </div>
 </div>
 
@@ -46,93 +46,100 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> Art with Impact</h3>
+      <h3><span class="bluetext">01.</span> All-In Milwaukee</h3>
       <div class="content">
-        Voices with Impact 2021 film festival with five winning films that focus on mental wellbeing and living with mental illness. Post-festival, the films are shared with mental health professionals and academic institutions in partnerships that leverage art to create opportunities for prevention and early intervention of mental illness.
+        Training for the unique needs of the All-In Scholar Advisors and foundational knowledge on trauma and the integration of trauma responsive practices to ensure the long-term success of students in their college completion program.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> Centro Hispano of Dane County, Wisconsin</h3>
+      <h3><span class="bluetext">02.</span> Center for Suicide Awareness</h3>
       <div class="content">
-        Support of a multimedia campaign (all in Spanish) to reach Latinx families in and around Madison, Wisconsin in hopes of reducing stigma associated with mental health and to support those dealing with depression and anxiety.
+        This project will allow for CSA to provide evidenced based training to first responders and law enforcement in SE Wisconsin.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> Concordia University</h3>
+      <h3><span class="bluetext">03.</span> Glendale Police Department -- Wisconsin</h3>
       <div class="content">
-        Phase 3 of Concordia University's Mequon, WI campus comprehensive system (programs and policies) that works to improve student's emotional health and wellbeing. This phase uses the JED Foundation's JED Campus protocol.
+        Funding for 6 WRAPS restraint systems. These WRAPS improve the method of safely restraining individuals, eliminating the chance for self-harm. For those in a mental health crisis, the WRAP helps protect these individuals and provide safer transportation to either a hospital or mental health facility.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> Erika's Lighthouse</h3>
+      <h3><span class="bluetext">04.</span> Grand Avenue Club</h3>
       <div class="content">
-        A realignment of current mental health curriculum offered to school districts and implemented in their Teen Empowerment Clubs, Professional Development and Family Development programs. This will be a three-tiered program for different grade levels that utilizes the same language and approach.
+        Technical and other equipment needs to improve the services available near the Membership, Employment, Education unit and library. GAC provides adults who have experienced mental illness with pre-vocational, employment, educational, recreational and cultural opportunities so that their lives will be more purposeful and satisfying.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> Ex Fabula</h3>
+      <h3><span class="bluetext">05.</span> Jordan Porco Foundation</h3>
       <div class="content">
-        An event and media campaign to help local community members craft their personal stories involving mental health and share them in "story slams" throughout the community.
+        Funding for Wisconsin Fresh Check Days.  FCD is the signature program of the Jordan Porco Foundation. It is a college campus, fair-like program that builds a campus community around mental health and suicide prevention through engaging peer-to-peer education.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> Feast of Crispian</h3>
+      <h3><span class="bluetext">06.</span> Mental Health America of WI</h3>
       <div class="content">
-        Funding for their 2021 annual production of The Honor Flight. This production will be told from the perspective of Wisconsin Viet Nam Veterans detailing the trauma and healing that was part of their deployment experience.
+        Prevent Suicide Wisconsin Annual Conference Support. The PSW conference is targeted towards mental health professionals, educators, public health leaders, advocates, survivors, peer specialists and others working in various suicide prevention roles in their community.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> Institutional Ministries, Inc.</h3>
+      <h3><span class="bluetext">07.</span> Orban Foundation for Veterans</h3>
       <div class="content">
-        Support for a one-day event in western Wisconsin called "Faith-Inspired Knowledge is Power". This presentation included QPR training, and discussed the topics of Moral Injury, Domestic Abuse and Victimization.
+        Funding to host two 3-day events for veterans and military families specifically on depression and suicide at Camp Victory in Greenwood, WI. Funding would also help to upgrade current podcast quality to reach rural communities more effectively.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> Kradwell School</h3>
+      <h3><span class="bluetext">08.</span> REDgen</h3>
       <div class="content">
-        A grant to provide art supplies including a clay wheel for the Art Therapy room. This room provides "in the moment" support to students and art therapy is a proven activity that helps them express their emotions and promotes healing for those who have anxiety, depression or survived trauma.
+        Friend2Friend: Emotional and mental wellness health education simulation for REDgen student leaders within schools.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> Mental Health America of Wisconsin</h3>
+      <h3><span class="bluetext">09.</span> Rodgers InHealth</h3>
       <div class="content">
-        Funding for a novel resource called The Prism Project which connects peer specialists with LGBTQ+ youth in an effort to provide mental and emotional support through mentorship.
+        WISE (Wisconsin Initiative for Stigma Elimination) Mental Health Symposium -- The Intersection of Race & Mental Health
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> NAMI Racine County</h3>
+      <h3><span class="bluetext">10.</span> St. Marcus Lutheran School</h3>
       <div class="content">
-        An expansion of NAMI mental health programming in western Racine county. The project will expand NAMI's signature peer support groups; provide monthly educational speaker series panels and "Ending the Silence" in its three versions (for students, educators and families).
+        Curriculum and program development, along with materials for pilot art therapy program at St. Marcus main campus middle school.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Rocketship Schools</h3>
+      <h3><span class="bluetext">11.</span> Safe Communities Madison-Dane County</h3>
       <div class="content">
-        This grant will provide "in the moment" trauma informed coaching and support. The support is for students, teachers and school leaders at their Northside campus, Rocketship Transformation Prep.
+        Funding to partner with the Dane County based construction companies and stakeholders to identify and implement suicide prevention curricula and approaches to tackle high rates of suicide among those employed by construction industry.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Warmline, Inc.</h3>
+      <h3><span class="bluetext">12.</span> Sirona Recovery</h3>
       <div class="content">
-        A grant to strengthen the capabilities of the Warmline by providing cell phones, updating their website and creation of a confidential tracking system for calls for data analysis and, if needed, to connect callers to a crisis number.
+        Funding for program costs of the COPE Line Program which serves SE Wisconsin.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Women of Worth (Through Ascension All Saints Hospital Foundation)</h3>
+      <h3><span class="bluetext">13.</span> Sixteenth Street Community Health Centers</h3>
       <div class="content">
-        Funding for Women's Health Education, Parenting and Nurturing Programs. The staff of the WOW program work with women to develop their own treatment plans and provide several opportunities to learn skills that will develop their emotional health and tools for better day-to-day living.
+        Equipping behavioral health providers with suicide prevention training. Funds would be used in support of professional development opportunities for 70 of SSCHC behavioral staff in the topic area of suicide prevention and its risk factors.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">14.</span> Wisconsin Veterans Network</h3>
+      <div class="content">
+        Funding to implement the Expiration Term of Service (ETS) Sponsorship program. The program centers on a personal relationship between the service member, who is leaving the military, and the sponsor, who is trained and certified, empathetic and dedicated to helping the service members and family members.
       </div>
     </div>
   </div>
