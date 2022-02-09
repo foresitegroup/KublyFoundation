@@ -18,10 +18,8 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <br><br><br><br><br><br>
-      Thank you to everyone who made our 2021 event a huge success!
-      <!-- <h2 style="margin: 0.5em 0 0; text-transform: uppercase;">Tickets available at the door!</h2>
-      <span class="btb-blue">$80 per person</span><br>
+      <br><br><br><br>
+      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
       <br>
 
       Discovery World Pier Wisconsin Pavilion<br>
@@ -29,13 +27,7 @@ include "header.php";
       Milwaukee, WI 53202<br>
       <br>
 
-      <span class="btb-blue" style="font-size: 150%; font-weight: bold;">6:30 - 10:30 p.m.</span><br>
-      <br>
-
-      Blue Jean Casual<br>
-      Complimentary Valet Parking<br>
-      Music featuring The Dan Dance Trio & Willy Porter<br>
-      <span class="btb-blue">Catering by Bartolotta - Cash bar</span> -->
+      Sponsor and ticket information coming soon!
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
