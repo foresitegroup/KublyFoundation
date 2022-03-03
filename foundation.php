@@ -249,18 +249,16 @@ include "header.php";
 
 <div id="newsletters">
   <div class="site-width">
-    <a href="pdf/Kubly_Newsletter_Summer_2021.pdf" class="image"><img src="images/newsletter-summer-2021.jpg" alt=""></a>
+    <a href="pdf/Kubly_Newsletter_Winter_2022.pdf" class="image"><img src="images/newsletter-winter-2022.jpg" alt=""></a>
 
     <div class="text">
-      <h3>Summer 2021 Newsletter</h3>
+      <h3>Winter 2022 Newsletter</h3>
 
       <span>What's Inside</span><br>
-      A Message From New Board President Linda Lundeen<br>
-      <span>01.</span> A Warm Welcome<br>
-      <span>02.</span> Annual Financial Report<br>
-      <span>03.</span> Projects Funded<br>
-      <span>04.</span> CEKF & Kids Matter<br>
-      <span>05.</span> Thank You Donors<br>
+      <span>01.</span> Back Together Again<br>
+      <span>03.</span> Grantee Spotlight<br>
+      <span>04.</span> Projects Funded<br>
+      <span>05.</span> What's New At CEKF<br>
       <br>
 
       <h4>Past Newsletters</h4>
@@ -274,6 +272,7 @@ include "header.php";
         </div>
 
         <div>
+          <a href="pdf/Kubly_Newsletter_Winter_2022.pdf">Winter 2022</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2020.pdf">Winter 2020</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2019.pdf">Winter 2019</a><br>
