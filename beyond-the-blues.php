@@ -109,6 +109,7 @@ include "header.php";
       <h3>Navy Level - $1,000</h3>
       <ul>
         <li>Sally Blommer</li>
+        <li>Kerry & John Bolger</li>
         <li>The Bourne Family</li>
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
@@ -165,7 +166,6 @@ include "header.php";
         <li>Bank Five Nine</li>
         <li>Joan Bell</li>
         <li>Dan Bird</li>
-        <li>Kerry & John Bolger</li>
         <li>Mary & Jeff Brown</li>
         <li>Gretchen & Bill Burns</li>
         <li>Michael Burton</li>
