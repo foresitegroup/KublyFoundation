@@ -24,7 +24,8 @@
         </div>
 
         <div class="copyright">
-          &copy; <?php echo date("Y"); ?> The Charles E. Kubly Foundation. All Rights Reserved.
+          &copy; <?php echo date("Y"); ?> The Charles E. Kubly Foundation. All Rights Reserved.<br>
+          <a href="https://foresitegrp.com" style="color: #636363; text-decoration: none;">WEBSITE BY FORESITE</a>
         </div>
       </div>
     </div>
