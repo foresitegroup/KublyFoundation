@@ -532,13 +532,20 @@ A.my-menu-toggle {
   text-decoration: none;
 }
 
-/*#dogear > DIV > SPAN {
-  display: block;
-  color: #112C37;
-  font-weight: 900;
-  font-size: 70%;
+#dogear > DIV > DIV {
+  margin-bottom: 0.5em;
+  color: #ED1C24;
+  font-size: 60%;
   line-height: 1em;
-}*/
+}
+
+#dogear > DIV > SPAN {
+  display: block;
+  margin-top: 0.5em;
+  font-weight: 400;
+  font-size: 60%;
+  line-height: 1em;
+}
 
 .home-banner .home-banner-slide.dogear .site-width {
   box-sizing: border-box;
@@ -4349,8 +4356,8 @@ A.featured-read:active {
 }
 
 @media only screen and (max-width: 700px) {
-  #dogear { width: 300px; height: 350px; font-size: 16px; }
-  #dogear > DIV { top: 50%; }
+  #dogear { width: 300px; height: 350px; }
+  #dogear > DIV { font-size: 16px; }
 
   #endowment-goal H3 { font-size: 6vw; }
   #endowment-goal H4 { font-size: 17vw; }
@@ -4793,8 +4800,8 @@ A.featured-read:active {
 }
 
 @media only screen and (max-width: 500px) {
-  #dogear { width: 100%; height: auto; background: #FFFFFF; text-decoration: none; }
-  #dogear > DIV { position: static; width: 100%; text-align: left; padding: 0.5em 2%; }
+  #dogear { width: 100%; height: auto; background: #FFFFFF; text-decoration: none; box-sizing: border-box; }
+  #dogear > DIV { position: static; width: 100%; text-align: left; padding: 0.5em 2%; box-sizing: border-box; }
   /*#dogear > DIV > SPAN:after { content: "\25ba"; margin-left: 0.25em; color: #139AD2; }*/
 
   .btb-banner .header-left .button { margin-top: 1em; }
