@@ -27,7 +27,10 @@ include "header.php";
       Milwaukee, WI 53202<br>
       <br>
 
-      Sponsor and ticket information coming soon!
+      Tickets on sale August 1st, 2022<br>
+      <br>
+
+      To sponsor Beyond the Blues, contact Kris Rick @ 414-477-9959
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
@@ -54,49 +57,34 @@ include "header.php";
   <div class="site-width">
     <!-- <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1> -->
 
-    <h2>BEYOND THE BLUES 2021 SPONSORS</h2>
+    <h2>BEYOND THE BLUES 2022 SPONSORS</h2>
 
     <div class="one-third">
-      <h3>Sapphire Level - $20,000</h3>
+<!--       <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Colony Brands</li>
         <li>Meg & Libby Kasch</li>
         <li>Billie Kubly</li>
-      </ul>
+      </ul> -->
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
-        <li>William &amp; Sandy Heitz Family Foundation</li>
         <li>Julie & David Uihlein - in memory of Chucker Aring</li>
       </ul>
 
       <h3>Teal Level - $5,000</h3>
       <ul>
-        <li>Continental Properties Company, Inc.</li>
-        <li>Jean & Charlie Gorham</li>
         <li>Sandy & Dennis Kuester</li>
-        <li>Michael Schmitz</li>
-        <li>Kate & John Wasmer</li>
-        <li>Cathy & Mike White</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
         <li>Crescent Grove Advisors</li>
-        <li>Executive Benefits Network</li>
+        <li>Godfrey & Kahn, S.C.</li>
         <li>Cookie Goris</li>
-        <li>Hauske Family Foundation</li>
-        <li>Tena & Scott Holan</li>
-        <li>Kelben Foundation</li>
-        <li>Beth & Will Kubly</li>
-        <li>Sally & Chip Kubly</li>
-        <li>Anne Luber</li>
-        <li>Milwaukee Admirals</li>
+        <li>Thomas J. Gould</li>
+        <li>Anne Luber & Family</li>
         <li>Betsie & Patrick O'Brien</li>
-        <li>Catherine & Bill Perez</li>
-        <li>Power Test, Inc.</li>
-        <li>Peggy & Ned Purtell</li>
-        <li>Rogers Behavioral Health</li>
         <li>Angela & Ross Williams</li>
       </ul>
 
@@ -108,50 +96,17 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-        <li>Sally Blommer</li>
-        <li>Kerry & John Bolger</li>
         <li>The Bourne Family</li>
-        <li>Kathleen & Jim Caragher</li>
-        <li>Jose Carlino Design</li>
-        <li>Children's Wisconsin</li>
-        <li>Mary & William Cullinan in memory of Patrick Mullins</li>
-        <li>Alberta Darling</li>
-        <li>Sue & Russ Darrow</li>
-        <li>Patsy & Paul Ellsworth</li>
-        <li>Samantha Erickson & Friends</li>
-        <li>Thayre Faust & Friends in memory of her son Sam Vertelka</li>
-        <li>Katie Frommelt & Friends in memory of Garrett Kelley</li>
-        <li>Kim & Dan Geigler</li>
-        <li>Godfrey & Kahn, S.C.</li>
-        <li>Linda & Scott Haag</li>
-        <li>Ann & Jon Hammes</li>
-        <li>Susie Hawkins in memory of Debbie Thom</li>
-        <li>The Hutchinson Family</li>
+        <li>Suzy & John Brennan</li>
+        <li>Anne & Dean Fitzgerald</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
-        <li>Dr. Rosa Kim & Dr. Matthew Kleban</li>
-        <li>Garry & Bridget Kelley</li>
-        <li>Kopmeier Family Fund</li>
         <li>Laura & Pat Koppa</li>
-        <li>Mary Ann & Charles LaBahn</li>
         <li>Mary Lillydahl</li>
-        <li>Cathy & Paul Luber</li>
-        <li>Katie & Mark Mohr</li>
-        <li>Susan & Tom Parks in memory of Billy Parks</li>
-        <li>Candy & Bruce Pindyck</li>
-        <li>Dr. John & Mrs. Maggie Raymond</li>
-        <li>Pamela & Robert Reily</li>
+        <li>Curt & Linda Lundeen</li>
         <li>Mary & John Rickmeier</li>
-        <li>Peggy & Bob Schuemann</li>
         <li>Nancy & Greg Smith</li>
-        <li>Julianne & Stephen Spadafora</li>
-        <li>Joy Tector</li>
-        <li>Kathleen & Frank Thometz</li>
         <li>Mary & Chris Tornehl</li>
-        <li>Debbie & Camp Van Dyke</li>
-        <li>Jen & Jim Walker</li>
-        <li>Brooke & Robert Walker</li>
-        <li>Mary & Willard Walker</li>
         <li>Carol K. Wythes</li>
         <li>Diane & Ed Zore</li>
       </ul>
@@ -161,41 +116,14 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
-        <li>Amy L. Argall</li>
-        <li>Susie & Steve Auchter</li>
         <li>Bank Five Nine</li>
-        <li>Joan Bell</li>
-        <li>Dan Bird</li>
-        <li>Mary & Jeff Brown</li>
-        <li>Gretchen & Bill Burns</li>
-        <li>Michael Burton</li>
-        <li>Kristine Cleary & Peter Coffey</li>
-        <li>The Difference Principle</li>
-        <li>Christiane Endres</li>
-        <li>Ellen & Richard Glaisner</li>
-        <li>Pamela & Tom Goris in honor of the Kubly & Kelley families</li>
-        <li>Kelly & Michael Grebe</li>
-        <li>Marilyn Haker</li>
-        <li>Evelyn Kelly</li>
-        <li>Lori Kilian in memory of Debbie Thom</li>
-        <li>Stacey & John Koss</li>
-        <li>Beth & John LaFond</li>
-        <li>Margaret & William Lidstone</li>
-        <li>Linda & Curt Lundeen</li>
-        <li>Debbie & John McGregor</li>
-        <li>Barbara & Henrik Moe</li>
-        <li>Jennifer & Mitchell Prosk</li>
-        <li>Kris & Robert Rick</li>
-        <li>Kristin Rick & Friends</li>
-        <li>Elizabeth Robbins</li>
+        <li>Deanna B. Braeger</li>
+        <li>Kristine H. Cleary & Peter L. Coffey</li>
+        <li>Catherine & Phillip Heston</li>
         <li>Julie & Mason Ross</li>
-        <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
         <li>Barbie Sullivan</li>
-        <li>Susan & Stacy Terris</li>
         <li>Betsy Trimble & Family</li>
-        <li>Ellen & Bob Venable</li>
-        <li>Barb & Bob Whealon</li>
         <li>Abby & Scott Williams</li>
         <li>Amy & Devin Wolf</li>
       </ul>
