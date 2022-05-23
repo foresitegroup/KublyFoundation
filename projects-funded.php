@@ -46,100 +46,86 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> All-In Milwaukee</h3>
+      <h3><span class="bluetext">01.</span> Art With Impact</h3>
       <div class="content">
-        Training for the unique needs of the All-In Scholar Advisors and foundational knowledge on trauma and the integration of trauma responsive practices to ensure the long-term success of students in their college completion program.
+        Funding to continue support of art-based mental health workshops on Wisconsin college campuses.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> Center for Suicide Awareness</h3>
+      <h3><span class="bluetext">02.</span> FORGE, Inc.</h3>
       <div class="content">
-        This project will allow for CSA to provide evidenced based training to first responders and law enforcement in SE Wisconsin.
+        Rescheduled support of Trans Alive! at Milwaukee PrideFest 2022. The resource area at PrideFest will have Trans-specific suicide prevention messaging and materials that includes support by the community, friends and families.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> Glendale Police Department -- Wisconsin</h3>
+      <h3><span class="bluetext">03.</span> The Friendship Circle</h3>
       <div class="content">
-        Funding for 6 WRAPS restraint systems. These WRAPS improve the method of safely restraining individuals, eliminating the chance for self-harm. For those in a mental health crisis, the WRAP helps protect these individuals and provide safer transportation to either a hospital or mental health facility.
+        This grant will provide SafeTALK suicide prevention training and support groups to teens through outreach from The Friendship Circle in north shore Milwaukee.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> Grand Avenue Club</h3>
+      <h3><span class="bluetext">04.</span> Kids Matter, Inc.</h3>
       <div class="content">
-        Technical and other equipment needs to improve the services available near the Membership, Employment, Education unit and library. GAC provides adults who have experienced mental illness with pre-vocational, employment, educational, recreational and cultural opportunities so that their lives will be more purposeful and satisfying.
+        In home mental health support for non-parent caregivers of youth homicide survivors. Funds will help caregivers identify their own depression, break down barriers of stigma for treating it along and suggested treatment options.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> Jordan Porco Foundation</h3>
+      <h3><span class="bluetext">05.</span> Medical College of Wisconsin</h3>
       <div class="content">
-        Funding for Wisconsin Fresh Check Days.  FCD is the signature program of the Jordan Porco Foundation. It is a college campus, fair-like program that builds a campus community around mental health and suicide prevention through engaging peer-to-peer education.
+        MedMoth student led program to host storytelling workshops for MCW students, Residents, Fellows, Staff and Faculty to combat burnout and mental distress that has exacerbated due to the pandemic.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> Mental Health America of WI</h3>
+      <h3><span class="bluetext">06.</span> Mental Health America of Wisconsin</h3>
       <div class="content">
-        Prevent Suicide Wisconsin Annual Conference Support. The PSW conference is targeted towards mental health professionals, educators, public health leaders, advocates, survivors, peer specialists and others working in various suicide prevention roles in their community.
+        Funding for a strategic outreach campaign for MHA's Peer Support programming for both LGBTQ+ youth and military Veterans.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> Orban Foundation for Veterans</h3>
+      <h3><span class="bluetext">07.</span> MERA Response Team</h3>
       <div class="content">
-        Funding to host two 3-day events for veterans and military families specifically on depression and suicide at Camp Victory in Greenwood, WI. Funding would also help to upgrade current podcast quality to reach rural communities more effectively.
+        Funding for assistive technology, CIT training and "in the moment" trauma informed care to support Milwaukee youth and families experiencing an ongoing mental health need and in need of crisis intervention/resolution.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> REDgen</h3>
+      <h3><span class="bluetext">08.</span> Milwaukee Academy of Science</h3>
       <div class="content">
-        Friend2Friend: Emotional and mental wellness health education simulation for REDgen student leaders within schools.
+        A grant for MAS Middle School Therapeutic Arts Project. Art therapy supplies and curriculum to help middle students with mental wellness, promote healing from trauma, and decrease depression, anxiety and other mental health issues.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> Rodgers InHealth</h3>
+      <h3><span class="bluetext">09.</span> Milwaukee Institute of Art & Design</h3>
       <div class="content">
-        WISE (Wisconsin Initiative for Stigma Elimination) Mental Health Symposium -- The Intersection of Race & Mental Health
+        A grant to purchase and set up Maxient Software to support counseling staff and students in need of mental health support. This software will provide quicker response times and quality recordkeeping to better serve students in need.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> St. Marcus Lutheran School</h3>
+      <h3><span class="bluetext">10.</span> Milwaukee PBS</h3>
       <div class="content">
-        Curriculum and program development, along with materials for pilot art therapy program at St. Marcus main campus middle school.
+        Funding for the Milwaukee PBS broadcast of the Florentine Productions' film on youth depression, "Hiding in Plain Sight". This film features stories of over twenty diverse young Americans who have struggled with their mental health. This is a Ken Burns documentary.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Safe Communities Madison-Dane County</h3>
+      <h3><span class="bluetext">11.</span> Modern Warrior Live</h3>
       <div class="content">
-        Funding to partner with the Dane County based construction companies and stakeholders to identify and implement suicide prevention curricula and approaches to tackle high rates of suicide among those employed by construction industry.
+        Support for a one-day LIVE & Virtual screening of the Modern Warrior film with a talk-back including audience, MWL creators, and mental health community leaders. There will also be a resource fair for Veterans, their families and community members to attend.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> Sirona Recovery</h3>
+      <h3><span class="bluetext">12.</span> Spark Media</h3>
       <div class="content">
-        Funding for program costs of the COPE Line Program which serves SE Wisconsin.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">13.</span> Sixteenth Street Community Health Centers</h3>
-      <div class="content">
-        Equipping behavioral health providers with suicide prevention training. Funds would be used in support of professional development opportunities for 70 of SSCHC behavioral staff in the topic area of suicide prevention and its risk factors.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">14.</span> Wisconsin Veterans Network</h3>
-      <div class="content">
-        Funding to implement the Expiration Term of Service (ETS) Sponsorship program. The program centers on a personal relationship between the service member, who is leaving the military, and the sponsor, who is trained and certified, empathetic and dedicated to helping the service members and family members.
+        Sponsorship of the film airing of "Scattering CJ" -- a moving documentary about a mother who lost her son to suicide and made huge impact by having his ashes scattered around the world. Support will bring the film to WI PBS stations, and Spark Media is specifically hoping to make further inroads with the Oneida Nation in Wisconsin.
       </div>
     </div>
   </div>
