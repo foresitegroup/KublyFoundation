@@ -74,7 +74,9 @@ include "header.php";
 
       <h3>Teal Level - $5,000</h3>
       <ul>
+        <li>William & Sandy Heitz Family Foundation</li>
         <li>Sandy & Dennis Kuester</li>
+        <li>Kate & John Wasmer</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
@@ -98,7 +100,9 @@ include "header.php";
       <ul>
         <li>The Bourne Family</li>
         <li>Suzy & John Brennan</li>
+        <li>Kathleen & Jim Caragher</li>
         <li>Anne & Dean Fitzgerald</li>
+        <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
         <li>Laura & Pat Koppa</li>
@@ -107,6 +111,7 @@ include "header.php";
         <li>Mary & John Rickmeier</li>
         <li>Nancy & Greg Smith</li>
         <li>Mary & Chris Tornehl</li>
+        <li>Brooke & Robert Walker</li>
         <li>Carol K. Wythes</li>
         <li>Diane & Ed Zore</li>
       </ul>
@@ -116,14 +121,21 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
+        <li>Amy Argall & Family</li>
         <li>Bank Five Nine</li>
+        <li>Ginny Bolger</li>
         <li>Deanna B. Braeger</li>
         <li>Kristine H. Cleary & Peter L. Coffey</li>
+        <li>Senator Alberta Darling</li>
         <li>Catherine & Phillip Heston</li>
+        <li>Linda & Jeffrey Perrigo</li>
+        <li>Lisa & Robbie Robbins</li>
         <li>Julie & Mason Ross</li>
+        <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
         <li>Barbie Sullivan</li>
         <li>Betsy Trimble & Family</li>
+        <li>Ellen & Bob Venable</li>
         <li>Abby & Scott Williams</li>
         <li>Amy & Devin Wolf</li>
       </ul>
