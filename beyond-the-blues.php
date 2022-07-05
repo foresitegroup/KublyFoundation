@@ -60,12 +60,12 @@ include "header.php";
     <h2>BEYOND THE BLUES 2022 SPONSORS</h2>
 
     <div class="one-third">
-<!--       <h3>Sapphire Level - $20,000</h3>
+      <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Colony Brands</li>
-        <li>Meg & Libby Kasch</li>
+        <li>Meg Fetherston Kasch & Libby Kasch</li>
         <li>Billie Kubly</li>
-      </ul> -->
+      </ul>
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
@@ -74,18 +74,23 @@ include "header.php";
 
       <h3>Teal Level - $5,000</h3>
       <ul>
+        <li>Hauske Family Foundation</li>
         <li>William & Sandy Heitz Family Foundation</li>
         <li>Sandy & Dennis Kuester</li>
+        <li>Rogers Behavioral Health</li>
+        <li>Andrea & Jim Schloemer/Sue & Dan Minahan</li>
         <li>Kate & John Wasmer</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Children's Wisconsin</li>
         <li>Crescent Grove Advisors</li>
         <li>Godfrey & Kahn, S.C.</li>
         <li>Cookie Goris</li>
         <li>Thomas J. Gould</li>
         <li>Anne Luber & Family</li>
+        <li>Milwaukee Admirals/ANON Charitable Trust</li>
         <li>Betsie & Patrick O'Brien</li>
         <li>Angela & Ross Williams</li>
       </ul>
@@ -106,11 +111,15 @@ include "header.php";
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
         <li>Laura & Pat Koppa</li>
+        <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
         <li>Curt & Linda Lundeen</li>
         <li>Mary & John Rickmeier</li>
         <li>Nancy & Greg Smith</li>
+        <li>Julie & Steve Spadafora</li>
+        <li>Kathleen & Frank Thometz</li>
         <li>Mary & Chris Tornehl</li>
+        <li>Debbie & Camp Van Dyke</li>
         <li>Brooke & Robert Walker</li>
         <li>Carol K. Wythes</li>
         <li>Diane & Ed Zore</li>
@@ -123,12 +132,15 @@ include "header.php";
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
         <li>Amy Argall & Family</li>
         <li>Bank Five Nine</li>
+        <li>Burke Candy & Ingredients, Inc.</li>
         <li>Ginny Bolger</li>
         <li>Deanna B. Braeger</li>
         <li>Kristine H. Cleary & Peter L. Coffey</li>
         <li>Senator Alberta Darling</li>
+        <li>Mrs. Marilyn Haker</li>
         <li>Catherine & Phillip Heston</li>
         <li>Linda & Jeffrey Perrigo</li>
+        <li>Kris & Robert Rick</li>
         <li>Lisa & Robbie Robbins</li>
         <li>Julie & Mason Ross</li>
         <li>Jen & Todd Schoon</li>
