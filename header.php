@@ -85,7 +85,7 @@ if (!isset($TopDir)) $TopDir = "";
         If you or someone you know is at immediate risk of harm or has harmed themselves <u>CALL 911</u> immediately.<br>
         <br>
 
-        If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>1-800-273-8255</u> or text "<strong>HOPELINE</strong>" to <u>741741</u>.
+        If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>988</u> or <u>1-800-273-8255</u> or text "<strong>HOPELINE</strong>" to <u>741741</u>.
       </div>
 
       <?php if (!isset($PageTitle)) { ?>
@@ -100,13 +100,13 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <a href="https://www.eventbrite.com/e/2022-fore-the-cause-golf-outing-tickets-288864049147" id="dogear">
+<!--         <a href="https://www.eventbrite.com/e/2022-fore-the-cause-golf-outing-tickets-288864049147" id="dogear">
           <div>
             <div>Click here for</div>
             2022 "FORE THE CAUSE" GOLF OUTING TICKETS
             <span>Sat, Jun 11, 2022 at 10:00 AM</span>
           </div>
-        </a>
+        </a> -->
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
