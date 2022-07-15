@@ -3181,9 +3181,11 @@ INPUT[type="checkbox"]#c-ambassador:checked + LABEL:before {
   line-height: 1em;
 }
 
-.call-circle H3:first-of-type {
+.call-circle H3 SPAN { font-size: 50%; }
+
+/*.call-circle H3:first-of-type {
   margin-bottom: 0.5em;
-}
+}*/
 
 .call-circle A {
   color: #FFFFFF;

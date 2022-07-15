@@ -65,7 +65,8 @@ include "header.php";
     <div class="call-circle">
       <div>
         CALL THE NATIONAL SUICIDE PREVENTION HOTLINE:
-        <h3>1-800-273-TALK</h3>
+        <h3>988 <span>OR</span></h3>
+        <h3 style="margin: 0 0 0.5em;">1-800-273-TALK</h3>
         TEXT THE HOPELINE:
         <h3>741741</h3>
       </div>
@@ -111,7 +112,7 @@ include "header.php";
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span><br>
+    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">988</span> or <span class="bluetext">1-800-273-8255</span><br>
     TEXT the HOPELINE: <span class="bluetext">741741</span>
   </div>
 </div>
