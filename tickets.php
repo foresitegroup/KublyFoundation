@@ -43,10 +43,10 @@ include "header.php";
         <input type="hidden" name="return" value="http://<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME']; ?>?thankyou">
 
         <input type="hidden" name="item_name_1" value="Beyond The Blues Tickets">
-        <input type="hidden" name="amount_1" value="80">
+        <input type="hidden" name="amount_1" value="95">
         <input type="hidden" name="item_name_2" value="Blues Backer Board Donation">
 
-        Send me <input type="text" name="quantity_1"> tickets to Beyond the Blues at $80 each.<br>
+        Send me <input type="text" name="quantity_1"> tickets to Beyond the Blues at $95 each.<br>
         <br>
 
         <!-- I would like to make a donation of $<input type="text" name="amount_2"><br>
@@ -72,7 +72,7 @@ include "header.php";
 <!-- </div> -->
 
 <div class="site-width ticket-sponsors">
-  <a href="beyond-the-blues.php#sponsors">SEE OUR SPONSORS</a> &bull; <a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">BECOME A SPONSOR</a>
+  <a href="beyond-the-blues.php#sponsors">SEE OUR SPONSORS</a> <!-- &bull; <a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">BECOME A SPONSOR</a> -->
 </div>
 
 <?php include "footer.php"; ?>
