@@ -104,7 +104,7 @@ if (!isset($TopDir)) $TopDir = "";
           <div>
             <div>Click here for</div>
             2022 "BEYOND THE BLUES" TICKETS
-            <span>Fri, Sep 16, 2022 at 6:00 PM</span>
+            <span>Fri, Sep 16, 2022 at 6:30 PM</span>
           </div>
         </a>
 

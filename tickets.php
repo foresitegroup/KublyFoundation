@@ -53,7 +53,7 @@ include "header.php";
         <br>
         <br> -->
 
-        List me on the Blues Backers Board at the event for an additional $100 or more donation: $<input type="text" name="amount_2"><br>
+        List me on the Blues Backers Board at the event<br>for an additional $100 or more donation: $<input type="text" name="amount_2"><br>
         <input type="hidden" name="on0" value="Blues Backer Board Name(s)">
         <input type="text" name="os0" placeholder="List my donation under this name(s)" id="donation_name"><br>
         <br>
