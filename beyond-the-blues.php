@@ -27,7 +27,7 @@ include "header.php";
       Milwaukee, WI 53202<br>
       <br>
 
-      Tickets on sale August 1st, 2022<br>
+      <a href="tickets.php" class="button">PURCHASE TICKETS</a><br>
       <br>
 
       To sponsor Beyond the Blues, contact Kris Rick @ 414-477-9959

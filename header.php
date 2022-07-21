@@ -100,13 +100,13 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-<!--         <a href="https://www.eventbrite.com/e/2022-fore-the-cause-golf-outing-tickets-288864049147" id="dogear">
+        <a href="tickets.php" id="dogear">
           <div>
             <div>Click here for</div>
-            2022 "FORE THE CAUSE" GOLF OUTING TICKETS
-            <span>Sat, Jun 11, 2022 at 10:00 AM</span>
+            2022 "BEYOND THE BLUES" TICKETS
+            <span>Fri, Sep 16, 2022 at 6:00 PM</span>
           </div>
-        </a> -->
+        </a>
 
         <!-- <div class="home-banner-slide night-out">
           <div class="site-width">
