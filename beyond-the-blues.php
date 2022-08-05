@@ -19,7 +19,7 @@ include "header.php";
 
     <div class="header-right">
       <br><br>
-      
+
       Discovery World Pier Wisconsin Pavilion<br>
       500 N. Harbor Drive<br>
       Milwaukee, WI 53202<br>
@@ -87,12 +87,15 @@ include "header.php";
       <ul>
         <li>Children's Wisconsin</li>
         <li>Crescent Grove Advisors</li>
+        <li>Executive Benefits Network -- Molly & David Fritz</li>
         <li>Godfrey & Kahn, S.C.</li>
         <li>Cookie Goris</li>
         <li>Thomas J. Gould</li>
+        <li>Sally & Chip Kubly</li>
         <li>Anne Luber & Family</li>
         <li>Milwaukee Admirals/ANON Charitable Trust</li>
         <li>Betsie & Patrick O'Brien</li>
+        <li>The Peggy & Ned Purtell Family</li>
         <li>Angela & Ross Williams</li>
       </ul>
 
@@ -108,6 +111,7 @@ include "header.php";
         <li>Suzy & John Brennan</li>
         <li>Kathleen & Jim Caragher</li>
         <li>Anne & Dean Fitzgerald</li>
+        <li>Pamela & Tom Goris</li>
         <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
@@ -115,6 +119,7 @@ include "header.php";
         <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
         <li>Curt & Linda Lundeen</li>
+        <li>Katie & Mark Mohr</li>
         <li>Mary & John Rickmeier</li>
         <li>Nancy & Greg Smith</li>
         <li>Julie & Steve Spadafora</li>
@@ -140,6 +145,8 @@ include "header.php";
         <li>Senator Alberta Darling</li>
         <li>Mrs. Marilyn Haker</li>
         <li>Catherine & Phillip Heston</li>
+        <li>Milwaukee Institute of Art & Design</li>
+        <li>Newport Healthcare</li>
         <li>Linda & Jeffrey Perrigo</li>
         <li>Kris & Robert Rick</li>
         <li>Lisa & Robbie Robbins</li>
