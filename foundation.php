@@ -249,21 +249,23 @@ include "header.php";
 
 <div id="newsletters">
   <div class="site-width">
-    <a href="pdf/Kubly_Newsletter_Winter_2022.pdf" class="image"><img src="images/newsletter-winter-2022.jpg" alt=""></a>
+    <a href="pdf/Kubly_Newsletter_Summer_2022.pdf" class="image"><img src="images/newsletter-summer-2022.webp" alt=""></a>
 
     <div class="text">
-      <h3>Winter 2022 Newsletter</h3>
+      <h3>Summer 2022 Newsletter</h3>
 
       <span>What's Inside</span><br>
-      <span>01.</span> Back Together Again<br>
-      <span>03.</span> Grantee Spotlight<br>
-      <span>04.</span> Projects Funded<br>
-      <span>05.</span> What's New At CEKF<br>
+      <span>01.</span> MHA Is Grateful<br>
+      <span>02.</span> Projects Funded<br>
+      <span>03.</span> 2nd YLC Golf Outing<br>
+      <span>04.</span> CEKF By The Numbers<br>
+      <span>05.</span> Thank You Donors<br>
       <br>
 
       <h4>Past Newsletters</h4>
       <div id="past-newsletters">
         <div>
+          <a href="pdf/Kubly_Newsletter_Summer_2022.pdf">Summer 2022</a><br>
           <a href="pdf/Kubly_Newsletter_Summer_2021.pdf">Summer 2021</a><br>
           <a href="pdf/Kubly_Newsletter_Summer_2020.pdf">Summer 2020</a><br>
           <a href="pdf/Kubly_Newsletter_Summer_2019.pdf">Summer 2019</a><br>
