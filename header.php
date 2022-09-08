@@ -109,10 +109,9 @@ if (!isset($TopDir)) $TopDir = "";
 
       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
       <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
-        <a href="tickets.php" id="dogear">
+        <a href="beyond-the-blues.php" id="dogear">
           <div>
-            <div>Click here for</div>
-            2022 "BEYOND THE BLUES" TICKETS
+            Purchase 2022 "BEYOND THE BLUES" TICKETS at the door
             <span>Fri, Sep 16, 2022 at 6:30 PM</span>
           </div>
         </a>

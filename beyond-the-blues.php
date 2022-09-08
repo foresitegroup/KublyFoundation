@@ -28,7 +28,8 @@ include "header.php";
       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?><br>6:30PM</h2>
       <br>
 
-      <a href="tickets.php" class="button">PURCHASE TICKETS</a><br>
+      Tickets may be purchased at the door
+      <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> --><br>
       <br>
 
       To sponsor Beyond the Blues, contact Kris Rick @ 414-477-9959
@@ -78,13 +79,16 @@ include "header.php";
         <li>Hauske Family Foundation</li>
         <li>William & Sandy Heitz Family Foundation</li>
         <li>Sandy & Dennis Kuester</li>
+        <li>Cathy & Paul Luber </li>
         <li>Rogers Behavioral Health</li>
         <li>Andrea & Jim Schloemer/Sue & Dan Minahan</li>
+        <li>Michael J. Schmitz</li>
         <li>Kate & John Wasmer</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Suzy & John Brennan</li>
         <li>Children's Wisconsin</li>
         <li>Crescent Grove Advisors</li>
         <li>Executive Benefits Network -- Molly & David Fritz</li>
@@ -92,9 +96,12 @@ include "header.php";
         <li>Cookie Goris</li>
         <li>Thomas J. Gould</li>
         <li>Sally & Chip Kubly</li>
+        <li>Beth & Will Kubly</li>
         <li>Anne Luber & Family</li>
+        <li>Marquette University College of Health Sciences</li>
         <li>Milwaukee Admirals/ANON Charitable Trust</li>
         <li>Betsie & Patrick O'Brien</li>
+        <li>Power Test</li>
         <li>The Peggy & Ned Purtell Family</li>
         <li>Angela & Ross Williams</li>
       </ul>
@@ -108,18 +115,21 @@ include "header.php";
       <h3>Navy Level - $1,000</h3>
       <ul>
         <li>The Bourne Family</li>
-        <li>Suzy & John Brennan</li>
         <li>Kathleen & Jim Caragher</li>
+        <li>Jose Carlino Design</li>
         <li>Anne & Dean Fitzgerald</li>
         <li>Pamela & Tom Goris</li>
         <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
         <li>Susan Kasten</li>
+        <li>Kopmeier Family Fund</li>
         <li>Laura & Pat Koppa</li>
         <li>Mary Ann & Charles La Bahn</li>
         <li>Mary Lillydahl</li>
         <li>Curt & Linda Lundeen</li>
         <li>Katie & Mark Mohr</li>
+        <li>Jennifer & Mitchell Prosk</li>
+        <li>Pamela & Robert Reily</li>
         <li>Mary & John Rickmeier</li>
         <li>Nancy & Greg Smith</li>
         <li>Julie & Steve Spadafora</li>
@@ -127,6 +137,7 @@ include "header.php";
         <li>Mary & Chris Tornehl</li>
         <li>Debbie & Camp Van Dyke</li>
         <li>Brooke & Robert Walker</li>
+        <li>Mary & Willard Walker</li>
         <li>Carol K. Wythes</li>
         <li>Diane & Ed Zore</li>
       </ul>
@@ -136,16 +147,30 @@ include "header.php";
       <h3>Denim Level - $500</h3>
       <ul>
         <li>Ace Worldwide Elite Relocation Services/Steinergroup</li>
+        <li>Linda & Jack Anick</li>
         <li>Amy Argall & Family</li>
         <li>Bank Five Nine</li>
+        <li>Joan Bell</li>
+        <li>Elizabeth and Andrew Bruce</li>
         <li>Burke Candy & Ingredients, Inc.</li>
         <li>Ginny Bolger</li>
         <li>Deanna B. Braeger</li>
+        <li>Gretchen & William Burns</li>
         <li>Kristine H. Cleary & Peter L. Coffey</li>
         <li>Senator Alberta Darling</li>
         <li>Mrs. Marilyn Haker</li>
+        <li>Sharon & Don Hansen</li>
         <li>Catherine & Phillip Heston</li>
+        <li>Diane & Bob Jenkins</li>
+        <li>Jayne Jordan</li>
+        <li>Evelyn Kelly</li>
+        <li>Julie & John Kennedy</li>
+        <li>Lori Kilian in memory of Debbie Thom</li>
+        <li>LFF Foundation</li>
+        <li>Peter L. Mahler</li>
+        <li>Debbie & John McGregor</li>
         <li>Milwaukee Institute of Art & Design</li>
+        <li>Barbara & Henrik Moe</li>
         <li>Newport Healthcare</li>
         <li>Linda & Jeffrey Perrigo</li>
         <li>Kris & Robert Rick</li>
@@ -153,9 +178,11 @@ include "header.php";
         <li>Julie & Mason Ross</li>
         <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
+        <li>Stalle Realty Group</li>
         <li>Barbie Sullivan</li>
         <li>Betsy Trimble & Family</li>
         <li>Ellen & Bob Venable</li>
+        <li>Barb & Bob Whealon</li>
         <li>Abby & Scott Williams</li>
         <li>Amy & Devin Wolf</li>
       </ul>
