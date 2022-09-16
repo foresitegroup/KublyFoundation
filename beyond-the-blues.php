@@ -103,6 +103,7 @@ include "header.php";
         <li>Betsie & Patrick O'Brien</li>
         <li>Power Test</li>
         <li>The Peggy & Ned Purtell Family</li>
+        <li>Kelly Sherwood Family Fund</li>
         <li>Angela & Ross Williams</li>
       </ul>
 
@@ -117,10 +118,14 @@ include "header.php";
         <li>The Bourne Family</li>
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
+        <li>Dr. William Cullinan</li>
+        <li>Thayre Faust & Friends in memory of Sam Vertelka</li>
         <li>Anne & Dean Fitzgerald</li>
-        <li>Pamela & Tom Goris</li>
+        <li>Pamela & Tom Goris </li>
+        <li>Hammes Family Foundation</li>
         <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
+        <li>Lily Kubly & Friends</li>
         <li>Susan Kasten</li>
         <li>Kopmeier Family Fund</li>
         <li>Laura & Pat Koppa</li>
@@ -128,6 +133,7 @@ include "header.php";
         <li>Mary Lillydahl</li>
         <li>Curt & Linda Lundeen</li>
         <li>Katie & Mark Mohr</li>
+        <li>Candy & Bruce Pindyck</li>
         <li>Jennifer & Mitchell Prosk</li>
         <li>Pamela & Robert Reily</li>
         <li>Mary & John Rickmeier</li>
@@ -151,6 +157,8 @@ include "header.php";
         <li>Amy Argall & Family</li>
         <li>Bank Five Nine</li>
         <li>Joan Bell</li>
+        <li>Sally & Peter Blommer</li>
+        <li>Mary & Jeff Brown</li>
         <li>Elizabeth and Andrew Bruce</li>
         <li>Burke Candy & Ingredients, Inc.</li>
         <li>Ginny Bolger</li>
@@ -158,6 +166,7 @@ include "header.php";
         <li>Gretchen & William Burns</li>
         <li>Kristine H. Cleary & Peter L. Coffey</li>
         <li>Senator Alberta Darling</li>
+        <li>Ellen & Richard Glaisner</li>
         <li>Mrs. Marilyn Haker</li>
         <li>Sharon & Don Hansen</li>
         <li>Catherine & Phillip Heston</li>
@@ -166,16 +175,20 @@ include "header.php";
         <li>Evelyn Kelly</li>
         <li>Julie & John Kennedy</li>
         <li>Lori Kilian in memory of Debbie Thom</li>
+        <li>Michael Klinker</li>
         <li>LFF Foundation</li>
+        <li>Margaret & Will Lidstone</li>
         <li>Peter L. Mahler</li>
         <li>Debbie & John McGregor</li>
         <li>Milwaukee Institute of Art & Design</li>
         <li>Barbara & Henrik Moe</li>
         <li>Newport Healthcare</li>
         <li>Linda & Jeffrey Perrigo</li>
+        <li>Kristin Rick & Friends</li>
         <li>Kris & Robert Rick</li>
         <li>Lisa & Robbie Robbins</li>
         <li>Julie & Mason Ross</li>
+        <li>Chloe Salvino & Friends</li>
         <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
         <li>Stalle Realty Group</li>
