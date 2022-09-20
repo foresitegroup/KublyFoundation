@@ -215,9 +215,9 @@ include "header.php";
 <div class="btb-gallery" style="position: relative;">
   <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
   <div class="site-width">
-    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2021</h2>
+    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2022</h2>
     <?php
-    $main_dir = "images/galleries/btb2021";
+    $main_dir = "images/galleries/btb2022";
 
     $files = scandir($main_dir);
 
