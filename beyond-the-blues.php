@@ -115,18 +115,20 @@ include "header.php";
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
+        <li>Kerry & John Bolger</li>
         <li>The Bourne Family</li>
         <li>Kathleen & Jim Caragher</li>
         <li>Jose Carlino Design</li>
         <li>Dr. William Cullinan</li>
         <li>Thayre Faust & Friends in memory of Sam Vertelka</li>
         <li>Anne & Dean Fitzgerald</li>
-        <li>Pamela & Tom Goris </li>
+        <li>Pamela & Tom Goris</li>
         <li>Hammes Family Foundation</li>
         <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
         <li>Lily Kubly & Friends</li>
         <li>Susan Kasten</li>
+        <li>Garry Kelley in memory of Garrett Kelley</li>
         <li>Kopmeier Family Fund</li>
         <li>Laura & Pat Koppa</li>
         <li>Mary Ann & Charles La Bahn</li>
@@ -180,6 +182,7 @@ include "header.php";
         <li>Margaret & Will Lidstone</li>
         <li>Peter L. Mahler</li>
         <li>Debbie & John McGregor</li>
+        <li>Abby Millman & Friends</li>
         <li>Milwaukee Institute of Art & Design</li>
         <li>Barbara & Henrik Moe</li>
         <li>Newport Healthcare</li>
@@ -192,6 +195,7 @@ include "header.php";
         <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
         <li>Stalle Realty Group</li>
+        <li>Joe Ann Stein</li>
         <li>Barbie Sullivan</li>
         <li>Betsy Trimble & Family</li>
         <li>Ellen & Bob Venable</li>
