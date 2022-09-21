@@ -20,15 +20,20 @@ include "header.php";
     <div class="header-right">
       <br><br>
 
-      Discovery World Pier Wisconsin Pavilion<br>
+      20th Anniversary Beyond the Blues<br>
+      <br>
+
+      Save the Date
+
+      <!-- Discovery World Pier Wisconsin Pavilion<br>
       500 N. Harbor Drive<br>
-      Milwaukee, WI 53202<br>
+      Milwaukee, WI 53202<br> -->
       <br>
 
-      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?><br>6:30PM</h2>
+      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?><!-- <br>6:30PM --></h2>
       <br>
 
-      Tickets may be purchased at the door
+      <!-- Tickets may be purchased at the door -->
       <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> --><br>
       <br>
 
