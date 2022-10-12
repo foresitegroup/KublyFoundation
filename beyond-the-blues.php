@@ -20,7 +20,7 @@ include "header.php";
     <div class="header-right">
       <br><br>
 
-      20th Anniversary Beyond the Blues<br>
+      20th Anniversary Beyond the Blues - 2023<br>
       <br>
 
       Save the Date
@@ -127,6 +127,7 @@ include "header.php";
         <li>Dr. William Cullinan</li>
         <li>Thayre Faust & Friends in memory of Sam Vertelka</li>
         <li>Anne & Dean Fitzgerald</li>
+        <li>Katie Frommelt & Friends in memory of Garrett Kelley</li>
         <li>Pamela & Tom Goris</li>
         <li>Hammes Family Foundation</li>
         <li>Kathy & Al Hentzen</li>
@@ -182,12 +183,15 @@ include "header.php";
         <li>Evelyn Kelly</li>
         <li>Julie & John Kennedy</li>
         <li>Lori Kilian in memory of Debbie Thom</li>
+        <li>Rosa Kim</li>
         <li>Michael Klinker</li>
+        <li>Autumn & David Kwasny</li>
+        <li>The Lanigan Family</li>
         <li>LFF Foundation</li>
         <li>Margaret & Will Lidstone</li>
         <li>Peter L. Mahler</li>
         <li>Debbie & John McGregor</li>
-        <li>Abby Millman & Friends</li>
+        <li>Abby Millman & Friends in memory of Debbie Thom</li>
         <li>Milwaukee Institute of Art & Design</li>
         <li>Barbara & Henrik Moe</li>
         <li>Newport Healthcare</li>
@@ -196,7 +200,7 @@ include "header.php";
         <li>Kris & Robert Rick</li>
         <li>Lisa & Robbie Robbins</li>
         <li>Julie & Mason Ross</li>
-        <li>Chloe Salvino & Friends</li>
+        <li>Chloe Salvino & Friends in memory of Debbie Thom</li>
         <li>Jen & Todd Schoon</li>
         <li>Patty & Peter Schuyler</li>
         <li>Stalle Realty Group</li>
