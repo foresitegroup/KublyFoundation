@@ -106,6 +106,7 @@ include "header.php";
         <li>Marquette University College of Health Sciences</li>
         <li>Milwaukee Admirals/ANON Charitable Trust</li>
         <li>Betsie & Patrick O'Brien</li>
+        <li>Catherine & Bill Perez</li>
         <li>Power Test</li>
         <li>The Peggy & Ned Purtell Family</li>
         <li>Kelly Sherwood Family Fund</li>
@@ -128,7 +129,7 @@ include "header.php";
         <li>Thayre Faust & Friends in memory of Sam Vertelka</li>
         <li>Anne & Dean Fitzgerald</li>
         <li>Katie Frommelt & Friends in memory of Garrett Kelley</li>
-        <li>Pamela & Tom Goris</li>
+        <li>Pamela & Tom Goris </li>
         <li>Hammes Family Foundation</li>
         <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
@@ -210,6 +211,7 @@ include "header.php";
         <li>Ellen & Bob Venable</li>
         <li>Barb & Bob Whealon</li>
         <li>Abby & Scott Williams</li>
+        <li>Sunny & Sandy Williams</li>
         <li>Amy & Devin Wolf</li>
       </ul>
 
