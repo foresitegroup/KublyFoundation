@@ -46,86 +46,114 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> Art With Impact</h3>
+      <h3><span class="bluetext">01.</span> Boys & Girls Club -- Greater Milwaukee</h3>
       <div class="content">
-        Funding to continue support of art-based mental health workshops on Wisconsin college campuses.
+        "Train the Trainer" trauma-informed care training from Wellpoint Care Networks along with Mental Health First Aid training, ultimately benefitting 172 total staff members.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> FORGE, Inc.</h3>
+      <h3><span class="bluetext">02.</span> Carroll University</h3>
       <div class="content">
-        Rescheduled support of Trans Alive! at Milwaukee PrideFest 2022. The resource area at PrideFest will have Trans-specific suicide prevention messaging and materials that includes support by the community, friends and families.
+        "Depression on College Campuses" 2-day conference registration for two Carroll University campus therapists.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> The Friendship Circle</h3>
+      <h3><span class="bluetext">03.</span> Chrysalis, Inc.</h3>
       <div class="content">
-        This grant will provide SafeTALK suicide prevention training and support groups to teens through outreach from The Friendship Circle in north shore Milwaukee.
+        Support of "Stories of Hope" storytelling events using The MOTHMadison Story Slam programming. This includes video production of the events for continued share with the community to reduce stigma and show stories of hope and healing.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> Kids Matter, Inc.</h3>
+      <h3><span class="bluetext">04.</span> Giving Voice to Mental Illness, Inc.</h3>
       <div class="content">
-        In home mental health support for non-parent caregivers of youth homicide survivors. Funds will help caregivers identify their own depression, break down barriers of stigma for treating it along and suggested treatment options.
+        CEKF branded support of the Giving Voice to Depression produced video called "Pulling Back the Curtain on Depression's Lies" which includes plans for screening rights of other mental health organizations and co-branding.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> Medical College of Wisconsin</h3>
+      <h3><span class="bluetext">05.</span> The Highground Veterans Memorial Park</h3>
       <div class="content">
-        MedMoth student led program to host storytelling workshops for MCW students, Residents, Fellows, Staff and Faculty to combat burnout and mental distress that has exacerbated due to the pandemic.
+        Funding for Veteran peer support program which includes featured speakers and resource materials for ongoing mental health support.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> Mental Health America of Wisconsin</h3>
+      <h3><span class="bluetext">06.</span> International Association for Human Values</h3>
       <div class="content">
-        Funding for a strategic outreach campaign for MHA's Peer Support programming for both LGBTQ+ youth and military Veterans.
+        Two year implementation of Social Emotional Learning and SKY Schools breathwork programming for District 4 Milwaukee Public Schools.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> MERA Response Team</h3>
+      <h3><span class="bluetext">07.</span> Lutheran Counseling and Family Services</h3>
       <div class="content">
-        Funding for assistive technology, CIT training and "in the moment" trauma informed care to support Milwaukee youth and families experiencing an ongoing mental health need and in need of crisis intervention/resolution.
+        School staff training on identifying depression in students, accompanied by resources including "in-the-moment" coping strategies, calm down boxes and a created binder encompassing available supportive services.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> Milwaukee Academy of Science</h3>
+      <h3><span class="bluetext">08.</span> Mount Mary University</h3>
       <div class="content">
-        A grant for MAS Middle School Therapeutic Arts Project. Art therapy supplies and curriculum to help middle students with mental wellness, promote healing from trauma, and decrease depression, anxiety and other mental health issues.
+        Funding for campus "Voices of Leadership" event featuring speaker Diano Chao who founded Letters to Strangers. The event's focus is destigmatizing mental health and serves students at Mount Mary as well as local business leaders.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> Milwaukee Institute of Art & Design</h3>
+      <h3><span class="bluetext">09.</span> NAMI Racine County</h3>
       <div class="content">
-        A grant to purchase and set up Maxient Software to support counseling staff and students in need of mental health support. This software will provide quicker response times and quality recordkeeping to better serve students in need.
+        Support for mental health services for people with depression and mental illness, and their families. This support is for the underserved western area of Racine County.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> Milwaukee PBS</h3>
+      <h3><span class="bluetext">10.</span> NorthLakes Community Clinic</h3>
       <div class="content">
-        Funding for the Milwaukee PBS broadcast of the Florentine Productions' film on youth depression, "Hiding in Plain Sight". This film features stories of over twenty diverse young Americans who have struggled with their mental health. This is a Ken Burns documentary.
+        Funding for resilience-building materials and resources utilized by their school based behavioral health program.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Modern Warrior Live</h3>
+      <h3><span class="bluetext">11.</span> Radio Milwaukee</h3>
       <div class="content">
-        Support for a one-day LIVE & Virtual screening of the Modern Warrior film with a talk-back including audience, MWL creators, and mental health community leaders. There will also be a resource fair for Veterans, their families and community members to attend.
+        A grant to support the Grace Weber Music Lab with a visiting music therapist, mental health professionals conducting Amplifier workshops and a Storyteller in Residence.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> Spark Media</h3>
+      <h3><span class="bluetext">12.</span> Sanctuary Mental Health Ministries</h3>
       <div class="content">
-        Sponsorship of the film airing of "Scattering CJ" -- a moving documentary about a mother who lost her son to suicide and made huge impact by having his ashes scattered around the world. Support will bring the film to WI PBS stations, and Spark Media is specifically hoping to make further inroads with the Oneida Nation in Wisconsin.
+        Canadian-based SMHM global launch -- Wisconsin. Funding for a public workshop for those who have expressed interest in this faith-based mental health programming and would like to bring it to their church, organization or educational institution.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">13.</span> Sirona Recovery</h3>
+      <div class="content">
+        A grant for support of the well-used COPE line that has been under the Sirona Recovery umbrella for several years.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">14.</span> Staying on Track</h3>
+      <div class="content">
+        Support of the relaunch of the stage production, "Pieces", which showcases personal accounts of living with different mental health diagnoses. This funding also will support the ASK outreach program which targets underserved Milwaukee area residents.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">15.</span> University of Wisconsin Milwaukee</h3>
+      <div class="content">
+        Funding to provide social work telemental health education in the prevention and intervention of depression and death by suicide.
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">16.</span> University of Wisconsin Milwaukee Foundation</h3>
+      <div class="content">
+        With services by Growing Minds, this grant will support 3 mindfulness workshops within the Lubar Entrepreneurship Center held on campus with wrap around services included.
       </div>
     </div>
   </div>
