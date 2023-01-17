@@ -84,7 +84,8 @@ include "header.php";
         <li>Hauske Family Foundation</li>
         <li>William & Sandy Heitz Family Foundation</li>
         <li>Sandy & Dennis Kuester</li>
-        <li>Cathy & Paul Luber </li>
+        <li>Cathy & Paul Luber</li>
+        <li>Rite Hite Foundation</li>
         <li>Rogers Behavioral Health</li>
         <li>Andrea & Jim Schloemer/Sue & Dan Minahan</li>
         <li>Michael J. Schmitz</li>
@@ -129,7 +130,7 @@ include "header.php";
         <li>Thayre Faust & Friends in memory of Sam Vertelka</li>
         <li>Anne & Dean Fitzgerald</li>
         <li>Katie Frommelt & Friends in memory of Garrett Kelley</li>
-        <li>Pamela & Tom Goris </li>
+        <li>Pamela & Tom Goris</li>
         <li>Hammes Family Foundation</li>
         <li>Kathy & Al Hentzen</li>
         <li>Susie & Lee Jennings</li>
