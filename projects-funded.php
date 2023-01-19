@@ -156,6 +156,13 @@ include "header.php";
         With services by Growing Minds, this grant will support 3 mindfulness workshops within the Lubar Entrepreneurship Center held on campus with wrap around services included.
       </div>
     </div>
+
+    <div>
+      <h3><span class="bluetext">17.</span> Wisconsin Health Literacy</h3>
+      <div class="content">
+        BIPOC educational programming called "Let's Talk About Coping". This program includes "train the trainer" education and outreach to the public to bring better mental health understanding to underserved families.
+      </div>
+    </div>
   </div>
 </div>
 
