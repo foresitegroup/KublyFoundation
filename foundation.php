@@ -249,17 +249,17 @@ include "header.php";
 
 <div id="newsletters">
   <div class="site-width">
-    <a href="pdf/Kubly_Newsletter_Summer_2022.pdf" class="image"><img src="images/newsletter-summer-2022.webp" alt=""></a>
+    <a href="pdf/Kubly_Newsletter_Winter_2023.pdf" class="image"><img src="images/newsletter-winter-2023.webp" alt=""></a>
 
     <div class="text">
-      <h3>Summer 2022 Newsletter</h3>
+      <h3>Winter 2023 Newsletter</h3>
 
       <span>What's Inside</span><br>
-      <span>01.</span> MHA Is Grateful<br>
-      <span>02.</span> Projects Funded<br>
-      <span>03.</span> 2nd YLC Golf Outing<br>
-      <span>04.</span> CEKF By The Numbers<br>
-      <span>05.</span> Thank You Donors<br>
+      <span>01.</span> Beyone the Blues 2022<br>
+      <span>03.</span> Giving Voice to Depression<br>
+      <span>04.</span> Projects Funded<br>
+      <span>05.</span> Grant Review Committee<br>
+      <span>06.</span> YLC Updates!<br>
       <br>
 
       <h4>Past Newsletters</h4>
@@ -274,6 +274,7 @@ include "header.php";
         </div>
 
         <div>
+          <a href="pdf/Kubly_Newsletter_Winter_2023.pdf">Winter 2023</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2022.pdf">Winter 2022</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a><br>
           <a href="pdf/Kubly_Newsletter_Winter_2020.pdf">Winter 2020</a><br>
