@@ -27,6 +27,8 @@ include "header.php";
         Mequon, WI 53092<br>
         <br>
 
+        Kris Rick<br>
+        Executive Director & Business Manager<br>
         <strong>(414) 477-9959</strong><br>
         <br>
         <br>

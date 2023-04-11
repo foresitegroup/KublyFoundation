@@ -10,7 +10,51 @@
  */
 
 $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
+
+if (is_home()) {
 ?>
+
+<div id="newsletters">
+  <div class="site-width">
+    <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2023.pdf" class="image"><img src="<?php echo $TopDir; ?>images/newsletter-winter-2023.webp" alt=""></a>
+
+    <div class="text">
+      <h3>Winter 2023 Newsletter</h3>
+
+      <span>What's Inside</span><br>
+      <span>01.</span> Beyond the Blues 2022<br>
+      <span>03.</span> Giving Voice to Depression<br>
+      <span>04.</span> Projects Funded<br>
+      <span>05.</span> Grant Review Committee<br>
+      <span>06.</span> YLC Updates!<br>
+      <br>
+
+      <h4>Past Newsletters</h4>
+      <div id="past-newsletters">
+        <div>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2022.pdf">Summer 2022</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2021.pdf">Summer 2021</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2020.pdf">Summer 2020</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2019.pdf">Summer 2019</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2018.pdf">Summer 2018</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2017.pdf">Summer 2017</a>
+        </div>
+
+        <div>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2023.pdf">Winter 2023</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2022.pdf">Winter 2022</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2020.pdf">Winter 2020</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2019.pdf">Winter 2019</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2018.pdf">Winter 2018</a><br>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2017.pdf">Winter 2017</a>
+        </div>
+      </div> <!-- /#past-newletters -->
+    </div> <!-- /.text -->
+  </div> <!-- /.site-width -->
+</div> <!-- /#newsletters -->
+
+<?php } ?>
 
 <div class="news-footer">
 	<div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
@@ -21,6 +65,15 @@ $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 	  <a href="<?php echo $TopDir; ?>beyond-the-blues.php">FOR EVENT INFO</a>
 	</div>
 </div>
+
+<script>
+  // Open external links and PDFs in new tab
+  [...document.links].forEach(link => {
+    if (link.hostname != window.location.hostname || link.href.split('.').pop() == "pdf") {
+      link.target = '_blank'; link.rel = 'noopener';
+    }
+  });
+</script>
 
 <?php
 include "../footer.php";

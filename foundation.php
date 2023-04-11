@@ -18,7 +18,6 @@ include "header.php";
     <li><a href="#charlies-story">CHARLIE'S STORY</a></li>
     <li><a href="#faq">FAQ</a></li>
     <li><a href="#board-leadership">BOARD &amp; LEADERSHIP</a></li>
-    <li><a href="#newsletters">NEWSLETTERS</a></li>
   </ul>
 </div>
 
@@ -159,7 +158,7 @@ include "header.php";
     <br>
     <br>
 
-    <strong class="q">Q: How can I submit a proposal and request funds for my depression-related project?</strong><br>
+    <!-- <strong class="q">Q: How can I submit a proposal and request funds for my depression-related project?</strong><br>
     <br>
 
     Project proposals can be mailed to:<br>
@@ -169,7 +168,7 @@ include "header.php";
     Mequon, WI 53092<br>
     Currently, the Board of Directors of the Charles E. Kubly Foundation reviews project proposals and provides grants bi-annually.<br>
     <br>
-    <br>
+    <br> -->
 
     <strong class="q">Q: What are the common symptoms of depression?</strong><br>
     <br>
@@ -213,7 +212,10 @@ include "header.php";
     <strong class="q">Q: What should I do if I am experiencing a mental health crisis?</strong><br>
     <br>
 
-    If you are experiencing a mental health crisis and feel that you are in danger of harming yourself or others, please call 911 immediately.
+    If you are experiencing a mental health crisis and feel that you are in danger of harming yourself or others, please call 911 immediately.<br>
+    <br>
+
+    If you or someone you know is struggling or in crisis, help is available. <strong>CALL</strong> or <strong>TEXT</strong> 988 or chat <a href="https://988lifeline.org">988lifeline.org</a>.
   </div>
 </div>
 
@@ -226,65 +228,26 @@ include "header.php";
     </div>
 
     <div class="right">
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Residential Brokerage &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Laura Koppa</strong>, Treasurer, Messmer Catholic Schools &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindshare &nbsp; // &nbsp; <strong>Dan Bird</strong>, Alliance Counseling Center &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
+      <h4>EXECUTIVE DIRECTOR & BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
+      <br>
+
+      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindfulness Entrepreneur &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
       <br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
 
-      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
+      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
-      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, PhD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
+      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, PhD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
-      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Shannon Bushman</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Adam Karnes</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Gen Klinker</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Dan Mau</strong> &nbsp; // &nbsp; <strong>Sarah Parks</strong> &nbsp; // &nbsp; <strong>Conor Quick</strong> &nbsp; // &nbsp; <strong>Kelsey Rice, MS</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong> &nbsp; // &nbsp; <strong>Brittany Rosales</strong><br>
+      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Shannon Bushman</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Adam Karnes</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Gen Klinker</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Dan Mau</strong> &nbsp; // &nbsp; <strong>Sarah Parks</strong> &nbsp; // &nbsp; <strong>Conor Quick</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong><br>
       <br>
-
-      <h4>EXECUTIVE DIRECTOR:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?>
     </div>
   </div>
 </div>
-
-<div id="newsletters">
-  <div class="site-width">
-    <a href="pdf/Kubly_Newsletter_Winter_2023.pdf" class="image"><img src="images/newsletter-winter-2023.webp" alt=""></a>
-
-    <div class="text">
-      <h3>Winter 2023 Newsletter</h3>
-
-      <span>What's Inside</span><br>
-      <span>01.</span> Beyone the Blues 2022<br>
-      <span>03.</span> Giving Voice to Depression<br>
-      <span>04.</span> Projects Funded<br>
-      <span>05.</span> Grant Review Committee<br>
-      <span>06.</span> YLC Updates!<br>
-      <br>
-
-      <h4>Past Newsletters</h4>
-      <div id="past-newsletters">
-        <div>
-          <a href="pdf/Kubly_Newsletter_Summer_2022.pdf">Summer 2022</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2021.pdf">Summer 2021</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2020.pdf">Summer 2020</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2019.pdf">Summer 2019</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2018.pdf">Summer 2018</a><br>
-          <a href="pdf/Kubly_Newsletter_Summer_2017.pdf">Summer 2017</a>
-        </div>
-
-        <div>
-          <a href="pdf/Kubly_Newsletter_Winter_2023.pdf">Winter 2023</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2022.pdf">Winter 2022</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2020.pdf">Winter 2020</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2019.pdf">Winter 2019</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2018.pdf">Winter 2018</a><br>
-          <a href="pdf/Kubly_Newsletter_Winter_2017.pdf">Winter 2017</a>
-        </div>
-      </div> <!-- /#past-newletters -->
-    </div> <!-- /.text -->
-  </div> <!-- /.site-width -->
-</div> <!-- /#newsletters -->
 
 <?php $ArrowNo = "true"; include "footer.php"; ?>

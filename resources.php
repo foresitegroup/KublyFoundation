@@ -33,10 +33,11 @@ include "header.php";
   <br>
   <br>
 
-  <a href="http://www.nami.org" class="logo-link"><img src="images/resources-nami.png" alt="NAMI"></a>
-  <a href="http://mhah.org" class="logo-link"><img src="images/resources-mha.png" alt="MHA"></a>
-  <a href="http://www.save.org" class="logo-link"><img src="images/resources-save.png" alt="SAVE"></a>
-  <a href="http://www.suicidepreventionlifeline.org" class="logo-link spl"><img src="images/resources-spl.png" alt="Suicide Prevention Lifeline"></a>
+  <a href="https://www.mhanational.org" class="logo-link"><img src="images/resources-mha.png" alt="MHA"></a>
+  <a href="http://www.nami.org" class="logo-link"><img src="images/resources-nami.png" alt="NAMI"></a><br>
+  <br>
+  <a href="https://www.samhsa.gov" class="logo-link"><img src="images/resources-samhsa.webp" alt="SAMHSA"></a>
+  <a href="https://www.nimh.nih.gov" class="logo-link spl"><img src="images/resources-nimh.webp" alt="NAtional Institute of Mental Health"></a>
 </div>
 
 <div class="mixitup-header">

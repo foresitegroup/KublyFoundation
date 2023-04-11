@@ -39,7 +39,7 @@ include "header.php";
         <img src="images/facts3.jpg" alt="" class="facts3">
       </div>
 
-      <h3>COMMONLY USED EFFECTIVE ANTIDEPRESSANTS:</h3>
+      <!-- <h3>COMMONLY USED EFFECTIVE ANTIDEPRESSANTS:</h3>
       Selective Serotonin Reuptake Inhibiters (SSRIs), Such as Fluoxetine (Prozac), Sertraline (Zoloft), Paroxetine (Paxil), Citalopram (Celexa), among others.<br>
       <br>
 
@@ -55,7 +55,7 @@ include "header.php";
       Non-Medication Treatment Alternatives for unresponsive depression may include ECT, TMS and VNS.<br>
       <br>
 
-      <em class="smalltext">These are common mediations and procedures in the treatment of depression. Please consult your doctor to determine the medication or treatment appropriate for you.</em>
+      <em class="smalltext">These are common mediations and procedures in the treatment of depression. Please consult your doctor to determine the medication or treatment appropriate for you.</em> -->
     </div>
   </div>
 </div>
@@ -64,11 +64,11 @@ include "header.php";
   <div class="site-width">
     <div class="call-circle">
       <div>
-        CALL THE NATIONAL SUICIDE PREVENTION HOTLINE:
-        <h3>988 <span>OR</span></h3>
-        <h3 style="margin: 0 0 0.5em;">1-800-273-TALK</h3>
-        TEXT THE HOPELINE:
-        <h3>741741</h3>
+        <h3 style="margin-top: 0;">CALL <span>or</span> TEXT</h3>
+        <h3>988</h3>
+        <br>
+        or chat
+        <h3><a href="https://988lifeline.org">988lifeline.org</a></h3>
       </div>
     </div>
 
@@ -112,8 +112,7 @@ include "header.php";
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">988</span> or <span class="bluetext">1-800-273-8255</span><br>
-    TEXT the HOPELINE: <span class="bluetext">741741</span>
+    If you or someone you know is struggling or in crisis, help is available. CALL or TEXT <span class="bluetext">988</span> or chat <a href="https://988lifeline.org" class="bluetext">988lifeline.org</a>.
   </div>
 </div>
 

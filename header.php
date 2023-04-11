@@ -67,7 +67,7 @@ if (!isset($TopDir)) $TopDir = "";
         if ($('#'+location.href.split("#")[1]).length) AnchorScroll('#'+location.href.split("#")[1]);
       });
     </script>
-    
+
     <!-- OLD Google Analytics -- THIS WILL STO[ WORKING JULY 1, 2023 -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -94,7 +94,7 @@ if (!isset($TopDir)) $TopDir = "";
         If you or someone you know is at immediate risk of harm or has harmed themselves <u>CALL 911</u> immediately.<br>
         <br>
 
-        If you are having suicidal thoughts or you are worried about someone you know <strong>CALL</strong> the National Suicide Prevention Lifeline at <u>988</u> or <u>1-800-273-8255</u> or text "<strong>HOPELINE</strong>" to <u>741741</u>.
+        If you or someone you know is struggling or in crisis, help is available. <strong>CALL</strong> or <strong>TEXT</strong> 988 or chat <a href="https://988lifeline.org">988lifeline.org</a>.
       </div>
 
       <?php if (!isset($PageTitle)) { ?>
@@ -107,8 +107,31 @@ if (!isset($TopDir)) $TopDir = "";
         </div>
       </div>
 
-      <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
-      <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true">
+      <?php
+      $files = glob('images/home-headers/*.webp');
+      $file = $files[rand(0, count($files) - 1)];
+      ?>
+
+      <div class="home-banner">
+        <a href="https://www.eventbrite.com/e/2023-fore-the-cause-golf-outing-tickets-524807442187" id="dogear">
+          <div>
+            2023 Fore the Cause Golf Outing
+            <span>Sat, June 10, 2023 at 10 AM</span>
+          </div>
+        </a>
+        <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
+          <div class="credit">Photo by Curt Lundeen</div>
+          <div class="site-width">
+            <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
+
+            <a href="donate.php" class="button">DONATE</a>
+            <a href="foundation.php" class="learnmore">LEARN MORE</a>
+          </div>
+        </div>
+      </div>
+
+<!--       <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
+      <div class="cycle-slideshow home-banner" data-cycle-slides="> div" data-cycle-timeout="5000" data-cycle-pause-on-hover="true"> -->
         <!-- <a href="beyond-the-blues.php" id="dogear">
           <div>
             Purchase 2022 "BEYOND THE BLUES" TICKETS at the door
@@ -156,21 +179,21 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
 
-        <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
+<!--         <div class="home-banner-slide dogear" style="background-image: url(images/home-banner.jpg);">
           <div class="site-width">
             <h1>A PUBLIC CHARITY DEVOTED TO IMPROVING THE LIVES OF THOSE WITH DEPRESSION</h1>
 
             <a href="donate.php" class="button">DONATE</a>
             <a href="foundation.php" class="learnmore">LEARN MORE</a>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="home-banner-slide btb" style="background-image: url(images/btb-banner-2020.jpg);">
           <div class="site-width">
             <div class="image">
               <img src="images/beyond-the-blues-2020-logo.png" alt="Beyond the Blues 2020">
             </div>
-            
+
             <div class="text">
               This year only! Our much-loved, annual Beyond the Blues event transforms into a weeklong campaign to support mental health and suicide prevention.  Click below to make a donation of any size or to become a Blues Backer or Campaign Sponsor.<br>
 
@@ -179,7 +202,7 @@ if (!isset($TopDir)) $TopDir = "";
             </div>
           </div>
         </div> -->
-      </div>
+      <!-- </div> -->
       <?php } ?>
 
       <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">

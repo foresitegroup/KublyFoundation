@@ -348,6 +348,18 @@ A.my-menu-toggle {
   display: block;
 }
 
+.home-banner .home-banner-slide .credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.75);
+/*  color: #FFFFFF;*/
+  font-size: 10px;
+  line-height: 1;
+  padding: 0.5em;
+}
+
 .home-banner .home-banner-slide .site-width {
   position: relative;
   top: 50%;

@@ -12,7 +12,8 @@
           <a href="https://www.facebook.com/Charles-E-Kubly-FoundationBeyond-the-Blues-284170516290/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <!-- <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
           <a href="https://www.youtube.com/channel/UCaCjuonRqJgEgAau-bJpybg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-          <!-- <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
+          <a href="https://www.instagram.com/charlesekublyfoundation/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company/the-charles-e-kubly-foundation/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
         </div>
 
         <div class="footer-menu">

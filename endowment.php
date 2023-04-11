@@ -20,18 +20,14 @@ include "header.php";
 <div id="endowment-gift">
   <div class="site-width">
     <h2>A Gift from the Heart</h2>
-    In 2018, dedicated CEKF supporters Michael and Jeanne Schmitz, made a significant commitment of $500,000 to establish The Joey Schmitz & Charlie Kubly Endowment Fund. Like their dear friends, Billie and the late Dr. Michael Kubly, the Schmitzes also lost a beloved son, Joey, to depression and suicide.  The endowment fund memorializes both young men by establishing a consistent source of future investment income to support the mission and grant-making of The Charles E. Kubly Foundation.<br>
+    In 2018, dedicated CEKF supporters Michael and Jeanne Schmitz, made a significant commitment of $500,000 to establish The Joey Schmitz & Charlie Kubly Endowment Fund. Like their dear friends, Billie and the late Dr. Michael Kubly, the Schmitzes also lost a beloved son, Joey, to depression and suicide. The endowment fund memorializes both young men by establishing a consistent source of future investment income to support the mission and grant-making of The Charles E. Kubly Foundation. Since this fund was established the Foundation was able to match their extremely generous gift and now is valued at approximately $1 million.<br>
     <br>
 
-    Jeanne Schmitz passed away in early 2019.  As we remember her, we appreciate not only the foresight that Mike and Jeanne demonstrated in making this gift but their deep compassion for those struggling with depression.<br>
-    <br>
-
-    <h2>Our Mission</h2>
-    We seek to better the lives of those affected by depression by increasing awareness of the disease and its devastating effects, eliminating the stigma associated with it, supporting suicide prevention programs and promoting improved access to quality mental health resources within communities.
+    Jeanne Schmitz passed away in early 2019. As we remember her, we appreciate not only the foresight that Mike and Jeanne demonstrated in making this gift but their deep compassion for those struggling with depression.
   </div>
 </div>
 
-<div id="endowment-goal">
+<!-- <div id="endowment-goal">
   <div class="site-width">
     <?php
     $TotalRaised = 1008135;
@@ -75,7 +71,7 @@ include "header.php";
     <h2>Our Endowment Goal</h2>
     The $500,000 Schmitz endowment gift was announced publicly at the September 21, 2018 Beyond the Blues event, the CEKF's largest annual fundraiser, to a crowd of more than 400 guests.  The CEKF Board set a goal to reach a total of $1 million for the new endowment fund in 2019.
   </div>
-</div>
+</div> -->
 
 <!-- <div id="endowment-power">
   <div class="site-width">
