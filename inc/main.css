@@ -1303,6 +1303,53 @@ A.my-menu-toggle {
   text-decoration: none;
 }
 
+#golf {
+  display: flex;
+  align-items: center;
+  background: #1690C7;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#golf .image {
+  width: 33%;
+  align-self: stretch;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#golf .title {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 0 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#golf .title H3 {
+  margin: 0 0 0.5em;
+  font-weight: 800;
+  font-size: 200%;
+  line-height: 1.1;
+}
+
+#golf .text {
+  width: 33%;
+  box-sizing: border-box;
+  padding: 3em 2% 3em 0;
+  font-size: 16px;
+}
+
+#golf .text .button {
+  margin-top: 2rem;
+  border-radius: 20px;
+  padding: 0.65em 1.2em 0.7em;
+  background: #112C37;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 #newsletters {
   background: #1690C7;
   color: #FFFFFF;
@@ -4009,6 +4056,11 @@ A.featured-read:active {
   .scrolling-menu .menu UL LI A:visited {
     font-size: 1.45vw;
   }
+  
+  #golf { flex-wrap: wrap; }
+  #golf .image { order: 3; width: 100%; }
+  #golf .image:before { content: ""; display: block; padding-top: 50%; }
+  #golf .title, #golf .text { width: 50%; }
 }
 
 @media only screen and (max-width: 900px) {
@@ -4377,6 +4429,10 @@ A.featured-read:active {
   #endowment-goal H3 { font-size: 6vw; }
   #endowment-goal H4 { font-size: 17vw; }
   .inner-therm SPAN { font-size: 4vw; }
+
+  #golf .title, #golf .text { width: 100%; padding: 3em 2%; }
+  #golf .title { padding-bottom: 1.5em; }
+  #golf .text { padding-top: 0; }
 }
 
 @media only screen and (max-width: 600px) {

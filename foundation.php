@@ -219,6 +219,19 @@ include "header.php";
   </div>
 </div>
 
+<div id="golf">
+  <div class="image" style="background-image: url(images/golf-outing-2023.webp);"></div>
+  <div class="title">
+    <h3>2023 For The Cause Golf Outing</h3>
+    Sat, June 10, 2023 at 10AM
+  </div>
+  <div class="text">
+    The Charles E. Kubly Foundation Young Leaders Council is hosting their 3rd annual golf outing on Saturday, June 10th at the Silver Spring Golf Course in Menomonee Falls (Now called The Preserve)! The day will include 18 rounds of golf and social time at the end of the outing to include passed apps and placing announcements. Guests will also be allowed to come socialize while the golfers play and join the social time at the end of the event.<br>
+    
+    <a href="https://www.eventbrite.com/e/2023-fore-the-cause-golf-outing-tickets-524807442187" class="button">Buy Tickets Now</a>
+  </div>
+</div>
+
 <div id="board-leadership">
   <div class="site-width">
     <div class="left">
