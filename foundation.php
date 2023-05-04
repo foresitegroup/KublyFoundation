@@ -244,7 +244,7 @@ include "header.php";
       <h4>EXECUTIVE DIRECTOR & BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
       <br>
 
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindfulness Entrepreneur &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
+      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Nick Hengst</strong>, Treasurer, Manpower Group &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindfulness Entrepreneur &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
       <br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
