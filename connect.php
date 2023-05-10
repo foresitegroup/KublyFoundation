@@ -115,7 +115,7 @@ include "header.php";
       <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> <label for="c-subscribe"><span></span>I would like to receive the Charles E. Kubly Foundation newsletter and event information.</label>
       <br>
 
-      <input type="checkbox" name="ambassador" value="yes" id="c-ambassador"> <label for="c-ambassador"><span></span>I am interested in becoming a CEKF Ambassador.</label>
+      <input type="checkbox" name="ambassador" value="yes" id="c-ambassador"> <label for="c-ambassador"><span></span>I am interested in becoming a CEKF / YLC Ambassador.</label>
       <br>
 
       <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->

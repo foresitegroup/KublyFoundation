@@ -121,8 +121,7 @@ include "header.php";
   <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
   <div class="site-width">
     For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you are having suicidal thoughts or worried about someone you know CALL the National Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span><br>
-    TEXT the HOPELINE: <span class="bluetext">741741</span>
+    If you or someone you know is struggling or in crisis, help is available. CALL or TEXT <span class="bluetext">988</span> or chat <a href="https://988lifeline.org" class="bluetext">988lifeline.org</a>.
   </div>
 </div>
 
