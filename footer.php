@@ -18,6 +18,7 @@
 
         <div class="footer-menu">
           <a href="<?php echo $TopDir; ?>connect.php">CONTACT</a>
+          <a href="<?php echo $TopDir; ?>young-leaders-council.php">YLC</a>
           <a href="<?php echo $TopDir; ?>donate.php">DONATE</a>
           <a href="<?php echo $TopDir; ?>endowment.php">ENDOWMENT</a>
           <a href="l<?php echo $TopDir; ?>egal.php">LEGAL</a>

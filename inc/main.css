@@ -1274,6 +1274,30 @@ A.my-menu-toggle {
   width: 40%;
 }
 
+#board-leadership .left .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+
+#board-leadership .left .flex IMG {
+  width: 36.5%;
+  height: auto;
+}
+
+#board-leadership .left .flex > DIV {
+  width: 57.5%;
+}
+
+#board-leadership .left .flex > DIV A {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#board-leadership .left .flex > DIV A:hover { color: #0E8DC8; }
+
 #board-leadership .right {
   float: right;
   width: 56%;
@@ -1301,53 +1325,6 @@ A.my-menu-toggle {
 #board-leadership A {
   color: #EBEBEB;
   text-decoration: none;
-}
-
-#golf {
-  display: flex;
-  align-items: center;
-  background: #1690C7;
-  color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#golf .image {
-  width: 33%;
-  align-self: stretch;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#golf .title {
-  width: 33%;
-  box-sizing: border-box;
-  padding: 0 2em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-#golf .title H3 {
-  margin: 0 0 0.5em;
-  font-weight: 800;
-  font-size: 200%;
-  line-height: 1.1;
-}
-
-#golf .text {
-  width: 33%;
-  box-sizing: border-box;
-  padding: 3em 2% 3em 0;
-  font-size: 16px;
-}
-
-#golf .text .button {
-  margin-top: 2rem;
-  border-radius: 20px;
-  padding: 0.65em 1.2em 0.7em;
-  background: #112C37;
-  font-size: 18px;
-  text-transform: uppercase;
 }
 
 #newsletters {
@@ -3961,6 +3938,150 @@ A.featured-read:active {
 }
 
 
+/* YOUTH LEADERSHIP COUNCIL */
+#ylc-banner {
+  background: url(../images/ylc-header.webp) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+#ylc-banner IMG {
+  margin: 3.9375rem 0;
+  transform: translateX(-54%);
+  max-width: 100%;
+  height: auto;
+}
+
+#ylc {
+  padding: 2.5em 0;
+  background: #0E8DC8;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+#ylc-events {
+  padding: 3em 0;
+  background: #112C37;
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#ylc-events H2 {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 450%;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+#ylc-events .ylc-event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#ylc-events .ylc-event .image {
+  width: 33.5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#ylc-events .ylc-event .image:before { content: ""; display: block; padding-top: 66.79104%; }
+
+#ylc-events .ylc-event .title {
+  width: 27%;
+  font-weight: 700;
+  font-size: 125%;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+#ylc-events .ylc-event .title H3 {
+  margin: 0 0 0.75em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 195%;
+}
+
+#ylc-events .ylc-event .text {
+  width: 27%;
+  margin-right: 6.25%;
+  box-sizing: border-box;
+}
+
+#ylc-events .ylc-event .text .button {
+  padding: 0.57em 1.4em 0.6em 1.5em;
+  font-size: 112.5%;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+#ylc-events .ylc-event .text .button:hover {
+  background: #FFFFFF;
+  color: #112C37;
+}
+
+#ylc-form-wrap {
+  background: #0E8DC8;
+  color: #FFFFFF;
+}
+
+#ylc-form-wrap H2 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 3.75rem;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#ylc-form-wrap #connect-form .required {
+  padding: 0 0 0.75em;
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+#ylc-form-wrap #connect-form INPUT[type="text"],
+#ylc-form-wrap #connect-form INPUT[type="email"] {
+  padding: 0.8em 1.5em;
+  border-radius: 1.875rem;
+}
+
+#ylc-form-wrap #connect-form INPUT[type="checkbox"]#c-subscribe + LABEL,
+#ylc-form-wrap #connect-form INPUT[type="checkbox"]#c-ambassador + LABEL {
+  color: #FFFFFF;
+}
+
+#ylc-form-wrap #connect-form INPUT[type="checkbox"]#c-subscribe + LABEL:before,
+#ylc-form-wrap #connect-form INPUT[type="checkbox"]#c-ambassador + LABEL:before {
+  background: #D7D7D7;
+}
+
+#ylc-form-wrap #connect-form INPUT[type="checkbox"]#c-subscribe:checked + LABEL:before,
+#ylc-form-wrap #connect-form INPUT[type="checkbox"]#c-ambassador:checked + LABEL:before {
+  border-color: #D7D7D7;
+  background: #112C37;
+}
+
+#ylc-form-wrap #connect-form INPUT[type="submit"] {
+  background: #FFFFFF;
+  color: #0E8DC8;
+  text-transform: uppercase;
+}
+
+#ylc-form-wrap #connect-form INPUT[type="submit"]:hover {
+  background: #112C37;
+}
+
+
 
 
 
@@ -4049,6 +4170,8 @@ A.featured-read:active {
   }
 
   /*#tickets { width: 65%; }*/
+
+  #ylc-banner IMG { transform: none; }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -4056,11 +4179,11 @@ A.featured-read:active {
   .scrolling-menu .menu UL LI A:visited {
     font-size: 1.45vw;
   }
-  
-  #golf { flex-wrap: wrap; }
-  #golf .image { order: 3; width: 100%; }
-  #golf .image:before { content: ""; display: block; padding-top: 50%; }
-  #golf .title, #golf .text { width: 50%; }
+
+  #ylc-events .ylc-event { flex-wrap: wrap; }
+  #ylc-events .ylc-event .image { width: 50%; }
+  #ylc-events .ylc-event .title { width: 45%; margin-right: 2%; }
+  #ylc-events .ylc-event .text { width: 96%; margin: 1em auto 0; }
 }
 
 @media only screen and (max-width: 900px) {
@@ -4431,10 +4554,13 @@ A.featured-read:active {
   #endowment-goal H3 { font-size: 6vw; }
   #endowment-goal H4 { font-size: 17vw; }
   .inner-therm SPAN { font-size: 4vw; }
+}
 
-  #golf .title, #golf .text { width: 100%; padding: 3em 2%; }
-  #golf .title { padding-bottom: 1.5em; }
-  #golf .text { padding-top: 0; }
+@media only screen and (max-width: 640px) {
+  #ylc-banner IMG { max-width: 96%; }
+
+  #ylc-events .ylc-event .image { width: 100%; }
+  #ylc-events .ylc-event .title { width: 96%; margin: 1em auto 0; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -5221,6 +5347,9 @@ A.featured-read:active {
   #endowment-banner { margin-top: 105px; }
 
   [id^="endowment-"]:not(#endowment-banner) H2 { font-size: 12.6vw; }
+
+  #ylc-events H2 { font-size: 15vw; }
+  #ylc-form-wrap H2 { font-size: 12.5vw; }
 }
 
 @media only screen and (max-width: 450px) {
