@@ -4326,6 +4326,8 @@ A.featured-read:active {
     padding: 0;
   }
 
+  .mm-listview > li.incrisis > a { color: #C22838; }
+
   .mm-menu .mm-navbar A {
     line-height: 40px;
   }
