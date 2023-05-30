@@ -33,6 +33,7 @@ include "header.php";
       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?><!-- <br>6:30PM --></h2>
       <br>
 
+      Tickets on sale August 1<sup>ST</sup>
       <!-- Tickets may be purchased at the door -->
       <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> --><br>
       <br>
