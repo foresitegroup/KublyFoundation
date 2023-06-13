@@ -19,7 +19,7 @@ include "header.php";
   </div> <!-- /.site-width -->
 </div> <!-- /#ylc -->
 
-<div id="ylc-events">
+<!-- <div id="ylc-events">
   <h2 class="site-width">Upcoming Events</h2>
 
   <div class="ylc-event">
@@ -36,8 +36,8 @@ include "header.php";
 
       <a href="https://www.eventbrite.com/e/2023-fore-the-cause-golf-outing-tickets-524807442187" class="button">Buy Tickets Now</a>
     </div>
-  </div> <!-- /.event -->
-</div> <!-- /#ylc-events -->
+  </div>
+</div> -->
 
 <div id="ylc-form-wrap">
   <div class="site-width connect">

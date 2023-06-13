@@ -113,12 +113,12 @@ if (!isset($TopDir)) $TopDir = "";
       ?>
 
       <div class="home-banner">
-        <a href="https://www.eventbrite.com/e/2023-fore-the-cause-golf-outing-tickets-524807442187" id="dogear">
+<!--         <a href="https://www.eventbrite.com/e/2023-fore-the-cause-golf-outing-tickets-524807442187" id="dogear">
           <div>
             2023 Fore the Cause Golf Outing
             <span>Sat, June 10, 2023 at 10 AM</span>
           </div>
-        </a>
+        </a> -->
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>
           <div class="site-width">
