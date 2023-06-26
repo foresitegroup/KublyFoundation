@@ -28,7 +28,7 @@ include "header.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    CEKF HAS FUNDED OVER $3.9 MILLION TO 400 PROJECTS SINCE 2003
+    CEKF HAS FUNDED OVER $3.6 MILLION TO 412 PROJECTS SINCE 2003
   </div>
 </div>
 
@@ -46,121 +46,86 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> Boys & Girls Club -- Greater Milwaukee</h3>
+      <h3><span class="bluetext">01.</span> Christian Family Solutions</h3>
       <div class="content">
-        "Train the Trainer" trauma-informed care training from Wellpoint Care Networks along with Mental Health First Aid training, ultimately benefitting 172 total staff members.
+        Parent education and peer mentoring program for families enrolled in their day treatment program using Trust Based Relational Intervention. TBRI equips parents with skills needed to help their children heal from past relational traumas and improve their long term outcomes.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> Carroll University</h3>
+      <h3><span class="bluetext">02.</span> Eastbrook Academy</h3>
       <div class="content">
-        "Depression on College Campuses" 2-day conference registration for two Carroll University campus therapists.
+        Supplies, materials, facility improvements, sensory room needs and further support for newly implemented school mental health program.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> Chrysalis, Inc.</h3>
+      <h3><span class="bluetext">03.</span> The Friendship Circle</h3>
       <div class="content">
-        Support of "Stories of Hope" storytelling events using The MOTHMadison Story Slam programming. This includes video production of the events for continued share with the community to reduce stigma and show stories of hope and healing.
+        Funding for "One Thing I Wish I Knew"; a speaker event with shared personal stories of strength and hope, showcasing their resilience in face of mental health struggles.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> Giving Voice to Mental Illness, Inc.</h3>
+      <h3><span class="bluetext">04.</span> Gathering on the Green, Inc.</h3>
       <div class="content">
-        CEKF branded support of the Giving Voice to Depression produced video called "Pulling Back the Curtain on Depression's Lies" which includes plans for screening rights of other mental health organizations and co-branding.
+        Supporting Stages program support to engage audiences and bring awareness to community mental health resources.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> The Highground Veterans Memorial Park</h3>
+      <h3><span class="bluetext">05.</span> Institutional Ministries</h3>
       <div class="content">
-        Funding for Veteran peer support program which includes featured speakers and resource materials for ongoing mental health support.
+        First Responder support programming including support groups and the design and release of a moral injury brochure. Additional funding provided for QPR (Question, Persuade, Refer) training.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> International Association for Human Values</h3>
+      <h3><span class="bluetext">06.</span> Lutheran Social Services of WI & Upper Michigan</h3>
       <div class="content">
-        Two year implementation of Social Emotional Learning and SKY Schools breathwork programming for District 4 Milwaukee Public Schools.
+        School Centered Mental Health services to remove systemic barriers to treatment for Milwaukee area children of color impacted by healthcare disparities and inequities.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> Lutheran Counseling and Family Services</h3>
+      <h3><span class="bluetext">07.</span> MKE Urban Stables</h3>
       <div class="content">
-        School staff training on identifying depression in students, accompanied by resources including "in-the-moment" coping strategies, calm down boxes and a created binder encompassing available supportive services.
+        Equine assisted therapy and learning program to build self-esteem, improve social skills, build confidence and better relationships for at-risk youth in Milwaukee.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> Mount Mary University</h3>
+      <h3><span class="bluetext">08.</span> Milwaukee Academy of Science</h3>
       <div class="content">
-        Funding for campus "Voices of Leadership" event featuring speaker Diano Chao who founded Letters to Strangers. The event's focus is destigmatizing mental health and serves students at Mount Mary as well as local business leaders.
+        Continuum of art therapy project for middle school students in order to promote healing from trauma, decrease depression and anxiety and improve mental wellness.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> NAMI Racine County</h3>
+      <h3><span class="bluetext">09.</span> Milwaukee Youth Theatre, Inc.</h3>
       <div class="content">
-        Support for mental health services for people with depression and mental illness, and their families. This support is for the underserved western area of Racine County.
+        Summer Theatre Arts Program for Milwaukee Academy in an effort to raise self esteem and improve social skills for participants.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> NorthLakes Community Clinic</h3>
+      <h3><span class="bluetext">10.</span> PIUS XI Catholic High School</h3>
       <div class="content">
-        Funding for resilience-building materials and resources utilized by their school based behavioral health program.
+        Comprehensive School-Based Mental Health Support and Family Engagement partnered with Children's Wisconsin to meet increased "in the moment" student needs.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Radio Milwaukee</h3>
+      <h3><span class="bluetext">11.</span> REDgen</h3>
       <div class="content">
-        A grant to support the Grace Weber Music Lab with a visiting music therapist, mental health professionals conducting Amplifier workshops and a Storyteller in Residence.
+        Funding to support and strengthen REDgen Education Program through an enhanced speaker series, Spanish language education for collaborative suicide prevention programming of 16th Street Community Clinics and Notre Dame School of Milwaukee, educational videos, QPR training for leadership and a social media campaign.
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> Sanctuary Mental Health Ministries</h3>
+      <h3><span class="bluetext">12.</span> Shield of Sisters</h3>
       <div class="content">
-        Canadian-based SMHM global launch -- Wisconsin. Funding for a public workshop for those who have expressed interest in this faith-based mental health programming and would like to bring it to their church, organization or educational institution.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">13.</span> Sirona Recovery</h3>
-      <div class="content">
-        A grant for support of the well-used COPE line that has been under the Sirona Recovery umbrella for several years.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">14.</span> Staying on Track</h3>
-      <div class="content">
-        Support of the relaunch of the stage production, "Pieces", which showcases personal accounts of living with different mental health diagnoses. This funding also will support the ASK outreach program which targets underserved Milwaukee area residents.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">15.</span> University of Wisconsin Milwaukee</h3>
-      <div class="content">
-        Funding to provide social work telemental health education in the prevention and intervention of depression and death by suicide.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">16.</span> University of Wisconsin Milwaukee Foundation</h3>
-      <div class="content">
-        With services by Growing Minds, this grant will support 3 mindfulness workshops within the Lubar Entrepreneurship Center held on campus with wrap around services included.
-      </div>
-    </div>
-
-    <div>
-      <h3><span class="bluetext">17.</span> Wisconsin Health Literacy</h3>
-      <div class="content">
-        BIPOC educational programming called "Let's Talk About Coping". This program includes "train the trainer" education and outreach to the public to bring better mental health understanding to underserved families.
+        A grant to support Restoration Retreats for female active duty/reserve/guard and veterans that have suffered the impacts of military sexual trauma. Retreats provide tools to prevent suicide, peer support and referrals for aftercare.
       </div>
     </div>
   </div>
