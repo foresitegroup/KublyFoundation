@@ -68,16 +68,6 @@ if (!isset($TopDir)) $TopDir = "";
       });
     </script>
 
-    <!-- OLD Google Analytics -- THIS WILL STO[ WORKING JULY 1, 2023 -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-37958686-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X0SMH5HXJ"></script>
     <script>
@@ -113,12 +103,13 @@ if (!isset($TopDir)) $TopDir = "";
       ?>
 
       <div class="home-banner">
-<!--         <a href="https://www.eventbrite.com/e/2023-fore-the-cause-golf-outing-tickets-524807442187" id="dogear">
+        <a href="tickets.php" id="dogear">
           <div>
-            2023 Fore the Cause Golf Outing
-            <span>Sat, June 10, 2023 at 10 AM</span>
+            Purchase 2023 "BEYOND THE BLUES" TICKETS now
+            <span>Fri, September 29, 2023</span>
           </div>
-        </a> -->
+        </a>
+
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>
           <div class="site-width">

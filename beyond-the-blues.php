@@ -33,9 +33,10 @@ include "header.php";
       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?><!-- <br>6:30PM --></h2>
       <br>
 
-      Tickets on sale August 1<sup>ST</sup>
+      <!-- Tickets on sale August 1<sup>ST</sup> -->
       <!-- Tickets may be purchased at the door -->
-      <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> --><br>
+      <a href="tickets.php" class="button">PURCHASE TICKETS</a>
+      <br>
       <br>
 
       To sponsor Beyond the Blues, contact Kris Rick @ 414-477-9959
@@ -68,12 +69,12 @@ include "header.php";
     <h2>BEYOND THE BLUES 2022 SPONSORS</h2>
 
     <div class="one-third">
-      <!-- <h3>Sapphire Level - $20,000</h3>
+      <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Colony Brands</li>
         <li>Meg Fetherston Kasch & Libby Kasch</li>
         <li>Billie Kubly</li>
-      </ul> -->
+      </ul>
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
@@ -84,6 +85,7 @@ include "header.php";
       <ul>
         <li>Continental Properties Company, Inc.</li>
         <li>The Hauske Family Foundation</li>
+        <li>Cathy & Paul Luber</li>
         <li>The Sarah & Michael Weiss Family</li>
       </ul>
 
@@ -112,12 +114,16 @@ include "header.php";
         <li>Anonymous (2)</li>
         <li>Elizabeth & Andrew Bruce</li>
         <li>Kathleen & Jim Caragher</li>
+        <li>Anna & George Gaspar</li>
         <li>Patty & Mike Grebe</li>
         <li>Hammes Family Foundation</li>
         <li>Susan & Lee Jennings</li>
+        <li>Stacey & John Koss</li>
+        <li>Mary Ann & Charles LaBahn</li>
         <li>Mary S. Lillydahl</li>
         <li>Katie & Mark Mohr</li>
         <li>Jennifer & Mitchell Prosk</li>
+        <li>Peggy & Ned Purtell</li>
         <li>Peggy & Bob Schuemann</li>
         <li>Nancy & Greg Smith</li>
         <li>Julianne & Stephen Spadafora</li>
@@ -131,11 +137,14 @@ include "header.php";
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
+        <li>Ace Enterprises</li>
         <li>Amy Argall</li>
         <li>Aversa for Her -- Bayshore</li>
         <li>Bank Five Nine</li>
+        <li>Deanna Braeger</li>
         <li>Maripat & Tom Dalum</li>
         <li>Molly & Charlie Dixon</li>
+        <li>Marilyn Haker</li>
         <li>Diane & Bob Jenkins</li>
         <li>Jayne J. Jordan</li>
         <li>Maryglen & Rob Kieckhefer</li>
@@ -143,10 +152,14 @@ include "header.php";
         <li>LFF Foundation</li>
         <li>Linda & John Mellowes</li>
         <li>Kristin & Kerry Rick</li>
+        <li>Kris & Robert Rick</li>
         <li>Julie & Mason Ross</li>
+        <li>Jen & Todd Schoon</li>
+        <li>Barbie Sullivan</li>
         <li>Jennifer & Joseph Teglia</li>
         <li>Betsy Trimble</li>
         <li>Barbara & Bob Whealon</li>
+        <li>Abby & Scott Williams</li>
         <li>Amy & Devin Wolf</li>
       </ul>
 
