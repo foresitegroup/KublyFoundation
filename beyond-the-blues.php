@@ -78,29 +78,35 @@ include "header.php";
 
       <h3>Aqua Level - $10,000</h3>
       <ul>
+        <li>William & Sandy Heitz Family Foundation</li>
         <li>Michael Schmitz</li>
       </ul>
 
       <h3>Teal Level - $5,000</h3>
       <ul>
         <li>Continental Properties Company, Inc.</li>
+        <li>Charles T. & Jean F. Gorham Fund of the Oshkosh Area Community Foundation</li>
         <li>The Hauske Family Foundation</li>
         <li>Cathy & Paul Luber</li>
+        <li>Rogers Behavioral Health</li>
+        <li>Kate & John Wasmer</li>
         <li>The Sarah & Michael Weiss Family</li>
       </ul>
 
       <h3>Turquoise Level - $2,500</h3>
       <ul>
+        <li>Milwaukee Admirals/Anon Charitable Trust</li>
         <li>Lisa & Souheil Badran</li>
         <li>The Bourne Family</li>
         <li>Crescent Grove Advisors</li>
         <li>Nancy & John Dickens/Godfrey & Kahn, S.C.</li>
+        <li>Executive Benefits Network – David & Molly Fritz</li>
         <li>Ellen & Richard Glaisner</li>
         <li>Ann M. Goris</li>
         <li>Sally & Chip Kubly</li>
         <li>Bill & Catherine Perez</li>
         <li>Waukesha County Community Foundation/Laura M. Gralton Charitable Fund</li>
-        <li>Angela & Ross Williams</li>
+        <li>Angela & Ross Williams in memory of Charlie Kubly</li>
       </ul>
 
       <!-- <br>
@@ -114,6 +120,7 @@ include "header.php";
         <li>Anonymous (2)</li>
         <li>Elizabeth & Andrew Bruce</li>
         <li>Kathleen & Jim Caragher</li>
+        <li>Jose Carlino Design</li>
         <li>Anna & George Gaspar</li>
         <li>Patty & Mike Grebe</li>
         <li>Hammes Family Foundation</li>
@@ -130,6 +137,7 @@ include "header.php";
         <li>Kathleen & Frank Thometz</li>
         <li>Debbie & Camp Van Dyke</li>
         <li>Ellen & Bob Venable</li>
+        <li>Brooke & Robert Walker</li>
         <li>Mary & Willard Walker</li>
       </ul>
     </div>
@@ -139,11 +147,12 @@ include "header.php";
       <ul>
         <li>Ace Enterprises</li>
         <li>Amy Argall</li>
-        <li>Aversa for Her -- Bayshore</li>
+        <li>Aversa for Her – Bayshore</li>
         <li>Bank Five Nine</li>
         <li>Deanna Braeger</li>
         <li>Maripat & Tom Dalum</li>
         <li>Molly & Charlie Dixon</li>
+        <li>The Grebe Family</li>
         <li>Marilyn Haker</li>
         <li>Diane & Bob Jenkins</li>
         <li>Jayne J. Jordan</li>
@@ -157,6 +166,7 @@ include "header.php";
         <li>Jen & Todd Schoon</li>
         <li>Barbie Sullivan</li>
         <li>Jennifer & Joseph Teglia</li>
+        <li>Bonnie & Ned Timarac</li>
         <li>Betsy Trimble</li>
         <li>Barbara & Bob Whealon</li>
         <li>Abby & Scott Williams</li>
