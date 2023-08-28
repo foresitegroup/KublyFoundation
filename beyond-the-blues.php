@@ -18,19 +18,18 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <br><br>
-
-      20th Anniversary Beyond the Blues - 2023<br>
+      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
       <br>
 
-      Save the Date
-
-      <!-- Discovery World Pier Wisconsin Pavilion<br>
+      The Pavilion at Discovery World Pier Wisconsin<br>
       500 N. Harbor Drive<br>
-      Milwaukee, WI 53202<br> -->
+      6:30 -- 9:30 p.m.<br>
       <br>
-
-      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?><!-- <br>6:30PM --></h2>
+      Featuring Music by The Dan Dance Trio & Phil Norby and fare by Bartolotta Catering<br>
+      <br>
+      Cash Bar<br>
+      <br>
+      Blue Jean Casual<br>
       <br>
 
       <!-- Tickets on sale August 1<sup>ST</sup> -->
@@ -39,7 +38,7 @@ include "header.php";
       <br>
       <br>
 
-      To sponsor Beyond the Blues, contact Kris Rick @ 414-477-9959
+      For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959.
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
@@ -100,7 +99,7 @@ include "header.php";
         <li>The Bourne Family</li>
         <li>Crescent Grove Advisors</li>
         <li>Nancy & John Dickens/Godfrey & Kahn, S.C.</li>
-        <li>Executive Benefits Network – David & Molly Fritz</li>
+        <li>Executive Benefits Network -- David & Molly Fritz</li>
         <li>Ellen & Richard Glaisner</li>
         <li>Ann M. Goris</li>
         <li>Sally & Chip Kubly</li>
@@ -147,7 +146,7 @@ include "header.php";
       <ul>
         <li>Ace Enterprises</li>
         <li>Amy Argall</li>
-        <li>Aversa for Her – Bayshore</li>
+        <li>Aversa for Her -- Bayshore</li>
         <li>Bank Five Nine</li>
         <li>Deanna Braeger</li>
         <li>Maripat & Tom Dalum</li>
