@@ -71,6 +71,7 @@ include "header.php";
       <h3>Sapphire Level - $20,000</h3>
       <ul>
         <li>Colony Brands</li>
+        <li>Christine & Peter Drake</li>
         <li>Meg Fetherston Kasch & Libby Kasch</li>
         <li>Billie Kubly</li>
       </ul>
@@ -100,7 +101,7 @@ include "header.php";
 <li>Crescent Grove Advisors</li>
 <li>David Michael Darrow Memorial Fund/Greater Milwaukee Foundation</li>
 <li>Nancy & John Dickens/Godfrey & Kahn, S.C.</li>
-<li>Executive Benefits Network -- David & Molly Fritz</li>
+<li>Executive Benefits Network – David & Molly Fritz</li>
 <li>Ellen & Richard Glaisner</li>
 <li>Ann M. Goris</li>
 <li>Sally & Chip Kubly</li>
@@ -154,7 +155,7 @@ include "header.php";
       <ul>
 <li>Ace Enterprises</li>
 <li>Amy Argall</li>
-<li>Aversa for Her -- Bayshore</li>
+<li>Aversa for Her – Bayshore</li>
 <li>Bank Five Nine</li>
 <li>Sally & Peter Blommer</li>
 <li>Ginny Bolger</li>
