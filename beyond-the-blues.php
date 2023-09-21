@@ -65,7 +65,7 @@ include "header.php";
   <div class="site-width">
     <!-- <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1> -->
 
-    <h2>BEYOND THE BLUES 2022 SPONSORS</h2>
+    <h2>BEYOND THE BLUES 2023 SPONSORS</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
@@ -98,11 +98,13 @@ include "header.php";
 <li>Lisa & Souheil Badran</li>
 <li>The Bourne Family</li>
 <li>Crescent Grove Advisors</li>
+<li>David Michael Darrow Memorial Fund/Greater Milwaukee Foundation</li>
 <li>Nancy & John Dickens/Godfrey & Kahn, S.C.</li>
 <li>Executive Benefits Network -- David & Molly Fritz</li>
 <li>Ellen & Richard Glaisner</li>
 <li>Ann M. Goris</li>
 <li>Sally & Chip Kubly</li>
+<li>Marquette University College of Health Sciences</li>
 <li>Bill & Catherine Perez</li>
 <li>Waukesha County Community Foundation/Laura M. Gralton Charitable Fund</li>
 <li>Angela & Ross Williams in memory of Charlie Kubly</li>
@@ -118,6 +120,7 @@ include "header.php";
       <ul>
 <li>Anonymous (2)</li>
 <li>Gwen & Dan Armbrust</li>
+<li>Kerry & John Bolger</li>
 <li>Suzy & John Brennan</li>
 <li>Elizabeth & Andrew Bruce</li>
 <li>Kathleen & Jim Caragher</li>
@@ -126,10 +129,12 @@ include "header.php";
 <li>Patty & Mike Grebe</li>
 <li>Hammes Family Foundation</li>
 <li>Susan & Lee Jennings</li>
+<li>Mary & Ted Kellner</li>
 <li>Stacey & John Koss</li>
 <li>Mary Ann & Charles LaBahn</li>
 <li>Mary S. Lillydahl</li>
 <li>Katie & Mark Mohr</li>
+<li>Candy & Bruce Pindyck</li>
 <li>Jennifer & Mitchell Prosk</li>
 <li>Peggy & Ned Purtell</li>
 <li>Peggy & Bob Schuemann</li>
@@ -151,6 +156,7 @@ include "header.php";
 <li>Amy Argall</li>
 <li>Aversa for Her -- Bayshore</li>
 <li>Bank Five Nine</li>
+<li>Sally & Peter Blommer</li>
 <li>Ginny Bolger</li>
 <li>Deanna Braeger</li>
 <li>Maripat & Tom Dalum</li>
@@ -159,11 +165,15 @@ include "header.php";
 <li>Liz & Rick Gebhardt</li>
 <li>The Grebe Family</li>
 <li>Marilyn Haker</li>
+<li>Libby & Bill Hansen</li>
+<li>Sharon & Don Hansen</li>
 <li>Diane & Bob Jenkins</li>
 <li>Jayne J. Jordan</li>
 <li>Susan Kasten</li>
 <li>Evelyn Kelly</li>
+<li>Julie & John Kennedy</li>
 <li>Maryglen & Rob Kieckhefer</li>
+<li>Lori Kilian in memory of Debbie Thom</li>
 <li>Marlene & John Kreilkamp</li>
 <li>Barbie & Ray Krueger</li>
 <li>LFF Foundation</li>
@@ -175,7 +185,9 @@ include "header.php";
 <li>Mary & John Rickmeier</li>
 <li>Julie & Mason Ross</li>
 <li>Jen & Todd Schoon</li>
+<li>Patty & Peter Schuyler</li>
 <li>Barbie Sullivan</li>
+<li>Mary & Scott Sullivan</li>
 <li>Bonnie & Ned Timarac</li>
 <li>Betsy Trimble</li>
 <li>Barbara & Bob Whealon</li>
