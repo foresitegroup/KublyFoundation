@@ -19,7 +19,13 @@ include "header.php";
           <span class="btb-blue">PLEASE JOIN US ON <?php echo strtoupper(date("F j, Y", $GLOBALS['btbdate'])); ?></span><br>
           Discovery World at Pier Wisconsin<br>
           500 N. Harbor Drive<br>
-          Milwaukee, WI
+          Milwaukee, WI<br>
+          <br>
+
+          <a href="https://www.eventbrite.com/e/beyond-the-blues-2023-20th-anniversary-event-tickets-696797699677" class="button">PURCHASE TICKETS</a><br>
+          <br>
+
+          Tickets are also available at the door
         </div>
       </div> <!-- /.site-width -->
     </div>
@@ -34,7 +40,7 @@ include "header.php";
       });
     </script>
 
-    <form id="tickets" name="_cart" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<!--     <form id="tickets" name="_cart" action="https://www.paypal.com/cgi-bin/webscr" method="post">
       <div>
         <input type="hidden" name="cmd" value="_cart">
         <input type="hidden" name="upload" value="1">
@@ -47,13 +53,13 @@ include "header.php";
         <input type="hidden" name="item_name_2" value="Blues Backer Board Donation">
 
         Send me <input type="text" name="quantity_1"> tickets to Beyond the Blues at $95 each.<br>
-        <br>
+        <br> -->
 
         <!-- I would like to make a donation of $<input type="text" name="amount_2"><br>
         <br>
         <br> -->
 
-        List me on the Blues Backers Board at the event<br>for an additional $100 or more donation: $<input type="text" name="amount_2"><br>
+<!--         List me on the Blues Backers Board at the event<br>for an additional $100 or more donation: $<input type="text" name="amount_2"><br>
         <input type="hidden" name="on0" value="Blues Backer Board Name(s)">
         <input type="text" name="os0" placeholder="List my donation under this name(s)" id="donation_name"><br>
         <br>
@@ -61,7 +67,7 @@ include "header.php";
 
         <input type="submit" name="submit" value="PURCHASE NOW">
       </div>
-    </form>
+    </form> -->
     <!-- Online ticket sales have ended &mdash; please join us and purchase your ticket at the door at Discovery World! See you Saturday! -->
 
     <div id="thankyou" style="display: none;">
