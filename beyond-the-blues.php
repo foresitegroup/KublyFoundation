@@ -34,9 +34,9 @@ include "header.php";
 
       <!-- Tickets on sale August 1<sup>ST</sup> -->
       <!-- Tickets may be purchased at the door -->
-      <a href="tickets.php" class="button">PURCHASE TICKETS</a>
+      <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a>
       <br>
-      <br>
+      <br> -->
 
       For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959.
     </div> <!-- /.header-right -->
@@ -207,9 +207,9 @@ include "header.php";
 <div class="btb-gallery" style="position: relative;">
   <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
   <div class="site-width">
-    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2022</h2>
+    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2023</h2>
     <?php
-    $main_dir = "images/galleries/btb2022";
+    $main_dir = "images/galleries/btb2023";
 
     $files = scandir($main_dir);
 
