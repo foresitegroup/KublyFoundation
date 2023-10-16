@@ -18,7 +18,7 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
+      <!-- <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php //echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
       <br>
 
       The Pavilion at Discovery World Pier Wisconsin<br>
@@ -30,7 +30,7 @@ include "header.php";
       Cash Bar<br>
       <br>
       Blue Jean Casual<br>
-      <br>
+      <br> -->
 
       <!-- Tickets on sale August 1<sup>ST</sup> -->
       <!-- Tickets may be purchased at the door -->
@@ -38,7 +38,10 @@ include "header.php";
       <br>
       <br> -->
 
-      For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959.
+      <!-- For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959. -->
+
+      <br><br><br>
+      Thank you to all who attended our 20th Anniversary Beyond the Blues!<br>See you next year!
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
@@ -101,7 +104,7 @@ include "header.php";
 <li>Crescent Grove Advisors</li>
 <li>David Michael Darrow Memorial Fund/Greater Milwaukee Foundation</li>
 <li>Nancy & John Dickens/Godfrey & Kahn, S.C.</li>
-<li>Executive Benefits Network – David & Molly Fritz</li>
+<li>Executive Benefits Network -- David & Molly Fritz</li>
 <li>Ellen & Richard Glaisner</li>
 <li>Ann M. Goris</li>
 <li>Sally & Chip Kubly</li>
@@ -147,6 +150,7 @@ include "header.php";
 <li>Ellen & Bob Venable</li>
 <li>Brooke & Robert Walker</li>
 <li>Mary & Willard Walker</li>
+<li>Diane & Ed Zore</li>
       </ul>
     </div>
 
@@ -155,7 +159,8 @@ include "header.php";
       <ul>
 <li>Ace Enterprises</li>
 <li>Amy Argall</li>
-<li>Aversa for Her – Bayshore</li>
+<li>Anonymous</li>
+<li>Aversa for Her -- Bayshore</li>
 <li>Bank Five Nine</li>
 <li>Sally & Peter Blommer</li>
 <li>Ginny Bolger</li>
@@ -163,6 +168,7 @@ include "header.php";
 <li>Maripat & Tom Dalum</li>
 <li>Sue & Russ Darrow</li>
 <li>Molly & Charlie Dixon</li>
+<li>Boots & Dick Fischer</li>
 <li>Liz & Rick Gebhardt</li>
 <li>The Grebe Family</li>
 <li>Marilyn Haker</li>
@@ -178,6 +184,8 @@ include "header.php";
 <li>Marlene & John Kreilkamp</li>
 <li>Barbie & Ray Krueger</li>
 <li>LFF Foundation</li>
+<li>Linda & Curt Lundeen</li>
+<li>MCW Department of Psychiatry & Behavioral Medicine</li>
 <li>Laurie & P. Michael Mahoney</li>
 <li>Debbie & John McGregor</li>
 <li>Linda & John Mellowes</li>
@@ -193,6 +201,7 @@ include "header.php";
 <li>Betsy Trimble</li>
 <li>Barbara & Bob Whealon</li>
 <li>Abby & Scott Williams</li>
+<li>Sunny & Sandy Williams</li>
 <li>Amy & Devin Wolf</li>
       </ul>
 
