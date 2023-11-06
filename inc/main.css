@@ -3035,9 +3035,11 @@ INPUT[type="checkbox"]#c-ambassador:checked + LABEL:before {
 
 .btb-thanks .one-third {
   float: left;
-  width: 31.3%;
-  margin-right: 3.05%;
+  width: 21.3%;
+  margin-right: 13.05%;
 }
+
+.btb-thanks .one-third:first-of-type { width: 31.3%; }
 
 .btb-thanks .one-third:last-of-type {
   margin-right: 0;
@@ -4953,12 +4955,13 @@ A.featured-read:active {
   }
 
   .btb-thanks .one-third {
-    width: 48%;
+    width: 46%;
     margin-right: 0;
   }
 
   .btb-thanks .one-third:first-of-type {
-    margin-right: 4%;
+    width: 48%;
+    margin-right: 6%;
   }
 
   .btb-sponsorship {

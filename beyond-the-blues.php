@@ -73,10 +73,11 @@ include "header.php";
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
       <ul>
-        <li>Colony Brands</li>
-        <li>Christine & Peter Drake</li>
-        <li>Meg Fetherston Kasch & Libby Kasch</li>
-        <li>Billie Kubly</li>
+<li>Colony Brands</li>
+<li>Christine & Peter Drake</li>
+<li>Meg Fetherston Kasch & Libby Kasch</li>
+<li>Billie Kubly</li>
+<li>Gail & Jeff Yabuki</li>
       </ul>
 
       <h3>Aqua Level - $10,000</h3>
@@ -91,6 +92,7 @@ include "header.php";
 <li>Charles T. & Jean F. Gorham Fund of the Oshkosh Area Community Foundation</li>
 <li>The Hauske Family Foundation</li>
 <li>Cathy & Paul Luber</li>
+<li>Rite Hite Foundation</li>
 <li>Rogers Behavioral Health</li>
 <li>Kate & John Wasmer</li>
 <li>The Sarah & Michael Weiss Family</li>
@@ -124,11 +126,14 @@ include "header.php";
       <ul>
 <li>Anonymous (2)</li>
 <li>Gwen & Dan Armbrust</li>
+<li>The Bartolotta Restaurants</li>
 <li>Kerry & John Bolger</li>
 <li>Suzy & John Brennan</li>
 <li>Elizabeth & Andrew Bruce</li>
 <li>Kathleen & Jim Caragher</li>
+<li>Kristine Cleary, Cleary-Kumm Foundation</li>
 <li>Jose Carlino Design</li>
+<li>Thayre Faust & Friends in memory of Sam Vertelka</li>
 <li>Anna & George Gaspar</li>
 <li>Patty & Mike Grebe</li>
 <li>Hammes Family Foundation</li>
@@ -141,6 +146,7 @@ include "header.php";
 <li>Candy & Bruce Pindyck</li>
 <li>Jennifer & Mitchell Prosk</li>
 <li>Peggy & Ned Purtell</li>
+<li>Pam & Robert Reily</li>
 <li>Peggy & Bob Schuemann</li>
 <li>Nancy & Greg Smith</li>
 <li>Julianne & Stephen Spadafora</li>
