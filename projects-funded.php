@@ -28,7 +28,7 @@ include "header.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    CEKF HAS FUNDED OVER $3.6 MILLION TO 412 PROJECTS SINCE 2003
+    CEKF HAS FUNDED OVER $3.8 MILLION TO 427 PROJECTS SINCE 2003
   </div>
 </div>
 
@@ -46,86 +46,114 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> Christian Family Solutions</h3>
+      <h3><span class="bluetext">01.</span> Ascension Wisconsin Foundation</h3>
       <div class="content">
-        Parent education and peer mentoring program for families enrolled in their day treatment program using Trust Based Relational Intervention. TBRI equips parents with skills needed to help their children heal from past relational traumas and improve their long term outcomes.
+        Educational and working retreat for Ascension Oncology Social Workers to discuss trauma related resources, self-care resources, and social work definition and measures/productivity.<br>
+        <a href="http://www.giveawf.org">www.giveawf.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> Eastbrook Academy</h3>
+      <h3><span class="bluetext">02.</span> Center for Suicide Awareness</h3>
       <div class="content">
-        Supplies, materials, facility improvements, sensory room needs and further support for newly implemented school mental health program.
+        Resilience training for Police Officers and First Responders.<br>
+        <a href="http://www.centerforsuicideawareness.org">www.centerforsuicideawareness.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> The Friendship Circle</h3>
+      <h3><span class="bluetext">03.</span> Edgewood College</h3>
       <div class="content">
-        Funding for "One Thing I Wish I Knew"; a speaker event with shared personal stories of strength and hope, showcasing their resilience in face of mental health struggles.
+        3 year grant to implement JED Campus programming guided by The JED Foundation.<br>
+        <a href="http://www.edgewood.edu">www.edgewood.edu</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> Gathering on the Green, Inc.</h3>
+      <h3><span class="bluetext">04.</span> Erika's Lighthouse</h3>
       <div class="content">
-        Supporting Stages program support to engage audiences and bring awareness to community mental health resources.
+        Funding for a new and updated Teen Toolbox website allowing teens to access reliable and accurate information about mental health and resources.<br>
+        <a href="http://www.erikaslighthouse.org">www.erikaslighthouse.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> Institutional Ministries</h3>
+      <h3><span class="bluetext">05.</span> Great Lakes Dryhootch</h3>
       <div class="content">
-        First Responder support programming including support groups and the design and release of a moral injury brochure. Additional funding provided for QPR (Question, Persuade, Refer) training.
+        Funding for collaboration with the Medical College of Wisconsin to create a "train the trainer" peer support program for Veterans and the Quick Reaction Force (QRF) and Opiod Use Disorder Prevention (OUDP).<br>
+        <a href="http://www.dryhootch.org">www.dryhootch.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> Lutheran Social Services of WI & Upper Michigan</h3>
+      <h3><span class="bluetext">06.</span> Jordan Porco Foundation</h3>
       <div class="content">
-        School Centered Mental Health services to remove systemic barriers to treatment for Milwaukee area children of color impacted by healthcare disparities and inequities.
+        Fresh Check Days programming at 4 Wisconsin colleges -- Lakeland University (main campus and Sheboygan campus), University of Wisconsin - Stout and Beloit College.<br>
+        <a href="http://www.rememberingjordan.org">www.rememberingjordan.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> MKE Urban Stables</h3>
+      <h3><span class="bluetext">07.</span> Kradwell School</h3>
       <div class="content">
-        Equine assisted therapy and learning program to build self-esteem, improve social skills, build confidence and better relationships for at-risk youth in Milwaukee.
+        Zen Den for Kradwell students' self regulation. A low stimulation area for students to reset, rewind, reflect and renew.<br>
+        <a href="http://www.kradwell.org">www.kradwell.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> Milwaukee Academy of Science</h3>
+      <h3><span class="bluetext">08.</span> Ozaukee Family Services</h3>
       <div class="content">
-        Continuum of art therapy project for middle school students in order to promote healing from trauma, decrease depression and anxiety and improve mental wellness.
+        Support of expanded youth mental health programs which include direct services, education and support for youth ages 5-18 living in Ozaukee County, WI.<br>
+        <a href="http://www.ozaukeefamilyservices.org">www.ozaukeefamilyservices.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> Milwaukee Youth Theatre, Inc.</h3>
+      <h3><span class="bluetext">09.</span> Racine Friendship Clubhouse</h3>
       <div class="content">
-        Summer Theatre Arts Program for Milwaukee Academy in an effort to raise self esteem and improve social skills for participants.
+        Funding for a Wellness Recovery Action Workshop (WRAP). The Racine Friendship Clubhouse, Inc. has been empowering adults living with mental illness in the Racine community for 25 years. They provide social support and self-directed programming that helps their members achieve their social, educational, and vocational goals.<br>
+        <a href="http://www.racineclubhouse.org">www.racineclubhouse.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> PIUS XI Catholic High School</h3>
+      <h3><span class="bluetext">10.</span> Seeds of Health, Inc.</h3>
       <div class="content">
-        Comprehensive School-Based Mental Health Support and Family Engagement partnered with Children's Wisconsin to meet increased "in the moment" student needs.
+        A grant to enhance school based mental health through training, consultation and stigma reduction.<br>
+        <a href="http://www.seedsofhealth.org">www.seedsofhealth.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> REDgen</h3>
+      <h3><span class="bluetext">11.</span> Shelter in the Storm</h3>
       <div class="content">
-        Funding to support and strengthen REDgen Education Program through an enhanced speaker series, Spanish language education for collaborative suicide prevention programming of 16th Street Community Clinics and Notre Dame School of Milwaukee, educational videos, QPR training for leadership and a social media campaign.
+        Green Bay Southwest High School student-led podcast to discuss mental health topics with resources and clinical guidance.<br>
+        <a href="http://www.shelterinthestormwi.org">www.shelterinthestormwi.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> Shield of Sisters</h3>
+      <h3><span class="bluetext">12.</span> Sixteenth Street Community Health Centers</h3>
       <div class="content">
-        A grant to support Restoration Retreats for female active duty/reserve/guard and veterans that have suffered the impacts of military sexual trauma. Retreats provide tools to prevent suicide, peer support and referrals for aftercare.
+        Cultural training bootcamp: Fortifying behavioral health providers with the tools they need to bring meaningful change to the community through culturally sensitive mental health education and resources. For over 50 years, Sixteenth Street has provided care for nearly 43,000 primarily low-income, diverse individuals each year. They value  and respect all people and protect the right to wellness by never turning anyone away.<br>
+        <a href="http://www.sschc.org">www.sschc.org</a>
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">13.</span> University of Wisconsin, Madison - University Health Services</h3>
+      <div class="content">
+        Togetherall pilot implemented on campus for one year. Togetherall is a 24/7, clinically moderated, online peer-to-peer support community.<br>
+        <a href="http://www.uwhealth.org">www.uwhealth.org</a>
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">14.</span> UWM Foundation</h3>
+      <div class="content">
+        Lubar Entrepreneurship Center Charles E. Kubly Wellness Fellows phase 2. Peer support training and wellness/mindfulness materials developed to support full campus awareness and support of mental health.<br>
+        <a href="http://www.uwm.edu">www.uwm.edu</a>
       </div>
     </div>
   </div>
