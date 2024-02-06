@@ -1230,13 +1230,42 @@ A.my-menu-toggle {
   padding-top: 0.4em;
 }
 
+#foundation-videos {
+  background: #0E8DC8; color: #FFFFFF;
+  padding: 3.75rem 0 10.9375rem;
+
+  @media (max-width: 1000px) { & { padding-bottom: 15vw; } }
+  @media (max-width: 480px) { & { padding-bottom: 9.375rem; } }
+}
+
+#foundation-videos .site-width {
+  display: flex;
+  justify-content: space-between;
+  
+  @media (max-width: 900px) { & { flex-direction: column; text-align: center; } }
+}
+
+#foundation-videos A,
+#foundation-videos A.watchvideo:after { color: #FFFFFF; }
+
+#foundation-videos A {
+  font-size: 80%; margin: 0 0 1em auto;
+
+  @media (max-width: 900px) { & { font-size: 1.125rem; margin-left: 0; } }
+}
+
+#foundation-videos A:first-of-type { margin-left: 0; }
+
+#foundation-videos A:hover,
+#foundation-videos A.watchvideo:hover:after { color: #112C37; }
+
 #charlies-story {
   background: url(../images/foundation-background-charlie.jpg) center center no-repeat;
   background-size: cover;
   color: #EBEBEB;
   font-size: 15px;
   padding: 6em 0;
-  margin-top: 6em;
+/*  margin-top: 6em;*/
 }
 
 #charlies-story .left {

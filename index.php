@@ -42,16 +42,6 @@ include "header.php";
     <br>
 
     <a href="grants.php#grant-guidelines" class="button">GRANT REQUESTS</a>
-
-    <script src="inc/swipebox/jquery.swipebox.min.js"></script>
-    <link rel="stylesheet" href="inc/swipebox/swipebox.css">
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0});
-        $('.swipe-box').swipebox({autoplayVideos: true, hideBarsDelay : 0});
-      });
-    </script>
-    <a href="https://www.youtube.com/watch?v=FLu97T4y6Jk" class="watchvideo swipebox">15th ANNIVERSARY VIDEO</a>
   </div>
 </div>
 
