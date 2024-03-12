@@ -16,17 +16,17 @@ if (is_home()) {
 
 <div id="newsletters">
   <div class="site-width">
-    <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2023.pdf" class="image"><img src="<?php echo $TopDir; ?>images/newsletter-summer-2023.webp" alt=""></a>
+    <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2024.pdf" class="image"><img src="<?php echo $TopDir; ?>images/Kubly_Newsletter_Winter_2024.webp" alt=""></a>
 
     <div class="text">
-      <h3>Summer 2023 Newsletter</h3>
+      <h3>Winter 2024 Newsletter</h3>
 
       <span>What's Inside</span><br>
-      <span>01.</span> Mera Cares<br>
-      <span>03.</span> Projects Funded<br>
-      <span>04.</span> Message From Laura Koppa<br>
-      <span>05.</span> YLC Golf Outing<br>
-      <span>06.</span> Thank You Donors<br>
+      <span>01.</span> Beyond The Blues Recap<br>
+      <span>03.</span> Christian Family Solutions<br>
+      <span>04.</span> Projects Funded<br>
+      <span>05.</span> New Board Members<br>
+      <span>06.</span> Annual Financial Report<br>
       <br>
 
       <h4>Past Newsletters</h4>
@@ -42,6 +42,7 @@ if (is_home()) {
         </div>
 
         <div>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2024.pdf">Winter 2024</a><br>
           <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2023.pdf">Winter 2023</a><br>
           <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2022.pdf">Winter 2022</a><br>
           <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2021.pdf">Winter 2021</a><br>
