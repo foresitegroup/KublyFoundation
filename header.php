@@ -114,11 +114,11 @@ if (!isset($TopDir)) $TopDir = "";
             <p>Fri, September 29, 2023</p>
           </div>
         </a> -->
-        <!-- <a href="https://watch.showandtell.film/watch/the-kubly-foundation" id="pagecurl">
-          <div>
-            View<p style="margin: 0; color: #ED1C24;">My Ascension</p>video here
+        <a href="https://www.eventbrite.com/e/2024-charles-e-kubly-foundation-ylc-golf-outing-tickets-800416787157" id="pagecurl" style="background-image: url(images/page-curl-green.webp);">
+          <div style="color: #FFFFFF; top: 70%;">
+            Tickets<br>2024 YLC Golf Outing
           </div>
-        </a> -->
+        </a>
 
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>
