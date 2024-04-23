@@ -12,7 +12,7 @@ include "header.php";
     <div class="header-left">
       <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span>
       <span class="btb-blue"><div>THE</div> BLUES</span>
-      <div class="year"><?php echo date("Y", $GLOBALS['btbdate']); ?></div>
+      <!-- <div class="year"><?php //echo date("Y", $GLOBALS['btbdate']); ?></div> -->
 
       <a href="donate.php" class="button">DONATE</a>
     </div> <!-- /.header-left -->
@@ -40,8 +40,8 @@ include "header.php";
 
       <!-- For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959. -->
 
-      <br><br><br>
-      Thank you to all who attended our 20th Anniversary Beyond the Blues!<br>See you next year!
+      <br><br><br><br>
+      2024 Sponsorships available.<br>Please contact Kris Rick at 414-477-9959 for details.
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
