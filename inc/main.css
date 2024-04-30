@@ -4148,6 +4148,219 @@ A.featured-read:active {
 }
 
 
+/* STIGMA */
+.stigma-banner {
+  background-color: #FFFFFF;
+  background-image: url(../images/green-ribbon.webp);
+  background-repeat: no-repeat;
+  background-position: left 25% center;
+  background-size: auto 95%;
+  position: relative;
+  z-index: 2;
+
+  @media (max-width: 600px) { & { background-position: center top 1rem; background-size: auto 40%; margin-top: 105px; } }
+}
+
+.stigma-banner .site-width {
+  width: 1164px;
+  position: relative;
+  z-index: 3;
+
+  @media (max-width: 1200px) { & { width: 96%; } }
+  @media (max-width: 600px) { & { width: 100%; } }
+}
+
+.stigma-banner:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-color: rgba(23,44,54,0.74);
+}
+
+@media (max-width: 600px) { .stigma-banner:before { width: 100%; } }
+
+.stigma-banner .left {
+  float: left;
+  width: 52%;
+  height: 550px;
+
+  @media (max-width: 600px) { & { float: none; width: 100%; height: auto; text-align: center; } }
+}
+
+.stigma-banner .left DIV, .stigma-banner .right DIV {
+  position: relative;
+  z-index: 4;
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+
+  @media (max-width: 600px) { & { top: 0; transform: none; padding: 2rem 2%; } }
+}
+
+.stigma-banner .left H1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 67px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.stigma-banner .right {
+  float: right;
+  width: 48%;
+  height: 550px;
+  background: #FFFFFF;
+  color: #626262;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.4;
+  box-sizing: border-box;
+  padding-left: 50px;
+
+  @media (max-width: 900px) { & { font-size: 2.3vw; } }
+  @media (max-width: 600px) { & { float: none; width: 100%; height: auto; padding-left: 2%; font-size: 21px; } }
+}
+
+.stigma-banner .right .button {
+  text-transform: uppercase;
+
+  @media (max-width: 900px) { & { font-size: 2.6vw; } }
+  @media (max-width: 600px) { & { font-size: 24px; } }
+}
+
+.stigma-green {
+  padding: 0.4em 0;
+  background: #37BB39;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.stigma-green .site-width {
+  width: 1164px;
+
+  @media (max-width: 1200px) { & { width: 96%; } }
+}
+
+.stigma-pickup {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 0;
+
+  @media (max-width: 700px) { & { flex-direction: column-reverse; } }
+}
+
+.stigma-pickup IMG {
+  width: 46.7%;
+  height: auto;
+  box-shadow: 3px 3px 7px 0 rgba(0,0,0,0.35);
+
+  @media (max-width: 700px) { & { width: 100%; margin-top: 2rem; } }
+}
+
+.stigma-pickup .text {
+  margin-left: 1em;
+  width: 442px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.5;
+
+  @media (max-width: 700px) { & { width: 100%; margin-left: 0; } }
+}
+
+.stigma-pickup .text H2 {
+  margin: 0;
+  color: #0E8DC9;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.stigma-pickup .text .loc {
+  margin-top: 1.5em;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.16);
+  border-radius: 36px;
+  padding: 0.8rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.stigma-pickup .text .loc > DIV { padding: 0.5em 0; }
+
+.stigma-orange {
+  padding: 1em 0;
+  background: #EAA540;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.stigma-orange .site-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1064px;
+
+  @media (max-width: 1200px) { & { width: 96%; } }
+  @media (max-width: 900px) { & { flex-wrap: wrap; align-items: flex-start; } }
+  @media (max-width: 530px) { & { flex-direction: column; } }
+}
+
+.stigma-orange IMG {
+  width: 180px;
+  height: auto;
+  margin-right: 1em;
+
+  @media (max-width: 900px) { & { width: 30%; margin-right: 0; } }
+  @media (max-width: 530px) { & { width: 100%; } }
+}
+
+@media (max-width: 900px) {
+  .stigma-orange .text { width: 66%; padding-bottom: 1em; }
+}
+@media (max-width: 530px) {
+  .stigma-orange .text { width: 100%; padding-top: 1em; }
+}
+
+.stigma-orange .text H2 {
+  margin: 0 0 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.stigma-orange .button {
+  margin-left: 1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background: #FFFFFF !important;
+  color: #0E8DC9 !important;
+
+  @media (max-width: 900px) { & { margin-left: 34%; } }
+  @media (max-width: 530px) { & { margin-left: 0; } }
+}
+
+.stigma-orange .button:hover {
+  background: #112C37 !important;
+  color: #FFFFFF !important;
+}
+
 
 
 

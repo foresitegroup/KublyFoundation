@@ -204,6 +204,19 @@ if (!isset($TopDir)) $TopDir = "";
           </div>
         </div> -->
       <!-- </div> -->
+
+      <div class="stigma-orange">
+        <div class="site-width">
+          <img src="images/help-end-stigma-sign.webp" alt="" width="1000" height="667">
+
+          <div class="text">
+            <h2>Help End Mental Health Stigma</h2>
+            Show your support to end the stigma of mental health. Become informed and be proud that you care! Get your free "Help End Stigma" yards sign.
+          </div>
+
+          <a href="help-end-stigma.php" class="button">Get Yours Here</a>
+        </div>
+      </div>
       <?php } ?>
 
       <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">

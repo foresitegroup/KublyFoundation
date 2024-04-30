@@ -27,6 +27,7 @@
     <ul>
       <li><a href="<?php echo $TopDir; ?>resources.php">Resources</a></li>
       <li><a href="<?php echo $TopDir; ?>donate.php">Donate</a></li>
+      <li><a href="<?php echo $TopDir; ?>help-end-stigma.php">Help End Stigma Yard Sign</a></li>
     </ul>
   </li>
   <li class="incrisis"><a href="#incrisis">In Crisis?</a></li>
