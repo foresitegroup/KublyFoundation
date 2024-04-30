@@ -16,7 +16,7 @@ include "header.php";
 
     <div class="right">
       <div>
-        Stigma often comes from lack of understanding or fear. Inaccurate or misleading media representations of mental illness contribute to both those factors. A review of studies on stigma shows that while the public may accept the medical or genetic nature of a mental health disorder and the need for treatment, many people still have a negative view of those with mental illness. This can lead to shame and self-stigma for those who need help. Reference: <a href="https://www.psychiatry.org/">American Psychiatric Association</a>.<br>
+        Stigma often comes from lack of understanding or fear. Inaccurate or misleading media representations of mental illness contribute to both those factors. A review of studies on stigma shows that while the public may accept the medical or genetic nature of a mental health disorder and the need for treatment, many people still have a negative view of those with mental illness. This can lead to shame and self-stigma for those who need help. Reference: American Psychiatric Association.<br>
         <br>
         <a href="https://eliminatestigma.org/understand-stigma/" class="button">Learn More</a>
       </div>
