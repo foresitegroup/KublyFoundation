@@ -43,7 +43,7 @@ include "header.php";
     </div>
     
     <div class="loc">
-      Discount Coffee OR Radio Milwaukee
+      Discourse Coffee OR Radio Milwaukee
       <div>220 E. Pittsburgh Avenue<br>Milwaukee, WI 53204</div>
       Business hours / At reception
     </div>
