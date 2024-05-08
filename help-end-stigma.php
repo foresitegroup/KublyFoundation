@@ -38,7 +38,7 @@ include "header.php";
 
     <div class="loc">
       The Charles E. Kubly Foundation
-      <div>220 W. Mequon Road, Suite 220<br>Mequon, WI 53092</div>
+      <div>1341 W. Mequon Road, Suite 220<br>Mequon, WI 53092</div>
       At the office door
     </div>
     
