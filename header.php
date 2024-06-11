@@ -114,11 +114,11 @@ if (!isset($TopDir)) $TopDir = "";
             <p>Fri, September 29, 2023</p>
           </div>
         </a> -->
-        <a href="https://www.eventbrite.com/e/2024-charles-e-kubly-foundation-ylc-golf-outing-tickets-800416787157" id="pagecurl" style="background-image: url(images/page-curl-green.webp);">
+        <!-- <a href="https://www.eventbrite.com/e/2024-charles-e-kubly-foundation-ylc-golf-outing-tickets-800416787157" id="pagecurl" style="background-image: url(images/page-curl-green.webp);">
           <div style="color: #FFFFFF; top: 70%;">
             Tickets<br>2024 YLC Golf Outing
           </div>
-        </a>
+        </a> -->
 
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>
@@ -205,7 +205,7 @@ if (!isset($TopDir)) $TopDir = "";
         </div> -->
       <!-- </div> -->
 
-      <div class="stigma-orange">
+      <!-- <div class="stigma-orange">
         <div class="site-width">
           <img src="images/help-end-stigma-sign.webp" alt="" width="1000" height="667">
 
@@ -216,7 +216,7 @@ if (!isset($TopDir)) $TopDir = "";
 
           <a href="help-end-stigma.php" class="button">Get Yours Here</a>
         </div>
-      </div>
+      </div> -->
       <?php } ?>
 
       <div class="menu-holder<?php if (isset($PageMod)) echo " " . $PageMod; ?>">
