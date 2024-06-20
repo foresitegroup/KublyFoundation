@@ -28,7 +28,7 @@ include "header.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    CEKF HAS FUNDED OVER $3.8 MILLION TO 427 PROJECTS SINCE 2003
+    CEKF HAS FUNDED OVER $4 MILLION TO 446 PROJECTS SINCE 2003
   </div>
 </div>
 
@@ -46,114 +46,138 @@ include "header.php";
 <div class="funding-current">
   <div class="site-width">
     <div>
-      <h3><span class="bluetext">01.</span> Ascension Wisconsin Foundation</h3>
+      <h3><span class="bluetext">01.</span> All 4 Kidz</h3>
       <div class="content">
-        Educational and working retreat for Ascension Oncology Social Workers to discuss trauma related resources, self-care resources, and social work definition and measures/productivity.<br>
-        <a href="http://www.giveawf.org">www.giveawf.org</a>
+        A grant for the Emotional Healing program supporting kids ages 10-21 to improve their understanding of mental health and wellness through workshops and services.<br>
+        <a href="https://www.gall4kidz.org">www.gall4kidz.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">02.</span> Center for Suicide Awareness</h3>
+      <h3><span class="bluetext">02.</span> Battlescar Kids Foundation</h3>
       <div class="content">
-        Resilience training for Police Officers and First Responders.<br>
-        <a href="http://www.centerforsuicideawareness.org">www.centerforsuicideawareness.org</a>
+        Funding for Battlescar Kids at Discovery World in Milwaukee; an interactive experience for Milwaukee youth to learn about their inner strength and resiliency.<br>
+        <a href="https://www.battlescarkids.com">www.battlescarkids.com</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">03.</span> Edgewood College</h3>
+      <h3><span class="bluetext">03.</span> Boys & Girls Clubs of Greater Milwaukee</h3>
       <div class="content">
-        3 year grant to implement JED Campus programming guided by The JED Foundation.<br>
-        <a href="http://www.edgewood.edu">www.edgewood.edu</a>
+        A grant to support implementation of SMART Moves curriculum at one club site directed at social-emotional development (SED).<br>
+        <a href="https://www.bgcmilwaukee.org">www.bgcmilwaukee.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">04.</span> Erika's Lighthouse</h3>
+      <h3><span class="bluetext">04.</span> Compassionate Home Healthcare</h3>
       <div class="content">
-        Funding for a new and updated Teen Toolbox website allowing teens to access reliable and accurate information about mental health and resources.<br>
-        <a href="http://www.erikaslighthouse.org">www.erikaslighthouse.org</a>
+        Support for a mobile health and hygiene hub bringing needed supplies, educational resources and community engagement activities to those in need.<br>
+        <a href="https://chhcinc.org">chhcinc.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">05.</span> Great Lakes Dryhootch</h3>
+      <h3><span class="bluetext">05.</span> Eastbrook Academy</h3>
       <div class="content">
-        Funding for collaboration with the Medical College of Wisconsin to create a "train the trainer" peer support program for Veterans and the Quick Reaction Force (QRF) and Opiod Use Disorder Prevention (OUDP).<br>
-        <a href="http://www.dryhootch.org">www.dryhootch.org</a>
+        Support for continued enhancements to Easbrook's "Warrior Resilience" programming which includes holistic post-pandemic initiatives for K-12 mental health and suicide prevention.<br>
+        <a href="https://eastbrookacademy.org">eastbrookacademy.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">06.</span> Jordan Porco Foundation</h3>
+      <h3><span class="bluetext">06.</span> The Friendship Circle</h3>
       <div class="content">
-        Fresh Check Days programming at 4 Wisconsin colleges -- Lakeland University (main campus and Sheboygan campus), University of Wisconsin - Stout and Beloit College.<br>
-        <a href="http://www.rememberingjordan.org">www.rememberingjordan.org</a>
+        Funding for the "Wish You Knew" podcast featuring teens sharing their mental illness experiences, support and the need for advocacy.<br>
+        <a href="https://www.fcwi.org">www.fcwi.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">07.</span> Kradwell School</h3>
+      <h3><span class="bluetext">07.</span> Grand Avenue Club</h3>
       <div class="content">
-        Zen Den for Kradwell students' self regulation. A low stimulation area for students to reset, rewind, reflect and renew.<br>
-        <a href="http://www.kradwell.org">www.kradwell.org</a>
+        Support of "Secret to Spotlight" effort to increase the number of members of the GAC which provides mental health advocacy in Milwaukee.<br>
+        <a href="https://grandavenueclub.org">grandavenueclub.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">08.</span> Ozaukee Family Services</h3>
+      <h3><span class="bluetext">08.</span> Hometown Heroes</h3>
       <div class="content">
-        Support of expanded youth mental health programs which include direct services, education and support for youth ages 5-18 living in Ozaukee County, WI.<br>
-        <a href="http://www.ozaukeefamilyservices.org">www.ozaukeefamilyservices.org</a>
+        Funding for mental wellness services for children at Camp Hometown Heroes and Camp Reunite.<br>
+        <a href="https://www.camphometownheroes.org">www.camphometownheroes.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> Racine Friendship Clubhouse</h3>
+      <h3><span class="bluetext">09.</span> Lutheran Social Services of Wisconsin & Upper Michigan</h3>
       <div class="content">
-        Funding for a Wellness Recovery Action Workshop (WRAP). The Racine Friendship Clubhouse, Inc. has been empowering adults living with mental illness in the Racine community for 25 years. They provide social support and self-directed programming that helps their members achieve their social, educational, and vocational goals.<br>
-        <a href="http://www.racineclubhouse.org">www.racineclubhouse.org</a>
+        Support for School Centered Mental Health (SCMH) services to serve Milwaukee area children of color impacted by healthcare disparities and inequities.<br>
+        <a href="https://www.lsswis.org">www.lsswis.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> Seeds of Health, Inc.</h3>
+      <h3><span class="bluetext">10.</span> NorthLakes Community Clinic</h3>
       <div class="content">
-        A grant to enhance school based mental health through training, consultation and stigma reduction.<br>
-        <a href="http://www.seedsofhealth.org">www.seedsofhealth.org</a>
+        Funding for the community event "Join or Die" -- a film screening and supporting fair.<br>
+        <a href="https://nlccwi.org">nlccwi.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Shelter in the Storm</h3>
+      <h3><span class="bluetext">11.</span> Professional Fire Fighters of WI Charitable Foundation</h3>
       <div class="content">
-        Green Bay Southwest High School student-led podcast to discuss mental health topics with resources and clinical guidance.<br>
-        <a href="http://www.shelterinthestormwi.org">www.shelterinthestormwi.org</a>
+        A grant for their fire fighter's support program which prioritizes fire fighter's mental health and provides critical support for them and their families.<br>
+        <a href="https://www.pffw.org">www.pffw.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> Sixteenth Street Community Health Centers</h3>
+      <h3><span class="bluetext">12.</span> Radio Milwaukee</h3>
       <div class="content">
-        Cultural training bootcamp: Fortifying behavioral health providers with the tools they need to bring meaningful change to the community through culturally sensitive mental health education and resources. For over 50 years, Sixteenth Street has provided care for nearly 43,000 primarily low-income, diverse individuals each year. They value  and respect all people and protect the right to wellness by never turning anyone away.<br>
-        <a href="http://www.sschc.org">www.sschc.org</a>
+        Support for Radio Milwaukee to utilize their airwaves and community programs to normalize conversations around mental health, especially in the artistic community.<br>
+        <a href="https://radiomilwaukee.org">radiomilwaukee.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">13.</span> University of Wisconsin, Madison - University Health Services</h3>
+      <h3><span class="bluetext">13.</span> REDgen</h3>
       <div class="content">
-        Togetherall pilot implemented on campus for one year. Togetherall is a 24/7, clinically moderated, online peer-to-peer support community.<br>
-        <a href="http://www.uwhealth.org">www.uwhealth.org</a>
+        A grant to enhance and update REDgen's web-based peer-to-peer resiliency site.<br>
+        <a href="https://www.redgen.org">www.redgen.org</a>
       </div>
     </div>
 
     <div>
-      <h3><span class="bluetext">14.</span> UWM Foundation</h3>
+      <h3><span class="bluetext">14.</span> Riveredge Nature Center</h3>
       <div class="content">
-        Lubar Entrepreneurship Center Charles E. Kubly Wellness Fellows phase 2. Peer support training and wellness/mindfulness materials developed to support full campus awareness and support of mental health.<br>
-        <a href="http://www.uwm.edu">www.uwm.edu</a>
+        Support for a mental health initiative including workshops to train community members in QPR suicide prevention program.<br>
+        <a href="https://riveredgenaturecenter.org">riveredgenaturecenter.org</a>
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">15.</span> Rocketship Schools Wisconsin</h3>
+      <div class="content">
+        Funding for student and family mental health services expansion including trauma informed care.<br>
+        <a href="https://www.rocketshipschools.org">www.rocketshipschools.org</a>
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">16.</span> Safe Families for Children Wisconsin</h3>
+      <div class="content">
+        A project to increase mental health outcomes for parents needing inpatient or outpatient services by increasing the number of volunteers to help care for their families while they are away.<br>
+        <a href="https://safefamilieswi.org">safefamilieswi.org</a>
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">17.</span> Wisconsin Collaborative for Healthcare Quality</h3>
+      <div class="content">
+        A grant for "Combatting Stigma: Spreading Awareness Through Visual Narratives"; videos with individuals sharing their lived experience with mental illness to breakdown stigma and encourage selfcare and treatment.<br>
+        <a href="https://www.wchq.org">www.wchq.org</a>
       </div>
     </div>
   </div>
