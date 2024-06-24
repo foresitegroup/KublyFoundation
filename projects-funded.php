@@ -49,7 +49,7 @@ include "header.php";
       <h3><span class="bluetext">01.</span> All 4 Kidz</h3>
       <div class="content">
         A grant for the Emotional Healing program supporting kids ages 10-21 to improve their understanding of mental health and wellness through workshops and services.<br>
-        <a href="https://www.gall4kidz.org">www.gall4kidz.org</a>
+        <a href="https://www.all4kidz.org">www.all4kidz.org</a>
       </div>
     </div>
 
