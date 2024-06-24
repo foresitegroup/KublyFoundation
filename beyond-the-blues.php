@@ -71,7 +71,7 @@ include "header.php";
   <div class="site-width">
     <!-- <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1> -->
 
-    <h2>BEYOND THE BLUES 2024 SPONSORS</h2>
+    <h2>BEYOND THE BLUES 2024 SPONSORS TO DATE</h2>
 
     <div class="one-third">
       <h3>Sapphire Level - $20,000</h3>
@@ -97,6 +97,7 @@ include "header.php";
       <h3>Turquoise Level - $2,500</h3>
       <ul>
 <li>The Bourne Family</li>
+<li>Executive Benefits Network</li>
 <li>Libby & Andy Bruce</li>
 <li>Crescent Grove Advisors</li>
 <li>Nancy & John Dickens</li>
