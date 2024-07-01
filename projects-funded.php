@@ -110,7 +110,15 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">09.</span> Lutheran Social Services of Wisconsin & Upper Michigan</h3>
+      <h3><span class="bluetext">09.</span> Journey Mental Health Center, Inc.</h3>
+      <div class="content">
+        A grant to support JMHC 24 hour crisis line which provides rapid crisis intervention, individual problem solving and suicide risk assessment.<br>
+        <a href="https://www.journeymhc.org">www.journeymhc.org</a>
+      </div>
+    </div>
+
+    <div>
+      <h3><span class="bluetext">10.</span> Lutheran Social Services of Wisconsin & Upper Michigan</h3>
       <div class="content">
         Support for School Centered Mental Health (SCMH) services to serve Milwaukee area children of color impacted by healthcare disparities and inequities.<br>
         <a href="https://www.lsswis.org">www.lsswis.org</a>
@@ -118,7 +126,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">10.</span> NorthLakes Community Clinic</h3>
+      <h3><span class="bluetext">11.</span> NorthLakes Community Clinic</h3>
       <div class="content">
         Funding for the community event "Join or Die" -- a film screening and supporting fair.<br>
         <a href="https://nlccwi.org">nlccwi.org</a>
@@ -126,7 +134,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">11.</span> Professional Fire Fighters of WI Charitable Foundation</h3>
+      <h3><span class="bluetext">12.</span> Professional Fire Fighters of WI Charitable Foundation</h3>
       <div class="content">
         A grant for their fire fighter's support program which prioritizes fire fighter's mental health and provides critical support for them and their families.<br>
         <a href="https://www.pffw.org">www.pffw.org</a>
@@ -134,7 +142,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">12.</span> Radio Milwaukee</h3>
+      <h3><span class="bluetext">13.</span> Radio Milwaukee</h3>
       <div class="content">
         Support for Radio Milwaukee to utilize their airwaves and community programs to normalize conversations around mental health, especially in the artistic community.<br>
         <a href="https://radiomilwaukee.org">radiomilwaukee.org</a>
@@ -142,7 +150,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">13.</span> REDgen</h3>
+      <h3><span class="bluetext">14.</span> REDgen</h3>
       <div class="content">
         A grant to enhance and update REDgen's web-based peer-to-peer resiliency site.<br>
         <a href="https://www.redgen.org">www.redgen.org</a>
@@ -150,7 +158,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">14.</span> Riveredge Nature Center</h3>
+      <h3><span class="bluetext">15.</span> Riveredge Nature Center</h3>
       <div class="content">
         Support for a mental health initiative including workshops to train community members in QPR suicide prevention program.<br>
         <a href="https://riveredgenaturecenter.org">riveredgenaturecenter.org</a>
@@ -158,7 +166,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">15.</span> Rocketship Schools Wisconsin</h3>
+      <h3><span class="bluetext">16.</span> Rocketship Schools Wisconsin</h3>
       <div class="content">
         Funding for student and family mental health services expansion including trauma informed care.<br>
         <a href="https://www.rocketshipschools.org">www.rocketshipschools.org</a>
@@ -166,7 +174,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">16.</span> Safe Families for Children Wisconsin</h3>
+      <h3><span class="bluetext">17.</span> Safe Families for Children Wisconsin</h3>
       <div class="content">
         A project to increase mental health outcomes for parents needing inpatient or outpatient services by increasing the number of volunteers to help care for their families while they are away.<br>
         <a href="https://safefamilieswi.org">safefamilieswi.org</a>
@@ -174,7 +182,7 @@ include "header.php";
     </div>
 
     <div>
-      <h3><span class="bluetext">17.</span> Wisconsin Collaborative for Healthcare Quality</h3>
+      <h3><span class="bluetext">18.</span> Wisconsin Collaborative for Healthcare Quality</h3>
       <div class="content">
         A grant for "Combatting Stigma: Spreading Awareness Through Visual Narratives"; videos with individuals sharing their lived experience with mental illness to breakdown stigma and encourage selfcare and treatment.<br>
         <a href="https://www.wchq.org">www.wchq.org</a>
