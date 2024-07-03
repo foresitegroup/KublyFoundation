@@ -1,7 +1,13 @@
-.menu-holder { margin-bottom: 2em; }
+.menu-holder {
+  margin-bottom: 2em;
+
+  @media (max-width: 750px) { & { position: relative; } }
+}
 
 .menu-holder .scrolling-menu .site-width { background: #0E8DC8; }
 .menu-holder .scrolling-menu .site-width .logo { background: #F8F8F8; }
+
+.menu > UL > LI:nth-of-type(2) { padding-left: 6% !important; }
 
 LABEL { font-weight: bold; }
 
@@ -93,3 +99,14 @@ BUTTON:hover, A.btn:hover { background: #112C37; }
 }
 
 .row A:hover { opacity: 0.5; }
+
+#sponsors { display: flex; justify-content: space-between; flex-wrap: wrap; }
+
+#sponsors > LABEL {
+  width: 30%;
+
+  @media (max-width: 750px) { & { width: 47%; } }
+  @media (max-width: 600px) { & { width: 100%; } }
+}
+
+#sponsors > LABEL TEXTAREA { height: auto; min-height: 30em; }

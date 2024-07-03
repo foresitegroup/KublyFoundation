@@ -73,100 +73,67 @@ include "header.php";
 
     <h2>BEYOND THE BLUES 2024 SPONSORS TO DATE</h2>
 
+    <?php
+    include_once "inc/dbconfig.php";
+
+    $stmt = $mysqli->prepare("SELECT * FROM sponsors WHERE id = 1");
+    $stmt->execute();
+    $sponsors = $stmt->get_result();
+    $sponsor = $sponsors->fetch_assoc();
+    ?>
+
     <div class="one-third">
+      <?php if ($sponsor['sapphire'] != "") { ?>
       <h3>Sapphire Level - $20,000</h3>
       <ul>
-<li>Colony Brands</li>
+        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['sapphire'],"\n\r")).'</li>'."\n"; ?>
       </ul>
-
+      <?php } ?>
+      
+      <?php if ($sponsor['aqua'] != "") { ?>
       <h3>Aqua Level - $10,000</h3>
       <ul>
-        <li>William & Sandy Heitz Family Foundation</li>
-        <li>Catherine & Paul Luber</li>
+        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['aqua'],"\n\r")).'</li>'."\n"; ?>
       </ul>
-
+      <?php } ?>
+      
+      <?php if ($sponsor['teal'] != "") { ?>
       <h3>Teal Level - $5,000</h3>
       <ul>
-<li>Kathryn Burke</li>
-<li>Continenetal Properties Company, Inc.</li>
-<li>Sandy & Dennis Kuester</li>
-<li>Michael Schmitz</li>
-<li>Cathy & Mike White</li>
+        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['teal'],"\n\r")).'</li>'."\n"; ?>
       </ul>
+      <?php } ?>
 
+      <?php if ($sponsor['turquoise'] != "") { ?>
       <h3>Turquoise Level - $2,500</h3>
       <ul>
-<li>The Bourne Family</li>
-<li>Executive Benefits Network</li>
-<li>Libby & Andy Bruce</li>
-<li>Crescent Grove Advisors</li>
-<li>Nancy & John Dickens</li>
-<li>Kelben Foundation</li>
-<li>Sally & Chip Kubly</li>
-<li>Catherine & Bill Perez</li>
-<li>Jen & Mitch Prosk</li>
-<li>Angela & Ross Williams</li>
+        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['turquoise'],"\n\r")).'</li>'."\n"; ?>
       </ul>
-
-      <!-- <br>
-      <h3 style="font-size: 200%; text-decoration: none;">Beyond the Blues 2018 Media Sponsor</h3>
-      <img src="images/milwaukee-magazine.png" alt="Milwaukee Magazine" style="max-width: 80%;"> -->
+      <?php } ?>
     </div>
-
+    
+    <?php if ($sponsor['navy'] != "") { ?>
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
       <ul>
-<li>Deanna Braeger</li>
-<li>Patty & Mike Grebe</li>
-<li>Hammes Family Foundation</li>
-<li>Martha & Michael Klinker</li>
-<li>Laura & Pat Koppa</li>
-<li>Mary S. Lillydahl</li>
-<li>Keith & Dee Miller Fund -- Greater Milwaukee Foundation</li>
-<li>Katie & Mark Mohr</li>
-<li>Peggy & Ned Purtell Family</li>
-<li>Peggy & Bob Schuemann</li>
-<li>Nancy & Greg Smith</li>
-<li>Julianne & Stephen Spadafora</li>
-<li>Mary & Chris Tornehl</li>
-<li>Debbie & Camp Van Dyke</li>
-<li>Ellen & Bob Venable</li>
-<li>Mary & Willard Walker</li>
-<li>Amy & Devin Wolf</li>
-<li>Diane & Ed Zore</li>
+        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['navy'],"\n\r")).'</li>'."\n"; ?>
       </ul>
     </div>
-
+    <?php } ?>
+    
+    <?php if ($sponsor['denim'] != "") { ?>
     <div class="one-third">
       <h3>Denim Level - $500</h3>
       <ul>
-<li>Anonymous</li>
-<li>Amy Argall</li>
-<li>Maripat & Tom Dalum</li>
-<li>Christiane Endres</li>
-<li>Marilyn Haker</li>
-<li>Susan Kasten</li>
-<li>Julie & John Kennedy</li>
-<li>Maryglen & Rob Kieckhefer</li>
-<li>Susan & Robert Mikulay</li>
-<li>Barbara & Henrik Moe</li>
-<li>Kris & Robert Rick</li>
-<li>Mary W. Rickmeier</li>
-<li>Lisa & Robbie Robbins</li>
-<li>Jen & Todd Schoon</li>
-<li>Barbara Sullivan</li>
-<li>Jennifer & Joseph Teglia</li>
-<li>Bonnie & Ned Timarac</li>
-<li>Betsy Trimble</li>
-<li>Barb & Bob Whealon</li>
-<li>Abby & Scott Williams</li>
+        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['denim'],"\n\r")).'</li>'."\n"; ?>
       </ul>
-
-<!--       <div class="btb-sponsorship">
-        INTERESTED IN SPONSORSHIP?<br>
-        <a href="pdf/Beyond_the_Blues_Sponsorship_2018.pdf">LEARN MORE</a>
-      </div> -->
     </div>
+    <?php } ?>
+
+    <?php
+    $sponsors->close();
+    $stmt->close();
+    ?>
   </div>
 </div>
 
