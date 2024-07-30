@@ -22,7 +22,7 @@ include "header.php";
           Milwaukee, WI<br>
           <br>
 
-          <a href="https://www.eventbrite.com/e/beyond-the-blues-2023-20th-anniversary-event-tickets-696797699677" class="button">PURCHASE TICKETS</a><br>
+          <a href="https://www.eventbrite.com/e/beyond-the-blues-2024-tickets-948107825027" class="button">PURCHASE TICKETS</a><br>
           <br>
 
           Tickets are also available at the door

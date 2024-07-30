@@ -18,33 +18,29 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <!-- <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php //echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
+      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
       <br>
 
       The Pavilion at Discovery World Pier Wisconsin<br>
       500 N. Harbor Drive<br>
-      6:30 -- 9:30 p.m.<br>
+      6:30 - 9:30 p.m.<br>
       <br>
-      Featuring Music by The Dan Dance Trio & Phil Norby and fare by Bartolotta Catering<br>
+      Featuring live music by Phil Norby, casual dinner fare, and a brief program highlighting our work at the Foundation.<br>
       <br>
-      Cash Bar<br>
-      <br>
-      Blue Jean Casual<br>
-      <br> -->
 
       <!-- Tickets on sale August 1<sup>ST</sup> -->
-      <!-- Tickets may be purchased at the door -->
-      <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a>
+      Tickets may be purchased at the door
+      <a href="tickets.php" class="button">PURCHASE TICKETS</a>
       <br>
-      <br> -->
+      <br>
 
-      <!-- For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959. -->
+      For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959.
 
-      <br><br><br><br>
+<!--       <br><br><br><br>
       2024 Sponsorships available.<br>Please contact Kris Rick at 414-477-9959 for details.<br>
       <br>
 
-      Tickets for the event will go on sale August 1, 2024
+      Tickets for the event will go on sale August 1, 2024 -->
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
