@@ -250,8 +250,19 @@ include "header.php";
       <h4>EXECUTIVE DIRECTOR & BUSINESS MANAGER:</h4> <strong>Kris Rick</strong>, 414.477.9959, <?php email("krick@charlesekublyfoundation.org"); ?><br>
       <br>
 
-      <h4>BOARD OF DIRECTORS:</h4> <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp; <strong>Lori R. Kilian</strong>, Vice President, In Spier Interior Decoration &nbsp; // &nbsp; <strong>Nick Hengst</strong>, Treasurer, Manpower Group &nbsp; // &nbsp; <strong>Lily Kubly</strong>, Secretary, Mindfulness Entrepreneur &nbsp; // &nbsp; <strong>Thayre Faust</strong> &nbsp; // &nbsp; <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp; <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp; <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp; <strong>Evelyn Kelly</strong>, Crackle Plus &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin<br>
-      <br>
+      <h4>BOARD OF DIRECTORS:</h4>
+      <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp;
+      <strong>Lori R. Kilian</strong>, Vice President &nbsp; // &nbsp;
+      <strong>Nick Hengst</strong>, Treasurer, Manpower Group &nbsp; // &nbsp;
+      <strong>Lily Kubly</strong>, Secretary, Mindfulness Entrepreneur &nbsp; // &nbsp;
+      <strong>Thayre Faust</strong> &nbsp; // &nbsp;
+      <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp;
+      <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp;
+      <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp;
+      <strong>Dylan Ross</strong>, Head of Clinical, Blueprint &nbsp; // &nbsp;
+      <strong>Brenda Wesley</strong>, Milwaukee Mental Health Advocate
+
+      <br><br>
 
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
@@ -259,12 +270,29 @@ include "header.php";
       <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
-      <h4>GRANT REVIEW COMMITTEE:</h4> <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Heidi Christianson, PhD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin<br>
+      <h4>GRANT REVIEW COMMITTEE:</h4>
+      <strong>Alexander Buhk, PhD</strong>, Froedert & The Medical College of WI &nbsp; // &nbsp;
+      <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp;
+      <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp;
+      <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin
+
+      <br>
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
       <br>
 
-      <h4>YOUNG LEADERS COUNCIL:</h4> <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp; <strong>Shannon Bushman</strong> &nbsp; // &nbsp; <strong>Augie Fritz</strong> &nbsp; // &nbsp; <strong>Colin Fritz</strong> &nbsp; // &nbsp; <strong>Katie Frommelt</strong> &nbsp; // &nbsp; <strong>Adam Karnes</strong> &nbsp; // &nbsp; <strong>Bridget Kelley</strong> &nbsp; // &nbsp; <strong>Gen Klinker</strong> &nbsp; // &nbsp; <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp; <strong>Dan Mau</strong> &nbsp; // &nbsp; <strong>Sarah Parks</strong> &nbsp; // &nbsp; <strong>Conor Quick</strong> &nbsp; // &nbsp; <strong>Kristin Rick</strong><br>
-      <br>
+      <h4>YOUNG LEADERS COUNCIL:</h4>
+      <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp;
+      <strong>Augie Fritz</strong> &nbsp; // &nbsp;
+      <strong>Colin Fritz</strong> &nbsp; // &nbsp;
+      <strong>Katie Frommelt Walsh</strong> &nbsp; // &nbsp;
+      <strong>Adam Karnes</strong> &nbsp; // &nbsp;
+      <strong>Bridget Kelley</strong> &nbsp; // &nbsp;
+      <strong>Gen Klinker</strong> &nbsp; // &nbsp;
+      <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp;
+      <strong>Conor Quick</strong> &nbsp; // &nbsp;
+      <strong>Jack Walsh</strong>
+
+      <br><br>
     </div>
   </div>
 </div>
