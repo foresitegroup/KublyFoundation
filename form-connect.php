@@ -22,26 +22,23 @@ if ($responsekeys->success) {
       $Headers .= "Bcc: foresitegroupllc@gmail.com\r\n";
 
       $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
-      
+
       if (isset($_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
       $Message .= "\n" . $_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])];
 
       if (isset($_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
       $Message .= "\n" . $_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])];
-      
+
       if (isset($_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
       $Message .= "\n\n" . $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])];
-      
+
       if (isset($_POST['subscribe'])) {
         $data = [
           'email'  => $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])],
           'status' => 'subscribed'
         ];
-        
-        function syncMailchimp($data) {
-          $apiKey = 'a3820f880f16a587390412816e3beda1-us14';
-          $listId = '30867c8d51';
 
+        function syncMailchimp($data, $apiKey, $listId) {
           $memberId = md5(strtolower($data['email']));
           $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
           $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/' . $memberId;
@@ -59,7 +56,7 @@ if ($responsekeys->success) {
           curl_setopt($ch, CURLOPT_TIMEOUT, 10);
           curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
           curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-          curl_setopt($ch, CURLOPT_POSTFIELDS, $json);                                                                                                                 
+          curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
 
           $result = curl_exec($ch);
           $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
@@ -68,17 +65,17 @@ if ($responsekeys->success) {
           return $httpCode;
         }
 
-        syncMailchimp($data);
+        syncMailchimp($data, $apiKey, $listId);
       }
 
       if (isset($_POST['ambassador'])) $Message .= "\nI am interested in becoming a CEKF Ambassador.\n";
 
       $Message = stripslashes($Message);
-    
+
       mail($SendTo, $Subject, $Message, $Headers);
-      
+
       $feedback = "<strong>Your message has been sent!</strong> Thank you for your interest. You will be contacted shortly.";
-      
+
       if (!empty($_REQUEST['src'])) {
         header("HTTP/1.0 200 OK");
         echo $feedback;

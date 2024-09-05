@@ -144,34 +144,34 @@ include "header.php";
     <!-- Begin Newsletter Signup Form -->
     <script type="text/javascript">
       $(document).ready(function() {
-        var form = $('#newsletter-form');
-        var formMessages = $('#newsletter-form-messages');
-        $(form).submit(function(event) {
+        var mcform = $('#newsletter-form');
+        var mcformMessages = $('#newsletter-form-messages');
+        $(mcform).submit(function(event) {
           event.preventDefault();
 
           function formValidation() {
-            if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
+            if ($('#mcemail').val() === '') { alert('Email address required.'); $('#mcemail').focus(); return false; }
             return true;
           }
 
           if (formValidation()) {
-            var formData = $(form).serialize();
-            formData += '&src=ajax';
+            var mcformData = $(mcform).serialize();
+            mcformData += '&src=ajax';
 
             $.ajax({
               type: 'POST',
-              url: $(form).attr('action'),
-              data: formData
+              url: $(mcform).attr('action'),
+              data: mcformData
             })
             .done(function(response) {
-              $(formMessages).html(response);
-              $('#email').val('');
+              $(mcformMessages).html(response);
+              $('#mcemail').val('');
             })
             .fail(function(data) {
               if (data.responseText !== '') {
-                $(formMessages).html(data.responseText);
+                $(mcformMessages).html(data.responseText);
               } else {
-                $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                $(mcformMessages).text('Oops! An error occured and your message could not be sent.');
               }
             });
           }
@@ -199,7 +199,7 @@ include "header.php";
 
     <form action="form-newsletter.php" method="POST" id="newsletter-form">
       <div>
-        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address">
+        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="mcemail" placeholder="Email Address">
         <input type="submit" name="submit" value="SIGN UP">
 
         <input type="text" name="confirmationCAP" style="display: none;">
