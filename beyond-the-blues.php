@@ -29,8 +29,8 @@ include "header.php";
       <br>
 
       <!-- Tickets on sale August 1<sup>ST</sup> -->
-      Tickets may be purchased at the door
-      <a href="tickets.php" class="button">PURCHASE TICKETS</a>
+      Tickets may be purchased at the door.
+      <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> -->
       <br>
       <br>
 

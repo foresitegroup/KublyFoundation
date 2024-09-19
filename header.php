@@ -108,12 +108,12 @@ if (!isset($TopDir)) $TopDir = "";
       </style>
 
       <div class="home-banner">
-        <a href="tickets.php" id="pagecurl" class="btb">
+        <!-- <a href="tickets.php" id="pagecurl" class="btb">
           <div>
             Purchase 2024 "BEYOND THE BLUES" TICKETS now
             <p>Fri, September 20, 2024</p>
           </div>
-        </a>
+        </a> -->
         <!-- <a href="https://www.eventbrite.com/e/2024-charles-e-kubly-foundation-ylc-golf-outing-tickets-800416787157" id="pagecurl" style="background-image: url(images/page-curl-green.webp);">
           <div style="color: #FFFFFF; top: 70%;">
             Tickets<br>2024 YLC Golf Outing

@@ -22,10 +22,10 @@ include "header.php";
           Milwaukee, WI<br>
           <br>
 
-          <a href="https://www.eventbrite.com/e/beyond-the-blues-2024-tickets-948107825027" class="button">PURCHASE TICKETS</a><br>
-          <br>
+          <!-- <a href="https://www.eventbrite.com/e/beyond-the-blues-2024-tickets-948107825027" class="button">PURCHASE TICKETS</a><br>
+          <br> -->
 
-          Tickets are also available at the door
+          Tickets are available at the door
         </div>
       </div> <!-- /.site-width -->
     </div>
