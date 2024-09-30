@@ -18,23 +18,25 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
-      <br>
+      <br><br><br><br>
+      Thank you to all who sponsored, attended or contributed to our 2024 Beyond the Blues event. It was a great success!
+<!--       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php //echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
+      <br> -->
 
-      The Pavilion at Discovery World Pier Wisconsin<br>
+<!--       The Pavilion at Discovery World Pier Wisconsin<br>
       500 N. Harbor Drive<br>
       6:30 - 9:30 p.m.<br>
       <br>
       Featuring live music by Phil Norby, casual dinner fare, and a brief program highlighting our work at the Foundation.<br>
-      <br>
+      <br> -->
 
       <!-- Tickets on sale August 1<sup>ST</sup> -->
-      Tickets may be purchased at the door.
+      <!-- Tickets may be purchased at the door. -->
       <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> -->
-      <br>
+<!--       <br>
       <br>
 
-      For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959.
+      For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959. -->
 
 <!--       <br><br><br><br>
       2024 Sponsorships available.<br>Please contact Kris Rick at 414-477-9959 for details.<br>
@@ -85,14 +87,14 @@ include "header.php";
         <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['sapphire'],"\n\r")).'</li>'."\n"; ?>
       </ul>
       <?php } ?>
-      
+
       <?php if ($sponsor['aqua'] != "") { ?>
       <h3>Aqua Level - $10,000</h3>
       <ul>
         <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['aqua'],"\n\r")).'</li>'."\n"; ?>
       </ul>
       <?php } ?>
-      
+
       <?php if ($sponsor['teal'] != "") { ?>
       <h3>Teal Level - $5,000</h3>
       <ul>
@@ -107,7 +109,7 @@ include "header.php";
       </ul>
       <?php } ?>
     </div>
-    
+
     <?php if ($sponsor['navy'] != "") { ?>
     <div class="one-third">
       <h3>Navy Level - $1,000</h3>
@@ -116,7 +118,7 @@ include "header.php";
       </ul>
     </div>
     <?php } ?>
-    
+
     <?php if ($sponsor['denim'] != "") { ?>
     <div class="one-third">
       <h3>Denim Level - $500</h3>
@@ -136,9 +138,9 @@ include "header.php";
 <div class="btb-gallery" style="position: relative;">
   <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
   <div class="site-width">
-    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2023</h2>
+    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2024</h2>
     <?php
-    $main_dir = "images/galleries/btb2023";
+    $main_dir = "images/galleries/btb2024";
 
     $files = scandir($main_dir);
 
