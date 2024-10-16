@@ -267,7 +267,12 @@ include "header.php";
       <h4>HONORARY BOARD MEMBER:</h4> Billie Kubly<br>
       <br>
 
-      <h4>MEDICAL ADVISORY BOARD:</h4> <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp; <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp; <strong>Peter Lake, MD</strong>, Rogers Memorial Hospital &nbsp; // &nbsp; <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp; <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp; <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
+      <h4>MEDICAL ADVISORY BOARD:</h4>
+      <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
+      <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp;
+      <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
+      <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp;
+      <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
       <h4>GRANT REVIEW COMMITTEE:</h4>
@@ -284,11 +289,13 @@ include "header.php";
       <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp;
       <strong>Augie Fritz</strong> &nbsp; // &nbsp;
       <strong>Colin Fritz</strong> &nbsp; // &nbsp;
+      <strong>Michaela Fritz</strong> &nbsp; // &nbsp;
       <strong>Katie Frommelt Walsh</strong> &nbsp; // &nbsp;
       <strong>Adam Karnes</strong> &nbsp; // &nbsp;
       <strong>Bridget Kelley</strong> &nbsp; // &nbsp;
       <strong>Gen Klinker</strong> &nbsp; // &nbsp;
       <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp;
+      <strong>Sean McNealy</strong> &nbsp; // &nbsp;
       <strong>Conor Quick</strong> &nbsp; // &nbsp;
       <strong>Jack Walsh</strong>
 
