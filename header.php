@@ -108,13 +108,13 @@ if (!isset($TopDir)) $TopDir = "";
       </style>
 
       <div class="home-banner">
-        <a href="https://www.eventbrite.com/e/cause-for-the-claus-tickets-1042219545717" id="pagecurl" class="btb">
+        <!-- <a href="https://www.eventbrite.com/e/cause-for-the-claus-tickets-1042219545717" id="pagecurl" class="btb">
           <div>
             <p>Join us for</p>
             Cause for the Claus
             <p>Sat, December 14, 2024</p>
           </div>
-        </a>
+        </a> -->
 
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>
