@@ -29,7 +29,7 @@ include_once "inc/dbconfig.php";
 
 <div class="funding-current-header">
   <div class="site-width">
-    CEKF HAS FUNDED OVER $4 MILLION TO 446 PROJECTS SINCE 2003
+    CEKF HAS FUNDED OVER $4 MILLION TO 463 PROJECTS SINCE 2003
   </div>
 </div>
 
