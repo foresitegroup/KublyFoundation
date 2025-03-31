@@ -254,10 +254,9 @@ include "header.php";
       <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp;
       <strong>Lori R. Kilian</strong>, Vice President &nbsp; // &nbsp;
       <strong>Nick Hengst</strong>, Treasurer, Manpower Group &nbsp; // &nbsp;
-      <strong>Lily Kubly</strong>, Secretary, Mindfulness Entrepreneur &nbsp; // &nbsp;
+      <strong>Dean Knauss</strong> &nbsp; // &nbsp;
       <strong>Thayre Faust</strong> &nbsp; // &nbsp;
       <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp;
-      <strong>Mark Hansen, PhD</strong>, Elmbrook Schools &nbsp; // &nbsp;
       <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp;
       <strong>Dylan Ross</strong>, Head of Clinical, Blueprint &nbsp; // &nbsp;
       <strong>Brenda Wesley</strong>, Milwaukee Mental Health Advocate
@@ -277,7 +276,6 @@ include "header.php";
 
       <h4>GRANT REVIEW COMMITTEE:</h4>
       <strong>Alexander Buhk, PhD</strong>, Froedert & The Medical College of WI &nbsp; // &nbsp;
-      <strong>Pete E. Carlson, MEd (RET.)</strong>, MBA Aurora Behavioral Health Services &nbsp; // &nbsp;
       <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp;
       <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin
 
@@ -294,7 +292,6 @@ include "header.php";
       <strong>Adam Karnes</strong> &nbsp; // &nbsp;
       <strong>Bridget Kelley</strong> &nbsp; // &nbsp;
       <strong>Gen Klinker</strong> &nbsp; // &nbsp;
-      <strong>Mitchell Lindstrom</strong> &nbsp; // &nbsp;
       <strong>Sean McNealy</strong> &nbsp; // &nbsp;
       <strong>Conor Quick</strong> &nbsp; // &nbsp;
       <strong>Jack Walsh</strong>
