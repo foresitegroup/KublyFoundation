@@ -251,8 +251,7 @@ include "header.php";
       <br>
 
       <h4>BOARD OF DIRECTORS:</h4>
-      <strong>Linda L. Lundeen</strong>, President, Coldwell Banker Realty &nbsp; // &nbsp;
-      <strong>Lori R. Kilian</strong>, Vice President &nbsp; // &nbsp;
+      <strong>Lori R. Kilian</strong>, President &nbsp; // &nbsp;
       <strong>Nick Hengst</strong>, Treasurer, Manpower Group &nbsp; // &nbsp;
       <strong>Dean Knauss</strong> &nbsp; // &nbsp;
       <strong>Thayre Faust</strong> &nbsp; // &nbsp;
