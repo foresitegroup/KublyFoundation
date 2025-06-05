@@ -3919,8 +3919,52 @@ A.featured-read:active {
   text-transform: uppercase;
 }
 
-#endowment-gift {
-  font-weight: bold;
+#endowment-gift { font-weight: bold; }
+
+#endowment-gift .site-width {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#endowment-gift .site-width H2 { width: 100%; }
+
+#endowment-gift .site-width > .text {
+  width: calc(100% - 440px);
+
+  @media (max-width: 800px) { & { width: 100%; } }
+}
+
+#endowment-gift .site-width .legacy-link {
+  width: 400px; background: #6B4099; color: #FFFFFF; text-decoration: none;
+  font-family: 'Open Sans', sans-serif; font-weight: bold; font-size: 1.625rem;
+  line-height: 1;
+
+  @media (max-width: 800px) { & {
+    width: 474px; font-size: 1.875rem; margin-top: 2rem;
+  } }
+}
+
+#endowment-gift .site-width .legacy-link:hover { color: #CCCCCC; }
+
+#endowment-gift .site-width .legacy-link .text {
+  box-sizing: border-box; padding: 3rem 2%; text-align: center;
+}
+
+#endowment-gift .site-width .legacy-link .text > DIV {
+  text-transform: uppercase; padding-bottom: 0.25em;
+}
+
+#endowment-gift .site-width .legacy-link .image {
+  display: flex; justify-content: flex-end; align-items: center;
+  background: url(../images/legacy-giving.webp) no-repeat center;
+  background-size: cover; aspect-ratio: 474 / 178;
+}
+
+#endowment-gift .site-width .legacy-link .image:after {
+  content: attr(data-text); font-size: 2.4rem; text-transform: uppercase;
+  width: 50%; text-align: center; text-shadow: 0.0625rem 0.0625rem 0.0625rem black;
+
+  @media (max-width: 800px) { & { font-size: 2.5; } }
 }
 
 #endowment-goal,
@@ -4002,6 +4046,16 @@ A.featured-read:active {
   max-width: 40%;
   height: auto;
 }
+
+.footer-call.legacy {
+  background: #6B4099; font-size: 2.5rem; line-height: 1.2;
+  padding: 1em 0 calc(1.5em + 18px);
+}
+
+.footer-call.legacy A { color: #FFFFFF; }
+.footer-call.legacy A:hover { color: #CCCCCC; }
+
+.footer-call.legacy A > DIV { text-transform: uppercase; }
 
 
 /* YOUTH LEADERSHIP COUNCIL */
@@ -5753,4 +5807,39 @@ A.featured-read:active {
   .events-banner H1 {
     font-size: 45px;
   }
+}
+
+/* Legacy Giving */
+.legacy-banner {
+  background: #112C37; color: #FFFFFF; text-transform: uppercase;
+  padding: 5.625rem 0; position: relative;
+  
+  @media (max-width: 700px) { & { padding: 4rem 0 0; } }
+  @media (max-width: 480px) { & { margin-top: 105px; } }
+}
+
+.legacy-banner H1, .legacy-banner H2 {
+  width: 48%; margin: 0; font-size: 2.4rem; line-height: 1;
+  position: relative; z-index: 3;
+
+  @media (max-width: 700px) { & { width: 100%; } }
+}
+
+.legacy-banner H2 { margin-top: 0.25em; font-size: 2rem; }
+
+.legacy-banner .image {
+  position: absolute; top: 0; right: 0; z-index: 2; height: 100%; width: 50%;
+  background: url(../images/legacy-giving.webp) no-repeat left center;
+  background-size: cover;
+
+  @media (max-width: 700px) { & {
+    position: static; width: 100%; height: auto; aspect-ratio: 1200 / 432;
+    margin-top: 4rem;
+  } }
+}
+
+.legacy-content { padding: 2.5rem 0 5rem; }
+
+.legacy-content H3 {
+  margin: 0; color: #112C37; font-size: 1.375rem;
 }

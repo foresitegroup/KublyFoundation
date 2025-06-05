@@ -20,10 +20,21 @@ include "header.php";
 <div id="endowment-gift">
   <div class="site-width">
     <h2>A Gift from the Heart</h2>
-    In 2018, dedicated CEKF supporters Michael and Jeanne Schmitz, made a significant commitment of $500,000 to establish The Joey Schmitz & Charlie Kubly Endowment Fund. Like their dear friends, Billie and the late Dr. Michael Kubly, the Schmitzes also lost a beloved son, Joey, to depression and suicide. The endowment fund memorializes both young men by establishing a consistent source of future investment income to support the mission and grant-making of The Charles E. Kubly Foundation. Since this fund was established the Foundation was able to match their extremely generous gift and now is valued at approximately $1 million.<br>
-    <br>
+    <div class="text">
+      In 2018, dedicated CEKF supporters Michael and Jeanne Schmitz, made a significant commitment of $500,000 to establish The Joey Schmitz & Charlie Kubly Endowment Fund. Like their dear friends, Billie and the late Dr. Michael Kubly, the Schmitzes also lost a beloved son, Joey, to depression and suicide. The endowment fund memorializes both young men by establishing a consistent source of future investment income to support the mission and grant-making of The Charles E. Kubly Foundation. Since this fund was established the Foundation was able to match their extremely generous gift and now is valued at approximately $1 million.<br>
+      <br>
 
-    Jeanne Schmitz passed away in early 2019. As we remember her, we appreciate not only the foresight that Mike and Jeanne demonstrated in making this gift but their deep compassion for those struggling with depression.
+      Jeanne Schmitz passed away in early 2019. As we remember her, we appreciate not only the foresight that Mike and Jeanne demonstrated in making this gift but their deep compassion for those struggling with depression.
+    </div>
+
+    <a href="legacy-giving" class="legacy-link">
+      <div class="text">
+        <div>Giving Defined</div>
+        Learn about Legacy Giving
+      </div>
+
+      <div class="image" data-text="Leave a Legacy"></div>
+    </a>
   </div>
 </div>
 
@@ -122,4 +133,4 @@ include "header.php";
   </div>
 </div>
 
-<?php $ArrowNo = "true"; include "footer.php"; ?>
+<?php $shin = "legacy"; include "footer.php"; ?>
