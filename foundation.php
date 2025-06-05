@@ -300,4 +300,4 @@ include "header.php";
   </div>
 </div>
 
-<?php $ArrowNo = "true"; include "footer.php"; ?>
+<?php $shin = "legacy"; include "footer.php"; ?>

@@ -36,13 +36,4 @@ include "header.php";
   This Privacy Policy does not apply to any other web site you go to from this Web Site, including those to which we have provided links for your convenience. If you are concerned about or interested in the privacy practices or policies of other web sites you visit, you may wish to review their posted privacy statements and/or contact them directly with your questions.
 </div>
 
-<div class="footer-call">
-  <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
-  <div class="site-width">
-    For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you are having suicidal thoughts or worried about someone you know CALL the Suicide Prevention Lifeline: <span class="bluetext">1-800-273-8255</span><br>
-    TEXT the HOPELINE: <span class="bluetext">741741</span>
-  </div>
-</div>
-
-<?php include "footer.php"; ?>
+<?php $shin = "call"; include "footer.php"; ?>

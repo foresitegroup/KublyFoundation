@@ -142,12 +142,4 @@ include_once "inc/dbconfig.php";
   </div>
 </div>
 
-<div class="footer-call">
-  <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
-  <div class="site-width">
-    For immediate risk of harm and/or emergencies always <span class="bluetext">CALL 911</span>.<br>
-    If you or someone you know is struggling or in crisis, help is available. CALL or TEXT <span class="bluetext">988</span> or chat <a href="https://988lifeline.org" class="bluetext">988lifeline.org</a>.
-  </div>
-</div>
-
-<?php include "footer.php"; ?>
+<?php $shin = "call"; include "footer.php"; ?>
