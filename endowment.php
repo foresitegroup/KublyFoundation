@@ -27,7 +27,7 @@ include "header.php";
       Jeanne Schmitz passed away in early 2019. As we remember her, we appreciate not only the foresight that Mike and Jeanne demonstrated in making this gift but their deep compassion for those struggling with depression.
     </div>
 
-    <a href="legacy-giving" class="legacy-link">
+    <a href="legacy-giving.php" class="legacy-link">
       <div class="text">
         <div>Giving Defined</div>
         Learn about Legacy Giving
