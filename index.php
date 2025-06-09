@@ -46,7 +46,7 @@ include "header.php";
 </div>
 
 <div class="home-foundation">
-  <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
+  <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
   <img src="images/charlie-circle.png" alt="" class="hf-image">
 
   <div class="site-width">
@@ -65,4 +65,4 @@ include "header.php";
   </div>
 </div>
 
-<?php include "footer.php"; ?>
+<?php $shin = "legacy"; include "footer.php"; ?>

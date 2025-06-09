@@ -74,4 +74,4 @@ include "header.php";
   As a condition of your use of the Site, you warrant to the Foundation that you will not use the site for any purpose that is unlawful or prohibited by these Terms and Conditions.
 </div>
 
-<?php $shin = "call"; include "footer.php"; ?>
+<?php $shin = "call legacy"; include "footer.php"; ?>

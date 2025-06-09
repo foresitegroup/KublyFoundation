@@ -139,7 +139,7 @@ include "header.php";
 </div>
 
 <div class="footer-call">
-  <div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
+  <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
   <div class="site-width" id="newsletter">
     <!-- Begin Newsletter Signup Form -->
     <script type="text/javascript">
@@ -211,4 +211,4 @@ include "header.php";
   </div>
 </div>
 
-<?php include "footer.php"; ?>
+<?php $shin = "legacy"; include "footer.php"; ?>

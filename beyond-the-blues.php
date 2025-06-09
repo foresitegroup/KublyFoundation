@@ -136,7 +136,7 @@ include "header.php";
 </div>
 
 <div class="btb-gallery" style="position: relative;">
-  <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div>
+  <!-- <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div> -->
   <div class="site-width">
     <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2024</h2>
     <?php
@@ -160,4 +160,4 @@ include "header.php";
   </div>
 </div>
 
-<?php include "footer.php"; ?>
+<?php $shin = "legacy"; include "footer.php"; ?>

@@ -129,4 +129,4 @@ include "header.php";
   });
 </script>
 
-<?php $shin = "call"; include "footer.php"; ?>
+<?php $shin = "call legacy"; include "footer.php"; ?>

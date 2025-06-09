@@ -56,4 +56,4 @@ include "header.php";
   </div>
 </div>
 
-<?php $shin = "call"; include "footer.php"; ?>
+<?php $shin = "call legacy"; include "footer.php"; ?>

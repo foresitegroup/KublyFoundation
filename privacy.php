@@ -36,4 +36,4 @@ include "header.php";
   This Privacy Policy does not apply to any other web site you go to from this Web Site, including those to which we have provided links for your convenience. If you are concerned about or interested in the privacy practices or policies of other web sites you visit, you may wish to review their posted privacy statements and/or contact them directly with your questions.
 </div>
 
-<?php $shin = "call"; include "footer.php"; ?>
+<?php $shin = "call legacy"; include "footer.php"; ?>

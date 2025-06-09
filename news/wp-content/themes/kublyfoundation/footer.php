@@ -61,7 +61,7 @@ if (is_home()) {
 <?php } ?>
 
 <div class="news-footer">
-	<div class="footer-arrow"><div class="footer-arrow-mask"></div></div>
+	<!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
 
 	<div class="site-width">
 	  <h1>BEYOND THE BLUES CONCERT EVENT</h1>
@@ -80,5 +80,6 @@ if (is_home()) {
 </script>
 
 <?php
+$shin = "legacy";
 include "../footer.php";
 ?>
