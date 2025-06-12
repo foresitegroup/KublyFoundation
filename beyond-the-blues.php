@@ -18,31 +18,16 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <br><br><br><br>
-      Thank you to all who sponsored, attended or contributed to our 2024 Beyond the Blues event. It was a great success!
-<!--       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php //echo date("l, F jS", $GLOBALS['btbdate']); ?></h2>
-      <br> -->
+      <h1>Save the Date</h1>
 
-<!--       The Pavilion at Discovery World Pier Wisconsin<br>
-      500 N. Harbor Drive<br>
-      6:30 - 9:30 p.m.<br>
-      <br>
-      Featuring live music by Phil Norby, casual dinner fare, and a brief program highlighting our work at the Foundation.<br>
-      <br> -->
-
-      <!-- Tickets on sale August 1<sup>ST</sup> -->
-      <!-- Tickets may be purchased at the door. -->
-      <!-- <a href="tickets.php" class="button">PURCHASE TICKETS</a> -->
-<!--       <br>
+      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("F j, Y", $GLOBALS['btbdate']); ?></h2>
       <br>
 
-      For questions about the event or to become a sponsor, please contact Kris Rick at 414-477-9959. -->
+       Discovery World Pavilion at Pier Wisconsin, Milwaukee<br>
+       Tickets on sale August 1<sup>ST</sup><br>
+       <br>
 
-<!--       <br><br><br><br>
-      2024 Sponsorships available.<br>Please contact Kris Rick at 414-477-9959 for details.<br>
-      <br>
-
-      Tickets for the event will go on sale August 1, 2024 -->
+       Sponsorships available! Contact Kris Rick at 414-477-9959 or <a href="mailto:krick@cekf.org">krick@cekf.org</a>.
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
@@ -69,7 +54,7 @@ include "header.php";
   <div class="site-width">
     <!-- <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1> -->
 
-    <h2>BEYOND THE BLUES 2024 SPONSORS TO DATE</h2>
+    <h2>BEYOND THE BLUES 2025 SPONSORS TO DATE</h2>
 
     <?php
     include_once "inc/dbconfig.php";
