@@ -25,7 +25,7 @@ include "header.php";
           <!-- <a href="https://www.eventbrite.com/e/beyond-the-blues-2024-tickets-948107825027" class="button">PURCHASE TICKETS</a><br>
           <br> -->
 
-          Tickets are available at the door
+          Tickets on sale August 1<sup>ST</sup>
         </div>
       </div> <!-- /.site-width -->
     </div>
