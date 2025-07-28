@@ -108,12 +108,12 @@ if (!isset($TopDir)) $TopDir = "";
       </style>
 
       <div class="home-banner">
-        <!-- <a href="https://www.eventbrite.com/e/2025-charles-e-kubly-foundation-ylc-golf-tournament-tickets-1269192301339" id="pagecurl" class="btb">
+        <a href="https://beyondtheblues2025.eventbrite.com" id="pagecurl" class="btb">
           <div>
-            2025<br>YLC Golf Tournament
-            <p>Sat, June 7, 2025</p>
+            Beyond<br>The Blues
+            <p>Tickets On Sale Now</p>
           </div>
-        </a> -->
+        </a>
 
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>

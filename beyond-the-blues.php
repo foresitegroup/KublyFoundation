@@ -18,13 +18,15 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <h1>Save the Date</h1>
+      <h1>Join Us</h1>
 
       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("F j, Y", $GLOBALS['btbdate']); ?></h2>
       <br>
 
+      <a href="https://beyondtheblues2025.eventbrite.com" class="button">BUY TICKETS HERE</a><br>
+      <br>
+
        Discovery World Pavilion at Pier Wisconsin, Milwaukee<br>
-       Tickets on sale August 1<sup>ST</sup><br>
        <br>
 
        Sponsorships available! Contact Kris Rick at 414-477-9959 or <a href="mailto:krick@cekf.org">krick@cekf.org</a>.
