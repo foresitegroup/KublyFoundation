@@ -108,12 +108,12 @@ if (!isset($TopDir)) $TopDir = "";
       </style>
 
       <div class="home-banner">
-        <a href="https://beyondtheblues2025.eventbrite.com" id="pagecurl" class="btb">
+        <!-- <a href="https://beyondtheblues2025.eventbrite.com" id="pagecurl" class="btb">
           <div>
             Beyond<br>The Blues
             <p>Tickets On Sale Now</p>
           </div>
-        </a>
+        </a> -->
 
         <div class="home-banner-slide dogear" style="background-image: url(<?php echo $file; ?>);">
           <div class="credit">Photo by Curt Lundeen</div>
