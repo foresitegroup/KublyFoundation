@@ -18,7 +18,7 @@ include "header.php";
     </div> <!-- /.header-left -->
 
     <div class="header-right">
-      <h1>Join Us</h1>
+      <!-- <h1>Join Us</h1>
 
       <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("F j, Y", $GLOBALS['btbdate']); ?></h2>
       <br>
@@ -29,7 +29,9 @@ include "header.php";
        Discovery World Pavilion at Pier Wisconsin, Milwaukee<br>
        <br>
 
-       Sponsorships available! Contact Kris Rick at 414-477-9959 or <a href="mailto:krick@cekf.org">krick@cekf.org</a>.
+       Sponsorships available! Contact Kris Rick at 414-477-9959 or <a href="mailto:krick@cekf.org">krick@cekf.org</a>. -->
+
+       <br><br><br>Thank you to all who sponsored, donated toward and attended our 2025 Beyond the Blues event! It was a great success! See photos and sponsor list below! See you in 2026!
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
@@ -125,9 +127,9 @@ include "header.php";
 <div class="btb-gallery" style="position: relative;">
   <!-- <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div> -->
   <div class="site-width">
-    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2024</h2>
+    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2025</h2>
     <?php
-    $main_dir = "images/galleries/btb2024";
+    $main_dir = "images/galleries/btb2025";
 
     $files = scandir($main_dir);
 
