@@ -257,8 +257,9 @@ include "header.php";
       <strong>Thayre Faust</strong> &nbsp; // &nbsp;
       <strong>Molly Kubly Fritz</strong> &nbsp; // &nbsp;
       <strong>Meg Fetherston Kasch</strong>, Community Volunteer &nbsp; // &nbsp;
-      <strong>Dylan Ross</strong>, Head of Clinical, Blueprint &nbsp; // &nbsp;
-      <strong>Brenda Wesley</strong>, Milwaukee Mental Health Advocate
+      <strong>Dylan Ross</strong>, Chief Clinical & Strategy Officer, Psych Hub &nbsp; // &nbsp;
+      <strong>Brenda Wesley</strong>, Milwaukee Mental Health Advocate &nbsp; // &nbsp;
+      <strong>Erica Browne</strong>, ATR-BC, LPC at Bloom Therapies
 
       <br><br>
 
@@ -266,16 +267,12 @@ include "header.php";
       <br>
 
       <h4>MEDICAL ADVISORY BOARD:</h4>
-      <strong>Carlyle H. Chan, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
-      <strong>Ken Johnson, MD</strong>, Columbia St.Mary's &nbsp; // &nbsp;
       <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
       <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp;
       <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
       <h4>GRANT REVIEW COMMITTEE:</h4>
-      <strong>Alexander Buhk, PhD</strong>, Froedert & The Medical College of WI &nbsp; // &nbsp;
-      <strong>Rosa Kim, MD</strong>, Children's Hospital of Wisconsin &nbsp; // &nbsp;
       <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin
 
       <br>
@@ -283,7 +280,6 @@ include "header.php";
       <br>
 
       <h4>YOUNG LEADERS COUNCIL:</h4>
-      <strong>Lily Kubly</strong>, Founding Member &nbsp; // &nbsp;
       <strong>Augie Fritz</strong> &nbsp; // &nbsp;
       <strong>Colin Fritz</strong> &nbsp; // &nbsp;
       <strong>Michaela Fritz</strong> &nbsp; // &nbsp;
@@ -291,7 +287,6 @@ include "header.php";
       <strong>Adam Karnes</strong> &nbsp; // &nbsp;
       <strong>Bridget Kelley</strong> &nbsp; // &nbsp;
       <strong>Gen Klinker</strong> &nbsp; // &nbsp;
-      <strong>Sean McNealy</strong> &nbsp; // &nbsp;
       <strong>Conor Quick</strong> &nbsp; // &nbsp;
       <strong>Jack Walsh</strong>
 
