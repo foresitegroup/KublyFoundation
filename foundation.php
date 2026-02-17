@@ -267,13 +267,17 @@ include "header.php";
       <br>
 
       <h4>MEDICAL ADVISORY BOARD:</h4>
+      <strong>Carlyle H. Chan, MD</strong> &nbsp; // &nbsp;
       <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
       <strong>Michael McBride, MD</strong>, Veteran's Administration Hospital &nbsp; // &nbsp;
       <strong>Laura Roberts, MD</strong>, National Medical Advisor Stanford University<br>
       <br>
 
       <h4>GRANT REVIEW COMMITTEE:</h4>
-      <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin
+      <strong>Sara Kohlbeck, PhD, MPH</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
+      <strong>Jon A. Lehrmann, MD</strong>, Medical College of Wisconsin &nbsp; // &nbsp;
+      <strong>Leslie Orozco Henry, MM, MT-BC, WMTR</strong>, Alverno College &nbsp; // &nbsp;
+      <strong>Dalicia Simpson, B.A.</strong>, Medical College of Wisconsin<br>
 
       <br>
       <strong>We are extremely grateful for the time, expertise and dedication of our Grant Review Committee members.</strong><br>
