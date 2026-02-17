@@ -16,18 +16,17 @@ if (is_home()) {
 
 <div id="newsletters">
   <div class="site-width">
-    <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Summer_2025.pdf" class="image"><img src="<?php echo $TopDir; ?>images/Kubly_Newsletter_Summer_2025.webp" alt="" width="1000" height="1294"></a>
+    <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2026.pdf" class="image"><img src="<?php echo $TopDir; ?>images/Kubly_Newsletter_Winter_2026.webp" alt="" width="1000" height="1294"></a>
 
     <div class="text">
-      <h3>Summer 2025 Newsletter</h3>
+      <h3>Winter 2026 Newsletter</h3>
 
       <span>What's Inside</span><br>
-      <span>01.</span> Exciting Changes<br>
-      <span>02.</span> 5th YLC Golf Outing<br>
-      <span>03.</span> Milwaukee Urban Stables<br>
-      <span>03.</span> Legacy Giving Defined<br>
-      <span>04.</span> Projects Funded<br>
-      <span>05.</span> Thank You Donors<br>
+      <span>01.</span> Projects Funded<br>
+      <span>03.</span> Journey and Abundant Life Church Support<br>
+      <span>03.</span> New Grant Review Committe Members<br>
+      <span>04.</span> Beyond the Blues 2025 Recap<br>
+      <span>07.</span> Golf Outing - Save the Date<br>
       <br>
 
       <h4>Past Newsletters</h4>
@@ -45,6 +44,7 @@ if (is_home()) {
         </div>
 
         <div>
+          <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2026.pdf">Winter 2026</a><br>
           <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2025.pdf">Winter 2025</a><br>
           <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2024.pdf">Winter 2024</a><br>
           <a href="<?php echo $TopDir; ?>pdf/Kubly_Newsletter_Winter_2023.pdf">Winter 2023</a><br>
