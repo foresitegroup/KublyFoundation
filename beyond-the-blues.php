@@ -31,9 +31,7 @@ include "header.php";
 
        Sponsorships available! Contact Kris Rick at 414-477-9959 or <a href="mailto:krick@cekf.org">krick@cekf.org</a>. -->
 
-       <br><br><br>Thank you to all who sponsored, donated toward and attended our 2025 Beyond the Blues event! It was a great success! See photos and sponsor list below! See you in 2026!
-
-       <h2 style="line-height: 1.2;">Save the Date for<br>Beyond the Blues 2026<br>Friday, September 18th</h2>
+       <br><br><br>Please make plans to join us on Friday, September 18th for our annual Beyond the Blues event at Discovery World Pier Wisconsin. Sponsorships are available now. Contact Kris Rick at 414-477-9959 for more information.
     </div> <!-- /.header-right -->
   </div> <!-- /.site-width -->
 </div> <!-- /.btb-banner -->
