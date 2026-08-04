@@ -1,44 +1,34 @@
 <?php
-session_start();
-
-require_once "inc/dbconfig.php";
+include_once "inc/dbconfig.php";
 
 $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$RCkey."&response=".$_POST['g-recaptcha']);
 $responsekeys = json_decode($response);
 
-$salt = "KublyYLCForm";
-
 if ($responsekeys->success) {
-  if ($_POST['confirmationCAP'] == "") {
-    if (
-        $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-        $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
-       )
-    {
+  if ($_POST['username'] == "") {
+    if ($_POST['name'] != "" && $_POST['email'] != "") {
       $Subject = "Contact From YLC Form";
-      $SendTo = "mailto:info@ceck.org";
+      $SendTo = "info@ceck.org";
       $Headers = "From: YLC Form <donotreply@charlesekublyfoundation.org>\r\n";
-      $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+      $Headers .= "Reply-To: ".$_POST['email'] . "\r\n";
       $Headers .= "Bcc: foresitegroupllc@gmail.com\r\n";
 
-      $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
+      $Message = "Message from ".$_POST['name']." (".$_POST['email'].")";
 
-      if (isset($_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
-      $Message .= "\n" . $_POST[md5('address' . $_POST['ip'] . $salt . $_POST['timestamp'])];
+      if (isset($_POST['address'])) $Message .= "\n".$_POST['address'];
 
-      if (isset($_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])]))
-      $Message .= "\n" . $_POST[md5('citystatezip' . $_POST['ip'] . $salt . $_POST['timestamp'])];
+      if (isset($_POST['citystatezip'])) $Message .= "\n".$_POST['citystatezip'];
 
       if (isset($_POST['subscribe'])) {
         $data = [
-          'email'  => $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])],
+          'email'  => $_POST['email'],
           'status' => 'subscribed'
         ];
 
         function syncMailchimp($data, $apiKey, $listId) {
           $memberId = md5(strtolower($data['email']));
           $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
-          $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listId . '/members/' . $memberId;
+          $url = 'https://'.$dataCenter.'.api.mailchimp.com/3.0/lists/'.$listId.'/members/'.$memberId;
 
           $json = json_encode([
             'email_address' => $data['email'],
@@ -72,24 +62,11 @@ if ($responsekeys->success) {
       mail($SendTo, $Subject, $Message, $Headers);
 
       $feedback = "<strong>Your message has been sent!</strong> Thank you for your interest. You will be contacted shortly.";
-
-      if (!empty($_REQUEST['src'])) {
-        header("HTTP/1.0 200 OK");
-        echo $feedback;
-      }
     } else {
       $feedback = "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong>";
+    } // required
+  } // honeypot
+} // recaptcha
 
-      if (!empty($_REQUEST['src'])) {
-        header("HTTP/1.0 500 Internal Server Error");
-        echo $feedback;
-      }
-    }
-  }
-}
-
-if (empty($_REQUEST['src'])) {
-  // $_SESSION['feedback'] = $feedback;
-  header("Location: " . $_POST['referrer'] . "#connect-form");
-}
+echo $feedback;
 ?>

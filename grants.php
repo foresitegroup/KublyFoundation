@@ -1,23 +1,22 @@
 <?php
 $PageTitle = "Grants";
-$Keywords = "";
-$Description = "";
+$Description = "We welcome grant requests from not-for-profit organizations with a focus on the prevention of depression, depression-related diseases, and suicide.";
 
 include "header.php";
 ?>
 
-<div id="grant-priorities">
+<section id="grant-priorities" class="background-text" data-background="01.">
   <div class="site-width">
-    <h1>GRANT REQUEST FUNDING PRIORITIES</h1>
+    <h1>Grant Request Funding Priorities</h1>
     The Charles E. Kubly Foundation seeks to better the lives of those affected by depression by increasing public awareness of the disease and its devastating effects, eliminating the stigma associated with it, supporting suicide prevention programs and promoting improved access to quality mental health resources within communities.<br>
     <br>
     <br>
 
-    <span class="down">PRIORITIES <i class="fa fa-long-arrow-down" aria-hidden="true"></i></span><br>
+    <span class="down">Priorities</span><br>
     <br>
     <br>
 
-    <h2>WE WELCOME GRANT REQUESTS FROM NOT-FOR-PROFIT ORGANIZATIONS THAT:</h2>
+    <h2>We Welcome Grant Requests From Not-For-Profit Organizations That:</h2>
     <ol>
       <li>Provide services to either those afflicted by depression and depression-related diseases or their friends and family.</li>
       <li>Host events or media campaigns to reduce depression-related stigma targeting either the general public or more specific populations.</li>
@@ -27,7 +26,7 @@ include "header.php";
     </ol>
     <br>
 
-    <h2>WE PREFER GRANT REQUESTS THAT:</h2>
+    <h2>We Prefer Grant Requests That:</h2>
     <ol>
       <li>Impact the state of Wisconsin, as the majority of our donor base resides here. We will consider grants outside of our state if they are deemed to have potential as a future project for the State of Wisconsin.</li>
       <li>Are projects with a beginning and an end. Must have measurable outcomes to evaluate the effectiveness of the program.</li>
@@ -43,16 +42,16 @@ include "header.php";
 
     NOTE: All grant recipients will be required to complete a <a href="pdf/Grant_Report.pdf">Grant Report</a> within 30 days after project completion.
   </div>
-</div>
+</section>
 
-<div id="grant-guidelines">
+<div id="grant-guidelines" class="background-text" data-background="02.">
   <div class="site-width">
-    <h1>GRANT REQUEST GUIDELINES</h1>
+    <h2>Grant Request Guidelines</h2>
     The Board of Directors of the Charles E. Kubly Foundation formally reviews proposals and makes gifts twice annually: once in the spring and again in the fall. Grants packets are created and presented to Grant Committee for review and then brought to the Charles E. Kubly Foundation Board for a final vote. This process takes approximately 5 weeks. We encourage you to submit your letter of inquiry (LOI) in time to have the final grant request in no later than <strong>MARCH 20</strong> for consideration during our spring review and no later than <strong>SEPTEMBER 20</strong> for consideration during our fall review. Listed below are the steps to anticipate in preparing a grant request.<br>
     <br>
     <br>
 
-    <span class="down">PLEASE READ <i class="fa fa-long-arrow-down" aria-hidden="true"></i></span><br>
+    <span class="down">Please Read</span><br>
     <br>
     <br>
 
@@ -75,7 +74,7 @@ include "header.php";
     <br>
     <br>
 
-    <h2>ALL GRANT REQUESTS SHOULD INCLUDE:</h2>
+    <h3>All Grant Requests Should Include:</h3>
     <ul>
       <li>Organization Name.<br><br></li>
       <li>Documentation confirming your legal status as a not-for-profit organization (e.g. Form 1099).<br><br></li>
@@ -96,7 +95,7 @@ include "header.php";
     <br>
 
     <div style="text-align: center;">
-      <img src="images/CEKF_Logo.jpg" alt="" style="max-width: 50%; height: auto;"><br>
+      <img src="images/CEKF_Logo.jpg" width="2888" width="1238" loading="lazy" alt="" style="max-width: 50%; height: auto;"><br>
       <a href="images/CEKF_Logo.jpg">Download .jpg</a> |
       <a href="images/CEKF_Logo.png">Download .png</a> |
       <a href="images/CEKF_Logo.svg">Download .svg</a><br>
@@ -111,8 +110,8 @@ include "header.php";
     <br>
 
     <div style="text-align: center;">
-      <a href="https://cekf.smapply.io" class="button">GRANT APPLICATION</a><br>
-      <a href="projects-funded.php" class="button">PROJECTS FUNDED</a>
+      <a href="https://cekf.smapply.io" class="button">Grant Application</a><br>
+      <a href="projects-funded.php" class="button">Projects Funded</a>
     </div>
   </div>
 </div>

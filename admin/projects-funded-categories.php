@@ -6,8 +6,8 @@ include "header.php";
 include_once "../inc/dbconfig.php";
 ?>
 
-<div class="site-width">
-  <a href="projects-funded-categories-edit.php" class="btn">Add New Category</a><br>
+<div class="site-width projects">
+  <a href="projects-funded-categories-edit.php" class="button">Add New Category</a><br>
   <br>
 
   <h1>Projects Funded Categories</h1>

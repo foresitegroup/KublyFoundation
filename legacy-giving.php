@@ -6,16 +6,16 @@ $Description = "";
 include "header.php";
 ?>
 
-<div class="legacy-banner">
+<section class="legacy-hero">
   <div class="site-width">
     <h1>Giving Defined</h1>
     <h2>Benefits of a Legacy Gift</h2>
   </div>
 
   <div class="image"></div>
-</div>
+</section>
 
-<div class="site-width legacy-content">
+<section id="legacy-content" class="site-width">
   <h3>Bequests</h3>
   Gifts made through bequests (leaving assets to a charity in your Will or Living Trusts) are generally deductible for Estate Tax purposes, reducing the potential to pay Estate Tax.<br>
   <br>
@@ -46,6 +46,6 @@ include "header.php";
   <br>
 
   The Charles E. Kubly Foundation is a 501c3 public charity and our FEIN is 20-0375310.
-</div>
+</section>
 
 <?php include "footer.php"; ?>

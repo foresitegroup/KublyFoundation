@@ -1,26 +1,20 @@
 <?php
 $PageTitle = "Signs and Facts";
-$Keywords = "";
 $Description = "";
 
 include "header.php";
 ?>
 
-<div class="facts-banner">
-  <div class="site-width">
-    UNDERSTANDING DEPRESSION &amp; SUICIDE<br>
+<section id="signs-and-facts-hero">
+  <h1 class="site-width">Understanding Depression &amp; Suicide</h1>
+</section>
 
-    <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
-  </div>
-</div>
-
-<div class="depression">
+<section id="depression" class="background-text" data-background="Depression">
   <div class="site-width">
-    <div class="facts-left">
-      <div class="depression-box">
-        <h1>DEPRESSION</h1>
-        A SERIOUS, TREATABLE, VERY COMMON MEDICAL ILLNESS.<br>
-        <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+    <div class="left">
+      <div class="box">
+        <h2>Depression</h2>
+        <p>A serious, treatable, very common medical illness.</p>
       </div>
 
       <ul>
@@ -32,101 +26,78 @@ include "header.php";
       </ul>
     </div>
 
-    <div class="facts-right">
-      <div class="facts-images">
-        <img src="images/facts1.jpg" alt="" class="facts1">
-        <img src="images/facts2.jpg" alt="" class="facts2">
-        <img src="images/facts3.jpg" alt="" class="facts3">
+    <div class="right">
+      <div id="facts-images">
+        <img src="images/signs-and-facts1.webp" width="700" height="615" loading="lazy" alt="" class="facts1">
+        <img src="images/signs-and-facts2.webp" width="700" height="593" loading="lazy" alt="" class="facts2">
+        <img src="images/signs-and-facts3.webp" width="700" height="576" loading="lazy" alt="" class="facts3">
       </div>
-
-      <!-- <h3>COMMONLY USED EFFECTIVE ANTIDEPRESSANTS:</h3>
-      Selective Serotonin Reuptake Inhibiters (SSRIs), Such as Fluoxetine (Prozac), Sertraline (Zoloft), Paroxetine (Paxil), Citalopram (Celexa), among others.<br>
-      <br>
-
-      <h3>OTHER COMPOUNDS MAY INCLUDE:</h3>
-      Bupropion (Wellbutrin), Venlafaxine (Effexor), Duloxetine (Cymbalta), and Amitriptyline (Elavil).<br>
-      <br>
-
-      <h3>COMMONLY USED MOOD STABILIZERS USED FOR PATIENTS WITH BIPOLAR DISORDER:</h3>
-      Lithium Carbonate, Divalproex Sodium (Depakote), Lamotrigine (Lamictal).<br>
-      <br>
-
-      <h3>ELECTROCONVULSIVE THERAPY (ECT), REPETITIVE TRANSCRANIAL MAGNETIC STIMULATION (rTMS):</h3>
-      Non-Medication Treatment Alternatives for unresponsive depression may include ECT, TMS and VNS.<br>
-      <br>
-
-      <em class="smalltext">These are common mediations and procedures in the treatment of depression. Please consult your doctor to determine the medication or treatment appropriate for you.</em> -->
     </div>
   </div>
-</div>
+</section>
 
-<div class="the-facts">
+<section id="call-circle">
+  <div>
+    <p>Call <span>or</span> Text</p>
+    988
+    <div>or chat</div>
+    <a href="https://988lifeline.org">988lifeline.org</a>
+  </div>
+</section>
+
+<section id="the-facts" class="background-text" data-background="The Facts">
   <div class="site-width">
-    <div class="call-circle">
-      <div>
-        <h3 style="margin-top: 0;">CALL <span>or</span> TEXT</h3>
-        <h3>988</h3>
-        <br>
-        or chat
-        <h3><a href="https://988lifeline.org">988lifeline.org</a></h3>
-      </div>
+    <h2><span>Suicide</span> is an all too common result of depression.</h2>
+
+    <div class="left">
+      Third leading cause of death of U.S. adolescents ages 15-19.<br>
+      <br>
+
+      <img src="images/the-facts.webp" width="700" height="486" loading="lazy" alt="">
     </div>
 
-    <div class="suicide-box">
-      <span class="bluetext">SUICIDE</span> IS AN ALL TOO COMMON RESULT OF DEPRESSION.
-    </div><br>
-    <br>
-
-    <div class="the-facts-left">
-      THIRD LEADING CAUSE OF DEATH OF U.S. ADOLESCENTS AGES 15-19.<br>
+    <div class="right">
+      Eleventh leading cause of death in the U.S. overall.<br>
       <br>
 
-      <img src="images/facts4.jpg" alt="">
-    </div>
-
-    <div class="the-facts-right">
-      ELEVENTH LEADING CAUSE OF DEATH IN THE U.S. OVERALL.<br>
+      90% of suicide attempts made by clinically depressed individuals.<br>
       <br>
 
-      90% OF SUICIDE ATTEMPTS MADE BY CLINICALLY DEPRESSED INDIVIDUALS.<br>
+      More common that homicide in the U.S.<br>
       <br>
 
-      MORE COMMON THAT HOMICIDE IN THE US.<br>
+      More frequently attempted by women over men in the U.S.<br>
       <br>
 
-      MORE FREQUENTLY ATTEMPTED BY WOMEN OVER MEN IN U.S.<br>
+      More frequently completed by men than women in the U.S.<br>
       <br>
 
-      MORE FREQUENTLY COMPLETED BY MEN THAN WOMEN IN THE U.S.<br>
+      Highest rate of successful suicide in older white men living in the U.S.<br>
       <br>
 
-      HIGHEST RATE OF SUCCESSFUL SUICIDE IN OLDER WHITE MEN LIVING IN THE U.S.<br>
-      <br>
-
-      <a href="donate.php" class="button">MAKE A DIFFERENCE</a>
+      <a href="donate.php" id="pulse-button" class="button">Make A Difference</a>
     </div>
   </div>
-</div>
+</section>
 
-<link rel="stylesheet" href="inc/animation.css">
-<script type="text/javascript" src="inc/scrollreveal.min.js"></script>
-<script type="text/javascript">
-  var sr = new ScrollReveal();
-  var customAni = { distance: 0, duration: 0, opacity: 1, scale: 1, viewFactor: 0, reset: true }
+<script>
+  const factsImages = document.getElementById('facts-images');
+  const factsImages_ob = new IntersectionObserver(function(images) {
+    if (images[0].isIntersecting) factsImages.classList.add('fade-in');
+  }, { threshold: 1 });
+  factsImages_ob.observe(factsImages);
 
-  sr.reveal('.facts-images IMG', { distance: 0, duration: 1000, scale: 1 }, 750);
+  const callCircle = document.getElementById('call-circle');
+  const callCircle_ob = new IntersectionObserver(function(circle) {
+    if (circle[0].isIntersecting) callCircle.classList.add('roll-in');
+  }, { threshold: 0.5 });
+  callCircle_ob.observe(callCircle);
 
-  sr.reveal('.call-circle', {
-    beforeReveal: function (el) { el.classList.add('RollInRight'); },
-    beforeReset: function (el) { el.classList.remove('RollInRight'); },
-    customAni
-  });
-
-  sr.reveal('.the-facts-right .button', {
-    beforeReveal: function (el) { el.classList.add('pulse'); },
-    beforeReset: function (el) { el.classList.remove('pulse'); },
-    customAni
-  });
+  const pulseButton = document.getElementById('pulse-button');
+  const pulseButton_ob = new IntersectionObserver(function(images) {
+    if (images[0].isIntersecting) pulseButton.classList.add('pulse');
+  }, { threshold: 1 });
+  pulseButton_ob.observe(pulseButton);
 </script>
 
 <?php $shin = "call legacy"; include "footer.php"; ?>

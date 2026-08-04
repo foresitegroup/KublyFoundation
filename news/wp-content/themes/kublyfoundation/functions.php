@@ -8,6 +8,94 @@ function stop_update_emails($send, $type, $core_update, $result) {
 add_filter('auto_plugin_update_send_email', '__return_false');
 add_filter('auto_theme_update_send_email', '__return_false');
 
+// Remove annoying persistent cache suggestion
+add_filter('site_status_should_suggest_persistent_object_cache', '__return_false');
+
+/* Lowers the metabox priority to 'low' for Yoast SEO's metabox. */
+add_filter('wpseo_metabox_prio', 'lower_yoast_metabox_priority');
+function lower_yoast_metabox_priority($priority) {
+  return 'low';
+}
+
+// Remove emojis (and other crud)
+add_action('init', 'disable_wp_emojicons');
+function disable_wp_emojicons() {
+  remove_action('admin_print_styles', 'print_emoji_styles');
+  remove_action('wp_head', 'print_emoji_detection_script', 7);
+  remove_action('admin_print_scripts', 'print_emoji_detection_script');
+  remove_action('wp_print_styles', 'print_emoji_styles');
+  remove_filter('wp_mail', 'wp_staticize_emoji_for_email');
+  remove_filter('the_content_feed', 'wp_staticize_emoji');
+  remove_filter('comment_text_rss', 'wp_staticize_emoji');
+  add_filter('emoji_svg_url', '__return_false');
+  add_filter('tiny_mce_plugins', 'disable_emojicons_tinymce');
+
+  remove_action('wp_head', 'rsd_link');
+  remove_action('wp_head', 'wlwmanifest_link');
+  remove_action('wp_head', 'wp_generator');
+  remove_action('wp_head', 'start_post_rel_link');
+  remove_action('wp_head', 'index_rel_link');
+  remove_action('wp_head', 'adjacent_posts_rel_link');
+}
+
+function disable_emojicons_tinymce($plugins) {
+  if (is_array($plugins)) {
+    return array_diff($plugins, array('wpemoji'));
+  } else {
+    return array();
+  }
+}
+
+/* Disable WordPress Admin Bar for all users */
+add_filter('show_admin_bar', '__return_false');
+
+// Disable Gutenberg editor.
+add_filter('use_block_editor_for_post_type', '__return_false', 10);
+
+// Enqueue scripts and styles
+add_action('wp_enqueue_scripts', 'my_styles');
+function my_styles() {
+  global $post;
+
+  // Remove Gutenberg Block Library CSS
+  wp_dequeue_style('wp-block-library');
+  wp_dequeue_style('wp-block-library-theme');
+  wp_dequeue_style('global-styles'); // Remove inline block CSS
+  wp_dequeue_style('classic-theme-styles');
+
+  wp_enqueue_style('style', get_template_directory_uri() . '/style.css', array(), filemtime(get_template_directory() . '/style.css'));
+}
+
+// Set editor to HTML by default for all users
+add_filter('wp_default_editor', function() { return "html"; });
+
+// We want Featured Images on Pages and Posts
+add_theme_support('post-thumbnails');
+
+// Don't resize Featured Images
+add_action('after_setup_theme', 'my_thumbnail_size', 11);
+function my_thumbnail_size() {
+  set_post_thumbnail_size();
+}
+
+// Don't wrap images in P tags
+add_filter('the_content', 'filter_ptags_on_images');
+function filter_ptags_on_images($content){
+  return preg_replace('/<p>\s*(<a .*>)?\s*(<img .* \/>)\s*(<\/a>)?\s*<\/p>/iU', '\1\2\3', $content);
+}
+
+add_filter('upload_mimes', 'upload_mime_types');
+function upload_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+
+// Wrap video embed code in DIV for responsive goodness
+add_filter( 'embed_oembed_html', 'my_oembed_filter', 10, 4 ) ;
+function my_oembed_filter($html, $url, $attr, $post_ID) {
+  $return = '<div class="video">'.$html.'</div>';
+  return $return;
+}
 
 // Set length of blog index except
 function wpdocs_custom_excerpt_length( $length ) {
@@ -23,15 +111,6 @@ function change_excerpt_more() {
   add_filter('excerpt_more', 'new_excerpt_more');
 }
 add_action('after_setup_theme', 'change_excerpt_more');
-
-// Allow Featured Images
-add_theme_support( 'post-thumbnails' );
-
-// Don't resize Featured Images
-function my_thumbnail_size() {
-  set_post_thumbnail_size();
-}
-add_action('after_setup_theme', 'my_thumbnail_size', 11);
 
 // Add Featured Post checkbox to post admin page
 function fg_custom_meta() {
@@ -95,84 +174,28 @@ function my_admin_styles() {
   </style>';
 }
 
-
-
-
-// Format the index page pagination
-function the_FG_posts_pagination($args = [], $class = 'pagination') {
+function wp_custom_pagination($args = [], $class = 'pagination') {
   if ($GLOBALS['wp_query']->max_num_pages <= 1) return;
 
-  $args = wp_parse_args( $args, [
-    'mid_size'           => 2,
-    'prev_next'          => false,
-    'prev_text'          => __('Older posts', 'textdomain'),
-    'next_text'          => __('Newer posts', 'textdomain'),
-    'screen_reader_text' => __('Posts navigation', 'textdomain'),
-  ]);
+  $args = wp_parse_args($args, ['mid_size' => 5, 'prev_next' => false]);
 
-  $links     = paginate_links($args);
-  $next_link = get_next_posts_link($args['next_text']);
-  $prev_link = get_previous_posts_link($args['prev_text']);
-  $template  = apply_filters( 'the_FG_navigation_markup_template', '
-  <nav class="navigation %1$s" role="navigation">
-    <h2 class="screen-reader-text">%2$s</h2>
-    <div class="nav-links">%3$s<div class="page-numbers-container">%4$s</div>%5$s</div>
-  </nav>', $args, $class);
+  $links = paginate_links($args);
+  $prev = get_previous_posts_link("Previous");
+  $next = get_next_posts_link("Next");
+  $template = apply_filters('navigation_markup_template', '
+    <nav class="navigation %1$s" aria-label="%2$s">
+      <div class="nav-links">
+        %3$s
+        <div class="page-numbers-container">%4$s</div>
+        %5$s
+      </div>
+    </nav>', $args, $class);
 
-  echo sprintf($template, $class, $args['screen_reader_text'], $prev_link, $links, $next_link);
+  echo sprintf($template, $class, 'Posts navigation', $prev, $links, $next);
 }
 
 add_filter('previous_posts_link_attributes', 'posts_link_attributes_prev');
 add_filter('next_posts_link_attributes', 'posts_link_attributes_next');
 function posts_link_attributes_prev() { return 'class="prev"'; }
 function posts_link_attributes_next() { return 'class="next"'; }
-
-// Format the single post pagination
-function the_FG_post_navigation( $args = array() ) {
-  echo get_the_FG_post_navigation( $args );
-}
-function get_the_FG_post_navigation( $args = array() ) {
-  $args = wp_parse_args( $args, array(
-    'prev_text'          => '%title',
-    'next_text'          => '%title',
-    'in_same_term'       => false,
-    'excluded_terms'     => '',
-    'taxonomy'           => 'category',
-    'screen_reader_text' => __( 'Post navigation' ),
-  ) );
-
-  $navigation = '';
-
-  $previous = get_previous_post_link(
-    '<div class="prev">%link</div>',
-    $args['prev_text'],
-    $args['in_same_term'],
-    $args['excluded_terms'],
-    $args['taxonomy']
-  );
-
-  $blogindex = '<a href="' . home_url() . '">NEWS HOME</a>';
-
-  $next = get_next_post_link(
-    '<div class="next">%link</div>',
-    $args['next_text'],
-    $args['in_same_term'],
-    $args['excluded_terms'],
-    $args['taxonomy']
-  );
-
-  // Only add markup if there's somewhere to navigate to.
-  if ( $previous || $next ) {
-    $navigation = _navigation_markup( $previous . $blogindex . $next, 'post-navigation', $args['screen_reader_text'] );
-  }
-
-  return $navigation;
-}
-
-// Wrap video embed code in DIV for responsive goodness
-add_filter( 'embed_oembed_html', 'my_oembed_filter', 10, 4 ) ;
-function my_oembed_filter($html, $url, $attr, $post_ID) {
-  $return = '<div class="video">'.$html.'</div>';
-  return $return;
-}
 ?>

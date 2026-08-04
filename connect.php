@@ -1,214 +1,161 @@
 <?php
 $PageTitle = "Connect";
-$Keywords = "";
-$Description = "";
+$Description = "Contact the Charles E. Kubly Foundation, subscribe to our newsletter, and learn how you can male a difference.";
 
 include "header.php";
+include_once "inc/dbconfig.php";
 ?>
 
-<div class="connect-banner">
+<section id="connect-hero">
   <div class="site-width">
-    <div class="left">
-      <div>
-        <h1>CONNECT</h1>
+    <div class="image">
+      <h1>Connect</h1>
 
-        SEND US A MESSAGE<br>
-        <br>
+      Send Us A Message
 
-        <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
-      </div>
+      <div class="arrow"></div>
     </div>
 
-    <div class="right">
-      <div>
-        The Charles E. Kubly Foundation<br>
-        1341 W. Mequon Road<br>
-        Suite 220<br>
-        Mequon, WI 53092<br>
-        <br>
+    <div class="text">
+      The Charles E. Kubly Foundation<br>
+      1341 W. Mequon Road<br>
+      Suite 220<br>
+      Mequon, WI 53092<br>
+      <br>
 
-        Kris Rick<br>
-        Executive Director & Business Manager<br>
-        <strong>(414) 477-9959</strong><br>
-        <br>
-        <br>
+      Kris Rick<br>
+      Executive Director & Business Manager<br>
+      (414) 477-9959<br>
+      <br>
+      <br>
 
-        <a href="donate.php" class="button">DONATE</a>
-      </div>
+      <a href="donate.php" class="button">Donate</a>
     </div>
   </div>
-</div>
+</section>
 
-<div class="site-width connect">
-  Please fill out the form below or call (414) 477-9959.<br>
-  <br>
+<?php
+// Settings for randomizing form field names
+$ip = $_SERVER['REMOTE_ADDR'];
+$timestamp = time();
+$salt = "KublyConnectForm";
+?>
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-      var form = $('#connect-form');
-      var formMessages = $('#connect-form-messages');
-      $(form).submit(function(event) {
-        event.preventDefault();
+<form action="form-connect.php" method="POST" id="connect-form" novalidate>
+  <h2>Please fill out the form below or call (414) 477-9959.</h2>
 
-        function formValidation() {
-          if ($('#name').val() === '') { alert('First & Last name required.'); $('#name').focus(); return false; }
-          if ($('#email').val() === '') { alert('Email address required.'); $('#email').focus(); return false; }
-          return true;
-        }
+  <div class="required">Required *</div>
 
-        if (formValidation()) {
-          var formData = $(form).serialize();
-          formData += '&src=ajax';
+  <div>
+    <input type="text" name="username" tabindex="-1" aria-hidden="true" autocomplete="new-password">
 
-          $.ajax({
-            type: 'POST',
-            url: $(form).attr('action'),
-            data: formData
-          })
-          .done(function(response) {
-            $(formMessages).html(response);
+    <input type="text" name="<?php echo md5("name".$ip.$salt.$timestamp); ?>" placeholder="First &amp; Last Name *" required>
 
-            $(form).find('input:text, textarea').val('');
-            $('#email').val(''); // Grrr!
-            $(form).find('input:radio, input:checked').removeAttr('checked').removeAttr('selected');
-          })
-          .fail(function(data) {
-            if (data.responseText !== '') {
-              $(formMessages).html(data.responseText);
-            } else {
-              $(formMessages).text('Oops! An error occured and your message could not be sent.');
-            }
-          });
-        }
-      });
-    });
-  </script>
+    <input type="text" name="<?php echo md5("address".$ip.$salt.$timestamp); ?>" placeholder="Address">
 
-  <?php
-  // Settings for randomizing form field names
-  $ip = $_SERVER['REMOTE_ADDR'];
-  $timestamp = time();
-  $salt = "KublyConnectForm";
-  ?>
+    <input type="text" name="<?php echo md5("citystatezip".$ip.$salt.$timestamp); ?>" placeholder="City, State, Zip">
 
-  <noscript>
-  <?php
-  $feedback = (!empty($_SESSION['feedback'])) ? $_SESSION['feedback'] : "";
-  unset($_SESSION['feedback']);
-  ?>
-  </noscript>
+    <input type="email" name="<?php echo md5("email".$ip.$salt.$timestamp); ?>" placeholder="Email Address *" required>
 
-  <form action="form-connect.php" method="POST" id="connect-form">
-    <div class="required">Required *</div>
+    <textarea name="<?php echo md5("message".$ip.$salt.$timestamp); ?>" placeholder="Message"></textarea>
 
-    <div>
-      <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="First &amp; Last Name *">
+    <label>
+      <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> I would like to receive the Charles E. Kubly Foundation newsletter and event information.
+    </label>
 
-      <input type="text" name="<?php echo md5("address" . $ip . $salt . $timestamp); ?>" id="address" placeholder="Address">
+    <label>
+      <input type="checkbox" name="ambassador" value="yes" id="c-ambassador"> I am interested in becoming a CEKF / YLC Ambassador.
+    </label>
 
-      <input type="text" name="<?php echo md5("citystatezip" . $ip . $salt . $timestamp); ?>" id="citystatezip" placeholder="City, State, Zip">
+    <div class="g-recaptcha" data-sitekey="<?php echo $RCsitekey; ?>"></div>
 
-      <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address *">
+    <input type="hidden" name="ip" value="<?php echo $ip; ?>">
+    <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
-      <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Message"></textarea>
+    <button type="submit" id="submit">Send Message</button>
+  </div>
+</form>
 
-      <input type="checkbox" name="subscribe" value="yes" id="c-subscribe" checked> <label for="c-subscribe"><span></span>I would like to receive the Charles E. Kubly Foundation newsletter and event information.</label>
-      <br>
+<section id="footer-call" class="shin shin-connect">
+  Sign me up for the Charles E. Kubly Newsletter.
 
-      <input type="checkbox" name="ambassador" value="yes" id="c-ambassador"> <label for="c-ambassador"><span></span>I am interested in becoming a CEKF / YLC Ambassador.</label>
-      <br>
+  <form action="https://charlesekublyfoundation.us11.list-manage.com/subscribe/post?u=6c470c9f94843d07af2cd8889&amp;id=cb47948f28&amp;f_id=00e515e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="" placeholder="Email Address">
 
-      <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-      <!-- <div class="g-recaptcha" data-sitekey="6Lfk0EYUAAAAAAIL3WuhVbN0IEMpi8axB5y4j3S8"></div> -->
-      <div class="g-recaptcha" data-sitekey="6Lfk0EYUAAAAAAIL3WuhVbN0IEMpi8axB5y4j3S8"></div>
-
-      <input type="hidden" name="referrer" value="connect.php">
-
-      <input type="text" name="confirmationCAP" style="display: none;">
-
-      <input type="hidden" name="ip" value="<?php echo $ip; ?>">
-      <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
-
-      <div id="connect-form-messages"><?php echo $feedback; ?></div>
-
-      <input type="submit" name="submit" value="SEND MESSAGE">
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      <input type="text" name="b_b93b1b616b0c1e6484322ceaf_8e627c05fe" tabindex="-1" value="">
     </div>
+
+    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Sign Up">
   </form>
+</section>
 
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-</div>
+<dialog>
+  <button>&#10005;</button>
+  <div></div>
+</dialog>
 
-<div class="footer-call">
-  <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
-  <div class="site-width" id="newsletter">
-    <!-- Begin Newsletter Signup Form -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        var mcform = $('#newsletter-form');
-        var mcformMessages = $('#newsletter-form-messages');
-        $(mcform).submit(function(event) {
-          event.preventDefault();
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-          function formValidation() {
-            if ($('#mcemail').val() === '') { alert('Email address required.'); $('#mcemail').focus(); return false; }
-            return true;
-          }
+<script>
+  // Modal
+  const dialog = document.querySelector("dialog");
+  const dialogClose = document.querySelector("dialog button");
+  const dialogContent = document.querySelector("dialog div");
 
-          if (formValidation()) {
-            var mcformData = $(mcform).serialize();
-            mcformData += '&src=ajax';
+  dialogClose.addEventListener("click", () => { dialog.close(); });
+  dialog.addEventListener("click", () => { dialog.close(); });
+  dialogContent.addEventListener("click", (event) => { event.stopPropagation(); });
 
-            $.ajax({
-              type: 'POST',
-              url: $(mcform).attr('action'),
-              data: mcformData
-            })
-            .done(function(response) {
-              $(mcformMessages).html(response);
-              $('#mcemail').val('');
-            })
-            .fail(function(data) {
-              if (data.responseText !== '') {
-                $(mcformMessages).html(data.responseText);
-              } else {
-                $(mcformMessages).text('Oops! An error occured and your message could not be sent.');
-              }
-            });
-          }
+  // BEGIN form submit
+  const form = document.getElementById('connect-form');
+  form.addEventListener('submit', submitForm);
+
+  function submitForm(event) {
+    event.preventDefault();
+
+    // Validate any fields with "required" selector
+    var valid = 'yes';
+
+    for (const el of form.querySelectorAll('[required]')) {
+      if (!el.checkValidity()) {
+        document.getElementsByName(el.name).forEach(function (input) {
+          input.classList.add('alert');
+          input.placeholder = input.placeholder+' REQUIRED';
         });
+
+        valid = 'no';
+      }
+    }
+
+    // If fields are valid, send the data
+    if (valid == 'yes') {
+      document.getElementById("submit").classList.add("loader");
+
+      const data = new FormData(form);
+
+      fetch(form.action, {
+        method: 'POST',
+        body: data
+      })
+      .then((response) => response.text())
+      .then((result) => {
+        // Data sent, so display success message in modal
+        // and clear all the form fields
+        dialogContent.innerHTML = result;
+        dialog.showModal();
+        form.reset();
+
+        // Clear alerts
+        document.querySelectorAll('.alert').forEach(function (alert) {
+          alert.classList.remove('alert');
+          alert.placeholder = alert.placeholder.substring(0, alert.placeholder.length-9);
+        });
+
+        document.getElementById("submit").classList.remove("loader");
       });
-    </script>
-
-    <?php
-    // Settings for randomizing form field names
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $timestamp = time();
-    $salt = "KublyNewsletterForm";
-    ?>
-
-    <noscript>
-    <?php
-    $nlfeedback = (!empty($_SESSION['nlfeedback'])) ? $_SESSION['nlfeedback'] : "";
-    unset($_SESSION['nlfeedback']);
-    ?>
-    </noscript>
-
-    Sign me up for the Charles E. Kubly Newsletter.<br>
-
-    <div id="newsletter-form-messages"><?php echo $nlfeedback; ?></div>
-
-    <form action="form-newsletter.php" method="POST" id="newsletter-form">
-      <div>
-        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="mcemail" placeholder="Email Address">
-        <input type="submit" name="submit" value="SIGN UP">
-
-        <input type="text" name="confirmationCAP" style="display: none;">
-        <input type="hidden" name="ip" value="<?php echo $ip; ?>">
-        <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
-      </div>
-    </form>
-    <!--End Newsletter Signup Form -->
-  </div>
-</div>
+    }
+  } // END submitForm
+</script>
 
 <?php $shin = "legacy"; include "footer.php"; ?>

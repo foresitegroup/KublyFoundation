@@ -2,7 +2,9 @@
   <li class="home"><a href="<?php echo $TopDir; ?>.">Home</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>foundation.php">Foundation</a>
+    <button class="open-sub" aria-label="Submenu"></button>
     <ul>
+      <li class="close"><button class="close-sub" aria-label="Close submenu"></button></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#foundation">The Foundation</a></li>
       <li><a href="<?php echo $TopDir; ?>endowment.php">Endowment</a></li>
       <li><a href="<?php echo $TopDir; ?>foundation.php#charlies-story">Charlie's Story</a></li>
@@ -14,7 +16,9 @@
   <li><a href="<?php echo $TopDir; ?>signs-and-facts.php">Signs &amp; Facts</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>grants.php">Grants</a>
+    <button class="open-sub" aria-label="Submenu"></button>
     <ul>
+      <li class="close"><button class="close-sub" aria-label="Close submenu"></button></li>
       <li><a href="<?php echo $TopDir; ?>grants.php">Funding Priorities</a></li>
       <li><a href="<?php echo $TopDir; ?>grants.php#grant-guidelines">Grant Request Guidelines</a></li>
       <li><a href="https://cekf.smapply.io">Grant Application</a></li>
@@ -24,15 +28,17 @@
   <li class="btb"><a href="<?php echo $TopDir; ?>beyond-the-blues.php">Beyond the Blues</a></li>
   <li>
     <a href="<?php echo $TopDir; ?>connect.php">Connect</a>
+    <button class="open-sub" aria-label="Submenu"></button>
     <ul>
+      <li class="close"><button class="close-sub" aria-label="Close submenu"></button></li>
       <li><a href="<?php echo $TopDir; ?>resources.php">Resources</a></li>
       <li><a href="<?php echo $TopDir; ?>donate.php">Donate</a></li>
       <li><a href="<?php echo $TopDir; ?>help-end-stigma.php">Help End Stigma Yard Sign</a></li>
     </ul>
   </li>
-  <li class="incrisis"><a href="#incrisis">In Crisis?</a></li>
+  <li class="incrisis"><a href="#" id="open-incrisis">In Crisis?</a></li>
   <li class="social">
-    <a href="https://www.facebook.com/Charles-E-Kubly-FoundationBeyond-the-Blues-284170516290/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href="https://www.youtube.com/channel/UCaCjuonRqJgEgAau-bJpybg"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/Charles-E-Kubly-FoundationBeyond-the-Blues-284170516290/" class="facebook" aria-label="Facebook"></a>
+    <a href="https://www.youtube.com/channel/UCaCjuonRqJgEgAau-bJpybg" class="youtube" aria-label="YouTube"></a>
   </li>
 </ul>

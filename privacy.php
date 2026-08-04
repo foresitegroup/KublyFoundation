@@ -1,13 +1,12 @@
 <?php
 $PageTitle = "Privacy";
-$Keywords = "";
 $Description = "";
 
 include "header.php";
 ?>
 
-<div class="site-width legal">
-  <h1>PRIVACY</h1>
+<section class="site-width legal">
+  <h1>Privacy</h1>
   
   The Charles E. Kubly Foundation (the "Foundation") recognizes that your privacy is important, and that you have the right to know how we treat the information you provide to us through this Web Site. If you have questions about privacy that this Privacy Policy does not answer below, please contact us via the Web Site or at The Charles E. Kubly Foundation, 1341 W. Mequon Road, Suite 220, Mequon, WI 53092.<br>
   <br>
@@ -34,6 +33,6 @@ include "header.php";
 
   <strong>6. Third Party Disclaimer</strong><br>
   This Privacy Policy does not apply to any other web site you go to from this Web Site, including those to which we have provided links for your convenience. If you are concerned about or interested in the privacy practices or policies of other web sites you visit, you may wish to review their posted privacy statements and/or contact them directly with your questions.
-</div>
+</section>
 
 <?php $shin = "call legacy"; include "footer.php"; ?>

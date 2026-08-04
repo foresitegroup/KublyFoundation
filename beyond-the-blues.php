@@ -1,65 +1,42 @@
 <?php
 $PageTitle = "Beyond the Blues";
-$Keywords = "";
-$Description = "";
+$Description = "Beyond the Blues is CEKF's annual fundraising event with live music, casual dinner fare and a brief program highlighting our work at the Foundation.";
 $PageMod = "btb";
 
 include "header.php";
 ?>
 
-<div class="btb-banner">
+<section id="btb-hero">
   <div class="site-width">
-    <div class="header-left">
-      <span class="btb-green">B</span><span class="btb-yellow">E</span><span class="btb-orange">Y</span><span class="btb-red">O</span><span class="btb-pink">N</span><span class="btb-purple">D</span>
-      <span class="btb-blue"><div>THE</div> BLUES</span>
-      <!-- <div class="year"><?php //echo date("Y", $GLOBALS['btbdate']); ?></div> -->
+    <div class="header">
+      <h1>
+        <span class="btb-green">B</span><span class="btb-yellow">e</span><span class="btb-orange">y</span><span class="btb-red">o</span><span class="btb-pink">n</span><span class="btb-purple">d</span>
+        <div>The</div>
+        Blues
+      </h1>
 
-      <a href="donate.php" class="button">DONATE</a>
-    </div> <!-- /.header-left -->
-
-    <div class="header-right">
-      <!-- <h1>Join Us</h1>
-
-      <h2 style="margin: 0.5em 0 0; text-transform: uppercase;"><?php echo date("F j, Y", $GLOBALS['btbdate']); ?></h2>
-      <br>
-
-      <a href="https://beyondtheblues2025.eventbrite.com" class="button">BUY TICKETS HERE</a><br>
-      <br>
-
-       Discovery World Pavilion at Pier Wisconsin, Milwaukee<br>
-       <br>
-
-       Sponsorships available! Contact Kris Rick at 414-477-9959 or <a href="mailto:krick@cekf.org">krick@cekf.org</a>. -->
-
-       <br><br><br>Please make plans to join us on Friday, September 18th for our annual Beyond the Blues event at Discovery World Pier Wisconsin. Sponsorships are available now. Contact Kris Rick at 414-477-9959 for more information.
-    </div> <!-- /.header-right -->
-  </div> <!-- /.site-width -->
-</div> <!-- /.btb-banner -->
-
-<!-- <div id="btb-video-banner">
-  <div class="site-width">
-    <div class="text">
-      A message from <h3>John McGivern &amp; Billie Kubly</h3>
+      <!-- <a href="donate.php" class="button">Donate</a> -->
+      <a href="https://www.eventbrite.com/e/beyond-the-blues-2026-tickets-1996119265457" class="button">Tickets Here</a>
     </div>
 
-    <div class="btb-video" id="btb-video">-->
-      <script src="inc/swipebox/jquery.swipebox.min.js"></script>
-      <link rel="stylesheet" href="inc/swipebox/swipebox.css">
-      <script type="text/javascript">
-        $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
-      </script>
-      <!--<a href="https://www.youtube.com/watch?v=QzhJ4obhcg4&rel=0" class="swipebox"><i class="fa fa-play" aria-hidden="true"></i></a>
+    <div class="content">
+      Join us Friday, September 18th, 2026 for our 23rd annual Beyond the Blues fundraising event.<br>
+      <br>
+      <ul>
+        <li>Discovery World Pier Wisconsin, 500 N. Harbor Drive, Milwaukee</li>
+        <li>6:30 - 10:30 p.m.</li>
+        <li>Bartolotta fare, cash bar & musical entertainment</li>
+      </ul>
+      <br>
+      Sponsorships available - contact Kris Rick for information at <?php email("krick@cekf.org"); ?> or 414-477-9959
     </div>
   </div>
-</div> -->
+</section>
 
-<div class="footer-call btb-thanks" id="sponsors">
-  <!-- <div class="footer-arrow"><div class="footer-arrow-mask"></div></div> -->
+<section id="sponsors">
+  <h2>Beyond The Blues 2026 Sponsors To Date</h2>
+
   <div class="site-width">
-    <!-- <h1>If you would like information about sponsoring Beyond the Blues 2021, please contact Kris Rick at<br>414-477-9959 or<br><a href="https://charlesekublyfoundation.harnessapp.com/wv2/donate?checkout=1857&campaign_id=4517">visit our donation page</a></h1> -->
-
-    <h2>BEYOND THE BLUES 2025 SPONSORS TO DATE</h2>
-
     <?php
     include_once "inc/dbconfig.php";
 
@@ -67,67 +44,65 @@ include "header.php";
     $stmt->execute();
     $sponsors = $stmt->get_result();
     $sponsor = $sponsors->fetch_assoc();
-    ?>
 
-    <div class="one-third">
-      <?php if ($sponsor['sapphire'] != "") { ?>
-      <h3>Sapphire Level - $20,000</h3>
-      <ul>
-        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['sapphire'],"\n\r")).'</li>'."\n"; ?>
-      </ul>
-      <?php } ?>
+    echo '<div class="col">'."\n";
+      if ($sponsor['sapphire'] != "") {
+        echo "<h3>Sapphire Level - $20,000</h3>\n";
+        echo "<ul>\n";
+          echo "<li>".str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['sapphire'],"\n\r"))."</li>\n";
+        echo "</ul>\n";
+      }
 
-      <?php if ($sponsor['aqua'] != "") { ?>
-      <h3>Aqua Level - $10,000</h3>
-      <ul>
-        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['aqua'],"\n\r")).'</li>'."\n"; ?>
-      </ul>
-      <?php } ?>
+      if ($sponsor['aqua'] != "") {
+        echo "<h3>Aqua Level - $10,000</h3>\n";
+        echo "<ul>\n";
+          echo "<li>".str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['aqua'],"\n\r"))."</li>\n";
+        echo "</ul>\n";
+      }
 
-      <?php if ($sponsor['teal'] != "") { ?>
-      <h3>Teal Level - $5,000</h3>
-      <ul>
-        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['teal'],"\n\r")).'</li>'."\n"; ?>
-      </ul>
-      <?php } ?>
+      if ($sponsor['teal'] != "") {
+        echo "<h3>Teal Level - $5,000</h3>\n";
+        echo "<ul>\n";
+          echo "<li>".str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['teal'],"\n\r"))."</li>\n";
+        echo "</ul>\n";
+      }
 
-      <?php if ($sponsor['turquoise'] != "") { ?>
-      <h3>Turquoise Level - $2,500</h3>
-      <ul>
-        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['turquoise'],"\n\r")).'</li>'."\n"; ?>
-      </ul>
-      <?php } ?>
-    </div>
+      if ($sponsor['turquoise'] != "") {
+        echo "<h3>Turquoise Level - $2,500</h3>\n";
+        echo "<ul>\n";
+          echo "<li>".str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['turquoise'],"\n\r"))."</li>\n";
+        echo "</ul>\n";
+      }
+    echo "</div>\n";
 
-    <?php if ($sponsor['navy'] != "") { ?>
-    <div class="one-third">
-      <h3>Navy Level - $1,000</h3>
-      <ul>
-        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['navy'],"\n\r")).'</li>'."\n"; ?>
-      </ul>
-    </div>
-    <?php } ?>
+    if ($sponsor['navy'] != "") {
+      echo '<div class="col">'."\n";
+        echo "<h3>Navy Level - $1,000</h3>\n";
+        echo "<ul>\n";
+          echo "<li>".str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['navy'],"\n\r"))."</li>\n";
+        echo "</ul>\n";
+      echo "</div>\n";
+    }
 
-    <?php if ($sponsor['denim'] != "") { ?>
-    <div class="one-third">
-      <h3>Denim Level - $500</h3>
-      <ul>
-        <?php echo '<li>'.str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['denim'],"\n\r")).'</li>'."\n"; ?>
-      </ul>
-    </div>
-    <?php } ?>
+    if ($sponsor['denim'] != "") {
+      echo '<div class="col">'."\n";
+        echo "<h3>Denim Level - $500</h3>\n";
+        echo "<ul>\n";
+          echo "<li>".str_replace(array("\r","\n\n","\n"),array('',"\n","</li>\n<li>"),trim($sponsor['denim'],"\n\r"))."</li>\n";
+        echo "</ul>\n";
+      echo "</div>\n";
+    }
 
-    <?php
     $sponsors->close();
     $stmt->close();
     ?>
   </div>
-</div>
+</section>
 
-<div class="btb-gallery" style="position: relative;">
-  <!-- <div class="footer-arrow"><div class="footer-arrow-mask purple"></div></div> -->
+<section id="btb-gallery">
+  <h2>Beyond the Blues 2025</h2>
+
   <div class="site-width">
-    <h2 style="margin-top: 0; color: #FFFFFF; text-transform: uppercase;">Beyond the Blues 2025</h2>
     <?php
     $main_dir = "images/galleries/btb2025";
 
@@ -142,11 +117,28 @@ include "header.php";
 
     foreach($results as $result) {
       ?>
-      <a href="<?php echo $result; ?>" class="swipebox" style="background-image: url(<?php echo $result; ?>)"></a>
+      <a href="<?php echo $result; ?>" data-fancybox="gallery" style="background-image: url(<?php echo $result; ?>)"></a>
       <?php
     }
     ?>
   </div>
-</div>
+</section>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+  // Header on scroll
+  const btbob = new IntersectionObserver(function(btbtarget) {
+    if (btbtarget[0].isIntersecting) {
+      document.body.classList.remove('scrolling');
+    } else {
+      document.body.classList.add('scrolling');
+    }
+  }, { threshold: 0.90 });
+  btbob.observe(document.getElementById("btb-hero"));
+
+  Fancybox.bind("[data-fancybox]", {});
+</script>
 
 <?php $shin = "legacy"; include "footer.php"; ?>

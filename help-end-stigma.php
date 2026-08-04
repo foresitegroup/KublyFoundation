@@ -1,37 +1,29 @@
 <?php
 $PageTitle = "Help End Stigma";
-$Keywords = "";
-$Description = "";
+$Description = "Stigma often comes from lack of understanding or fear. Show your support to end the stigma of mental health. Get your yard sign!";
 
 include "header.php";
 ?>
 
-<div class="stigma-banner">
+<section id="stigma-banner">
   <div class="site-width">
-    <div class="left">
-      <div>
-        <h1>Help End Mental Health Stigma</h1>
-      </div>
-    </div>
+    <h1>Help End Mental Health Stigma</h1>
 
-    <div class="right">
-      <div>
-        Stigma often comes from lack of understanding or fear. Inaccurate or misleading media representations of mental illness contribute to both those factors. A review of studies on stigma shows that while the public may accept the medical or genetic nature of a mental health disorder and the need for treatment, many people still have a negative view of those with mental illness. This can lead to shame and self-stigma for those who need help. Reference: American Psychiatric Association.<br>
-        <br>
-        <a href="https://eliminatestigma.org/understand-stigma/" class="button">Learn More</a>
-      </div>
+    <div class="text">
+      Stigma often comes from lack of understanding or fear. Inaccurate or misleading media representations of mental illness contribute to both those factors. A review of studies on stigma shows that while the public may accept the medical or genetic nature of a mental health disorder and the need for treatment, many people still have a negative view of those with mental illness. This can lead to shame and self-stigma for those who need help. Reference: American Psychiatric Association.<br>
+      <br>
+
+      <a href="https://eliminatestigma.org/understand-stigma/" class="button">Learn More</a>
     </div>
   </div>
-</div>
+</section>
 
-<div class="stigma-green">
-  <div class="site-width">
-    Show your support to end the stigma of mental health. Get your yard sign!
-  </div>
-</div>
+<section id="stigma-green">
+  <h2>Show your support to end the stigma of mental health. Get your yard sign!</h2>
+</section>
 
-<div class="site-width stigma-pickup">
-  <img src="images/help-end-stigma.webp" alt="" width="750" height="1000">
+<section id="stigma-pickup" class="site-width">
+  <img src="images/help-end-stigma.webp" alt="" width="750" height="1000" loading="lazy">
 
   <div class="text">
     <h2>Pick Up Locations</h2>
@@ -54,6 +46,6 @@ include "header.php";
       Business hours / At reception
     </div>
   </div>
-</div>
+</section>
 
 <?php $shin = "call legacy"; include "footer.php"; ?>

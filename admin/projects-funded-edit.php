@@ -20,14 +20,14 @@ if ($_SERVER['QUERY_STRING'] != "") {
 include "header.php";
 ?>
 
-<div class="site-width">
+<div class="site-width projects">
   <h1><?php echo $PageTitle; ?></h1>
 
   <form action="projects-funded-db.php" method="POST">
     <div>
-      <input type="checkbox" name="current" id="current"<?php if ($_SERVER['QUERY_STRING'] == "" || ($_SERVER['QUERY_STRING'] != "" && $project['current'] == "on")) echo " checked"; ?>>
-      <label class="checkbox" for="current">Current</label><br>
-      <br>
+      <label>
+        <input type="checkbox" name="current"<?php if ($_SERVER['QUERY_STRING'] == "" || ($_SERVER['QUERY_STRING'] != "" && $project['current'] == "on")) echo " checked"; ?>> Current
+      </label>
 
       <label>
         Title
@@ -57,12 +57,15 @@ include "header.php";
       if ($pf_cats->num_rows > 0) {
         if ($_SERVER['QUERY_STRING'] != "") $cats = explode(" ", $project['categories']);
 
+        echo '<div class="pf_cats">'."\n";
+
         foreach ($pf_cats as $pf_cat) {
-          echo '<input type="checkbox" name="categories[]" id="categories'.$pf_cat['id'].'" value="'.strtolower(preg_replace("/[^A-Za-z0-9]/", '', $pf_cat['category'])).'"';
+          echo '<label><input type="checkbox" name="categories[]" value="'.strtolower(preg_replace("/[^A-Za-z0-9]/", '', $pf_cat['category'])).'"';
           if ($_SERVER['QUERY_STRING'] != "" && in_array(strtolower(preg_replace("/[^A-Za-z0-9]/", '', $pf_cat['category'])), $cats)) echo " checked";
-          echo ">\n";
-          echo '<label class="checkbox" for="categories'.$pf_cat['id'].'">'.$pf_cat['category']."</label>\n";
+          echo ">".$pf_cat['category']."</label>\n";
         }
+
+        echo "</div>\n";
       }
 
       $pf_cats->close();
@@ -73,8 +76,6 @@ include "header.php";
       <input type="hidden" name="id" value="<?php echo $_SERVER['QUERY_STRING']; ?>">
       <?php } ?>
       <input type="hidden" name="a" value="<?php echo $a; ?>">
-
-      <br><br>
 
       <button type="submit">Submit</button>
     </div>

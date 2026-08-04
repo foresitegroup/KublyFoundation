@@ -4,25 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>The Charles E. Kubly Foundation<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
+    <title>The Charles E. Kubly Foundation Admin<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
 
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../inc/main.css<?php echo '?'.filemtime('../inc/main.css'); ?>">
     <link rel="stylesheet" href="admin.css<?php echo '?'.filemtime('admin.css'); ?>">
   </head>
   <body>
 
-    <div class="menu-holder">
-      <div class="scrolling-menu">
-        <div class="site-width">
-          <a href="." class="logo">
-            <img src="../images/logo.png" alt="The Charles E. Kubly Foundation">
-          </a>
+    <header>
+      <section>
+        <a href="." id="logo">
+          <img src="../images/logo.webp" width="450" height="118" loading="lazy" alt="The Charles E. Kubly Foundation">
+        </a>
+        
+        <nav><?php if ($PageTitle != "Login") include "menu.php" ?></nav>
 
-          <a href="#my-menu" class="my-menu-toggle"></i></a>
-          <div class="menu"><?php if ($PageTitle != "Login") include "menu.php"; ?></div>
-        </div>
-      </div>
-    </div>
+        <button aria-label="Menu" id="menu-toggle"></button>
+      </section>
+    </header>
+
+    <main>

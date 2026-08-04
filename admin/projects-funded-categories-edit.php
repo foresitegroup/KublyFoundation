@@ -20,7 +20,7 @@ if ($_SERVER['QUERY_STRING'] != "") {
 include "header.php";
 ?>
 
-<div class="site-width">
+<div class="site-width projects">
   <h1><?php echo $PageTitle; ?></h1>
 
   <form action="projects-funded-categories-db.php" method="POST">

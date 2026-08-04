@@ -3,10 +3,6 @@ include "login.php";
 
 $PageTitle = "Administration";
 include "header.php";
+
+include "footer.php";
 ?>
-
-<div class="site-width">
-  <!-- Hola! -->
-</div>
-
-<?php include "footer.php"; ?>
