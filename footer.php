@@ -12,7 +12,7 @@
 
       <?php if (isset($shin) && str_contains($shin, "legacy")) { ?>
         <section id="footer-legacy" class="shin">
-          <a href="<?php echo $TopDir; ?>legacy-giving.php">
+          <a href="legacy-giving.php">
             <h2>Giving Defined</h2>
             Learn about Legacy Giving
           </a>
@@ -32,12 +32,12 @@
       </section>
 
       <section id="footer-menu">
-        <a href="<?php echo $TopDir; ?>connect.php">Contact</a>
-        <a href="<?php echo $TopDir; ?>young-leaders-council.php">YLC</a>
-        <a href="<?php echo $TopDir; ?>donate.php">Donate</a>
-        <a href="<?php echo $TopDir; ?>endowment.php">Endowment</a>
-        <a href="<?php echo $TopDir; ?>legal.php">Legal</a>
-        <a href="<?php echo $TopDir; ?>privacy.php">Privacy</a>
+        <a href="connect.php">Contact</a>
+        <a href="young-leaders-council.php">YLC</a>
+        <a href="donate.php">Donate</a>
+        <a href="endowment.php">Endowment</a>
+        <a href="legal.php">Legal</a>
+        <a href="privacy.php">Privacy</a>
       </section>
 
       <section id="copyright">

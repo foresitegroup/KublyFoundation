@@ -1,6 +1,5 @@
 <?php
 get_header();
-$TopDir = substr(home_url(), 0, strrpos(home_url(), '/')+1);
 
 if (!is_single()) :
   $featured = new WP_Query(array('posts_per_page' => 1, 'meta_key' => 'featured-checkbox', 'meta_value' => 'yes'));

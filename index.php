@@ -15,13 +15,13 @@ $file = $files[rand(0, count($files) - 1)];
     <a href="foundation.php" class="learnmore" aria-label="Learn more about the Foundation">Learn More</a>
   </div>
 
-  <a href="https://www.eventbrite.com/e/beyond-the-blues-2026-tickets-1996119265457" id="curl">
+  <!-- <a href="https://www.eventbrite.com/e/beyond-the-blues-2026-tickets-1996119265457" id="curl">
     <div>
       <p>September 18</p>
       Beyond the Blues
       <p>Tickets On Sale Now</p>
     </div>
-  </a>
+  </a> -->
 </section>
 
 <section id="home-mission">

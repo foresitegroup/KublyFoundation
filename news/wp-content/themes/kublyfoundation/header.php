@@ -1,5 +1,4 @@
 <?php
-$TopDir = substr(home_url(), 0, strrpos(home_url(), '/')+1);
 include "../header.php";
 
 echo '<section id="news-header" class="';
