@@ -16,19 +16,11 @@ include "header.php";
       </h1>
 
       <!-- <a href="donate.php" class="button">Donate</a> -->
-      <a href="https://www.eventbrite.com/e/beyond-the-blues-2026-tickets-1996119265457" class="button">Tickets Here</a>
+      <!-- <a href="https://www.eventbrite.com/e/beyond-the-blues-2026-tickets-1996119265457" class="button">Tickets Here</a> -->
     </div>
 
     <div class="content">
-      Join us Friday, September 18th, 2026 for our 23rd annual Beyond the Blues fundraising event.<br>
-      <br>
-      <ul>
-        <li>Discovery World Pier Wisconsin, 500 N. Harbor Drive, Milwaukee</li>
-        <li>6:30 - 10:30 p.m.</li>
-        <li>Bartolotta fare, cash bar & musical entertainment</li>
-      </ul>
-      <br>
-      Sponsorships available - contact Kris Rick for information at <?php email("krick@cekf.org"); ?> or 414-477-9959
+      Thank you to all who made our 2026 Beyond the Blues a great success!
     </div>
   </div>
 </section>
@@ -100,11 +92,11 @@ include "header.php";
 </section>
 
 <section id="btb-gallery">
-  <h2>Beyond the Blues 2025</h2>
+  <h2>Beyond the Blues 2026</h2>
 
   <div class="site-width">
     <?php
-    $main_dir = "images/galleries/btb2025";
+    $main_dir = "images/galleries/btb2026";
 
     $files = scandir($main_dir);
 

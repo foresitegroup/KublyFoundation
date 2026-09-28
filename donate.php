@@ -99,7 +99,8 @@ include "header.php";
   Thank you very much for your support.<br>
 
   <div class="nonprofit">
-    The Charles E. Kubly Foundation is a public charity. Contributions from individuals are tax deductible to the extent permitted by law under the provisions of section 501 (c)(3) of the Internal Revenue Code.
+    The Charles E. Kubly Foundation is a public charity. Contributions from individuals are tax deductible to the extent permitted by law under the provisions of section 501 (c)(3) of the Internal Revenue Code.<br>
+    FEIN 20-0375310
   </div>
 </section>
 
