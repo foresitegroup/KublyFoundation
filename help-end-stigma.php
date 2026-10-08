@@ -31,19 +31,7 @@ include "header.php";
     <div class="loc">
       The Charles E. Kubly Foundation
       <div>1341 W. Mequon Road, Suite 220<br>Mequon, WI 53092</div>
-      At the office door
-    </div>
-    
-    <div class="loc">
-      Discourse Coffee OR Radio Milwaukee
-      <div>220 E. Pittsburgh Avenue<br>Milwaukee, WI 53204</div>
-      Business hours / At reception
-    </div>
-
-    <div class="loc">
-      Mequon Coldwell Banker
-      <div>11303 N. Port Washington Road<br>Mequon, WI 53092</div>
-      Business hours / At reception
+      Contact <a href="mailto:pcronin@cekf.org">pcronin@cekf.org</a> to make arrangements.
     </div>
   </div>
 </section>
